@@ -51,24 +51,10 @@ relevant examples.
 
 ---
 
-# Abstract
-- Purpose and research problem.  
-- Research gap in AI adoption frameworks.  
-- Theoretical lenses applied.  
-- Methodology (Design Science Research).  
-- Key contributions (framework + evaluation).  
 - Expected impact for academia and practice.  
-
 ---
 
-# Table of Contents
-1. Introduction  
-2. Literature Review  
-3. Theoretical Framework  
-4. Research Methodology  
-5. Framework Development (SAIL)  
 6. Use Case Walkthroughs  
-7. Discussion  
 8. Conclusion & Future Work  
 References  
 Appendices  
@@ -82,7 +68,76 @@ Appendices
 - Drivers of adoption (efficiency, cost reduction, innovation).  
 - Pressures: regulatory, competitive, customer expectations.  
 
-## 1.2 Problem Statement  
+# SAIL – A Scalable AI Lifecycle Framework for Coordinated AI Adoption in Software Organizations
+**Master Thesis**
+**Author:** [Your Name]
+**Supervisor:** Roger Hage
+**Institution:** IMC University of Applied Sciences, Krems
+**Date:** [Month, Year]
+
+---
+
+# Abstract
+- Purpose and research problem
+- Research gap in AI adoption frameworks
+- Theoretical lenses applied
+- Methodology (Design Science Research)
+- Key contributions (framework + evaluation)
+- Expected impact for academia and practice
+
+---
+
+# Table of Contents
+1. Introduction
+2. Literature Review
+
+# Table of Contents
+1. Introduction
+2. Literature Review
+3. Theoretical Framework
+  3.1 Conceptual Foundations of SAIL
+     - Purpose of a lifecycle adoption framework
+     - Positioning relative to Digital Transformation & EA
+     - Addressing fragmentation through coordination and reuse
+  3.2 Integration of Theoretical Lenses
+     - EA (systemic integration)
+     - Digital Transformation (strategic alignment & readiness)
+     - Innovation Diffusion (adoption dynamics)
+     - Dynamic Capabilities (agility & scaling)
+     - RBV (AI as strategic assets)
+  3.3 Principles Derived for Framework Design
+     - Scalability
+     - Coordination across organizational units
+     - Knowledge reuse & learning
+     - Governance & accountability
+4. Research Methodology
+  4.1 Research Design – Design Science Research
+  4.2 Literature Review Approach
+  4.3 Framework Development Process
+  4.4 Conceptual Evaluation via Use Cases
+  4.5 Limitations
+5. Framework Development (SAIL)
+  5.1 Overview of the SAIL Framework
+  5.2 Adoption Stages (Awareness → Pilot → Scale → AI-Native)
+  5.3 Governance and Roles
+  5.4 Use Case Mapping & Prioritization
+  5.5 Evaluation and Reuse Mechanisms
+6. Use Case Walkthroughs
+7. Discussion
+  7.1 Theoretical Contributions
+  7.2 Practical Implications for Software Organizations
+  7.3 Comparison with Existing Models
+  7.4 Challenges and Limitations
+8. Conclusion & Future Work
+  8.1 Summary of Findings
+  8.2 Contributions to Theory and Practice
+  8.3 Future Research Directions
+  8.4 Final Reflection
+References
+Appendices
+
+
+---
 - Fragmented AI initiatives; isolated pilot projects.  
 - Lack of scalability and systematic governance.  
 - Coordination issues across departments/teams.  
@@ -382,26 +437,12 @@ The gap of not having the structured approach to the entire AI adoption lifecycl
 ---
 
 # 6. Use Case Walkthroughs
-## 6.1 Code Generation  
-- Problem definition.  
-- Mapping to SAIL stages.  
-- Governance considerations.  
-- Expected outcomes and reuse potential.  
-
-## 6.2 Documentation Automation  
-- Step-by-step application of SAIL.  
-- Benefits: efficiency, knowledge standardization.  
-- Risks: accuracy, oversight.  
-
-## 6.3 Sprint Planning  
-- AI-supported resource allocation and scheduling.  
-- Coordination across agile teams.  
-- Governance and trust issues.  
-
-## 6.4 Cross-Case Insights  
-- Common success factors.  
-- Differences in adoption dynamics.  
-- Evidence of reusability and scalability.  
+## 6.1 Use Case 1
+## 6.2 Use Case 2
+## 6.3 Use Case 3
+- Description of each use case scenario.
+- Application of SAIL stages and principles.
+- Evaluation against criteria: coherence, scalability, reusability.
 
 ---
 

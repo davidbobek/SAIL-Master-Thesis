@@ -23,62 +23,69 @@ The thesis aims to address the lack of integrated, use-case-driven frameworks fo
 
 # Table of Contents
 
-1. **Introduction**  
-   1.1 Background  
-   1.2 Problem Statement  
-   1.3 Research Gap  
-   1.4 Research Question and Objectives  
-   1.5 Structure of the Thesis  
+# Table of Contents
 
-2. **Literature Review**  
-   2.1 Enterprise Architecture and AI Integration [REF]  
-   2.2 Digital Transformation and Organizational Readiness [REF]  
-   2.3 Innovation Diffusion Theory [REF]  
-   2.4 Dynamic Capabilities [REF]  
-   2.5 Resource-Based View (RBV) and AI Assets [REF]  
-   2.6 Related AI Adoption Models [REF]  
-   2.7 Synthesis and Identified Gaps  
+## 1. Introduction
+- 1.1 Background
+- 1.2 Problem Statement
+- 1.3 Research Gap
+- 1.4 Research Question and Objectives
+- 1.5 Structure of the Thesis
 
-3. **Theoretical Framework**  
-   3.1 Conceptual Foundations of SAIL  
-   3.2 Integration of Theoretical Lenses  
-   3.3 Principles Derived for Framework Design  
+## 2. Literature Review
+- 2.1 Enterprise Architecture and AI Integration
+- 2.2 Digital Transformation and Organizational Readiness
+- 2.3 Innovation Diffusion Theory
+- 2.4 Dynamic Capabilities
+- 2.5 Resource-Based View (RBV) and AI Assets
+- 2.6 Related AI Adoption Models
+- 2.7 Synthesis and Identified Gaps
 
-4. **Research Methodology**  
-   4.1 Research Design – Design Science Research  
-   4.2 Literature Review Approach  
-   4.3 Framework Development Process  
-   4.4 Conceptual Evaluation via Use Cases  
-   4.5 Limitations  
+## 3. Theoretical Framework
+- 3.1 Conceptual Foundations of SAIL
+  - Purpose of a lifecycle adoption framework
+  - Positioning relative to Digital Transformation & EA
+  - Addressing fragmentation through coordination and reuse
+- 3.2 Integration of Theoretical Lenses
+  - EA (systemic integration)
+  - Digital Transformation (strategic alignment & readiness)
+  - Innovation Diffusion (adoption dynamics)
+  - Dynamic Capabilities (agility & scaling)
+  - RBV (AI as strategic assets)
+- 3.3 Principles Derived for Framework Design
+  - Scalability
+  - Coordination across organizational units
+  - Knowledge reuse & learning
+  - Governance & accountability
 
-5. **Framework Development (SAIL)**  
-   5.1 Overview of SAIL Framework  
-   5.2 Adoption Stages (Awareness → Pilot → Scale → AI-Native)  
-   5.3 Governance and Roles  
-   5.4 Use Case Mapping & Prioritization  
-   5.5 Evaluation and Reuse Mechanisms  
+## 4. Research Methodology
+- 4.1 Research Design – Design Science Research
+- 4.2 Literature Review Approach
+- 4.3 Framework Development Process
+- 4.4 Conceptual Evaluation via Use Cases
+- 4.5 Limitations
 
-6. **Use Case Walkthroughs**  
-   6.1 Code Generation  
-   6.2 Documentation Automation  
-   6.3 Sprint Planning  
-   6.4 Cross-Case Insights  
+## 5. Framework Development (SAIL)
+- 5.1 Overview of the SAIL Framework
+- 5.2 Adoption Stages (Awareness → Pilot → Scale → AI-Native)
+- 5.3 Governance and Roles
+- 5.4 Use Case Mapping & Prioritization
+- 5.5 Evaluation and Reuse Mechanisms
 
-7. **Discussion**  
-   7.1 Theoretical Contributions  
-   7.2 Practical Implications for Software Organizations  
-   7.3 Comparison with Existing Models  
-   7.4 Challenges and Limitations  
+## 6. Use Case Walkthroughs
 
-8. **Conclusion & Future Work**  
-   8.1 Summary of Findings  
-   8.2 Contributions to Theory and Practice  
-   8.3 Future Research Directions  
-   8.4 Final Reflection  
 
-**References**  
+## 7. Discussion
+- 7.1 Theoretical Contributions
+- 7.2 Practical Implications for Software Organizations
+- 7.3 Comparison with Existing Models
+- 7.4 Challenges and Limitations
 
-**Appendices**  
+## 8. Conclusion & Future Work
+- 8.1 Summary of Findings
+- 8.2 Contributions to Theory and Practice
+- 8.3 Future Research Directions
+- 8.4 Final Reflection
 
 
 
