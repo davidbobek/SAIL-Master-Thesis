@@ -221,11 +221,26 @@ By following the principles of IDT, organizations have a clear way to manage the
 
 
 
-## 2.4 Dynamic Capabilities [REF]  
+## 2.4 Dynamic Capabilities Theory [REF]
 - Sensing opportunities (AI trends, competitor actions).  
 - Seizing opportunities (investment, pilot design).  
 - Transforming organizations (structures, processes).  
-- Application to fast-moving AI landscape.  
+- Application to fast-moving AI landscape.
+
+Dynamic Capabilities Theory (DCT), introduced by David Teece, provides a valuable framework for understanding how organizations can adapt and thrive in rapidly changing environments such as the current AI landscape which is mostly characterized by extremely fast technological advancements and changes. DCT as a theory is particularly emphasizing the importance of an organization's ability to sense, seize, and transform in order to maintain a competitive advantage. The winner is not the strongest or the most intelligent, but the one who is most adaptable to change while still achieving a sustained competitive advantage. DCT was origanlly developed in the context of strategic management and organizational theory, but its wide adoption in the tech and software industry is closely related to the rapid pace of technological change and the need for organizations to become more agile, adaptive and innovative in order to stay competitive. 
+
+DCT consists of three main components:
+1. Sensing: The ability to identify and assess opportunities and threats in the external environment.
+2. Seizing: The ability to mobilize disposable resources to capture value from opportunities.
+3. Transforming: The ability to continuously renew and realign organizational processes and structures to adapt to changing environments while still maintaining operational efficiency.
+
+The winners in the modern digital economy are those who can quickly sense new opportunities, seize them effectively, and transform their organizations to stay ahead of the competition. These 3 simple steps might seem trivial, but they are the key to success. This type of mental allignment will be extremely relevant for the successful adoption of AI in organizations. By not following these principles, organizations risks moving and operating outside of their core competencies and thus deviating from their core mission and vision. Having a clear 3 step approach helps the organization to stay focused and aligned while still being able to reflect and adapt to the changing environment.
+
+DCT can be used in both small and large organizations, but the implementation might differ. In small organizations, the decision-making process is typically more centralized, allowing for quicker sensing and seizing of opportunities. On the other hand the lack of available and disposable resources might hinder the ability to seize opportunities effectively and thus leading to a more visionary mindset instead of an operational one. In large organizations, the decision-making process is typically more decentralized and complex, which in most cases leads to slower sensing and seizing of opportunities. The advantage of large organizations is the availability of resources which allows them to seize opportunities more effectively and while not being as visionary as small organizations, they are more operationally efficient and the ability to transform and capitalize on opportunities is higher.
+
+The usage of DCT can be perfectly showcased on an rather succesful startup from the heart of Tel Aviv called "Waze". Waze was founded in 2006 and was acquired by Google in 2013 for $1.1 billion. The success of 3 Jewish founders Ehud Shabtai, Amir Shinar, and Uri Levine can be attributed to their ability to sense the opportunity of real-time traffic information, seize the opportunity by developing a mobile app that leveraged user-generated data, and transform the organization by continuously updating and improving the app based on very crucial user feedback【source: Waze History】[REF].
+
+
 
 ## 2.5 Resource-Based View (RBV) and AI Assets [REF]  
 - VRIN framework: data, algorithms, expertise as resources.  
@@ -238,12 +253,54 @@ By following the principles of IDT, organizations have a clear way to manage the
 - Strengths and weaknesses.  
 - Missing elements (coordination, reuse, lifecycle orientation).  
 
+The AI adoption models that are currently existing in literature and practice are mostly focused on the maturity of AI adoption in organizations. These models are typically structured around different levels of maturity and their intended use is to help organizations assess their current state of AI adoption and identify areas for improvement. This is a very useful approach, which can help organizations where to start and what are the prerequisites for successful AI adoption. However, these models are mostly focused on the maturity of AI adoption and do not provide a structured approach to the actual adoption process itself. This is the research and market gap where the SAIL framework is trying to fill in.
+The most well known and widely used AI maturity models are the following:
+1. AI Maturity Model by Deloitte: This model outlines five levels of AI maturity, from "Ad Hoc" to "Optimized". It focuses on areas such as strategy, governance, data management, and talent. The model is useful for assessing the current state of AI adoption but does not provide a structured approach to the adoption process itself【source: Deloitte AI Maturity Model】.
+2. AI Maturity Model by PwC: This model also outlines five levels of AI maturity
+, from "Initial" to "Transformational". It emphasizes the importance of culture, leadership, and change management in addition to technical capabilities. Similar to the Deloitte model, it is useful for assessment but lacks a structured adoption process【source: PwC AI Maturity Model】.
+3. AI Maturity Model by Gartner: This model outlines four levels of AI maturity, from "Experimentation" to "Transformation". It focuses on areas such as strategy, governance, data management, and talent. The model is useful for assessing the current state of AI adoption but does not provide a structured approach to the adoption process itself【source: Gartner AI Maturity Model】.
+4. AI Maturity Model by Forrester: This model outlines five levels of AI maturity, from "Ad Hoc" to "Optimized". It emphasizes the importance of culture, leadership, and change management in addition to technical capabilities. Similar to the Deloitte model, it is useful for assessment but lacks a structured adoption process【source: Forrester AI Maturity Model】.
+These models are certainly useful for organizations in order to approach the topic of AI adoption and understand where they currently stand. Every company and business operating in the market needs to start somewhere and these models provide a good starting point. However, the main question is still opened and that is "What next?" and "How to actually implement AI in a structured way?". This question is still not answered by the existing models and is the most crucial one as the actual conversion of the theoretical knowledge into practical implementation is the most challenging part, but is the only part which actually creates value. Staying too long undercover with reasearch gets you only as far as the size of the company's budget allows you to go. The actual implementation and value creation is the only thing which will make the company successful in the long run. The purpose of the SAIL framework is to convert the theoretical knowledge into practical implementation and provide a structured approach to the adoption process itself. While focusing on mostly internal aspects of the organization and efficiency, resulting in reduction of overhead costs and increase of productivity. 
+
+
 ## 2.7 Synthesis and Identified Gaps  
 - Comparative analysis across theories and models.  
 - Explicit statement of gaps.  
 - Justification for creating SAIL.  
 
----
+
+In order to properly justify the creation of the SAIL framework it is crucial to identify the gaps in the current approaches and frameworks outline in the previous chapters. 
+
+
+The identified gaps include:
+- Lack of lifecycle orientation: The current models which are existing are not providing an approach
+which is covering the entire lifecycle of AI adoption, from the early initial awareness until the late stages of full integration and being AI-Native.
+- Insufficient focus on coordination: Models which are currently out in the market are not giving a proper emphasis on the coordination of AI initiatives across different teams and the knowledge transfer between them. This is leading to fragmented and siloed efforts which are not creating the desired value.
+- Neglection of "Reuse Mechanisms": Reuse of AI assets (models, data, knowledge) is not being properly addressed in the existing frameworks. The ability to reuse AI assets across various teams and projects is crucial for efficiency and scalability which often leads to effort duplication and inefficiency
+- Holistic integration of theoretical lenses: While certain individual theories are providing valuable insights, the holistic approach of integrating these insights into a cohesive framework is missing.
+- Practical applicability: Many of the existing models are theoretical and are only observant in nature and lack practical guidelines for implementation in real-world organizational contexts. The "call to action" is missing.
+- Scalability challenges: Scalability is a crucial aspect of AI adoption, especially in large organizations with multiple teams and departments. It often serves as the hindrance for successful AI adoption as local usage in a team is not being scaled across the organization. 
+
+
+
+The identified gaps are the building blocks for the development of an approach which is addressing lifecycle orientation, coordination, reuse, holistic integration of theoretical lenses, practical applicability and scalability challenges. Framework which is able to encompass all of these aspects will be the first of its kind and will provide a significant contribution to both theory and practice. Such a framework does not only fills the existing gaps but also provides a structured approach to AI adoption that is both theoretically informed and practically applicable. The outcome of this synthesis is the justification for creating the SAIL framework, which aims to address these gaps and provide a comprehensive solution for AI adoption in software organizations.
+
+In order to properly visualize the synthesis of the different theoretical lenses and existing models, a comparative table is created. This table outlines the key components of each theory and model, highlighting areas of overlap and divergence. The table also identifies the specific gaps that SAIL aims to address, providing a clear rationale for its development.
+
+| Theoretical Lens / Model          | Key Components                                                                 | Overlaps with SAIL                                                        | Divergences from SAIL                                                      | Identified Gaps Addressed by SAIL                                                                 |
+|-----------------------------------|--------------------------------------------------------------------------------|---------------------------------------------------------------------------|----------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| **Enterprise Architecture (EA)** | Alignment of IT with business strategy; systemic integration; governance; TOGAF & Zachman frameworks. | Provides structure for aligning AI with strategy; governance mechanisms support coordination. | EA developed in pre-AI era; lacks explicit lifecycle focus and reuse mechanisms. | Adds lifecycle orientation, AI-specific governance, and reuse of assets across projects.          |
+| **Digital Transformation (DT)**  | Integration of digital technologies; cultural and organizational readiness; maturity models (Deloitte DMM). | Provides staged adoption maturity models; highlights readiness as key success factor. | Focuses broadly on digital change, not AI-specific challenges.               | Tailors maturity concepts to AI lifecycle; adds detailed adoption steps beyond general digital readiness. |
+| **Innovation Diffusion Theory (IDT)** | Adoption curve (innovators → laggards); communication channels; social systems. | Provides lens for understanding AI adoption dynamics; role of innovators/early adopters. | Focused on diffusion, not organizational coordination or reuse.              | Adds mechanisms for organizational scaling, coordination, and cross-team knowledge reuse.         |
+| **Dynamic Capabilities Theory (DCT)** | Sensing, seizing, transforming; adaptability in dynamic environments.           | Provides agility lens for AI adoption and scaling; emphasizes transformation. | Does not provide structured process for AI lifecycle adoption.               | Embeds sensing–seizing–transforming into AI lifecycle stages with concrete governance and processes. |
+| **Resource-Based View (RBV)**    | VRIN resources (valuable, rare, inimitable, non-substitutable); focus on data, algorithms, expertise. | Highlights data and AI models as strategic resources; underpins value creation logic. | Lacks process orientation; focuses on resources rather than adoption mechanisms. | Adds structured lifecycle for capturing, reusing, and leveraging AI resources across the organization. |
+| **AI Maturity Models (Deloitte, PwC, Gartner, Forrester)** | Staged assessment of AI readiness and maturity across dimensions (strategy, governance, data, talent). | Useful diagnostic tools; provide starting point for adoption journey.      | Static assessment focus; no step-by-step lifecycle or reuse strategies.      | Adds structured lifecycle roadmap; ensures adoption beyond maturity assessment into implementation. |
+
+
+This comparative analysis clearly demonstrates the unique value proposition of the SAIL framework. By integrating insights from multiple theoretical lenses and addressing the specific gaps identified in existing models, which SAIL aims to fill. 
+
+The gap of not having the structured approach to the entire AI adoption lifecycle, from initial awareness to full integration is addressed by SAIL through its clearly defined stages of adoption (Awareness → Pilot → Scale → AI-Native).
+
 
 # 3. Theoretical Framework
 ## 3.1 Conceptual Foundations of SAIL  
