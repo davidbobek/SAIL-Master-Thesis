@@ -358,10 +358,42 @@ The gap of not having the structured approach to the entire AI adoption lifecycl
 
 
 # 3. Theoretical Framework
+
+The following chapter will outline the theoretical framework of SAIL. Answering the questions like "Why does SAIL exist?", "What theoretical foundations is it built upon?" and "How do these theories inform the design of the framework?". The goal of this chapter is to provide a clear understanding of the theoretical underpinnings of SAIL and how are these theories being integrated into a cohesive framework.
+
 ## 3.1 Conceptual Foundations of SAIL  
 - Purpose of a lifecycle adoption framework.  
 - Positioning relative to Digital Transformation and EA.  
 - Addressing fragmentation through coordination and reuse.  
+
+In order to properly understand the conceptual foundations of SAIL, it is extremely crucial to understand the purpose of a lifecycle adoption framework. The main purpose of SAIL and any lifecycle adoption framework is to provide a holistic and structured approach for a set of activities, in this case the adoption of AI in a coordinated and scalable manner. This aspect of lifecycle orientation is crucial as it is not narrowly focused on a single aspect of the adoption process, but looks on the landspace from an overarching perspective. The lifecycle orientation can be understood as a series of stages that an organization goes through in order to successfully adopt and integrate AI into its operations while approaching the topic from a comprehensive perspective.
+
+### 3.1.1 Purpose of Scalabile Artificial Intelligence Lifecycle (SAIL)
+The purpose of Scalabile Artificial Intelligence Lifecycle (SAIL) is to create a structured and systematic approach for software organizations to adopt, scale, and integrate AI technologies effectively. SAIL is aiming to serve as a roadmap that guides organizations through the complex journey of AI adoption and integration, ensuring that AI initiatives are aligned with business objectives, coordinated across teams, and capable of delivering sustained value.
+
+SAIL framwework will not serve as a rigid prescription, but as a practical playbook which will provide actionable steps for enterprises to follow. It will not be a theoretical model. It will not be a true "one-size-fits-all" solution. It will not be an assesment model. It will not be a maturity model. It will not be a diagnostic tool.
+
+It will be a lifecycle-based roadmap outlining the stages of AI adoption, from initial awareness to full integration and being AI-Native, while staying true to solving the identified gaps and use cases in the operational context of the organization.
+
+Enterprises are currently standing in front of a major technological shift, where AI is swiftly becoming a core component of business strategy and operations. The ability to effectively exploit and leverage this technology is becoming a key determinant of competitive advantage. 
+
+Efficiency is not secondary and innovation is not a luxury, but a necessity for survival in the modern digital economy. Being second is equivalent to being last.
+
+
+### 3.1.2 Positioning Relative to Digital Transformation and Enterprise Architecture
+While SAIL is conceived as an independent framework, it lies at the confluence of Digital Transformation and Enterprise Architecture (EA). To ensure that AI initiatives remain consistent with corporate strategies and organizational objectives, SAIL must rest on the principles of both Digital Transformation and EA.
+
+Whereas companies will not transform themselves to fit the SAIL framework, the framework itself must adapt to the organizational context and structural realities. By applying EA principles, SAIL guarantees that AI initiatives are embedded within the larger enterprise architecture rather than developed in isolated silos. Since such global alignment is indispensable, it provides the foundation for scalability and acts as the enabler of coordination across organizational teams.
+
+
+### 3.1.3 Addressing Fragmentation through Coordination and Reuse
+Even when organizations produce strong ideas or embrace advanced technologies, such efforts inevitably fail without a clear coordination mechanism. Because coordination is frequently overlooked prior to innovation, promising concepts often remain unrealized, become fragmented, or duplicate existing efforts, thereby undermining potential synergies. By embedding coordination at the very outset of AI adoption, organizations establish the conditions for effective integration and sustainable scaling of AI initiatives.
+
+Although AI adoption often appears to originate at the top, in reality it begins at the operational level, where individuals experiment with technology and emerge as its earliest champions. Only when senior management creates the necessary environment and allocates appropriate resources can these bottom-up innovations thrive. Since coordination and information exchange serve as the glue of the adoption process, they ensure alignment, integration, and synergy across organizational activities.
+
+The conceptual foundations of SAIL will be built upon theoretical lenses which will be outlined in the following chapter.
+They will each provide a beneficial and crucial part of the puzzle and will be carefully integrated into the design of the framework.
+
 
 ## 3.2 Integration of Theoretical Lenses  
 - EA → systemic integration.  
@@ -370,13 +402,42 @@ The gap of not having the structured approach to the entire AI adoption lifecycl
 - Dynamic Capabilities → agility in scaling and transformation.  
 - RBV → AI as strategic assets.  
 
+Integration as a business process is the act of coupling different systems and processes together in order to seize value and synthesize a final form of the product. This type of synthesis involves cherry-picking the best parts of each individual component and linking them together in order to compliment each other and create a more valuable system.
+
+SAIL framework will be built upon the integration of the theories analysed in the chapter of Literature Review, where the analysis of the existing literature and a brief introduction of the concepts was conducted. The answer which needs to be provided is how these theories support the design of the framework.
+
+
+#### 3.2.1 EA and SAIL
+Enterprise Architecture (EA) will be the backbone of the creation of the SAIL framework. EA can be understood as the practice of analyzing, designing, planning, and implementing enterprise analysis in order to execute on business strategies. As SAIL framework is aiming to provide a structured approach to the adoption of AI in organizations, the similiarity of the outlined set of processe can not be overlooked. This approach in enterprise architecture is crucial for not only setting up initial organisation when going through the adoption process, but also whenever enterprises are scaling or implementing new technologies or processes. Regarding EA as already mentioned SAIL will focus more on the model of TOGAF as it is more flexible and adaptable to the current technological landscape and SAIL is expected to be more implementation oriented and practical especially in the context of digital business and companies which have started their digital transformation journey and are lookging to implement AI in their operations. SAIL will need to be aligned with the existing enterprise architecture of the organization and most importantly will need to complement it. The principles of a succesful EA will be the guiding principles for the design of SAIL and will need to truly ensure that AI will not act as a disruptive force, but rather as a true enabler of efficiency and innovation.
+
+#### 3.2.2 Digital Transformation and SAIL
+Digital Transformation consists of the integration of digital technologies into all areas of a business, while fundamentally changing how the business operates and delivers value to customers. Digital Transformation is a major step for businesses which are not yet connected to the digital world and are still operating in a traditional way. Not every single business is required to undergo a digital transformation, but for those who do, it is a major step which requires a lot of resources and commitment. The root principle of Digital Transformation is the ability to not only adapt and embrace new technologies, but also to change the work culture in which the business and the teams whithin the business operate. This might be a challenging task, as it requires a lot of change management and the ability to overcome resistance. The SAIL as a framework will have the presumption that the organization is already digitally mature and has already undergone a digital transformation. By targeting digitally mature organizations, SAIL will be able to focus on the actual adoption of AI and not on the prerequisites which are required for a successful adoption. This will lead to efficient and streamlined internal process rollout and not wasting resources on the prerequisites. This also rules out the risk of failure due to lack of readiness and thus increases the chances of success. The principles of Digital Transformation are still going to hand in hand with SAIL, as SAIL will not be acting as a digital transformation framework, but rather as an AI transformation framework which is complementing the existing digital transformation efforts of the organization.
+
+#### 3.2.3 Innovation Diffusion Theory and SAIL
+Innovation Diffusion Theory (IDT) is a theoretical framework which explains how, why, and at what rate new ideas and technology spread through cultures. The ideology underlying IDT and SAIL is innovation and the adoption of new technologies. The principles of IDT will be crucial for the design of SAIL, as it will provide a clear understanding of how AI adoption is happening in organizations and what are the key factors which influence the adoption process. From early adopters to laggards, the principles of IDT will be taken into consideration when discussing and implementing the collaboration and coordination mechanisms of SAIL. The principles of communication channels, social systems, and time will be crucial for the design of SAIL and its stages of adoption will be inspired by the IDT framework. SAIL will encompass the principles of IDT regarding reuse and knowledge transfer between teams and will provide a clear roadmap for the adoption process. IDT supports SAIL as SAIL is based on innovation and is one of its core principles. The innovation aspect in SAIL is the use case driven approach, where the adoption is driven by the actual use cases and their value proposition. This is a crucial aspect as it ensures that the adoption is not happening in a vacuum, but is driven by the actual needs of the organization.
+
+
+#### 3.2.4 Dynamic Capabilities Theory and SAIL
+Dynamic Capabilities Theory (DCT) is a theoretical framework which is explaining how organizations can adapt and thrive in rapidly changing environments. DCT and SAIL are closely related as SAIL will integrate the 3 main components of DCT into its design and those being the sensing, seizing, and transforming. SAIL will be starting with the sensing of opportunities, where the organization will need to perform a short analysis and audit on the gaps which they will be need to fill in order to successfully adopt AI. This will be followed by the seizing of opportunities and prepare a framework which will serve as a benchmark for the actual adoption process. The final step will be the transforming of the organization, where efficient communication and implementation of the framework will be crucial for the success. The principles of DCT are in fact very crucial and relevant for the SAIL framework as they will inspire the design of the framework and SAIL will build upon the principles of DCT in order to provide a structured approach to the adoption process. The ability to sense, seize, and transform will be crucial for the success of the adoption process and will be the guiding principles for the design of SAIL.
+
+
+#### 3.2.5 Resource-Based View and SAIL
+Resource-Based View (RBV) serves as an actor in the process of internal business analysis and strategy formulation. RBV focuses on the internal resources of the organization as the primary source of competitive advantage. The principles of RBV deeply aligns withe the principles of SAIL, as SAIL will be focusing on the internal resources of the organization and how to leverage them in order to successfully adopt AI and where AI becomes an internal digital product and a strategic asset. While not only staying passive as an asset but becoming an active resource in the disposable of the company to transofrm and adapt to the changing environment. The principles of VRIN (valuable, rare, inimitable, non-substitutable) will be crucial for the design of SAIL, as the internal digital products which the new AI initiatives will create need to be aligned with the principles of VRIN in order to provide a sustained competitive advantage. The principles of RBV will be crucial for the design of SAIL, as they will provide a clear understanding of how to leverage the internal resources of the organization in order to successfully adopt AI and create value. 
+
 ## 3.3 Principles Derived for Framework Design  
 - Scalability as a design principle.  
 - Coordination across organizational units.  
-- Knowledge reuse and cross-team learning.  
-- Governance and accountability.  
+- Value-driven use case prioritization.
+- Mechanisms for capturing and reusing AI assets.
 
----
+The outcome of the synthesis of the theoretical lenses and the conceptual foundations of SAIL will be the derivation of the key principles which will guide the design of the framework. These principles will be crucial for the success of the adoption process and will ensure that the framework is aligned with the theoretical underpinnings. The key principles which will guide the design of SAIL are:
+
+- Scalability: Scalability acts as a principle of the framework, as it will ensure that the adoption process is not happening in a vacuum and will be able to outgrow the initial adopters working on the AI solution during their pilot phase. The ability to scale the adoption process across different teams and departments will be crucial for the success of the adoption process and will ensure that the AI initiatives are able to deliver sustained value. Scalability will be achieved through the use of coordination mechanisms and reuse mechanisms which will be outlined in the following principles.
+- Coordination: Coordination as an actor in the process has been already outlined in the previous chapter and will be crucial for the success of the adoption process as without a clear communication no message will be able to be delivered and the adoption process will fail with certainity. This polemical message is crucial for the design of SAIL and insisting on the importance of coordination will be the one of the most detrimental aspects of the framework.
+- Value-driven use case prioritization: The adoption process will be driven by the actual use cases and their value proposition. This will be achieved by the initial DCT analysis which will be performed at the beginning of the adoption process by a small team of experts. The use cases will be prioritized based on their feasibility, impact, and alignment with the overall business strategy. This will ensure that the adoption process is not happening in a vacuum and is driven by the actual needs of the organization. The early adopters acting as the champions of the adoption process will be crucial for the success of the adoption process and will ensure that the AI initiatives are able to deliver sustained value.
+- Mechanisms for capturing and reusing AI assets: The ability to capture and reuse AI assets (models, data, knowledge) remains as an important factor of the framework and the ability to repurpose AI 
+initiatives and being able to branch from the initial use case will be very beneficial for the success of the adoption process as the teams will be able to save time and solve multiple usecase withe the same AI asset. This will ensure that the adoption process is not happening in a vacuum and the AI asset will be able to deliver value accros multiple divisions and departments. The reuse mechanisms will be crucial for the success of the adoption process and will ensure that the AI initiatives are able to deliver sustained value.
+
 
 # 4. Research Methodology
 ## 4.1 Research Design – Design Science Research  
