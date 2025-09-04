@@ -92,3 +92,15 @@ The thesis aims to address the lack of integrated, use-case-driven frameworks fo
 
 ## License
 This project is for academic purposes only.
+
+
+## Word Count Balance
+
+### Intro → 1.3k
+### Lit Review → 4.7k
+### Theoretical Framework → 2.7k
+### Methodology → 2.3k
+### Framework Dev → 4.3k
+### Use Cases → 4.3k
+### Discussion → 2.3k
+### Conclusion → 1.3k
