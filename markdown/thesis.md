@@ -37,7 +37,7 @@ Expected challenges & limitations – As a conceptual study, the main limitation
 validation. However, the use case walkthroughs are designed to simulate realistic organizational contexts, 
 enhancing practical plausibility. A key challenge is ensuring the framework remains both theoretically rigorous 
 and accessible to practitioners, which will be addressed through iterative refinement and alignment with industry
-relevant examples. 
+relevant examples.  
 
 
 
@@ -115,7 +115,6 @@ Appendices
   4.2 Literature Review Approach
   4.3 Framework Development Process
   4.4 Conceptual Evaluation via Use Cases
-  4.5 Limitations
 5. Framework Development (SAIL)
   5.1 Overview of the SAIL Framework
   5.2 Adoption Stages (Awareness → Pilot → Scale → AI-Native)
@@ -167,9 +166,6 @@ Appendices
 In order to ground the SAIL framework in established theory, this chapter will focus on the current state of research across five key theoretical lenses relevant to AI adoption in software organizations. The concept of AI adoption is multifaceted, involving technological, organizational, and strategic dimensions. The main challange is the lack of an integrated framework which is addressing the concept of "Full Lifecycle" adoption of AI in a coordinated and scalable manner. The aspect of AI being a very new technology, hinders the existence of established frameworks and supportive literature. Therefore, this chapter will rather review individual theories and models that are going to be synthesized later throughou the theoretical framework chapter.
 
 ## 2.1 Enterprise Architecture and AI Integration [REF]  
-- EA as systemic integration mechanism.  
-- EA’s role in aligning IT with strategy.  
-- Potential for supporting AI alignment and scaling.  
 
 In order to ground the SAIL framework in established theory the focus on Enterprise Architecture (EA) is crucial. Enterprise Architecture is providing a holistic approach to the problem of aligning IT with business strategy and goals. The principle of EA and its utilization in organizations is well documented in literature [REF]. However the not so well pointed out aspect is the type of company to which EA is applied. Different types of companies have different needs and requirements and technological readiness. Software organizations are typically more agile and introduction of major changes is easier to implement and does not create a lot of resistance. In contrast to this, traditional industries such as manufacturing or banking are more rigid and changes are harder to implement, thus EA frameworks in these industries are more rigid and bureaucratic.
 
@@ -196,10 +192,6 @@ The SAIL framework will therefore build upon the principles of EA and adapt them
 
 
 ## 2.2 Digital Transformation and Organizational Readiness [REF]  
-- Definition and scope of Digital Transformation.  
-- Barriers to readiness (skills, culture, infrastructure).  
-- Stages of transformation maturity.  
-- Lessons for AI adoption.
 
 The concept of Digital Transformation is closely related to the adoption of AI in organizations. Digital Transformation refers to the integration of digital technologies into all areas of a business, fundamentally changing how the organization operates and delivers value to customers. Year by year, more and more organizations are undergoing Digital Transformation in order to stay competitive in the market and the prevalence of AI is only amplifying this successful digital revolution. The proof of the fact that Digital Transformation is in fact a successful concept can be seen by comparing the amount of companies which have undergone Digital Transformation in the last decade and the revenue growth of these companies. The companies which have undergone Digital Transformation have seen a significant increase in revenue and market share, while the companies which have not undergone Digital Transformation have seen a decline in revenue and market share [REF]. 
 
@@ -240,10 +232,6 @@ In order to successfully implement AI in organizations, the assumption of high l
 
 
 ## 2.3 Innovation Diffusion Theory [REF]  
-- Rogers’ model: innovators, early adopters, majority, laggards.  
-- Adoption curve dynamics.  
-- Relevance to AI technologies in software organizations.  
-- How diffusion insights guide scaling strategies.  
 
 Innovation Diffusion Theory (IDT), developed by Everett Rogers, provides a valuable lens for understanding how new technologies, such as AI, are adopted within organizations. This theory is particularly relevant in the context of AI adoption in software organizations, where the pace of rapid industry change and technological advancement creates both opportunities and challenges for adoption.
 
@@ -277,11 +265,6 @@ By following the principles of IDT, organizations have a clear way to manage the
 
 
 ## 2.4 Dynamic Capabilities Theory [REF]
-- Sensing opportunities (AI trends, competitor actions).  
-- Seizing opportunities (investment, pilot design).  
-- Transforming organizations (structures, processes).  
-- Application to fast-moving AI landscape.
-
 Dynamic Capabilities Theory (DCT), introduced by David Teece, provides a valuable framework for understanding how organizations can adapt and thrive in rapidly changing environments such as the current AI landscape which is mostly characterized by extremely fast technological advancements and changes. DCT as a theory is particularly emphasizing the importance of an organization's ability to sense, seize, and transform in order to maintain a competitive advantage. The winner is not the strongest or the most intelligent, but the one who is most adaptable to change while still achieving a sustained competitive advantage. DCT was origanlly developed in the context of strategic management and organizational theory, but its wide adoption in the tech and software industry is closely related to the rapid pace of technological change and the need for organizations to become more agile, adaptive and innovative in order to stay competitive. 
 
 DCT consists of three main components:
@@ -303,10 +286,6 @@ The usage of DCT can be perfectly showcased on an rather succesful startup from 
 - Risks of resource imitation or commoditization.  
 
 ## 2.6 Related AI Adoption Models [REF]  
-- Overview of AI maturity models.  
-- Digital Transformation frameworks.  
-- Strengths and weaknesses.  
-- Missing elements (coordination, reuse, lifecycle orientation).  
 
 The AI adoption models that are currently existing in literature and practice are mostly focused on the maturity of AI adoption in organizations. These models are typically structured around different levels of maturity and their intended use is to help organizations assess their current state of AI adoption and identify areas for improvement. This is a very useful approach, which can help organizations where to start and what are the prerequisites for successful AI adoption. However, these models are mostly focused on the maturity of AI adoption and do not provide a structured approach to the actual adoption process itself. This is the research and market gap where the SAIL framework is trying to fill in.
 The most well known and widely used AI maturity models are the following:
@@ -425,11 +404,6 @@ Dynamic Capabilities Theory (DCT) is a theoretical framework which is explaining
 Resource-Based View (RBV) serves as an actor in the process of internal business analysis and strategy formulation. RBV focuses on the internal resources of the organization as the primary source of competitive advantage. The principles of RBV deeply aligns withe the principles of SAIL, as SAIL will be focusing on the internal resources of the organization and how to leverage them in order to successfully adopt AI and where AI becomes an internal digital product and a strategic asset. While not only staying passive as an asset but becoming an active resource in the disposable of the company to transofrm and adapt to the changing environment. The principles of VRIN (valuable, rare, inimitable, non-substitutable) will be crucial for the design of SAIL, as the internal digital products which the new AI initiatives will create need to be aligned with the principles of VRIN in order to provide a sustained competitive advantage. The principles of RBV will be crucial for the design of SAIL, as they will provide a clear understanding of how to leverage the internal resources of the organization in order to successfully adopt AI and create value. 
 
 ## 3.3 Principles Derived for Framework Design  
-- Scalability as a design principle.  
-- Coordination across organizational units.  
-- Value-driven use case prioritization.
-- Mechanisms for capturing and reusing AI assets.
-
 The outcome of the synthesis of the theoretical lenses and the conceptual foundations of SAIL will be the derivation of the key principles which will guide the design of the framework. These principles will be crucial for the success of the adoption process and will ensure that the framework is aligned with the theoretical underpinnings. The key principles which will guide the design of SAIL are:
 
 - Scalability: Scalability acts as a principle of the framework, as it will ensure that the adoption process is not happening in a vacuum and will be able to outgrow the initial adopters working on the AI solution during their pilot phase. The ability to scale the adoption process across different teams and departments will be crucial for the success of the adoption process and will ensure that the AI initiatives are able to deliver sustained value. Scalability will be achieved through the use of coordination mechanisms and reuse mechanisms which will be outlined in the following principles.
@@ -440,36 +414,108 @@ initiatives and being able to branch from the initial use case will be very bene
 
 
 # 4. Research Methodology
+The upcoming chapter will focus on the research methodology which will be used for the development of the SAIL framework. This chapter will outline the research design, literature review approach, framework development process, and conceptual evaluation via use cases. Research methodology is a crucial aspect of any research project, as it is going to define and establish the credibility and validity of the research findings. The chosen methodology will be aligned with the research question and objectives, ensuring that the research is able to provide a solid an comprehensive answer to the research question of "How can software organizations effectively adopt and scale AI technologies through a structured lifecycle framework?".
+
+
 ## 4.1 Research Design – Design Science Research  
-- Why conceptual framework development fits this research.  
-- Link to design science cycles (relevance, rigor, design).  
+This thesis is using the model called Design Science Research (DSR) as the research methodology. DSR is a research paradigm which is focused on the creation and evaluation of artifacts (models, methods, frameworks) in order to solve real-world problems. This thesis is focused on the creation of a conceptual framework (SAIL) that solves a real-world problem (AI adoption in software organizations). The DSR methodology is particularly well-suited for this research as it provides a structured approach for the development and evaluation of the framework. The target of this thesis is not literature review or empirical research, nor is it a metanalysis of existing frameworks. The primary and sole goal of this thesis is the resugence of a new framework which is able to solve the identified gaps and use cases in the operational context of the organization. 
+
+The DSR methodology consists of three main cycles: relevance cycle, rigor cycle, and design cycle. The relevance cycle is focused on the identification of the problem and the context in which the problem exists. The rigor cycle is primarily focused on the review of existing literature and theories in order to provide a theoretical foundation for the framework that is being developed. The last stage of the DSR methodology is the design cycle, which is focused on the actual development and evaluation of the framework. The last stage will be the most important one, as the actual process of pitching and outlining the framework will take place. The evaluation of the framework will be done through the use of realistic use cases, which will be outlined in the following chapter. The use cases will be used to evaluate the framework against multiple criteria, such as coherence, scalability, and reusability. The use cases will be selected based on their relevance to the research question and their ability to provide a comprehensive evaluation of the framework. The use cases will be based on realistic scenarios that software organizations might face when adopting and scaling AI technologies.
+
+To adhere to the DSR methodology, the research will be conducted in a structured manner, following the three cycles outlined above. 
+
+### 4.1.1 Relevance Cycle
+The relevance cycle will be focused on the identification of the problem and the context in which the problem exists. The problem of AI adoption in software organizations has been identified as a real-world problem that needs to be addressed. The context in which the problem exists is the software industry, which is rapidly evolving and adopting new technologies. The relevance cycle will also involve the identification of the stakeholders who are affected by the problem, such as CTOs, innovation managers, and engineering leads. The relevance cycle will provide a clear understanding of the problem and its context, which will inform the development of the framework. Relavance as a cycle will be outlined in the SAIL framework as the first stage of the adoption process, where the organization will need to perform a short analysis and audit on the gaps which they will be need to fill in order to successfully adopt AI. This will prove whether the organization is ready to adopt AI and will provide a clear understanding of the problem and its context, which will inform the development of the framework and therefore the relevance cycle is being integrated into the design of SAIL.
+
+Connection of Relevance cycle to SAIL:
+- SAIL is addressing fragmentation through coordination and reuse, which is a real-world problem that needs to be addressed.
+- The Relevance cycle emphasizes on the importance of understanding the context in which the problem exists,  and on the practical needs
+- Use cases will act as a bridge between theory and practice, ensuring that the framework is relevant to the needs of software organizations.
+
+The Relevance Cycle guided SAIL's development, by being able to identify the aoption challanges while ensuring that the framework is addressing the practical needs of software organizations.
+
+### 4.1.2 Rigor Cycle
+The goal of the rigor cycle is to provide a solid theoretical foundation for the framework that is being developed. The rigor cycle is involving the review of existing literature which was done in the chapter of theoretical frameworks where a thorough analysis of the existing literature and theories was conducted and its connection was established and the gaps were identified. By being able to connect the existing theories to the design of the framework, the rigor cycle increases on the validty as the framework is not being developed in a vacuum, but is based on solid theoretical foundations. Rigor cycle basis its foundational principles on the integration of multiple theoretical scopes and lenses into one meta-model which serves as the backbone of the framework. The principles derived from the synthesis of the theoretical lenses will be crucial for the design of SAIL, as they will provide a clear understanding of how to leverage the internal resources of the organization in order to successfully adopt AI and create value.
+
+Connection of Rigor cycle to SAIL:
+- Chapter of theoretical frameworks provided a solid theoretical foundation for the framework that is being developed.
+- The listed theories of EA, Digital Transformation, IDT, DCT, and RBV serve as information sources for the design of SAIL.
+- Ensures that SAIL is not arbitrary but is grounded in established knowledge.
+
+The Rigor Cycle ensured that SAIL is grounded in established knowledge, by providing a solid theoretical foundation for the framework that is being developed.
+
+### 4.1.3 Design Cycle
+The design cycle or otherwise known as the build and evaluate cycle will be the cycle which lays its scope on the foundational principles of the SAIL framework. The design cycle is focused on the actual development and evaluation of the framework. The primary focus of this thesis is the development of the framework, which will be done in a structured manner, in the upcoming chapter. The evaluation of the framework will be done through the use of realistic use cases where each use case will be evaluated against multiple criteria and will be specified on how to overcome it in a structured manner. The use cases will be selected based on their relevance and the possibility of them occuring in a real-world scenario in the ambit of software organizations. The foundation of the model will be based on the principles derived from the synthesis of the theoretical lenses, however as it is a new framework, it would be unprofessional to limit the level of innovation and creativity by simple observing the existing theories. SAIL as a framework will be innovative and creative in its design, while still being grounded in established knowledge. While the theoretical lenses provide the foundation, the novel contributions of SAIL are a product of independent thought and design. This balance between theory and innovation is crucial for the success of the framework, as it ensures that the framework is both relevant and practical. By pushing the boundaries of existing knowledge, SAIL aims to provide a new and breakthrough approach to AI adoption in software organizations.
+
+Connection of Design cycle to SAIL:
+- The design cycle is focused on the actual development and evaluation of the SAIL framework which is the primary focus of this thesis.
+- Use cases will be used in the evaluation process of the framework, ensuring that the framework is practical and relevant.
+- While grounded in theory, SAIL incorporates innovative elements that extend beyond existing models.
+
+The Design Cycle facilitated the creation of SAIL. It is inevitable that the design of SAIL will be innovative and creative, while still being grounded in established knowledge and the process of outlining followed by the evaluation of the framework will be done through the use of realistic use cases.
+
+
 
 ## 4.2 Literature Review Approach  
-- Search strategy, databases, keywords.  
-- Inclusion/exclusion criteria.  
-- Process of synthesizing theory.  
+The question of why each of the theories was chosen and how they are connected to the design of SAIL was already answered in the chapter of theoretical frameworks, however in order to provide a clear understanding of the literature review approach, the following segment will elaborate on the search strategy, inclusion/exclusion criteria, and the process of synthesizing theory.
+
+### 4.2.1 Search Strategy, Databases, Keywords
+The search strategy for the literature review was focused on identifying relevant articles, models, and frameworks that are addressing the topic of AI adoption in software organizations, which is the primary focus of this thesis. The search was done over multiple databases, including Google Scholar, IEEE Xplore, ACM Digital Library. These databases were helpful in providing a wide range of articles and models from both academic and industry sources. The search was not only limited to academic articles, but also included industry reports and whitepapers from leading consulting firms such as Deloitte, PwC, Gartner, and Forrester.
+
+
+The problematic aspect of AI adoption as already mentioned is a very recent topic and therefore the most relevant and up-to-date information can be found either by direct reports of large consulting firms or in conference papers and articles or journals which are focusing on the topic of AI adoption and its challenges.
+
+The keywords used in the search included combinations of terms such as "AI adoption", "Artificial Intelligence implementation", "Digital Transformation" and other outlined frameworks. Regarding the research on the already existing frameworks, the process was more straightforward as the frameworks are already established and therefore the search was more focused on finding the most relevant and up-to-date information about the frameworks and their principles.
+
+### 4.2.2 Inclusion/Exclusion Criteria
+The inclusion criteria for selecting articles and models were based on their relevance to the research question, publication date (preferably within the last 10 years to ensure contemporary relevance), however this was not a strict rule as some of the theories are older but still relevant such as the IDT. Inclusion of the articles was also based on their citation count, with a preference for highly cited works which indicates their influence and acceptance not only in the academic community but also in the industry.
+
+
+### 4.2.3 Process of Synthesizing Theory
+The process of synthesizing theory through the literature review involved a thorough analysis of the selected articles and models. The main motivation behind the synthesis was to identify the key principles and concepts that are relevant which are relevant in the context of AI adoption in software organizations. The main contribution of the synthesis was the identification of the gaps and the ideation process started with the cardinal question of "Where do existing frameworks fall short in addressing the challenges of AI adoption in software organizations?" This question was crucial for the design of SAIL, and the frameworks which are crucial and are the cornerstone of the design of SAIL. There were many more frameworks which were analysed, but the ones which were chosen are the ones which are most relevant and are truly the depiction of the vision of the SAIL framework. Frameworks which were not chosen were either too generic and did not provide any specific insights into the topic of AI adoption or were too specific and did not provide a holistic view of the adoption process. In the end the list of the theories which were chosen are the ones which are most relevant and are truly the foundation of the design of SAIL, both from the perspective of theory and practice.
+
+
 
 ## 4.3 Framework Development Process  
 - Iterative design and refinement.  
 - Mapping theories to practical framework elements.  
 
+The framework development process will be based on an iterative design and refinement approach. Multiple iterations of this framework were done in order to ensure that the framework is practical and relevant and the final version of the framework is the one which is able to solve the identified gaps and use cases in the operational context of the organization, which is the one that will be presented in the upcoming chapter. 
+This process of the development and the refinement of the framework was done in a structured manner, following the principles derived from the synthesis of the theoretical lenses. Each of the theoretical lenses defined in the chapter 3 will need to be connected to a realisitc part of th SAIL framework, otherwise the point of the chapter 3 is simply lost. The following segment will outline the mapping of the theories to practical framework elements.
+
+- Enterprise Architecture (EA) → systemic integration: EA principles are guiding the design of SAIL to ensure that AI initiatives are embedded within the larger enterprise architecture rather than developed in isolated silos. The improtance of this theoretical framework will play part on effective integration and sustainable scaling of AI initiatives.
+- Digital Transformation → readiness and strategic alignment: SAIL presumes that the organization which shall adopt the framework is already digitally mature and has already undergone a digital transformation. This leads to efficient and streamlined internal process rollout and not wasting resources on the prerequisites, such as data infrastructure and digital culture.
+- Innovation Diffusion Theory (IDT) → adoption dynamics across teams: IDT does not only serve as the amplifier of the innovation aspect of SAIL and the use case driven approach, but still gives the framework a clear understanding of how AI adoption is happening.
+- Dynamic Capabilities Theory (DCT) → agility in scaling and transformation: The principles of sensing, seizing, and transforming are guiding the design of SAIL and are integrated into the stages of adoption. The ability to sense, seize, and transform will be crucial for the success of the adoption process and will be the guiding principles for the design of SAIL.
+- Resource-Based View (RBV) → AI as strategic assets: The principles of RBV are guiding the design of SAIL to ensure that the internal digital products which the new AI initiatives will create need to be aligned with the principles of VRIN in order to provide a sustained competitive advantage.
+
+Each of these theories is a unique piece of the puzzle and when combined together they are able to create a ruleset and outline the scope of the SAIL and give an estimate on the ability of the framework to solve the identified gaps and use cases in the operational context of the organization.
+
+
 ## 4.4 Conceptual Evaluation via Use Cases  
-- Rationale for conceptual evaluation (vs. empirical).  
-- Selection of realistic use cases (code gen, documentation, planning).  
-- Evaluation criteria: coherence, scalability, reusability.  
 
-## 4.5 Limitations  
-- Absence of empirical validation.  
-- Risk of context-specific assumptions.  
-- Boundaries of applicability.  
+Extremely crucial part of the DSR methodology is the evaluation of the developed framework. Great idea is only as great as the strongest mechanism which is validating it. The larger and harsher the validation mechanism is, the more credible and valid the idea becomes. By testing the framework against realistic use cases which are not only focused on extreme scenarios, but also on the more common ones, the framework is able to prove its versatility and applicability in a wide range of scenarios. The framework will most likely not be able to solve every single use case which is thrown at it due to extremely large amount of unknown and unpredictable factors which are influencing the adoption process. However, by trying to solve a wide range of use cases, which occur at the companies will give a clear understanding of the strengths and weaknesses of the framework and will provide a solid foundation for future research and development of the framework. The interpretation of the results will be crucial for the success of the framework, as it will provide a clear understanding of the strengths and weaknesses of the framework and will inform future research and development of the framework. The outcomes will need to be interpreted in a structured manner with the ability to reduce a bias and provide a clear understanding of the strengths and weaknesses of the framework. By having a great suite of testing scenarios, the framework is able to prove its versatility and applicability in a wide range of scenarios. The choice of usecases might be even more crucial than the actual design of the framework, as the use cases will be the ones which will validate the framework and will provide a clear understanding of its strengths and weaknesses. Seeing from which aspect the framework is outperforming and from which aspect it is underperforming will be crucial for the future development of the framework and will provide a solid foundation for future research and development of the framework and its adoption in the real-world scenarios.
 
----
 
 # 5. Framework Development (SAIL)
 ## 5.1 Overview of SAIL Framework  
 - Core design logic.  
 - Lifecycle perspective.  
 - Visual diagram.  
+
+The Structured AI Lifecycle (SAIL) framework is a nexus between the theoretical foundations of AI adoption and the practical realities faced by software organizations. SAIL is designed to provide a structured approach of company-wide AI adoption, ensuring that business value is maximized while being focused on the operational aspect of the business.
+By building on the theoretical foundations outlined in chapter 3 and methodological rigor from chapter 4, SAIL operates in a manner of defining clear design principles and practical steps such as scalability, coordination, value-driven use case prioritization, reuse mechanisms, and governance structures.
+
+SAIL is structured into eight-step lifecycle stages, each addressing a critical phase of AI adoption. The AI adoption journey encompasses stages from early initial opportunity identification to full AI-native integration and optiomization. Each stage is designed to solve a specific set of challenges that organizations typically face during their AI adoption journey. None of these stages exist in isolation; rather, they are interconnected and their combined effect is greater than the sum of their parts. The butterfly effect of each stage is crucial as individual decisions on stage level amplify the overall success of the AI adoption journey.
+
+
+ The north star of SAIL is to ensure that AI initiatives are not only successfully launched but are also scalable, coherent, and reusable across the organization.
+Furthermore SAIL will be presented in a visual diagram which will outline the different stages of the framework and their interconnections. The visual representation will provide a clear understanding of the framework and will serve as a reference point for the implementation of the framework in real-world scenarios. The SAIL framework is iterative and flexible, allowing organizations to adapt it to their specific contexts while adhering to the core principles of effective AI adoption and therefore the need to have edge cases and deviations from the outlined path is inevitable.
+
+In the following segments each of the stages of the SAIL framework will be outlined in a structured manner, providing a clear understanding of the framework and its practical application. 
+
+
+
 
 ## 5.2 Adoption Stages (Awareness → Pilot → Scale → AI-Native)  
 - Awareness: building knowledge, initial exploration.  
