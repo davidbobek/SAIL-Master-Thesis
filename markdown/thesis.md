@@ -560,23 +560,26 @@ Senior analysits providing the analytical perspective and potential bottlenecks,
 - **Teams/Pilot Teams:** Execute tasks within each stage, providing feedback and insights. Their primary responsibility is the implementation of the AI solution outlined. They are not only the key to the value creation but also the key to the success of the innovation and idea generation. Teams implement the ideas throughout their day to day work and are the ones creating the PoCs. The very important aspect of the teams will also be in the idea generation process. In a software companies engineers are the majority of the workforce and vale creation is happening through their work. By letting engineers draft and propose usecases which are optimally company wide painpoints, the AI adoption process is able to solve painpoints which are actually existing and are not just theoretical and have an impact on the day to day work of all engineers. Engineers are the ones who are able to see the painpoints and are able to propose solutions which are actually solving internal bottlenecks and by letting the pilot team try to solve these painpoints with AI. The overall company is able to yield the benefits of the AI adoption process and is able to deliver same value in shorter timeframes allowing for more innovation and creativity.
 - **Team Leads/Managers:** Facilitate team involvement, ensure resource availability, and support change management during scaling. The Team Leads and Managers play a very important role in the adoption process and their integration in it is pivotal for the success of the adoption process. The Sponsor is negotiating team capacity for the pilot teams and their engineers as the engineers are not expected to work on AI initiatives full time, but rather as a side project. The Team Leads and Managers are the ones who need to adhere and ensure that the capacity is available and that the engineers are able to dedicate time to the AI initiatives. Without the support of the Team Leads and Managers, the adoption process will fail as engineers will be forces to work on the AI initiatives outside of their working scope and the overall quality of the work will be diminished. The Team Leads and Managers are the ones who are able to provide the necessary support and resources for the success of the adoption process.
 
+## 5.2.3 Key Decision Checkpoints
+
+As already mentioned earlier, the SAIL framework incorporates key decision checkpoints and works with dynamic events and processes which are influencing the adoption process. There is a set of key decision checkpoints which are crucial for adoption process and will serve to determine whether the initiative is viable and should proceed to the next stage. After each of the key decision checkpoints, there is a possibility to either proceed to the next stage, iterate on the current stage, or abandon the initiative altogether. Without successful governance mechanisms, these decision points can become bottlenecks or sources of conflict, hindering progress and diluting value. Every single one of the stages has its own decision points and shall only be proceeded to the next stage if the decision points are successfully passed. By having clear decision points, the teams and the organisation are able to reduce the risk of failure, track the progress are receive feedback on the progress of the adoption process not only from customer's persective but also from the internal stakeholders. As already very briefly mentioned, each of the stages is sequential but iterative, meaning that the stages are not linear and there is a possibility to go back to previous stages if the need arises. Before entering the next stage, the decision points need to be successfully passed and a question of whether to proceed, iterate, or abandon needs to be answered. The 3 possible outcomes of each decision point are:
+- **Proceed:** This initiative meets the strategic, technical, and operational criteria in order for the team to move to the next stage. The proceed option can only be chosen if the initiative is able to deliver value and is aligned with the overall business strategy. The proceed option is the most desirable outcome as it indicates that the initiative is on track and is able to deliver value.
+- **Iterate:** The initiative shows promise but requires further refinement. Either in the form of additional research, pilot adjustments, or stakeholder engagement. The iterate option is chosen when the initiative is not yet ready for it to be proceeded into the next stage. The ability to iterate is crucial as it involves dynamic requirements and does not accept mediocrity. The option to iterate involes a 2 man's game where the manager and the team are able to work together in order to refine the initiative and make it ready for the next stage. 
+- **Abandon:** The initiative does not meet the necessary criteria and should be discontinued to avoid further resource expenditure. This stage does not always indicate that the initiative is a failure, but rather that the initiative is not aligned with the overall business strategy or is not able to deliver value. This means that the implementation of the initiative is not feasible or might not be needed anymore. In the best case abonded initiatives are the ones which are able to provide learnings and insights which can be used in future initiatives. 
 
 
-## 5.2.4 Integration of Use Cases
+In order to properly decide whether to move to the next stage, the correct questions need to be asked and answered. The following segment will outline the key decision points for each of the stages:
 
-- State that 10 representative software AI use cases will be used to demonstrate framework application.
-
-- Explain that some use cases align better with early phases (eg, Documentation Automation in Step 1–3), while others emerge at scale (eg, Customer Support Bots in Step 7–8).
-
-- Include a matrix preview table : Steps (1–8) × Use Cases (1–10), check marks for where they are most relevant.
-
-## 5.2.5 Iterative Nature and Feedback Loops
-
-- Explain that knowledge reuse, lessons learned, and organizational learning feed back from later steps (esp. 6–8) into earlier ones (1–3).
-
-- Mention lessons-learned repository, dashboards, and playbooks .
-
-- Tie this to continuous improvement and scalability .
+| Stage                                          | Key Decision Checkpoint                                                     | Possible Outcomes          | Governance / Roles                           | Notes / Edge Cases                                                                   |
+| ---------------------------------------------- | --------------------------------------------------------------------------- | -------------------------- | -------------------------------------------- | ------------------------------------------------------------------------------------ |
+| **1. Opportunity Scouting**                    | Is the use case strategically relevant and feasible?                        | Proceed / Iterate / Reject | AI Sponsor, Business Analyst, EA Lead        | Multiple overlapping opportunities → consolidate portfolio; unclear ROI → iterate    |
+| **2. Strategic Alignment**                     | Does the initiative align with corporate strategy and transformation goals? | Proceed / Iterate / Reject | Steering Committee, CTO                      | Conflicting priorities → defer or adjust scope                                       |
+| **3. Technical Feasibility & Data Assessment** | Can the tech stack and data support the pilot?                              | Proceed / Iterate / Reject | IT Architect, Data Engineer, Risk Officer    | Legacy systems, missing data → iterate; severe gaps → reject                         |
+| **4. Pilot Design**                            | Is the pilot properly scoped, resourced, and governed?                      | Proceed / Iterate / Reject | Pilot Manager, Team Leads, Governance Board  | Dependencies on other pilots → integrate; lack of resources → iterate                |
+| **5. Pilot Execution**                         | Does the pilot meet adoption and performance criteria?                      | Proceed / Iterate / Reject | Dev Team, Data Scientists, Adoption Managers | Low adoption → iterate with change management; technical failure → iterate or reject |
+| **6. Evaluation & Scaling Decision**           | Should the initiative be scaled across the organization?                    | Proceed / Iterate / Reject | Steering Committee, Governance Board         | Partial success → phased scaling; multiple pilots succeed → portfolio prioritization |
+| **7. Scale Deployment**                        | Is full deployment technically and operationally feasible?                  | Proceed / Iterate / Reject | Adoption Manager, IT Ops, Department Leads   | Bottlenecks or workflow conflicts → iterate; systemic risks → reject                 |
+| **8. AI-Native Optimization**                  | Is continuous improvement and adoption sustainable?                         | Proceed / Iterate / Reject | AI Governance Board, Process Owners          | New use cases emerge → loop back to Step 1; tech upgrades → iterate                  |
 
 
 
@@ -650,24 +653,9 @@ Each stage is described below with objectives, activities, roles, decision point
 
 ---
 
-## 5.4 Governance and Roles
+## 5.4 Key Decision Checkpoints
+- This 
 
-Governance is embedded across all SAIL stages, ensuring oversight, alignment, and conflict resolution.
-
-- **Decision-Making Authority:** Governance Board has final say on go/no-go and scaling decisions.
-- **Escalation Mechanisms:** Clear paths for resolving conflicts (e.g., overlapping pilots).
-- **Role-to-Stage Mapping Table:**
-
-| Role                | Stages Involved                | Example Responsibilities                |
-|---------------------|-------------------------------|-----------------------------------------|
-| Sponsor             | 1, 2, 6                       | Champion use cases, secure resources    |
-| Governance Board    | 2, 3, 6, 7                    | Approve/reject, resolve conflicts       |
-| Adoption Manager    | All                           | Coordinate activities, report progress  |
-| Teams/Pilot Teams   | 1, 4, 5, 7, 8                 | Execute tasks, provide feedback         |
-
-**Example:** If two teams propose overlapping pilots, the Governance Board reviews both, assesses strategic fit, and either merges efforts or prioritizes one.
-
----
 
 ## 5.5 Knowledge Reuse and Feedback Mechanisms
 
@@ -683,7 +671,7 @@ Insights from Documentation Automation (e.g., handling unstructured data) inform
 
 ---
 
-## 5.6 Summary of the Framework
+## 5.5 Summary of the Framework
 
 The SAIL framework provides a structured, lifecycle-based approach to AI adoption in software organizations. It integrates decision checkpoints, governance, and feedback loops to ensure scalable, coordinated, and reusable AI initiatives. The next chapter demonstrates these principles through detailed walkthroughs of selected use cases.
 
