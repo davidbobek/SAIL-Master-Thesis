@@ -418,7 +418,7 @@ The upcoming chapter will focus on the research methodology which will be used f
 
 
 ## 4.1 Research Design – Design Science Research  
-This thesis is using the model called Design Science Research (DSR) as the research methodology. DSR is a research paradigm which is focused on the creation and evaluation of artifacts (models, methods, frameworks) in order to solve real-world problems. This thesis is focused on the creation of a conceptual framework (SAIL) that solves a real-world problem (AI adoption in software organizations). The DSR methodology is particularly well-suited for this research as it provides a structured approach for the development and evaluation of the framework. The target of this thesis is not literature review or empirical research, nor is it a metanalysis of existing frameworks. The primary and sole goal of this thesis is the resugence of a new framework which is able to solve the identified gaps and use cases in the operational context of the organization. 
+This thesis is using the model called Design Science Research (DSR) as the research methodology. DSR is a research paradigm which is focused on the creation and evaluation of artifacts (models, methods, frameworks) in order to solve real-world problems. This thesis is focused on the creation of a conceptual framework (SAIL) that solves a real-world problem (AI adoption in software organizations). The DSR methodology is particularly well-suited for this research as it provides a structured approach for the development and evaluation of the framework. The target of this thesis is not literature review, nor is it a metanalysis of existing frameworks. The primary and sole goal of this thesis is the resugence of a new framework which is able to solve the identified gaps and use cases in the operational context of the organization. 
 
 The DSR methodology consists of three main cycles: relevance cycle, rigor cycle, and design cycle. The relevance cycle is focused on the identification of the problem and the context in which the problem exists. The rigor cycle is primarily focused on the review of existing literature and theories in order to provide a theoretical foundation for the framework that is being developed. The last stage of the DSR methodology is the design cycle, which is focused on the actual development and evaluation of the framework. The last stage will be the most important one, as the actual process of pitching and outlining the framework will take place. The evaluation of the framework will be done through the use of realistic use cases, which will be outlined in the following chapter. The use cases will be used to evaluate the framework against multiple criteria, such as coherence, scalability, and reusability. The use cases will be selected based on their relevance to the research question and their ability to provide a comprehensive evaluation of the framework. The use cases will be based on realistic scenarios that software organizations might face when adopting and scaling AI technologies.
 
@@ -499,9 +499,7 @@ Extremely crucial part of the DSR methodology is the evaluation of the developed
 
 # 5. Framework Development (SAIL)
 ## 5.1 Overview of SAIL Framework  
-- Core design logic.  
-- Lifecycle perspective.  
-- Visual diagram.  
+
 
 The Structured AI Lifecycle (SAIL) framework is a nexus between the theoretical foundations of AI adoption and the practical realities faced by software organizations. SAIL is designed to provide a structured approach of company-wide AI adoption, ensuring that business value is maximized while being focused on the operational aspect of the business.
 By building on the theoretical foundations outlined in chapter 3 and methodological rigor from chapter 4, SAIL operates in a manner of defining clear design principles and practical steps such as scalability, coordination, value-driven use case prioritization, reuse mechanisms, and governance structures.
@@ -509,47 +507,313 @@ By building on the theoretical foundations outlined in chapter 3 and methodologi
 SAIL is structured into eight-step lifecycle stages, each addressing a critical phase of AI adoption. The AI adoption journey encompasses stages from early initial opportunity identification to full AI-native integration and optiomization. Each stage is designed to solve a specific set of challenges that organizations typically face during their AI adoption journey. None of these stages exist in isolation; rather, they are interconnected and their combined effect is greater than the sum of their parts. The butterfly effect of each stage is crucial as individual decisions on stage level amplify the overall success of the AI adoption journey.
 
 
- The north star of SAIL is to ensure that AI initiatives are not only successfully launched but are also scalable, coherent, and reusable across the organization.
+The north star of SAIL is to ensure that AI initiatives are not only successfully launched but are also scalable, coherent, and reusable across the organization.
 Furthermore SAIL will be presented in a visual diagram which will outline the different stages of the framework and their interconnections. The visual representation will provide a clear understanding of the framework and will serve as a reference point for the implementation of the framework in real-world scenarios. The SAIL framework is iterative and flexible, allowing organizations to adapt it to their specific contexts while adhering to the core principles of effective AI adoption and therefore the need to have edge cases and deviations from the outlined path is inevitable.
 
-In the following segments each of the stages of the SAIL framework will be outlined in a structured manner, providing a clear understanding of the framework and its practical application. 
+SAIL frameowrk will be evaluated through the use of 10 realistic use which are going to be outlined in the upcoming chapter. This will serve as the empirical part of the DSR methodology and will provide the necessary validation for the framework. 
+
+This chapter will outline the SAIL framework in detail, describing each stage, its objectives, key activities, roles involved, decision points, and expected outputs. This chapter will not only propose the framework but will also dig into the practicalities of its implementation, governance and knowledge reuse mechanisms. The goal is to provide a comprehensive guide that organizations can follow to navigate the complexities of AI adoption effectively.
 
 
 
 
-## 5.2 Adoption Stages (Awareness → Pilot → Scale → AI-Native)  
-- Awareness: building knowledge, initial exploration.  
-- Pilot: testing in limited scope, measuring outcomes.  
-- Scale: expanding across units, refining governance.  
-- AI-Native: embedding AI into strategy, culture, and processes.  
-- Success factors and risks for each stage.  
+## 5.2 Overview of the SAIL Framework
 
-## 5.3 Governance and Roles  
-- Role of CTOs, innovation managers, engineering leads.  
-- Governance mechanisms: policies, ethics, compliance.  
-- Decision-making structures.  
-- Risk and accountability management.  
+The SAIL framework is structured as an 8-step lifecycle, designed to guide software organizations through the coordinated adoption of AI. The process is inherently iterative, allowing for feedback loops and non-linear progression between stages as organizational needs evolve. A cross-cutting governance layer ensures oversight, consistency, and alignment at every step. The framework will be visually represented in a diagram, illustrating the stages, their interconnections, and the overarching governance structure. This framework is designed to be adaptable, allowing organizations to tailor it to their specific contexts while adhering to core principles of effective AI adoption. By making it practical and actionable, SAIL aims to bridge the gap between theoretical AI adoption models and real-world implementation challenges. The framework is designed to be flexible, allowing organizations to adapt it to their specific contexts while adhering to the core principles of effective AI adoption. While the framework is presented in a linear fashion for clarity, real-world adoption journeys may involve revisiting earlier stages based on new insights or challenges encountered. With the ability to adapt and iterate, SAIL is positioned to support organizations in their evolving AI adoption needs.
 
-## 5.4 Use Case Mapping & Prioritization  
-- Criteria: feasibility, impact, alignment with strategy.  
-- Prioritization frameworks (e.g., impact-effort matrices).  
-- Portfolio approach to managing multiple use cases.  
 
-## 5.5 Evaluation and Reuse Mechanisms  
-- Capturing lessons learned.  
-- Creating knowledge repositories.  
-- Facilitating cross-team reuse.  
-- Feedback loops for continuous improvement.  
+## 5.2.1 Lifecycle at a Glance
+
+- Present the eight steps as a sequential but iterative lifecycle.
+- Short explanation: each stage builds on the previous but allows feedback loops.
+- Use a diagram here (8-step lifecycle with feedback loop).
+
+At a high level, the SAIL framework consists of the following eight stages:
+1. **Opportunity Scouting:** Identifies and prioritizes high-impact AI opportunities where the impact of AI can be maximized while the effort to implement is minimized. This stage involves planning, idea collection, initial value estimation and effort estimation. Effort vs impact matrix will be used to prioritize the use cases.
+2. **Strategic Alignment Review:** Ensures that selected opportunities align with business strategy and have stakeholder buy-in. This stage involves stakeholder review, alignment workshops, and strategic fit analysis, which are crucial for the success of the adoption process.
+3. **Feasibility & Risk Assessment:** Assesses technical debt, organizational readiness, and risks which are inherent to the adoption process. The objective of this stage will be to identife whether the use case is feasible and whether the risks are manageable. 
+4. **Pilot Design:** Plans the pilot implementation, defining scope, success metrics, and resource allocation. The aim of this stage is to ensure that the pilot is well-defined and has clear success criteria. Throughout this stage there is not a single pilot being designed. In ordert to be as efficient as possible, multiple pilots are being designed solving different use cases. This will ensure that the organisation is able to diversify its AI portfolio and is not putting all its eggs in one basket. 
+5. **Pilot Execution:** Builds and tests the AI solution in a controlled environment, collecting user feedback and iterating as needed. The purpose here is that the pilot is able to solve and deliver painpoints outlined in the initial stages. The pilots will need to be evaluated against the success criteria outlined in the planning stage. Focus on quick wins and fast iterations to build momentum is the key to success.
+6. **Evaluation & Scaling Decision:** Evaluates pilot outcomes against success criteria to decide on scaling, pivoting, or terminating the initiative. This stage serves as a make it or break it point for the adoption process. Throughout this phase the decision of whether to scale the pilot, iterate on it, or abandon it will be made. The decision shall not be taken lightly, and the emotions shall be taken out of the equation. The only thing that matters is the value delivered and the potential for future value.
+7. **Scale Deployment:** Rolls out the solution organization-wide, managing change, training, and integration with existing systems. The objective of this stage is to ensure that the solution is successfully scaled across the organization and is able to deliver sustained value. Change management and training will be crucial for the success of this stage.
+8. **AI Native Optimization:** Integrates, optimizes, and continuously improves the AI solution, embedding it into business processes and culture. The final stage of the adoption process will be the optimization and continuous improvement of the AI solution. The objective of this stage is to ensure that the AI solution is able to deliver sustained value and is integrated into the business processes and culture of the organization.
+
+
+The outlined set of stages is designed to be flexible and adaptable, allowing organizations to tailor the framework to their specific contexts while adhering to core principles of effective AI adoption. The driver force of rapid innovation and value-based delivery principle enhances the long-term success of AI initiatives. In order to understand the framework in a more structured manner, a diagram will be presented to illustrate the stages, their interconnections, and the overarching governance structure. 
+
+[Insert Diagram Here: 8-step lifecycle with feedback loop]
+
+
+## 5.2.2 Governance Layer Across Stages
+
+- Explain that SAIL is not only about process flow but has a governance overlay .
+
+- Mention roles (sponsor, governance board, adoption manager, team leads).
+
+- Stress that key decision checkpoints (Steps 2, 3, 6) depend on governance mechanisms.
+
+Governance as a concept is inevitable for the success of the adoption process and will be embedded across all SAIL stages, ensuring oversight, alignment, and conflict resolution. Governance is a term often misunderstood and misused, but in the context of SAIL, governance is not about bureaucracy or red tape. It is about ensuring that the adoption process is aligned with the overall business strategy and that the key decision points are made in a structured and transparent manner. If the governance mechanisms are not in place, the adoption process has an increased chance of failure due to the simple principle of not following a structured approach. The successful governance mechanisms encompasses several key stakeholders and roles with each having a clear understanding of their responsibilities and decision-making authority. The key roles involved in the governance of SAIL include:
+- **Sponsor:** Champions the AI adoption initiative. Their responsibilities include securing resources, advocating for the initiative at the executive level, and ensuring alignment with strategic objectives. These sponspors are unique individuals who are able to see the big picture and are able to drive the adoption process forward. Their crucial role in the process is the ability to secure resources and advocate for the initiative at the executive level. Their work is mostly seen in the initial stages of the adoption process, but their influence is felt throughout the entire lifecycle. They are usually the individuals who are well spoken, value oriented and are able to present and sell the idea of AI adoption in a structured manner.
+- **Governance Board:** A cross-functional team, being responsible for approving/rejecting use cases. Often might be seen as a bottleneck, but their role is crucial for the success of the adoption process. Their key responsibilities include reviewing use cases for strategic fit, resolving conflicts (e.g., overlapping pilots), and ensuring that the adoption process adheres to organizational policies and standards. This board shall be composed of senior analysts and engineers together with business stakeholders who are able to provide a holistic view of the adoption process and value delievery.
+Senior analysits providing the analytical perspective and potential bottlenecks, opportunities and directions for the AI solution while the business stakeholders are able to provide the business perspective and roadmap allignment with the overall business strategy.
+- **Adoption Manager:** Oversees the day-to-day execution of the SAIL framework. Their responsibilities include coordinating activities across stages, managing timelines, and reporting progress not only to the sponsor but also to the governance board and other stakeholders such as team leads and managers. The adoption manager is the glue holding the entire adoption process together, while ensuring that deadlines are met and that the communication is clear and transparent. The connection between sponsor and adoption manager will be a holding point as they are both focused on the success of the adoption process, but from different perspectives. The sponsor is focused on the strategic aspect while the adoption manager is focused on the operational aspect.
+- **Teams/Pilot Teams:** Execute tasks within each stage, providing feedback and insights. Their primary responsibility is the implementation of the AI solution outlined. They are not only the key to the value creation but also the key to the success of the innovation and idea generation. Teams implement the ideas throughout their day to day work and are the ones creating the PoCs. The very important aspect of the teams will also be in the idea generation process. In a software companies engineers are the majority of the workforce and vale creation is happening through their work. By letting engineers draft and propose usecases which are optimally company wide painpoints, the AI adoption process is able to solve painpoints which are actually existing and are not just theoretical and have an impact on the day to day work of all engineers. Engineers are the ones who are able to see the painpoints and are able to propose solutions which are actually solving internal bottlenecks and by letting the pilot team try to solve these painpoints with AI. The overall company is able to yield the benefits of the AI adoption process and is able to deliver same value in shorter timeframes allowing for more innovation and creativity.
+- **Team Leads/Managers:** Facilitate team involvement, ensure resource availability, and support change management during scaling. The Team Leads and Managers play a very important role in the adoption process and their integration in it is pivotal for the success of the adoption process. The Sponsor is negotiating team capacity for the pilot teams and their engineers as the engineers are not expected to work on AI initiatives full time, but rather as a side project. The Team Leads and Managers are the ones who need to adhere and ensure that the capacity is available and that the engineers are able to dedicate time to the AI initiatives. Without the support of the Team Leads and Managers, the adoption process will fail as engineers will be forces to work on the AI initiatives outside of their working scope and the overall quality of the work will be diminished. The Team Leads and Managers are the ones who are able to provide the necessary support and resources for the success of the adoption process.
+
+
+
+## 5.2.4 Integration of Use Cases
+
+- State that 10 representative software AI use cases will be used to demonstrate framework application.
+
+- Explain that some use cases align better with early phases (eg, Documentation Automation in Step 1–3), while others emerge at scale (eg, Customer Support Bots in Step 7–8).
+
+- Include a matrix preview table : Steps (1–8) × Use Cases (1–10), check marks for where they are most relevant.
+
+## 5.2.5 Iterative Nature and Feedback Loops
+
+- Explain that knowledge reuse, lessons learned, and organizational learning feed back from later steps (esp. 6–8) into earlier ones (1–3).
+
+- Mention lessons-learned repository, dashboards, and playbooks .
+
+- Tie this to continuous improvement and scalability .
+
+
+
+## 5.3 Detailed Adoption Stages
+
+Each stage is described below with objectives, activities, roles, decision points, relevant use cases, and outputs.
+
+### 5.3.1 Step 1: Opportunity Scouting
+- **Objective:** Identify and prioritize high-impact AI opportunities.
+- **Key Activities:** Environmental scanning, idea collection, initial value estimation.
+- **Roles:** Sponsor, Adoption Manager, Teams.
+- **Decision Points:** Is the opportunity aligned with strategic priorities?
+- **Relevant Use Cases:** Code Generation, Documentation Automation.
+- **Output:** Shortlist of candidate use cases.
+
+### 5.3.2 Step 2: Strategic Alignment Review
+- **Objective:** Ensure selected opportunities align with business strategy.
+- **Key Activities:** Stakeholder review, alignment workshops.
+- **Roles:** Governance Board, Sponsor.
+- **Decision Points:** Does the use case support organizational goals?
+- **Relevant Use Cases:** Sprint Planning Assistance, Incident Prediction.
+- **Output:** Approved use cases for assessment.
+
+### 5.3.3 Step 3: Feasibility & Risk Assessment
+- **Objective:** Assess technical, organizational, and risk factors.
+- **Key Activities:** Technical feasibility study, risk analysis, resource check.
+- **Roles:** Adoption Manager, Technical Leads, Risk Officer.
+- **Decision Points:** Are risks manageable? Is the use case feasible?
+- **Relevant Use Cases:** Test Automation, Customer Support Bots.
+- **Output:** Go/no-go decision for pilot.
+
+### 5.3.4 Step 4: Pilot Design
+- **Objective:** Plan the pilot implementation.
+- **Key Activities:** Define scope, success metrics, resource allocation.
+- **Roles:** Adoption Manager, Pilot Team.
+- **Decision Points:** Is the pilot plan robust and measurable?
+- **Relevant Use Cases:** Release Note Generation, Code Review Assistance.
+- **Output:** Pilot implementation plan.
+
+### 5.3.5 Step 5: Pilot Execution
+- **Objective:** Build and test the AI solution in a controlled environment.
+- **Key Activities:** Development, testing, user feedback collection.
+- **Roles:** Pilot Team, End Users.
+- **Decision Points:** Does the pilot meet success criteria?
+- **Relevant Use Cases:** Documentation Automation, Sprint Planning Assistance.
+- **Output:** Pilot results and lessons learned.
+
+### 5.3.6 Step 6: Evaluation & Scaling Decision
+- **Objective:** Evaluate pilot outcomes and decide on scaling.
+- **Key Activities:** Analyze results, stakeholder review, cost-benefit analysis.
+- **Roles:** Governance Board, Sponsor, Adoption Manager.
+- **Decision Points:** Scale, iterate, or abandon?
+- **Relevant Use Cases:** Code Generation (may face resistance at scale).
+- **Output:** Scale/no-scale decision.
+
+### 5.3.7 Step 7: Scale Deployment
+- **Objective:** Roll out the solution organization-wide.
+- **Key Activities:** Change management, training, integration.
+- **Roles:** Adoption Manager, IT, Business Units.
+- **Decision Points:** Are there blockers to scaling? Is further adaptation needed?
+- **Relevant Use Cases:** Incident Prediction, Customer Support Bots.
+- **Output:** Scaled AI solution.
+
+### 5.3.8 Step 8: AI Native Optimization
+- **Objective:** Integrate, optimize, and continuously improve the AI solution.
+- **Key Activities:** Performance monitoring, process reengineering, feedback loops.
+- **Roles:** Adoption Manager, Continuous Improvement Team.
+- **Decision Points:** Is the solution delivering sustained value? Are further optimizations needed?
+- **Relevant Use Cases:** All, especially those with ongoing learning needs.
+- **Output:** AI-native business processes.
 
 ---
 
-# 6. Use Case Walkthroughs
-## 6.1 Use Case 1
-## 6.2 Use Case 2
-## 6.3 Use Case 3
-- Description of each use case scenario.
-- Application of SAIL stages and principles.
-- Evaluation against criteria: coherence, scalability, reusability.
+## 5.4 Governance and Roles
+
+Governance is embedded across all SAIL stages, ensuring oversight, alignment, and conflict resolution.
+
+- **Decision-Making Authority:** Governance Board has final say on go/no-go and scaling decisions.
+- **Escalation Mechanisms:** Clear paths for resolving conflicts (e.g., overlapping pilots).
+- **Role-to-Stage Mapping Table:**
+
+| Role                | Stages Involved                | Example Responsibilities                |
+|---------------------|-------------------------------|-----------------------------------------|
+| Sponsor             | 1, 2, 6                       | Champion use cases, secure resources    |
+| Governance Board    | 2, 3, 6, 7                    | Approve/reject, resolve conflicts       |
+| Adoption Manager    | All                           | Coordinate activities, report progress  |
+| Teams/Pilot Teams   | 1, 4, 5, 7, 8                 | Execute tasks, provide feedback         |
+
+**Example:** If two teams propose overlapping pilots, the Governance Board reviews both, assesses strategic fit, and either merges efforts or prioritizes one.
+
+---
+
+## 5.5 Knowledge Reuse and Feedback Mechanisms
+
+SAIL embeds organizational learning through:
+
+- **Lessons Learned Repository:** Centralized documentation of successes, failures, and best practices.
+- **Adoption Playbooks:** Step-by-step guides for recurring use cases.
+- **Cross-Team Knowledge Sharing:** Regular forums, workshops, and shared dashboards.
+- **Metrics Dashboards:** Track adoption progress, value delivered, and bottlenecks.
+
+**Example of Reuse:**  
+Insights from Documentation Automation (e.g., handling unstructured data) inform Sprint Planning Assistance, accelerating adoption and reducing redundant effort.
+
+---
+
+## 5.6 Summary of the Framework
+
+The SAIL framework provides a structured, lifecycle-based approach to AI adoption in software organizations. It integrates decision checkpoints, governance, and feedback loops to ensure scalable, coordinated, and reusable AI initiatives. The next chapter demonstrates these principles through detailed walkthroughs of selected use cases.
+
+---
+
+# 6. Use Case Implementation & Validation
+
+## 6.1 Introduction
+
+This chapter validates and demonstrates the practical applicability of the SAIL framework. Ten representative AI use cases from the software domain are empirically applied to test SAIL’s robustness, moving beyond conceptual mapping to hands-on framework application.
+
+## 6.2 Selection of Use Cases
+
+The ten use cases were selected based on their relevance to contemporary software organizations, diversity across the AI adoption lifecycle, and resonance with industry needs. The set includes both early-stage “quick wins” (e.g., documentation automation) and more complex, strategic initiatives (e.g., customer support bots, advanced data analysis). This diversity ensures comprehensive validation of SAIL across different adoption scenarios.
+
+**Criteria for selection:**
+- Relevance to software engineering and organizational workflows
+- Coverage of early, scaling, and AI-native adoption stages
+- Representation of both technical and business-oriented challenges
+
+**Selected use cases:**
+| #  | Use Case                                           | Description                                                                                                                    | Primary Goal / Benefit                                                       | Type                                 |
+| -- | -------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------- | ------------------------------------ |
+| 1  | **Code Generation & Refactoring Assistant**        | AI helps developers write boilerplate code, refactor legacy code, and suggest improvements.                                    | Increase developer efficiency, reduce errors, standardize code quality.      | Technical / Development              |
+| 2  | **Automated Documentation & Knowledge Base**       | Generate internal documentation from code, meeting notes, and tickets. Maintain an evolving knowledge base.                    | Reduce time spent on writing docs; improve onboarding and knowledge sharing. | Knowledge Management / Documentation |
+| 3  | **Sprint & Resource Planning Optimizer**           | AI predicts story points, allocates team resources, and suggests sprint priorities based on historical performance.            | Improve planning accuracy, optimize resource allocation, reduce bottlenecks. | Process / Planning                   |
+| 4  | **Internal Ticket Triage & Routing**               | AI classifies internal IT, DevOps, or HR tickets and routes them to the right team automatically.                              | Speed up issue resolution; reduce manual ticket handling.                    | Process Automation / Support         |
+| 5  | **Internal Chatbot for Employee Queries**          | Handles HR, IT, compliance, or internal policy questions using AI.                                                             | Improve employee self-service, reduce HR/IT workload.                        | Process / Knowledge                  |
+| 6  | **Automated Testing & QA Suggestions**             | AI generates test cases, identifies potential edge cases, and predicts risk areas in software releases.                        | Improve quality assurance, reduce manual testing effort, increase coverage.  | Technical / QA                       |
+| 7  | **Meeting Summarization & Action Item Extraction** | AI listens to meetings or digests recordings and produces concise summaries with assigned action items.                        | Save time, increase accountability, improve knowledge retention.             | Knowledge / Process                  |
+| 8  | **Internal Data Insights & Dashboarding**          | AI analyzes internal metrics (productivity, bug counts, project velocity) and provides predictive insights or recommendations. | Better decision-making, early detection of bottlenecks, actionable insights. | Process / Analytics                  |
+| 9  | **Learning & Upskilling Recommendation System**    | AI suggests internal courses, mentorship, or learning resources for employees based on role and performance.                   | Enhance employee growth, skill development, and internal mobility.           | HR / Knowledge                       |
+| 10 | **Project Risk & Compliance Monitoring**           | AI monitors ongoing projects for potential risks (e.g., deadlines, dependencies, security) and flags compliance concerns.      | Proactively manage risks, avoid delays, ensure governance adherence.         | Governance / Risk Management         |
+
+
+## 6.3 Application of SAIL to Use Cases
+
+Each use case is mapped through the SAIL lifecycle, highlighting entry points, progression through stages, key decision points, governance involvement, and outputs. The following subsections provide concise walkthroughs for each use case.
+
+### 6.3.1 Code Generation
+- **Entry Point:** Opportunity Scouting (identified as a high-impact, developer-focused use case)
+- **Progression:** Strategic Alignment Review → Feasibility & Risk Assessment (IP/security concerns) → Pilot Design/Execution
+- **Key Decisions:** Feasibility of integrating with existing toolchains; risk of code quality issues
+- **Governance:** Oversight on compliance and code standards
+- **Output:** Pilot evaluation; readiness for scaling depends on developer adoption and risk mitigation
+
+### 6.3.2 Documentation Automation
+- **Entry Point:** Opportunity Scouting (quick win, high manual effort)
+- **Progression:** Fast-tracked through Feasibility & Pilot stages
+- **Key Decisions:** Data quality and template standardization
+- **Governance:** Minimal, except for data privacy checks
+- **Output:** Successful pilot, rapid scaling
+
+### 6.3.3 Sprint Planning Assistance
+- **Entry Point:** Strategic Alignment Review (aligns with agile transformation goals)
+- **Progression:** Feasibility (integration with project management tools) → Pilot
+- **Key Decisions:** User acceptance, integration complexity
+- **Governance:** Stakeholder workshops for buy-in
+- **Output:** Pilot results inform scaling decision
+
+### 6.3.4 Incident Prediction
+- **Entry Point:** Opportunity Scouting (operational efficiency)
+- **Progression:** Feasibility (data availability, model accuracy) → Pilot
+- **Key Decisions:** Data sufficiency, false positive rates
+- **Governance:** Risk review, escalation for critical incidents
+- **Output:** Pilot evaluation; scaling if accuracy meets threshold
+
+### 6.3.5 Test Automation
+- **Entry Point:** Feasibility & Risk Assessment (technical complexity)
+- **Progression:** Pilot Design/Execution (integration with CI/CD)
+- **Key Decisions:** Test coverage, maintenance overhead
+- **Governance:** Technical lead sign-off
+- **Output:** Pilot results; scaling if maintainability is proven
+
+### 6.3.6 Customer Support Bots
+- **Entry Point:** Strategic Alignment Review (customer experience focus)
+- **Progression:** Feasibility (NLP capability, multilingual support) → Pilot
+- **Key Decisions:** User satisfaction, escalation handling
+- **Governance:** Customer success oversight
+- **Output:** Pilot evaluation; scaling if KPIs met
+
+### 6.3.7 Release Note Generation
+- **Entry Point:** Opportunity Scouting (repetitive task automation)
+- **Progression:** Pilot Design/Execution
+- **Key Decisions:** Accuracy of generated notes, user feedback
+- **Governance:** Product management review
+- **Output:** Pilot success leads to rapid scaling
+
+### 6.3.8 Code Review Assistance
+- **Entry Point:** Feasibility & Risk Assessment (code quality improvement)
+- **Progression:** Pilot (integration with code repositories)
+- **Key Decisions:** False positives, developer trust
+- **Governance:** Engineering lead approval
+- **Output:** Pilot informs scaling decision
+
+### 6.3.9 Data Analysis Automation
+- **Entry Point:** Strategic Alignment Review (data-driven decision making)
+- **Progression:** Feasibility (data pipeline readiness) → Pilot
+- **Key Decisions:** Data privacy, interpretability
+- **Governance:** Data governance board
+- **Output:** Pilot results; scaling if compliance and value are demonstrated
+
+### 6.3.10 Knowledge Base Search
+- **Entry Point:** Opportunity Scouting (support efficiency)
+- **Progression:** Pilot Design/Execution
+- **Key Decisions:** Search accuracy, user adoption
+- **Governance:** IT and support team review
+- **Output:** Pilot evaluation; scaling if adoption targets met
+
+## 6.4 Cross-Case Analysis
+
+**Patterns identified:**
+- **Critical stages:** Feasibility & Risk Assessment and Pilot Execution were pivotal across most cases.
+- **Common edge cases:** Data quality/availability and user adoption resistance were frequent blockers.
+- **Governance impact:** Strong governance accelerated scaling and resolved conflicts (e.g., overlapping pilots, compliance).
+- **Knowledge reuse:** Lessons from early pilots (e.g., documentation automation) informed later, more complex use cases.
+
+**General insights:**  
+- Early-stage “quick wins” build momentum and organizational confidence.
+- Strategic/complex cases require more governance and cross-team coordination.
+- Reuse mechanisms (playbooks, repositories) reduce duplication and speed up adoption.
+
+## 6.5 Validation of the Framework
+
+The use cases demonstrate that SAIL is robust and adaptable, supporting both rapid “quick win” implementations and more strategic, high-stakes AI initiatives. The framework’s staged approach, governance, and feedback mechanisms proved effective in handling diverse scenarios. However, this validation is conceptual; real-world field experiments are needed for empirical generalization.
+
+## 6.6 Summary of Findings
+
+The application of SAIL to ten diverse use cases confirms its practical value for software organizations. SAIL enables structured, scalable, and coordinated AI adoption, with built-in mechanisms for governance and knowledge reuse. These insights set the stage for the broader discussion in Chapter 7.
+
 
 ---
 
