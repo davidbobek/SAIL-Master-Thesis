@@ -582,33 +582,103 @@ In order to properly decide whether to move to the next stage, the correct quest
 | **8. AI-Native Optimization**                  | Is continuous improvement and adoption sustainable?                         | Proceed / Iterate / Reject | AI Governance Board, Process Owners          | New use cases emerge → loop back to Step 1; tech upgrades → iterate                  |
 
 
+Each of the questions which are outlined per step were consciously chosen in order to target the underlying challenges which are inherent to each of the stages. The questions per stage try to target the main risk and challange connected with the stage and thus by having a clear understanding of the challenges, the teams are able to mitigate the risks and are able to make informed decisions. The possible outcomes of each decision point are designed to provide flexibility and adaptability, allowing organizations to respond to new insights or challenges as they arise. By incorporating these decision checkpoints, SAIL ensures that AI initiatives are continuously evaluated for their strategic fit, technical feasibility, and operational readiness, thereby enhancing the likelihood of successful adoption and sustained value delivery. In the table each question and step has an inherent connection to the relevant stakeholder and roles which are involved in the decision-making process. By having clear roles and responsibilities, the decision-making process is able to be streamlined and is able to reduce the risk of conflicts and bottlenecks. This also allows clear communication and transparency throughout the entire adoption process as each stakeholder knows where do they stand in the decision and accountability process. 
+The table is also enhanced by a column of notes and edge cases which are outlining the potential edge cases and scenarios which might occur during the decision-making process. These are serving as a potential and expected bottleneck which the company might be facing during the adoption process. The edge cases such as overlapping pilots, conflicting priorities, legacy systems or missing data are very common in the adoption process and by being aware of these potential bottlenecks, the teams are able to plan ahead and reduce the risk of failure and increase the probability of successfully passing the decision points. Each 8 step decision cycle presents a unique set of challenges and opportunities, and by having clear decision points, roles, and potential edge cases, the SAIL framework is able to provide a structured and transparent approach to AI adoption in software organizations. This means that after each cycle the ability to loop and start from the beginning is possible and is even encouraged as the company might gather more Use Cases, knowledge and identify new fleet of opportunities which are able to be solved with AI. The dynamic decision making framework allows the company to be agile and responsive to the ever-changing landscape of AI technology and its applications in the software domain while ensuring the process of governance and structured approach is not lost. The strategic placement of the decision points is crucial as they are placed in the most logical and impactful stages of the adoption process. The decision points are placed after individual stages where the most critical decisions need to be made, ensuring that the adoption process is continuously evaluated and aligned with organizational goals. 
+
 
 ## 5.3 Detailed Adoption Stages
 
-Each stage is described below with objectives, activities, roles, decision points, relevant use cases, and outputs.
+In the following subsections, each of the eight stages of the SAIL framework will be outlined from the perspective of objectives, key activities, roles involved, decision points, and expected outputs. This detailed breakdown will provide a comprehensive understanding of the necessesity of each stage and how they interconnect to form a cohesive AI adoption lifecycle. By granularly defining each stage and breaking it down into its core components and the 5 primary elements, the analysis will have a cohesive and structured approach to understanding the underpinning principles of each stage and how they contribute to the overall success of the AI adoption journey. This detailed breakdown will serve as a practical guide for organizations looking to implement the SAIL framework, providing clarity on what to expect and how to navigate each phase effectively.
+
 
 ### 5.3.1 Step 1: Opportunity Scouting
+
+  Opportunity scouting is the initial stage of the SAIL framework, where the focus is on identifying and prioritizing high-impact AI opportunities within the organization. This stage will be setting the foundation of the AI revolution in the company. It is the stage where the ideas of the future are being born and where the potential for value creation is being identified. The objective of this stage is to identify the initial set of painpoints which the company is dealing with at the current day and age. The idea generation will be led in a bottom-up manner, where the engineers and the teams are able to propose use cases which they are facing in their day to day work. By giving the engineers a say and voice the company is receiving direct feedback from the people who are actually doing the work and are able to identify the painpoints and bottlenecks which are hindering their productivity. The idea generation will be complemented by a top-down approach, where the management and the business stakeholders are able to propose use cases which are aligned with the overall business strategy and goals. By creating a hybrid approach where idea generation comes from engineers and is evaluated by upper management overseeing the vision, mission and roadmap of the company, the company is able to create a balanced portfolio of AI initiatives which are able to deliver value in the short, medium and long term. The idea generation will be complemented by a structured approach of evaluating the ideas based on their potential impact and effort required to implement them. The ideas will be evaluated based on an effort vs impact matrix, where the ideas with the highest impact and lowest effort will be prioritized for further evaluation. This structured approach will ensure that the company is able to focus its resources on the most promising opportunities and is able to deliver value in a timely manner. The idea generation process shall be led by the Adoption Manager and the Sponsor, who will be responsible for collecting and evaluating the ideas and ensuring that they are aligned with the overall business strategy and goals. The preferred outcome of this stage will be a shortlist of candidate use cases which are able to deliver value and are aligned with the overall business strategy and goals. This process shall be done in an open manner where engineers have the freedom to propose ideas and are not limited by the current technological capabilities or the current state of the organization. In order to ensure that the idea generation process is as efficient as possible, the Adoption Manager and the Sponsor shall prepare a set of categories and themes which are aligned with the overall business strategy and goals.
+  Categories such as (e.g., customer support, internal efficiency, product development, workflow automation) will be used to guide the idea generation process and give engineers in the ideation round a spark and direction in which they see potential for AI to be implemented. The idea generation process shall empower the engineers and the teams to think outside the box and propose ideas which are not only solving current painpoints but are also pushing the boundaries of what is possible with AI.
+
 - **Objective:** Identify and prioritize high-impact AI opportunities.
+
+  The objective of this stage is to identify and prioritize high-impact AI opportunities inside of the organisation which are solving a real painpoint and are able to deliver value in a timely manner. he focus on value in terms of either efficiency, cost reduction or revenue generation is crucial as the AI initiatives are not only a technological experiment but are also a business initiative which is able to deliver value to the organisation. The objective of this stage will be the process of strategically placing the engineers in a closed environment where the idea generation process will lead them throughout the sessions with the key focus on innovation and value delivery which helps the company in not only short term but also long term manner
+
 - **Key Activities:** Environmental scanning, idea collection, initial value estimation.
+
+  The key activities during the opportunity scouting stage will be focused on environmental scanning, idea collection and initial value estimation. The need to create a structured approach to idea collection is crucial as it helps engineers think in a direction where the ideas are aligned with the overall business strategy and goals. After the initial idea collection, the ideas will be evaluated based on their potential impact and effort required to implement them. The ideas will be evaluated based on an effort vs impact matrix, where the ideas with the highest impact and lowest effort will be prioritized for further evaluation. By having outlined the set of key activities the teams and adoption manager will be able to approach this stage with a greater easy and ensuring the people that the framework they are following is structure and will prevent chaos and confusion.
+
 - **Roles:** Sponsor, Adoption Manager, Teams.
-- **Decision Points:** Is the opportunity aligned with strategic priorities?
-- **Relevant Use Cases:** Code Generation, Documentation Automation.
+
+  The key roles involved in the opportunity scouting stage will be the Sponsor, Adoption Manager and the Teams. In this stage the sponsor and the adoption manager will be responsible for leading the idea generation process and ensuring that the ideas are aligned the company's business strategy and goals. The teams and especially the engineers will be responsible for proposing ideas and providing feedback on the ideas which are being proposed. The engineers are the pinpoint of this stage as all the ideas are coming from them and they are the ones who are able to identify the painpoints and bottlenecks which are hindering their productivity, the role of Sponsor and Adoption Manager is to only efficiently channel the ideas and ensure that they are aligned with the overall business strategy and goals.
+
+- **Decision Points:** Is the use case strategically relevant and feasible?
+
+  The decision point whether to proceed, iterate or abandon the opportunity scouting stage will be based on the question "Is this use case strategically relevant and feasible?". The question shall be asked for every single one of the potentially identified and outlined usecases as it determines winners from losers. This question however dos not focus on strategy nor business alignment, it is rather a feasibility check to the round of engineers, whether this usecase occurs regularly or it does not need AI as a solution. 
+
 - **Output:** Shortlist of candidate use cases.
 
+  The expected output of this stage will be a set of potential use cases which are not analysed but rather a good starting point for the next stage of the adoption process. The shortlisted use cases are not the final use cases as they were not properly analysed, nor alligned with the overall business strategy and goals and were not risk assessed, but shall rather serve as a state of mind of the engineers dealing with pain points and bottlenecks in their day to day work. 
+
 ### 5.3.2 Step 2: Strategic Alignment Review
+
+  The process of strategic alignment review is the second stage of the SAIL framework in which the focus comes on the list of use cases drafted by the engineers. This provess envolves the governance board and the sponsor who are able to evaluate the use cases based on their strategic fit and alignment with the overall business strategy and goals. The objective in this case will be the process of ensuring that the use cases are aligned and are relevant for the business. Throughout this stage each of the use cases will be evaluated by the responsible teams and the initial analysis will be done. This analysis will be done by both teams and the sponsor together with the governance board. This analysis will be done in a dual format due to the need to find realistic expections. 
+  
+  The initial analysis done shall follow this structure:
+
+  ```
+  🎯 What is your idea?
+  The Problem we are solving:
+  [Describe the specific problem or pain point this project addresses]
+  The Solution:
+  [Explain your proposed solution and how it works]
+  Who will use it?
+  [Identify the target users and stakeholders]
+
+  💼 Why is this valuable?
+  Business Benefits [How does this help the business? What value does it create?]
+  Time Savings [How much time will this save? Per day/week/month?]
+  Daily Work Impact [How will this make people's daily work better/easier/faster?]
+
+  🛠 How will you build it?
+  Implementation Plan
+  What do you need? [What tools, systems, or resources are required?]
+  How long will it take? [Rough estimate for development and implementation]
+  What could go wrong? [Main risks or challenges you're worried about]
+
+  📊 How will you know it's successful?
+  Success Measures
+  [List specific, measurable criteria that will indicate success]
+
+  📝 Current Status & Next Steps
+  Where are we heading?
+  [Describe current status and immediate next steps]
+
+  ```
+
+  By being able to answer this set of questions, the teams and the governance board are able to have a dicussion and are able to evaluate the use cases based on their strategic fit and alignment with the overall business strategy and goals. This analysis gives the teams a sense of ownership and responsibility which improves the quality of the use cases and gives a new perspective on the use case to the governance board and the sponsor. The important questions such as "Why is this valuable?" and "How will you know it's successful?" are crucial for the success of the adoption process as they help the teams and the governance board to focus on value delivery and measurable outcomes. The questions of "Why is this valuable?" and the 3 subquestions are crucial as they help the teams and the governance board to focus on value delivery and measurable outcomes. The key of them is not a precise estimation but rather a guidance for the governance board to understand the impact of the use case and the ability to capitalize from successful execution.
+
 - **Objective:** Ensure selected opportunities align with business strategy.
+
+  The key objective of this stage is to ensure that the use cases which were drafted in the previous stage are aligned with the overall business strategy and goals. This being achieved by a dual analysis of the use cases by both the teams and the governance board. The objective of this stage will be to ensure that the drafted use cases are prioritized by the governance board and the sponsor based on their strategic fit will be considered when the teams are walking down the line of the SAIL framework. 
 - **Key Activities:** Stakeholder review, alignment workshops.
-- **Roles:** Governance Board, Sponsor.
-- **Decision Points:** Does the use case support organizational goals?
-- **Relevant Use Cases:** Sprint Planning Assistance, Incident Prediction.
+
+  The key activities throughout the strategic alignment review stage will be stakeholder review and alignment workshops, which represent the indepth use cases analysis. The activity of analysis the use case picked by the team creates ownership which is desired by engineers as the feeling of belonging and responsibility serves as driving force for the success of the adoption process. The alignment workshops will be led by the sponsor and the governance board, will serve as a discusson with review, essentially leading to cherry picking the set of use cases which are able to either proceed to the next stage, need to be iterated on or need to be abandoned. 
+
+- **Roles:** Governance Board, Sponsor, Teams.
+
+  The roles in the strategic alignment review stage are the Governance Board, Sponsor and the Teams. As already mentioned previously the Governance Board and the Sponsor are the ones working together to creating one side of the analysis coming from the perspective of the business and strategy while the teams are the ones providing the technical perspective and the feasibility of the use case. The dual analysis concept comes to the closing stages once the final discussion is held and the decision of whether to proceed, iterate or abandon the use case is made. The ability to yield both perspectives is crucial as it helps the teams and the governance board to have a holistic view of the use case and its potential impact on the organization.
+
+- **Decision Points:** Does the initiative align with corporate strategy and transformation goals?
+
+  The decision point whether to proceed, iterate or abandon the strategic alignment review stage will be based on the question "Does this initiative align with corporate strategy and transformation goals?". The question needs to be asked with the mind of not only the business value and strategy but also the technical feasibility and the actual impact which the engineers estimated. After the analysis is done, the concrete numbers of efficiency gains, time savings and daily work impact will be used to evaluate the use case and the impact leaving on the organisation and its internal processes
+
 - **Output:** Approved use cases for assessment.
+
+  The output of this stage will be a set of approved use cases which are able to proceed to the next stage of the adoption process. This will be a set of use cases which are critical for the business, create value, improve either efficiency or reduce costs and are aligned with the overall business strategy and goals. This approved set of use cases will be the backbone of the adoption process and will be the use cases which will be evaluated in the upcoming stage of feasibility and risk assessment. By having a great understanding of the usecases and a deep down analysis done by both business side and technical side the probability of success is greatly increased and the use cases are able to be measured by concrete goals.
+
 
 ### 5.3.3 Step 3: Feasibility & Risk Assessment
 - **Objective:** Assess technical, organizational, and risk factors.
 - **Key Activities:** Technical feasibility study, risk analysis, resource check.
 - **Roles:** Adoption Manager, Technical Leads, Risk Officer.
 - **Decision Points:** Are risks manageable? Is the use case feasible?
-- **Relevant Use Cases:** Test Automation, Customer Support Bots.
 - **Output:** Go/no-go decision for pilot.
 
 ### 5.3.4 Step 4: Pilot Design
@@ -616,7 +686,6 @@ Each stage is described below with objectives, activities, roles, decision point
 - **Key Activities:** Define scope, success metrics, resource allocation.
 - **Roles:** Adoption Manager, Pilot Team.
 - **Decision Points:** Is the pilot plan robust and measurable?
-- **Relevant Use Cases:** Release Note Generation, Code Review Assistance.
 - **Output:** Pilot implementation plan.
 
 ### 5.3.5 Step 5: Pilot Execution
@@ -624,7 +693,6 @@ Each stage is described below with objectives, activities, roles, decision point
 - **Key Activities:** Development, testing, user feedback collection.
 - **Roles:** Pilot Team, End Users.
 - **Decision Points:** Does the pilot meet success criteria?
-- **Relevant Use Cases:** Documentation Automation, Sprint Planning Assistance.
 - **Output:** Pilot results and lessons learned.
 
 ### 5.3.6 Step 6: Evaluation & Scaling Decision
@@ -632,7 +700,6 @@ Each stage is described below with objectives, activities, roles, decision point
 - **Key Activities:** Analyze results, stakeholder review, cost-benefit analysis.
 - **Roles:** Governance Board, Sponsor, Adoption Manager.
 - **Decision Points:** Scale, iterate, or abandon?
-- **Relevant Use Cases:** Code Generation (may face resistance at scale).
 - **Output:** Scale/no-scale decision.
 
 ### 5.3.7 Step 7: Scale Deployment
@@ -640,7 +707,6 @@ Each stage is described below with objectives, activities, roles, decision point
 - **Key Activities:** Change management, training, integration.
 - **Roles:** Adoption Manager, IT, Business Units.
 - **Decision Points:** Are there blockers to scaling? Is further adaptation needed?
-- **Relevant Use Cases:** Incident Prediction, Customer Support Bots.
 - **Output:** Scaled AI solution.
 
 ### 5.3.8 Step 8: AI Native Optimization
@@ -648,7 +714,6 @@ Each stage is described below with objectives, activities, roles, decision point
 - **Key Activities:** Performance monitoring, process reengineering, feedback loops.
 - **Roles:** Adoption Manager, Continuous Improvement Team.
 - **Decision Points:** Is the solution delivering sustained value? Are further optimizations needed?
-- **Relevant Use Cases:** All, especially those with ongoing learning needs.
 - **Output:** AI-native business processes.
 
 ---
