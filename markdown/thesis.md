@@ -575,7 +575,7 @@ In order to properly decide whether to move to the next stage, the correct quest
 | **1. Opportunity Scouting**                    | Is the use case strategically relevant and feasible?                        | Proceed / Iterate / Reject | AI Sponsor, Business Analyst, EA Lead        | Multiple overlapping opportunities → consolidate portfolio; unclear ROI → iterate    |
 | **2. Strategic Alignment**                     | Does the initiative align with corporate strategy and transformation goals? | Proceed / Iterate / Reject | Steering Committee, CTO                      | Conflicting priorities → defer or adjust scope                                       |
 | **3. Technical Feasibility & Data Assessment** | Are risks manageable? Is the use case feasible?                              | Proceed / Iterate / Reject | Risk Officer, IT Department, Adoption Manager    | Legacy systems, missing data → iterate; severe gaps → reject                         |
-| **4. Pilot Design**                            | Is the pilot properly scoped, resourced, and governed?                      | Proceed / Iterate / Reject | Pilot Manager, Team Leads, Governance Board  | Dependencies on other pilots → integrate; lack of resources → iterate                |
+| **4. Pilot Design**                            | Is the pilot implementation plan feasible and properly scoped?                      | Proceed / Iterate / Reject | Pilot Manager, Team Leads, Governance Board  | Dependencies on other pilots → integrate; lack of resources → iterate                |
 | **5. Pilot Execution**                         | Does the pilot meet adoption and performance criteria?                      | Proceed / Iterate / Reject | Dev Team, Data Scientists, Adoption Managers | Low adoption → iterate with change management; technical failure → iterate or reject |
 | **6. Evaluation & Scaling Decision**           | Should the initiative be scaled across the organization?                    | Proceed / Iterate / Reject | Steering Committee, Governance Board         | Partial success → phased scaling; multiple pilots succeed → portfolio prioritization |
 | **7. Scale Deployment**                        | Is full deployment technically and operationally feasible?                  | Proceed / Iterate / Reject | Adoption Manager, IT Ops, Department Leads   | Bottlenecks or workflow conflicts → iterate; systemic risks → reject                 |
@@ -699,18 +699,52 @@ In this stage there are in fact 2 questions which need to be answered and they b
 The output of this stage closes the analytical and preparatory part of the SAIL framework where we have a justified idea from every single point, but the stage 3 is focused only on delivering on the questions of if the company's digital and physical assets are ready for a new use case and if the risks associated with its implemetation are a threat to the company. The output of this stage will be a go/no-go decision for the pilot stage. Once the decision to proceed is made, the use case is able to proceed to the next stage of the adoption process, being the pilot design stage. If the outcome of this stage will be to iterate the process will not be light as once the reason to iterate is a risk based one, the idea might be in jeopardy and the ability to iterate will be limited. If the outcome of this stage is to abandon the use case, the use case will be documented and lessons learned will be gathered in order to improve the process in the future.
 
 ### 5.3.4 Step 4: Pilot Design
+
+The pilot design stage is the stage in which the analysis is being transformed into action points and stories. In order to transform an use case into pilot the appropriate steps needs to be defined. The steps of each individual pilot in terms of its implementation plan are different and that is for the Adoption Manager and the Pilot Team to define. The pilot design stage is the stage where the use case is being broken down into smaller chunks and is being transformed into actionable items. The pilot design stage is crucial as it sets the foundation for the pilot execution stage and ensures that the pilot is properly scoped, resourced and governed. The steps from initial setup of repositories to architecture of the custom tool (if needed) is created and the tickets are spawned and assigned to respective team memebers. This is also the the stage in which the team starts to build confidence as the use case matures and starts to be something which the teams are able to see outlined infront of them like an actual project. The pilot design stage is the stage where the teams are able to see the light at the end of the tunnel and are able to see the potential of the use case. While they are still not implementing and solving the use cases proper planning and roadmap creation prepares the team for the oncoming future
+
+
 - **Objective:** Plan the pilot implementation.
-- **Key Activities:** Define scope, success metrics, resource allocation.
+The objetive of this step is the creation of a roadmap filled with milestones and actionable itmes which serve as tickets for the engineers to implement down the road. The goal here is to outline precise steps and direction for the team to take in order to convert the use case to a pilot project. The heavy lifting of this stage is done by the Adoption Manager who is responsible for the roadmap creation and the pilot team who is responsible for the technical input in regards to the implementation plan. The goal of this stage is to create a clear and concise plan which is able to be followed by the team and is able to deliver value in a timely manner. 
+- **Key Activities:** Roadmap creation, governance setup, refinement of success criteria.
+
+The key activities which are done throughout this stage is the  roadmap creation, governance setup and refinement of success criteria. The main activity is the roadmap creation which serves as the backbone of the project and its importance does not only lie in the team having a clear direction but also in the ability to communicate the plan to the stakeholders and the governance board. This actionable backlog gives the management trust and ability to track the work of the engineers on a cross-team basis. Very important activity done during this stage is the refinement of the roadmap with engineers. Once a proper discussion on the roadmap starts the engineers are able to share their feedback not only on the strategy but also the complexity, thus helping on the time and effort estimation. 
+
 - **Roles:** Adoption Manager, Pilot Team.
-- **Decision Points:** Is the pilot plan robust and measurable?
+The involved stakeholders in this stage are the Adoption Manager and the Pilot Team. The Adoption Manager is the one who is responsible for the creation of the roadmap and the pilot team is the one who is responsible for providing the appropriate technical input and ensuring that the roadmap is feasible and is able to be implemented in a timely manner. The Adoption Manager leads this stage from their front and works closely as a team with the Pilot Team to enhance the outcome.
+
+
+- **Decision Points:** "Is the pilot implementation plan feasible and properly scoped?"
+
+This stage focuses on creation of the pilot plan and its feasibility and therefore the most crucial question which needs to be answered is "Is the pilot implementation plan feasible and properly scoped?". The question was chosen in order to emphasize the feasibility of the use cases and now the actual pilot design. The scope is another variable which needs to be addressed and critically evaluated as the scope creep is a common problem in the pilot execution stage and by having a clear scope and boundaries the team is able to focus on delivering value and not on expanding the scope. Working on tasks and features outside of the scope hinders the value-delivery time even if the features are nice to have.
+
 - **Output:** Pilot implementation plan.
 
+The clear output of this Pilot Design stage is a well defined pilot implementation plan which is able to be followed by the team and a clear scope which is able to be communicated to the stakeholders and the governance board. The plan for the team creates a vision for the team and ensures the team that there is a clear path outlined in front of them and on the end of the path is a successful pilot which is able to solve their daily painpoints and bottlenecks. The plan is not set in stone and is able to be iterated upon, however by having a good and well refined plan the probability of failure is greatly reduced.
+
 ### 5.3.5 Step 5: Pilot Execution
+
+Pilot Execution is the stage in which the actual implementation of the pilot takes place. This stage involves gradual ticket pulling from the backlog alligned with the roadmap in order to build the pilot solution. The pilot execution stage is the stage where the teams are building the pilot ticket after ticket while the Adoption Manager is responsible for ensuring that the pilot is properly governed and that the success criteria are being met. The pilot execution stage can be structured according to the teams usual project management structure such as (e.g., Agile, Scrum, Kanban) in order to ensure that the team is used to the work dynamic and do not have to go through a change management process. This stage ends once the first MVP is delivered and it can be tested by users in order to give feedback and validate the solution. This however is done in a controlled environment and the pilot team works in a cyclic manner in order to ensure that the solution is properly tested and validated before it is rolled out to a larger audience and the feedback is always considered.
+
 - **Objective:** Build and test the AI solution in a controlled environment.
+
+The objective of this stage is to build and test the pilot project and verify its functionality with a first set of users. The focus of this stage is to deliver a working solution which is able to be analysed and an impact of it can be measured. This impact or otherwise known as success criteria is defined in the analysis stage and taken into consideration during the pilot execution stage. Once the pilot does not meet the success criteria the team is able to iterate and improve the solution until the success criteria are met. 
+
 - **Key Activities:** Development, testing, user feedback collection.
+
+The leading activities performed during this stage are development, testing and user feedback collection. This stage starts with the development of the pilot and only once a working solution is implemented the first batch of users shall provide feedback and observances in the shortest amount of time in order for the team to refine their solution.
+The thorough testing and feedback collection helps mitigate initial problems and ensures that the solution is impactful and user-friendly. 
+
 - **Roles:** Pilot Team, End Users.
-- **Decision Points:** Does the pilot meet success criteria?
+
+During this stage there are 2 main roles involved, being the Pilot Team and the End Users. The Pilot team, being the one responsible for the actual implementation of the pilot and the end users, being the ones who are able to provide feedback and validate the solution. The end users are crucial for the success as their feedback helps improve the product as their opinions do not have internal bias and are new to the solution.
+
+- **Decision Points:** Does the pilot meet adoption and performance criteria?
+
+The question to be asked whether this stage is able to proceed or not is "DoesDoes the pilot meet adoption and performance criteria?". At the end of the pilot execution stage the team is able to evaluate whether the success criteria which were defined in the analysis stage are met or not. If the success criteria are met the team is able to proceed to the next stage of evaluation and scaling decision. The benefit of defining the criteria prior to the exeution stage is that emotions can be isolated as the decision is purely based on the merit.
+
 - **Output:** Pilot results and lessons learned.
+
+The output of this stage will be the pilot results and lessons learned. This means that there will be a working MVP of the use case outlined at the beginning which serves as valude delivery instrument having a potential to directly influence the enterprise and create feasible impact. The great benefit of having a structured approach is that throughout each of the decision on the roadmap is that there is a set of lessons learned on the way which can be used in the next iteration of the framework.
 
 ### 5.3.6 Step 6: Evaluation & Scaling Decision
 - **Objective:** Evaluate pilot outcomes and decide on scaling.
@@ -733,27 +767,8 @@ The output of this stage closes the analytical and preparatory part of the SAIL 
 - **Decision Points:** Is the solution delivering sustained value? Are further optimizations needed?
 - **Output:** AI-native business processes.
 
----
 
-## 5.4 Key Decision Checkpoints
-- This 
-
-
-## 5.5 Knowledge Reuse and Feedback Mechanisms
-
-SAIL embeds organizational learning through:
-
-- **Lessons Learned Repository:** Centralized documentation of successes, failures, and best practices.
-- **Adoption Playbooks:** Step-by-step guides for recurring use cases.
-- **Cross-Team Knowledge Sharing:** Regular forums, workshops, and shared dashboards.
-- **Metrics Dashboards:** Track adoption progress, value delivered, and bottlenecks.
-
-**Example of Reuse:**  
-Insights from Documentation Automation (e.g., handling unstructured data) inform Sprint Planning Assistance, accelerating adoption and reducing redundant effort.
-
----
-
-## 5.5 Summary of the Framework
+## 5.4 Summary of the Framework
 
 The SAIL framework provides a structured, lifecycle-based approach to AI adoption in software organizations. It integrates decision checkpoints, governance, and feedback loops to ensure scalable, coordinated, and reusable AI initiatives. The next chapter demonstrates these principles through detailed walkthroughs of selected use cases.
 
