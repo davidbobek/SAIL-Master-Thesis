@@ -822,7 +822,16 @@ The SAIL framework provides a structured, lifecycle-based approach to AI adoptio
 
 ## 6.1 Introduction
 
-This chapter validates and demonstrates the practical applicability of the SAIL framework. Ten representative AI use cases from the software domain are empirically applied to test SAIL’s robustness, moving beyond conceptual mapping to hands-on framework application.
+This chapter presents a prospective empirical application of the SAIL framework in realistic software engineering contexts.
+
+Due the very theoretical nature and scope of this thesis a real-life validation of the framework is not possible within the time and resource constraints. Therefore, the validation and the actual empirical application of the framework will be done in a conceptual manner, by outlining a set of diverse use cases and walking them through the SAIL framework. This approach will allow for an empirical demonstration of the framework's applicability and effectiveness across different scenarios, while still highlighting potential challenges and considerations.
+
+My expert knowledge and hands-on experience in the field of AI adoption in software organizations shall serve as a leverage in the conceptual validation of the framework. My experience in leading the actual AI adoption process in a large software organization gives me the well rounded perspective and insights on the challenges and opportunities which arise while adopting AI as a key resource. My daily work involves a very close collaboration with both technical and business stakeholders and thus giving the the right perspective on the topic not only from the knowledge perspective but also the practical process-based perspective.
+
+These prospective use cases were selected to cover the most common scenarios faced by software organizations will be mapped on the SAIL framework and showcasing every single step of the framework in action and highlighting the value added by the framework. 
+
+The following use cases are going to be backed by numerical estimates and qualitative insights based on industry reports, expert opinion, and analogous implementations in similar contexts. By using this hybrid approach, the chapter will be aiming to provide a more realistic and feasible validation of the SAIL framework.
+
 
 ## 6.2 Selection of Use Cases
 
@@ -852,75 +861,266 @@ The ten use cases were selected based on their relevance to contemporary softwar
 
 Each use case is mapped through the SAIL lifecycle, highlighting entry points, progression through stages, key decision points, governance involvement, and outputs. The following subsections provide concise walkthroughs for each use case.
 
-### 6.3.1 Code Generation
-- **Entry Point:** Opportunity Scouting (identified as a high-impact, developer-focused use case)
-- **Progression:** Strategic Alignment Review → Feasibility & Risk Assessment (IP/security concerns) → Pilot Design/Execution
-- **Key Decisions:** Feasibility of integrating with existing toolchains; risk of code quality issues
-- **Governance:** Oversight on compliance and code standards
-- **Output:** Pilot evaluation; readiness for scaling depends on developer adoption and risk mitigation
+### 6.3.1 AI-Powered Code Generation and Autocompletion
+**Entry Point:** 
+This use case will be trying to solve the everlasting problem of developers writing code and the time it takes to write boilerplate code. This use case is a perfect fit for AI adoption as AI excells as writing code and automplete as it is able to understand the cross-cutting concerns and is able to generate code snippets in close to real time. 
 
-### 6.3.2 Documentation Automation
-- **Entry Point:** Opportunity Scouting (quick win, high manual effort)
-- **Progression:** Fast-tracked through Feasibility & Pilot stages
-- **Key Decisions:** Data quality and template standardization
-- **Governance:** Minimal, except for data privacy checks
-- **Output:** Successful pilot, rapid scaling
+**Application of SAIL:**
 
-### 6.3.3 Sprint Planning Assistance
-- **Entry Point:** Strategic Alignment Review (aligns with agile transformation goals)
-- **Progression:** Feasibility (integration with project management tools) → Pilot
-- **Key Decisions:** User acceptance, integration complexity
-- **Governance:** Stakeholder workshops for buy-in
-- **Output:** Pilot results inform scaling decision
+- **Opportunity Scouting:** 
+The initial analysis startys by identification of a painpoint in the developer workflow, in this case it is the developers spending endless hours writing boilerplate code which can sometimes be tedious or even close to duplicate. A time motion study suggests that cutting the time spent on boilerplate code by half could potnetially save 7-8% of the total productive time dedicated for coding.
 
-### 6.3.4 Incident Prediction
-- **Entry Point:** Opportunity Scouting (operational efficiency)
-- **Progression:** Feasibility (data availability, model accuracy) → Pilot
-- **Key Decisions:** Data sufficiency, false positive rates
-- **Governance:** Risk review, escalation for critical incidents
-- **Output:** Pilot evaluation; scaling if accuracy meets threshold
+This means that for only 100 developers, this will quite easily translate to 1200 hours saved per month, which translates to EUR 96,000 (assuming EUR 80/hour fully loaded cost) in the developer team alone. This can be easily justified as an immediate win and a quick optimization for the company
 
-### 6.3.5 Test Automation
-- **Entry Point:** Feasibility & Risk Assessment (technical complexity)
-- **Progression:** Pilot Design/Execution (integration with CI/CD)
-- **Key Decisions:** Test coverage, maintenance overhead
-- **Governance:** Technical lead sign-off
-- **Output:** Pilot results; scaling if maintainability is proven
 
-### 6.3.6 Customer Support Bots
-- **Entry Point:** Strategic Alignment Review (customer experience focus)
-- **Progression:** Feasibility (NLP capability, multilingual support) → Pilot
-- **Key Decisions:** User satisfaction, escalation handling
-- **Governance:** Customer success oversight
-- **Output:** Pilot evaluation; scaling if KPIs met
+- **Strategic Alignment:** 
+This initiative will include allignement with the OKRs and strategic goals of the engineering department. The OKRs including "Increase engineering velocity by 20%" and "Reduce time to deliver a feature by 15%". The engineering leadership will need to support and propagate this initiative on the condition and that there will be safeguards and governance in place to ensure that the new AI tool will not introduce any security risks. Getting people on board with the vision of AI-driven code generation is a crucial step.
 
-### 6.3.7 Release Note Generation
-- **Entry Point:** Opportunity Scouting (repetitive task automation)
-- **Progression:** Pilot Design/Execution
-- **Key Decisions:** Accuracy of generated notes, user feedback
-- **Governance:** Product management review
-- **Output:** Pilot success leads to rapid scaling
 
-### 6.3.8 Code Review Assistance
-- **Entry Point:** Feasibility & Risk Assessment (code quality improvement)
-- **Progression:** Pilot (integration with code repositories)
-- **Key Decisions:** False positives, developer trust
-- **Governance:** Engineering lead approval
-- **Output:** Pilot informs scaling decision
+- **Technical Feasibility & Data Assessment:**
+During the phase of technical feasibility and data assessment the team will need to evaluate the already existing models and tools which are available on the market. The simplest and cleanest way which the company is able to leverage the code generation is by using an already existing tool which directly integrates into the code editors or IDEs. The most striahgt forward solution is the usage of GitHub Copilot, which is the most well known and high quality code generation tool on the market. Its safety and security features allow the company to use it without any major concerns as all the data is kept secure and is not shared with any third parties.
 
-### 6.3.9 Data Analysis Automation
-- **Entry Point:** Strategic Alignment Review (data-driven decision making)
-- **Progression:** Feasibility (data pipeline readiness) → Pilot
-- **Key Decisions:** Data privacy, interpretability
-- **Governance:** Data governance board
-- **Output:** Pilot results; scaling if compliance and value are demonstrated
 
-### 6.3.10 Knowledge Base Search
-- **Entry Point:** Opportunity Scouting (support efficiency)
-- **Progression:** Pilot Design/Execution
-- **Key Decisions:** Search accuracy, user adoption
-- **Governance:** IT and support team review
-- **Output:** Pilot evaluation; scaling if adoption targets met
+- **Pilot Design:**
+The stage of pilot design will serve as creation of 2 separate pilots for different teams. 
+1. Autocomplete for Python back-end services
+2. MCP integration of Github Copilot Agent with internal repos
+
+By having 2 teams the company can start working on both of them at the same time, however the first one being a rather simple solution as Github Copilot in Agent mode is a plug and play solution and the only neeeded action is the education and onboarding of the developers. The second pilot is a bit more complex and will require not only more education but also more actions as a separate MCP server and connector will need to be set up.
+
+The 2 pilots groups will be run in parallel and will be governed by the same governance board. The roadmaps will differ drastically but more work will be done in the same time by running multiple pilots.
+
+Success metrics for the pilot will be:
+- Reduction in time spent on boilerplate code by 50%
+- Developer satisfaction score of 4/5 or higher
+
+
+- **Pilot Execution:**
+The stage of pilot execution will bring gradual implementation and establishment of the pilots. The first pilot will involve implementation of Github Copilot in the developer's IDEs and code editors and preparation of the internal documentation on how to use the tool the most efficiently withing the scope of the company's work. This documentation will be created and tested over several iteration by sample of developers and will be improved over time. 
+The second pilot will involve the setup of the MCP server and the integration with the internal repos and Github Copilot Agent within. The iterative implementation process shall be done in order to ensure that the solution is working as intended and that the developers are able to use it without any major issues.
+The span of the pilot execution will be 6 weeks to ensure timely delivery and quick feedback loops.
+
+- **Evaluation & Scaling Decision:**
+At the end of the implementation phase the team will evaluate the success of the pilot based on the success metrics defined in the pilot design phase. The numbers will be collected and analysed in order to ensure that the pilot is successful and that the team is able to proceed with the scaling decision. The final decision being done against the success metrics outlined. Based on the prospective numbers the adoption and the impact of the pilot is very high and the company will proceed with the scaling decision as the actual time saving on boilerplate code is closer to 70% and the developer satisfaction score is 4.5/5.
+
+
+- **Scale Deployment:**
+The stage of scale deployment will involve the rollout of the solution and negotiation of deal with Microsoft as they are the company behind Github Copilot regarding the licensing and the pricing as the price is one of the major blockers for the scaling. The volume based negotiation will be done in order to ensure that the company is able to get the best possible price for the solution. The rollout will be done in an avalanche manner, starting with the quick wins teams which are able to quickly adopt the solution and are able to provide feedback and ending with the more conservative and hard to convince teams.
+
+- **AI-Native Optimization:**
+The continuous improvement and optimization will be done by retraining and optimising the internal MCP based solution which enhances the productivity of the developers. Towards the end of the optimization phase new metrics will be calculated and the team will evaluate whether the solution is still delivering value or not. The goal of this stage will be to ensure that Github Copilot has close to 100% adoption within the developer teams.
+
+### 6.3.2 Internal [NOT DONE] LLM Based Knowledge Base with Automated Code Documentation 
+**Entry Point:**
+The following use case is trying to solve the problem of documentation and knowledge sharing within the organization. This problem stems from the fact of documentation silos and the lack of central access to knowledge. The problem is further exacerbated by the fact that certain pages and teams follow different documentation standards and the quality of the documentation is not consistent across the organization and sometimes the documentation is simply outdated and not relevant anymore. Solution to such the problem of code documentation will be an AI based knowledge base fetching all the information from different sources in code and providing relevant feedback to the engineers on any question asked.
+
+**Application of SAIL:**
+- **Opportunity Scouting:**
+The opportunity scouting phase involves identification of the painpoint in the documentation process. The average time of engineers trying to search for relevant documentation is around 30 minutes per day, which translates to 10 hours per month per engineer. For a team of 100 engineers this translates to 1000 hours per month of time wasted on searching for relevant documentation. The potential monetary value of this time is around EUR 80,000 per month (assuming EUR 80/hour fully loaded cost). This is once again a very significant amount of money for the company which can be reinvested into more value adding activities. This could be solved by having a central knowledge base which is able to be queried by the engineers and is able to provide relevant and up to date information in close to real time. This system could be coupled with an automated code documentation which would be able to generate documentation on each commit to the repository and would ensure that the documentation is always up to date and relevant.
+
+- **Strategic Alignment:**
+The abiltiy 
+
+
+### 6.3.3 AI-based developer Productivity Analytics & Sprint Planning
+**Entry Point:**
+The third use case is trying to solve the problem of sprint planning and resource allocation by having an AI based data-driven approach which relies on historical data and is able to provide relevant insights and recommendations on how to plan the sprints and allocate the resources. This type of a solution focused on managers, stakeholders and team leads as they are responsible for appropriate planning and resource allocation. The ability to have AI based recommendation system mitigates the risk of human error and bias towards estimation of story points and resource allocation. This approach of AI-based developer productivity analytics aims to leverage historical development data, code repositories, issue tracking systems, and project management tools to generate objective, data-driven insights for sprint planning, effort estimation, and resource optimization.
+
+**Application of SAIL:**
+- **Opportunity Scouting:**
+During the initial stages of the the opportunity scouting the team will be responsible to identify the crucial pain point of sprint planning and resource allocation. While using a simple analysis of the historical data the team has came to the respective numbers:
+
+- Sprint overcommitment occurs in 40% of sprints, causing 15–20% of tasks to spill over and thue leading to work out of scope.
+
+- Manual tracking and reporting consume 2 hours per developer per week, equivalent to 800 hours/month for a 100-person team. 
+
+- Inefficient allocation results in 10–12% lower productivity per sprint compared to historical potential.
+
+By implementing an AI-driven agent to properly estimate and allocate resources the company is able to:
+- Save over 800 hours/month of precious engineering time and thus EUR 64,000/month (assuming EUR 80/hour fully loaded cost).
+- Improve the sprint velocity by 10-15% and therefore be able to deliver quicker
+- Appropariately allocate resources and do not create bottlenecks in the team
+
+
+These crucial findings will be the future foundation for the pilot and approval process from the upper management and the governance board.
+
+- **Strategic Alignment:**
+This initiative alligns very closely with most of the strategic goals of any software company as it is a direct improvement of internal processes and workflows. The key strategic goals and OKRs in this case could be
+
+- Increase the sprint predictability by 20%
+- Reduce non-captive work by 15% (idle time, refinement, meetings on capacity)
+- Increase delivery of already commited user stories by 15%
+
+The outlined initiative requires the buy-in from management and the governance board, however winning it will not be a problem as this initiative directly impacts their work and is able to deliver immediate value.
+
+- **Technical Feasibility & Data Assessment:**
+From the perspective of technical feasibility the teams will have to evaluate the connections and project management tools which they are using. When company uses the Atlassian suite the integration with Jira and Confluence is a no-brainer as a clear path to Atlassian's ROVO and its enablement will not be a problem when Atlassian Cloude and the connectors are used. The data assessment will involve the analysis of the historical data and the quality of the data. A feasibility assemssment will be done in order to ensure that the data is of high quality
+
+- Data Quality: 85% of historical sprint data is complete (Will require rework of 15% of records)
+- Data Volume: 2 years of sprint data across (The more the better)
+- Integration Complexity: Moderate (Existing APIs for Jira/Confluence available)
+
+The teams are responsible for correct and thorough data cleaning in order to improve the data quality as a simple rule of thumb is "Garbage in, garbage out". The better the data quality the better the results of the AI based agent.
+
+
+- **Pilot Design:**
+The stage of pilot design will involve outlining the steps required for the pilot to see the light of the day. In order to increase the probability of success the team will design 2 separate pilots for different teams.
+1. Analytics dashboard for Sprint planning insights
+- This pilot will involve the creation of an analytics dashboard which will be based on historical velocity anad developer workload
+- It will be generating AI based insights on sprint capacity and story point estimation
+
+The success metrics for this pilot will be:
+  - >10% improvement in "on-time" story delivery
+  - >4/5 satisfaction score from team leads and managers
+
+2. Automated Developer Productivity Reports
+- This pilot should provide team-level and individual-level productivity reports based on commit frequency, code reviews, and issue resolution times.
+- Based on these reports the workload balancing shall be performed to ensure that no developer is overworked or underworked
+
+Success metrics for this pilot will be:
+-  ≥10% reduction in idle or blocked time, 
+- ≥4/5 satisfaction score from developers and team leads
+
+Both of these pilots shall be run in parallel in order to showcase their insights in global manner and to ensure that when one of the teams comes into blockers the other team is able to continue working and delivering value.
+
+- **Pilot Execution:**
+The stage of pilot execution will involve structured implementation and establishment of the pilots. A prospective look could be:
+
+- Week 1–2: Data integration from Jira, GitHub, CI/CD tools.
+
+- Week 2–3: AI model training and dashboard setup.
+
+- Week 3–4: Pilot deployment with selected engineering teams, iterative feedback collected via surveys and analytics dashboards.
+
+Towards the end of the Pilot execution phase the team will be able to collect the first feedback and interate on top of it to ensure compliance, performance and accuracy while keeping in mind the vision of the pilot and the success metrics outlined in the pilot design phase.
+
+- **Evaluation & Scaling Decision:**
+Once the pilot execution phase is over the team will be able to evaluate the success of the pilot based on the success metrics defined earlier. Once the results are in and they outperform the success metrics the team will be able to proceed into the scaling decision. The very realistic numbers indicate that the team will be able to proceed with the scaling decision as:
+
+- the actual time saving on sprint planning is closer to 18%
+- Reporting time reduced by 52%, saving ~416 hours/month.
+- Developer satisfaction would score at 4.3/5.
+
+The governance board and the management would approve the scaling decision based on the ROI calcaulations of 416 hours saved per month * EUR 80/hour fully loaded cost = EUR 33,280/month. This number is only for a team of 100 developers, thus the scaling decision is a no-brainer.
+
+- **Scale Deployment:**
+Full rollout of this pilot will involve onboarding of all engineering managers, team leads and upper management. They will have to follow a structured onboarding process and a wave of change management will have to be done as some managers might feel anxiety as this AI agent is "taking away" their power of decision making. The change management process will involve training sessions, workshops, documentation, internal communication which emphasizes on AI as assistant and not as a replacement. 
+
+
+- **AI-Native Optimization:**
+The continuous improvement in this pilot is more crucial than one might think as estimation of continuous data is a never ending story. Adjusting the model to the changing data and improving the hyperparameters to properly give estimations will be very improtant for both accuracy and user satisfaction. Some tasks of continuous improvement could be:
+- Refinement of predictive accuracy based on user feedback.
+- Adding features such as risk detection for high-complexity stories and team-level efficiency benchmarks.
+
+### 6.3.4 Internal AI Chatbot for Employee Queries
+**Entry Point:**
+The following use case focuses on a very important and crucial aspect of any organization, being the internal communication and knowledge sharing. The distributed knowledge and lack of well-connected documentation is an issue troubling most of the organizations in software industry. This problem will be solved by ad internal LLM based chatbot with capability of answering questions and providing relevant information in close to real time. This chatbot does not only answer questions per page, but is capable of creating an internal interconnected mind map of knowledge which contains every single detail the company decides to put in it and allow for interal search and knowledge sharing. This capability of restricting in what to add in the knowledge base is crucial as the company is able to restrict any sensitive information, which shal not be availabe for other employees. The chatbot will be able to answer questions regarding internal tools, processes, status of projects and other relevant information which the engineers might be questioning. This chatbot will be able to save time and increase productivity of the engineers as they will not have to search for relevant information and the access to information at any-time and thus reducing the load on employees with knowledge silos.
+
+**Application of SAIL:**
+- **Opportunity Scouting:**
+The opportunity scouting phase for this use case will involve identification of the painpoint of knowledge sharing and internal communication. The entity most likely coming up with this idea is the Junior Engineers and new hires, which have a tough time during onboarding as a new environment in a poorly structured company document-wise. The average time of engineers trying to search for relevant documentation is around 30 minutes per day, which translates to 10 hours per month per engineer. For a team of 100 engineers this translates to 1000 hours per month of time wasted on searching for relevant documentation. The potential monetary value of this time is around EUR 80,000 per month (assuming EUR 80/hour fully loaded cost). The time and money wasted on searching for relevant information is a very significant amount, which bleads through the hands of the company. 
+
+- **Strategic Alignment:**
+During the strategic alignment phase the team will have to ensure that the initiative alligns with the strategic goals and OKRs of the company. The key strategic goals and OKRs in this case could be
+- Reduce time spent searching for information by 50%
+- Improve employee satisfaction score regarding access to information by 20%
+- Increase onboarding satisfaction score by 15%
+
+These objectives and key results represent an internal improvement of the companies processes. Not nescessarily a direct revenue generating initiative, however the impact on the internal processes and efficiency of the workflows creates time and space for more value adding activities. This indirect value creation is a process which is often overlooked and therefore might create friction in terms of buy-in from management and governance board. However, with correct framing of the value proposition and focus on the time savings and generation of space of engineers to do more value adding activities during this time shall be the priority when negotiating the buy-in.
+
+
+- **Technical Feasibility & Data Assessment:**
+From the perspective of technical feasibility the teams will have to evaluate the connections and project management tools which they are using. The company has to realise their infrastructure assets in terms of server capacities both in RAM and Graphics cards as this solution will require an interal LLM to be hosted on premises. An option to outsource this processes opens up a lot of security concerns and therefore the company shall avoid this path. When focusing on appropriate technical feasibility the company needs to follow the outlined formula:
+
+- Size of the company (numbers) * activity rate (% of users which shall be using the tools at once) = Required capacity to host of users at once 
+
+If the company has 1000 employees and the activity rate is 10% (100 users at once) the company will need to have a server capacity of around 80GB of RAM and 2 A100 GPUs in order to ensure smooth operation of the LLM based chatbot. The price of a new A100 GPU is around EUR 10,000 and the RAM is around EUR 500/16GB. This means that the initial investment for the hardware will be around EUR 25,000 which is a very reasonable price for the value it is able to deliver as the company bleeds through EUR 80,000 per month on searching for relevant information. The ROI of this investment is very high and the payback period is around 1 month including the price of employees working on the implementation of the solution.
+
+- **Pilot Design:**
+The stage of pilot design will involve outlining the steps required for the solution to come from an idea to first MVP which is usable for the end users. The first step shall be setting up the hardware and the LLM model and choosing the model which is the most suitable. The initial implementation shall be done with a smaller model like Llama 2 7B or Falcon 7B in order to ensure that the model is able to run on the hardware available. The second step shall be the data collection and cleaning, as the data quality is crucial for the performance of the model. The data shall be collected from internal documentations, either PDFs or tools like Confluence or Sharepoint. Once this data is gathered a process to create a vector database containing this data shall be created. The next step will be the integration of the LLM with the vector database and the creation of a simple UI which is able to query the LLM and provide relevant answers. The final step will be the testing and feedback collection from a small group of users in order to ensure that the solution is working as intended and is able to deliver value. The success metrics for this pilot will be:
+- Reduction in time spent searching for information by 40%
+- User satisfaction score of 4/5 or higher
+
+- **Pilot Execution:**
+From the perspective of pilot execution the team will be following the outlined map from the pilot design stage. The pilot design stage should take into consideration deviation from the plan due to unepexcted realms of the AI world. This stage does not only focus on implementation but on rapid review cycles and small testing by external users. The short demos shall be included for external teams to verify quality of the output during the implementation part as the most important metric of this implementation is the quality of output. Once engineers do not trust the output the adoption rate will be logarithim and will plateu quick. The pilot execution is expected to be delivered in 6 weeks as this gives enough time for the engineers to onboard to topic, setup infrastructure, collect data, clean data, train model, integrate model and test the solution. After 6 weeks it is not expecte that the full solution will be delivered but an MVP which fullfils the main requirements and meets the success criteria.
+
+- **Evaluation & Scaling Decision:**
+From the perspective on whether to scale the solution the main question is what does scaling mean? From the perspective of hardware the need to scale is out of the scope as either the company has to double in size or the amount of concurent users has to double, if neither of these metrics dramatically change the need to scale hardware-wise is not in the question. The question where to scale or not comes only when the MVP was delivered on a sample of the internal documentation and not the whole internal map was created. The decision to scale in that scenario involves inclusion of more data sources and more data into the vector database and retraining of the model. This stage than becomes very crucial as with more data the model is more likely to hallucinate and provide wrong answers as it might misunderstand concepts incorrectly written in the documentation. The decision to scale also involves the decision on adding new features such as inclusion of links to sources whic the AI chatboot is retrieve the information from. This feature is very important as it increases the transparency of the model and therefore increases the trust of the users in the output. The decision to scale still relies on the outcome of the metrics from the evaluations. These dependent metrics need to be fullfilled in order to proceed with the scaling decision. 
+
+- **Scale Deployment:**
+The scale deployment process will involve introduction of the new data and decision on which features to include. This proccess will be handled by close collaboration of the AI engineers and the end-customers (engineers) leaving feedback on the experience both from UI perspectivity and output quality. This process shall be on the quicker side as the pilot on its own does not change drastically but rather improves the quality of the output and the experience of the users. 
+
+- **AI-Native Optimization:**
+The continuou improvement and optimization will be done by retraining and optimising the internal LLM based chatbot which enhances the productivity of the engineers. Towards the end of the optimization phase new metrics will be calculated and the team will evaluate whether the solution is still delivering value or not. The goal of this stage will be to ensure that the internal LLM based chatbot has close to 100% adoption within the engineering teams. Some tasks of continuous improvement could be:
+- Refinement of response accuracy based on user feedback.
+- Adding features such as source linking, multi-language support, and voice interaction.
+
+
+
+### 6.3.5 AI-based Guru Helping with debugging & Troubleshooting locally (Github Copilot based) - Engineers will map manually all the processes and the steps they do when debugging certain issues, then AI will be trained on this data and will be able to help with debugging and troubleshooting locally and guide them on how to reproduce and fix certain issues.
+
+Software engineers spend a significant portion of their workday debugging code and troubleshooting issues which draw their attention from feature development and innovation. The studies indicate that average Software developers spend 30–40% of their productive time debugging and reproducing issues. This is particularly true when the engineers have to deal with legacy outdated code with barely any documentation and process outlining.
+The solution to this issue would be an AI-based Guru, which leverage Agentic Github Copilot technology which is trained on internal proccess mapping and historical debug workflows. This Agent would be able to guide engineers in real-time, execute faulty code and reproduce errors locally by simply following the steps outlined by the engineers. This would reduce the need for trial-and-error debugging and would allow engineers to focus on more value adding activities.
+
+This AI Guru would rely on a predefined map of processes and outcomes which the engineers would manually document. The outcome of this map would be a dataset on steps which the engineers execute on their daily basis in order to execute or generate certain objectives. An example of such a process could be: (Build a binary) and the steps to achieve this objective would be:
+1. Pull the latest code from the repository
+2. Install necessary dependencies using the package manager
+3. Run Docker environment setup script
+4. Execute the build command with appropriate flags
+5. Verify the build output and check for errors
+
+This 5 step process map would be only 1 of the use cases which the engineers would document. The more use cases the engineers document the better the AI Guru would be able to assist them in their daily work. 
+
+**Application of SAIL:**
+- **Opportunity Scouting:**
+The opportunity scouting phase comes from the pain point of the folling analysis
+
+Analysis in a mid-sized software company (1000 developers) shows:
+
+- Average time spent per debugging task: 3 hours
+- Number of debugging tasks per engineer per week: 5–7
+- Total time lost on debugging: ~ 60,000 hours/month
+- Estimated cost per developer hour: €80 fully loaded
+- Potential monthly savings: €4.8 million/month
+
+Such a large saving is an easy buy in for the management and governance board as the ROI is very high and the payback period is very short. 
+
+- **Strategic Alignment:**
+The phase of strategic alignment involes outlining the strategic goals and OKRs which this initiative alligns with. The key strategic goals and OKRs in this case could be
+- Reduce time spent on debugging by 50%
+- Reduce time to reproduce issues by 70%
+
+The outlined numbers of the OKRs are on first glance extremely high, however the impact on reproducing and debugging issues is very high as it is the sole purpose of the AI Guru to reduce the time spent on debugging and reproducing.
+
+
+- **Technical Feasibility & Data Assessment:**
+From the perspectivty of technical feasibility the team has to evaluate only single framework and this being the Github Copilot. As already previously outlined the Github Copilot is the most advanced code generation and assistance tool on the market. The technical feasibility of this tool is very high as it is a plug and play solution which integrates directly into the IDEs and code editors. 
+
+
+- **Pilot Design:**
+The perspective of the roadmap implementation for this use cases the team will start with firstly documenting the steps in which the engineers work. The identification of daily use cases which engineers face is crucial as the more use cases are documented the better the AI Guru will be able to assist the engineers. The map of all the usecases will serve as a knowledge base for the AI Guru to learn from. The second part of the pilot design will be the implementation of Github Copilot with an MCP server in order to ensure that the data is not shared with any third parties. This connection shall serve as the backbone of the AI Guru and will be the internal knowledgebase of failures combined with the map of doucumented use cases. By pattern recognition the AI Guru will be able to connect failures with steps needed to reproduce the issue. The last part of the roadmap would be tweaking and optimizing the AI Guru to ensure that it is able to deliver relevant and high quality output.
+
+- **Pilot Execution:**
+The implementation of the pilot will involve the following steps:
+- Week 1–2: Data collection and process mapping by engineers.
+- Week 2–3: Setup of MCP server and integration with Github Copilot.
+- Week 3–4: Pilot deployment with selected engineering teams, iterative feedback collected via surveys and analytics dashboards.
+- **Evaluation & Scaling Decision:**
+The evaluation of the pilot will be done based on the success metrics defined in the pilot design phase. The evaluation of the pilot will involve collection of data on time spent on debugging and reproducing issues. Decision to scale will take into consideration whether the success metrics were met or not. If the success metrics were met the team will proceed with the scaling decision and will rollout the solution to all engineering teams and start mapping more use cases in order to improve the quality of the output. 
+
+- **Scale Deployment:**
+The process of scale deployment will involve onboarding of all engineering teams and training sessions on how to use the AI Guru. The engineers will have new use cases and problems which will need to be addressed by mapping them out and retraining the AI Guru to include these new use cases into the already existing map. By growing the map the AI Guru is able to understand the dependencies and intricacies of the internal processes and is able to deliver better quality output.
+
+- **AI-Native Optimization:**
+From the perspective of being AI-native in terms of having AI Guru the steps are rather simple. Simple and continuos improvement of maps will be done in order to ensure that the AI Guru is able to deliver high quality output. Important note on this use case is that fact that internal processes change and in order for the AI Guru to stay relevant the maps have to be udpated accordingly. Some tasks of continuous improvement could be:
+- Refinement of process maps based on user feedback.
+- Adding features such as integration with issue tracking systems for automatic logging of reproduced issues.
+
+
+
+
+### 6.3.6 Automated Testing & QA Suggestions (Smart Failure analysis and fix suggestions)
+**Entry Point:**
 
 ## 6.4 Cross-Case Analysis
 
