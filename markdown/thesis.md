@@ -910,19 +910,7 @@ The stage of scale deployment will involve the rollout of the solution and negot
 - **AI-Native Optimization:**
 The continuous improvement and optimization will be done by retraining and optimising the internal MCP based solution which enhances the productivity of the developers. Towards the end of the optimization phase new metrics will be calculated and the team will evaluate whether the solution is still delivering value or not. The goal of this stage will be to ensure that Github Copilot has close to 100% adoption within the developer teams.
 
-### 6.3.2 Internal [NOT DONE] LLM Based Knowledge Base with Automated Code Documentation 
-**Entry Point:**
-The following use case is trying to solve the problem of documentation and knowledge sharing within the organization. This problem stems from the fact of documentation silos and the lack of central access to knowledge. The problem is further exacerbated by the fact that certain pages and teams follow different documentation standards and the quality of the documentation is not consistent across the organization and sometimes the documentation is simply outdated and not relevant anymore. Solution to such the problem of code documentation will be an AI based knowledge base fetching all the information from different sources in code and providing relevant feedback to the engineers on any question asked.
-
-**Application of SAIL:**
-- **Opportunity Scouting:**
-The opportunity scouting phase involves identification of the painpoint in the documentation process. The average time of engineers trying to search for relevant documentation is around 30 minutes per day, which translates to 10 hours per month per engineer. For a team of 100 engineers this translates to 1000 hours per month of time wasted on searching for relevant documentation. The potential monetary value of this time is around EUR 80,000 per month (assuming EUR 80/hour fully loaded cost). This is once again a very significant amount of money for the company which can be reinvested into more value adding activities. This could be solved by having a central knowledge base which is able to be queried by the engineers and is able to provide relevant and up to date information in close to real time. This system could be coupled with an automated code documentation which would be able to generate documentation on each commit to the repository and would ensure that the documentation is always up to date and relevant.
-
-- **Strategic Alignment:**
-The abiltiy 
-
-
-### 6.3.3 AI-based developer Productivity Analytics & Sprint Planning
+### 6.3.2 AI-based developer Productivity Analytics & Sprint Planning
 **Entry Point:**
 The third use case is trying to solve the problem of sprint planning and resource allocation by having an AI based data-driven approach which relies on historical data and is able to provide relevant insights and recommendations on how to plan the sprints and allocate the resources. This type of a solution focused on managers, stakeholders and team leads as they are responsible for appropriate planning and resource allocation. The ability to have AI based recommendation system mitigates the risk of human error and bias towards estimation of story points and resource allocation. This approach of AI-based developer productivity analytics aims to leverage historical development data, code repositories, issue tracking systems, and project management tools to generate objective, data-driven insights for sprint planning, effort estimation, and resource optimization.
 
@@ -1012,7 +1000,7 @@ The continuous improvement in this pilot is more crucial than one might think as
 - Refinement of predictive accuracy based on user feedback.
 - Adding features such as risk detection for high-complexity stories and team-level efficiency benchmarks.
 
-### 6.3.4 Internal AI Chatbot for Employee Queries
+### 6.3.3 Internal AI Chatbot for Employee Queries
 **Entry Point:**
 The following use case focuses on a very important and crucial aspect of any organization, being the internal communication and knowledge sharing. The distributed knowledge and lack of well-connected documentation is an issue troubling most of the organizations in software industry. This problem will be solved by ad internal LLM based chatbot with capability of answering questions and providing relevant information in close to real time. This chatbot does not only answer questions per page, but is capable of creating an internal interconnected mind map of knowledge which contains every single detail the company decides to put in it and allow for interal search and knowledge sharing. This capability of restricting in what to add in the knowledge base is crucial as the company is able to restrict any sensitive information, which shal not be availabe for other employees. The chatbot will be able to answer questions regarding internal tools, processes, status of projects and other relevant information which the engineers might be questioning. This chatbot will be able to save time and increase productivity of the engineers as they will not have to search for relevant information and the access to information at any-time and thus reducing the load on employees with knowledge silos.
 
@@ -1057,7 +1045,7 @@ The continuou improvement and optimization will be done by retraining and optimi
 
 
 
-### 6.3.5 AI-based Guru Helping with debugging & Troubleshooting locally (Github Copilot based) - Engineers will map manually all the processes and the steps they do when debugging certain issues, then AI will be trained on this data and will be able to help with debugging and troubleshooting locally and guide them on how to reproduce and fix certain issues.
+### 6.3.4 AI-based Guru Helping with debugging & Troubleshooting locally (Github Copilot based) - Engineers will map manually all the processes and the steps they do when debugging certain issues, then AI will be trained on this data and will be able to help with debugging and troubleshooting locally and guide them on how to reproduce and fix certain issues.
 
 Software engineers spend a significant portion of their workday debugging code and troubleshooting issues which draw their attention from feature development and innovation. The studies indicate that average Software developers spend 30–40% of their productive time debugging and reproducing issues. This is particularly true when the engineers have to deal with legacy outdated code with barely any documentation and process outlining.
 The solution to this issue would be an AI-based Guru, which leverage Agentic Github Copilot technology which is trained on internal proccess mapping and historical debug workflows. This Agent would be able to guide engineers in real-time, execute faulty code and reproduce errors locally by simply following the steps outlined by the engineers. This would reduce the need for trial-and-error debugging and would allow engineers to focus on more value adding activities.
