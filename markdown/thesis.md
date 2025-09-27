@@ -870,7 +870,7 @@ This use case will be trying to solve the everlasting problem of developers writ
 - **Opportunity Scouting:** 
 The initial analysis startys by identification of a painpoint in the developer workflow, in this case it is the developers spending endless hours writing boilerplate code which can sometimes be tedious or even close to duplicate. A time motion study suggests that cutting the time spent on boilerplate code by half could potnetially save 7-8% of the total productive time dedicated for coding.
 
-This means that for only 100 developers, this will quite easily translate to 1200 hours saved per month, which translates to EUR 96,000 (assuming EUR 80/hour fully loaded cost) in the developer team alone. This can be easily justified as an immediate win and a quick optimization for the company
+This means that for only 1000 developers, this will quite easily translate to 1200 hours saved per month, which translates to EUR 960,000 (assuming EUR 80/hour fully loaded cost) in the developer team alone. This can be easily justified as an immediate win and a quick optimization for the company
 
 
 - **Strategic Alignment:** 
@@ -920,12 +920,12 @@ During the initial stages of the the opportunity scouting the team will be respo
 
 - Sprint overcommitment occurs in 40% of sprints, causing 15–20% of tasks to spill over and thue leading to work out of scope.
 
-- Manual tracking and reporting consume 2 hours per developer per week, equivalent to 800 hours/month for a 100-person team. 
+- Manual tracking and reporting consume 2 hours per developer per week, equivalent to 8000 hours/month for a 1000-person team. 
 
 - Inefficient allocation results in 10–12% lower productivity per sprint compared to historical potential.
 
 By implementing an AI-driven agent to properly estimate and allocate resources the company is able to:
-- Save over 800 hours/month of precious engineering time and thus EUR 64,000/month (assuming EUR 80/hour fully loaded cost).
+- Save over 8000 hours/month of precious engineering time and thus EUR 640,000/month (assuming EUR 80/hour fully loaded cost).
 - Improve the sprint velocity by 10-15% and therefore be able to deliver quicker
 - Appropariately allocate resources and do not create bottlenecks in the team
 
@@ -986,10 +986,10 @@ Towards the end of the Pilot execution phase the team will be able to collect th
 Once the pilot execution phase is over the team will be able to evaluate the success of the pilot based on the success metrics defined earlier. Once the results are in and they outperform the success metrics the team will be able to proceed into the scaling decision. The very realistic numbers indicate that the team will be able to proceed with the scaling decision as:
 
 - the actual time saving on sprint planning is closer to 18%
-- Reporting time reduced by 52%, saving ~416 hours/month.
+- Reporting time reduced by 52%, saving ~4160 hours/month.
 - Developer satisfaction would score at 4.3/5.
 
-The governance board and the management would approve the scaling decision based on the ROI calcaulations of 416 hours saved per month * EUR 80/hour fully loaded cost = EUR 33,280/month. This number is only for a team of 100 developers, thus the scaling decision is a no-brainer.
+The governance board and the management would approve the scaling decision based on the ROI calcaulations of 4160 hours saved per month * EUR 80/hour fully loaded cost = EUR 332,800/month. This number is only for a team of 1000 developers, thus the scaling decision is a no-brainer.
 
 - **Scale Deployment:**
 Full rollout of this pilot will involve onboarding of all engineering managers, team leads and upper management. They will have to follow a structured onboarding process and a wave of change management will have to be done as some managers might feel anxiety as this AI agent is "taking away" their power of decision making. The change management process will involve training sessions, workshops, documentation, internal communication which emphasizes on AI as assistant and not as a replacement. 
@@ -1006,7 +1006,7 @@ The following use case focuses on a very important and crucial aspect of any org
 
 **Application of SAIL:**
 - **Opportunity Scouting:**
-The opportunity scouting phase for this use case will involve identification of the painpoint of knowledge sharing and internal communication. The entity most likely coming up with this idea is the Junior Engineers and new hires, which have a tough time during onboarding as a new environment in a poorly structured company document-wise. The average time of engineers trying to search for relevant documentation is around 30 minutes per day, which translates to 10 hours per month per engineer. For a team of 100 engineers this translates to 1000 hours per month of time wasted on searching for relevant documentation. The potential monetary value of this time is around EUR 80,000 per month (assuming EUR 80/hour fully loaded cost). The time and money wasted on searching for relevant information is a very significant amount, which bleads through the hands of the company. 
+The opportunity scouting phase for this use case will involve identification of the painpoint of knowledge sharing and internal communication. The entity most likely coming up with this idea is the Junior Engineers and new hires, which have a tough time during onboarding as a new environment in a poorly structured company document-wise. The average time of engineers trying to search for relevant documentation is around 30 minutes per day, which translates to 10 hours per month per engineer. For a team of 1000 engineers this translates to 10000 hours per month of time wasted on searching for relevant documentation. The potential monetary value of this time is around EUR 800,000 per month (assuming EUR 80/hour fully loaded cost). The time and money wasted on searching for relevant information is a very significant amount, which bleads through the hands of the company. 
 
 - **Strategic Alignment:**
 During the strategic alignment phase the team will have to ensure that the initiative alligns with the strategic goals and OKRs of the company. The key strategic goals and OKRs in this case could be
@@ -1122,6 +1122,33 @@ The entire objective of this thesis was to create a structured framework which w
 
 The role of the governance board fades out when use cases utilise same or similiar technology as the risks and potential complications are already known and therefore the governance board does not have to spend a lot of time evaluating the risks. Great example for this is the usage of Github Copilot for code generation and assistance. The risks and potential complications are already known and therefore the governance board does not have to spend a lot of time evaluating the risks.
 
+In terms of insights which were gathered, it can be seen that the SAIL framework is a great fit for problems which usually require a lot of trial and error and are not straightforward. The more complex the problem the more value SAIL is able to deliver as it breaks down the complexity into smaller manageable pieces. 
+
+The most valuable insights we have gathered are the numbers and the potential impact of the outlined use cases.  
+
+The summary of expected impact of the outlined use cases for a company with 1000 developers is the following:
+
+| Use Case                                   | Time Savings (hours/month) | Cost Savings (EUR/month) | Other Benefits                                      | Percentage Improvement          |
+|--------------------------------------------|----------------------------|--------------------------|----------------------------------------------------|----------------------------------|
+| AI-based Code Generation & Assistance      | 12,000                     | 960,000                  | Faster feature delivery, improved code quality     | 50% reduction in coding time     |
+| AI-based Sprint Planning & Resource Allocation | 8,000                      | 640,000                  | Improved sprint predictability, reduced idle time   | 20% increase in sprint velocity   |
+| Internal LLM Chatbot for Knowledge Sharing | 10,000                     | 800,000                  | Faster access to information, improved onboarding   | 50% reduction in search time      |
+| AI-based Debugging & Troubleshooting Guru  | 60,000                     | 4,800,000                | Faster issue resolution, reduced downtime           | 70% reduction in debugging time   |
+
+
+The outlined numbers showcase the immense potential of AI adoption in software companies, this however is only possible to be achieved with a structured approach which companies lack. The SAIL framework. If multiple of these use cases are implemented at once and proper change management is done the impact on the productivity of the engineers and the overall efficiency of the company is truly revolutionary. This marks a historic moment for companies to leverage AI in order to create sustainable competitive advantage.
+
+In vaccuum the outlined use cases are able to save around 90,000 hours per month which translates to around EUR 7.2 million per month. This is a truly revolutionary number and therefore the importance of structured AI adoption is crucial for companies to leverage this opportunity. This metric is not the full truth as each of these use cases have an effect on each other and therefore the overall impact is not a simple sum of all the use cases but rather a complex interplay of multiple factors. However, the outlined numbers showcase the immense potential of AI adoption in software companies, this however is only possible to be achieved with a structured approach which companies lack. The SAIL framework provides just that. 
+
+90 000 hours per month = 7.2 million EUR per month. Numbers which are truly revolutionary for a company. The only question is how to leverage this opportunity. That question however is not the scope of the SAIL framework.
+
+Very important insight which was gathered is the fact that the SAIL framework is not actually a guarantee of success. The best comparison for SAIL is a GPS navigation system. It provides a structured approach and a roadmap to the destination, however it does not guarantee that you will reach the destination. 
+
+
+This type of mentality positions the SAIL framework as a means of delivery and not as a final product. The success of the AI adoption initiative still relies on the input of ideas and creativity of the engineers and the management. That is one of the reasons why SAIL framework focuses on "Engineer first" mentality as engineers know their daily struggles and pain points the best. 
+
+
+
 
 
 ## 7.2 Contributions to Theory and Practice
@@ -1146,34 +1173,55 @@ The next potential steps would be usage of the SAIL framework in other industrie
 ## 7.5 Reflections on the framework and its application
 The SAIL framework represents a significant advancement in the structured adoption of AI within software organizations. The major AI based use cases which SAIL is pefect at employing and solving are use cases which are focused on internal process optimization and enhancement of productivity. The oultined 4 use cases of AI based code generation and assistance, AI based sprint planning and resource allocation, internal LLM based chatbot for knowledge sharing and AI based Guru for debugging and troubleshooting are only a starting point but all of them encompass the core principles of SAIL. The key pattern in them is either code base optimisation or workflow optimisation. On other hand these use cases are in fact the key processes which software companies are focusing on in order to increase their productivity and efficiency. Coding takes majority of the time of software engineers and therefore any optimisation in this area is a direct increase in productivity. From the managerial perspective the use cases for workflow optimisation and improvement are mainly focused on orchestrating the engineering workforce in the most efficient and sustainable manner. If managers are able to achieve this better and faster with AI use cases the productivity of the whole organisation increases.
 
-Use cases which do not make sense to be implemented with the SAIL framework are use cases which are not directly linked to internal process optimisation or are too simple to be implemented with SAIL. A perfect example for this is the usage already existing AI based tools and simply enabling them. SAIL as a framework requires complexity and therefore simple use cases such as turning on page summarisation in Confluence for all engineers or enabling Grammarly for all employees do not make sense to be implemented with SAIL. These 2 outlined use case can be implemented by simply turning on the feature and therefore the entire process of SAIL is not required as these processes do not need granularization and decomposition into smaller manageable pieces. 
+Use cases which do not make sense to be implemented with the SAIL framework are use cases which are not directly linked to internal process optimisation or are too simple to be implemented with SAIL. A perfect example for this is the usage already existing AI based tools and simply enabling them. SAIL as a framework requires complexity and therefore simple use cases such as turning on page summarisation in Confluence for all engineers or enabling Grammarly for all employees do not make sense to be implemented with SAIL. These 2 outlined use case can be implemented by simply turning on the feature and therefore the entire process of SAIL is not required as these processes do not need granularization and decomposition into smaller manageable pieces.
 
 SAIL is a perfect fit for medium to complex use cases which require a structured progress for initiatives to be successful. Use cases which might come with a level of risk and uncertainty are also a perfect fit for SAIL as it has multiple quality gates, review stages and stakeholder involvement. The complexity of the use case is directly proportional to the value SAIL is able to deliver. The more complex the use case the more value SAIL is able to deliver as it breaks down the complexity into smaller manageable pieces and therefore increases the probability of success.
 
 
-# Chapter 8 – Conclusion & Future Research
 
-## 8.1 Recap of the Research
-- Re-state the central research question.  
-- Summarize the design-based research process leading to SAIL.  
-- Condense the empirical validation through the four use cases into 2–3 key takeaways.
+# Chapter 8: Conclusion and Final Thoughts
 
-## 8.2 Managerial Recommendations
-- Step-by-step advice for companies implementing SAIL:
-  - Start with small pilots and measurable success criteria.
-  - Secure executive sponsorship early.
-  - Maintain continuous monitoring and feedback loops.
-- Stress importance of change management and internal education.
+## 8.1 Summary of Research (300-400 words)
+- Recap the main objective of the thesis: creating a structured framework (SAIL) for AI adoption in software companies.
+- Summarize how the framework was developed (iterative steps, quality gates, pilot-based approach).
+- Highlight key outcomes from Chapter 7 (use case metrics, ROI potential, productivity improvements).
+- Emphasize the “Engineer-first” mentality and focus on internal process optimization.
 
-## 8.3 Future Research Directions
-- Full **real-world deployment** of SAIL in a live software organization.  
-- Longitudinal studies to measure sustained productivity gains.  
-- Cross-industry comparison (e.g., financial services, manufacturing).  
-- Integration of SAIL with AI governance/ethics frameworks.
+## 8.2 Key Contributions (300-400 words)
+- **Theoretical contributions:**
+  - Reinforce links to Dynamic Capabilities Theory (sensing, seizing, transforming).
+  - Highlight contributions to Innovation Diffusion theory (iterative pilots, concrete metrics, adoption acceleration).
+- **Practical contributions:**
+  - How SAIL guides CTOs and engineering leaders in structured AI adoption.
+  - Use case applicability and replicable roadmap for medium to complex initiatives.
+  - Metrics-driven decision making: ROI, hours saved, efficiency improvements.
 
-## 8.4 Closing Remarks
-- Short, forward-looking statement on the role of structured AI adoption in shaping the future of software engineering.  
-- Reinforce SAIL as a practical roadmap for turning AI experimentation into scalable business value.
+## 8.3 Limitations and Caveats (200-300 words)
+- Recap limitations mentioned in Chapter 7:
+  - Prospective validation only, no full live deployment.
+  - Dependence on expert judgement and initial assumptions.
+  - Data quality or cultural variables that may affect applicability.
+- Discuss caution when generalizing across industries.
+- Note that SAIL provides structure, not guaranteed success — human creativity and input remain critical.
+
+## 8.4 Practical Implications (300-400 words)
+- Reinforce impact on software companies: productivity gains, reduced time-to-market, knowledge management.
+- Explain how leaders can use SAIL to prioritize high-impact AI initiatives.
+- Discuss change management and governance aspects, especially for scaling pilots.
+- Suggest potential cross-industry adaptation opportunities and considerations.
+
+## 8.5 Future Research Directions (300-400 words)
+- Suggest live deployment studies and longitudinal validation.
+- Explore integration with emerging AI trends (autonomous agents, generative testing).
+- Investigate SAIL applicability in slower-moving industries (financial, manufacturing).
+- Consider exploring hybrid frameworks combining SAIL with Agile or DevOps practices.
+
+## 8.6 Final Thoughts (200-300 words)
+- Reiterate the importance of structured AI adoption.
+- Highlight SAIL as a flexible, iterative, and measurable framework.
+- Emphasize that SAIL serves as a “GPS” for AI initiatives: it provides guidance, not a guaranteed outcome.
+- Conclude with a statement on the potential long-term i
+
 
 
 
