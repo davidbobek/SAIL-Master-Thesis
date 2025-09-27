@@ -1106,71 +1106,77 @@ From the perspective of being AI-native in terms of having AI Guru the steps are
 
 
 
-
-### 6.3.6 Automated Testing & QA Suggestions (Smart Failure analysis and fix suggestions)
-**Entry Point:**
-
-## 6.4 Cross-Case Analysis
-
-**Patterns identified:**
-- **Critical stages:** Feasibility & Risk Assessment and Pilot Execution were pivotal across most cases.
-- **Common edge cases:** Data quality/availability and user adoption resistance were frequent blockers.
-- **Governance impact:** Strong governance accelerated scaling and resolved conflicts (e.g., overlapping pilots, compliance).
-- **Knowledge reuse:** Lessons from early pilots (e.g., documentation automation) informed later, more complex use cases.
-
-**General insights:**  
-- Early-stage “quick wins” build momentum and organizational confidence.
-- Strategic/complex cases require more governance and cross-team coordination.
-- Reuse mechanisms (playbooks, repositories) reduce duplication and speed up adoption.
-
-## 6.5 Validation of the Framework
-
-The use cases demonstrate that SAIL is robust and adaptable, supporting both rapid “quick win” implementations and more strategic, high-stakes AI initiatives. The framework’s staged approach, governance, and feedback mechanisms proved effective in handling diverse scenarios. However, this validation is conceptual; real-world field experiments are needed for empirical generalization.
-
 ## 6.6 Summary of Findings
 
-The application of SAIL to ten diverse use cases confirms its practical value for software organizations. SAIL enables structured, scalable, and coordinated AI adoption, with built-in mechanisms for governance and knowledge reuse. These insights set the stage for the broader discussion in Chapter 7.
+The outlined use cases demonstrate clear application of the SAIL framework across diverse scenarios in order to solve pain points which software companies face on a daily basis. The structured approach of SAIL ensures that each use case is thoroughly evaluated, strategically aligned, technically feasible, and effectively implemented with governance oversight. The success metrics defined for each use case provide clear benchmarks for evaluating impact and guiding scaling decisions. Overall, the application of SAIL in these use cases highlights its versatility and effectiveness in driving successful AI adoption in software organizations.
+
+This prospective empirical section was created in order to showcase the application of SAIL and how can it be leveraged in real life scenarios. The data and numbers outlined in this section are prospective and still do represent realistic scenarios based on expert insights and data collected from public sources. The actual empirical testing and its adoption in larger pilots and project will be a matter of future work.
+This chapter shall only serve as a demonstration of the application of SAIL from the theoretical to practical perspective. The practical walkthrough of SAIL can be considered a proof of concept for the framework as it is able to decomopose complex problems into smaller manageable pieces and therefore increase the probability of success of AI adoption initiatives.
 
 
----
+# Chapter 7 – Discussion
 
-# 7. Discussion
-## 7.1 Theoretical Contributions  
-- How SAIL extends existing frameworks.  
-- Integration of multiple theoretical lenses into one model.  
+## 7.1 Key Insights
 
-## 7.2 Practical Implications for Software Organizations  
-- Playbook for CTOs and managers.  
-- Guidelines for avoiding fragmented AI adoption.  
+The entire objective of this thesis was to create a structured framework which would help software companies to adopt AI in a structured manner and increase the probability of success. The creation of SAIL framework serves as the first lifecycle framework which works on iterative steps and adapts to each use case accordingly. The SAIL framework decomposes a large AI initiative into 8 steps each with a quality gate being the decision to proceed, iterate or stop. In regards to the insights from the use cases the most significant findings is the cleverness of the framework to really granularize the complex problem of AI adoption into smaller manageable pieces. The ease of the implementation of the framework is one of the key success factors as it does not require a lot of resources to implement it. Other frameworks which are focused on project management such as PRINCE2 or Agile are very resource intensive and require a lot of time and effort to implement them. The lightweight nature of SAIL is one of the key success factors. THe most resource intensive stage of SAIL is the pilot execution phase which in fact is not actually resource intense as the only resource intense part is the actual implementation of the pilot and thus it being the engineering time, which would otherwise be spent on feature development. The surprising success factor is the fact that the governance board does not require a lot of time and effort as the decision making is very straightforward and the quality gates are very clear. 
 
-## 7.3 Comparison with Existing Models  
-- Side-by-side strengths and weaknesses.  
-- Unique value of SAIL (lifecycle + coordination + reuse).  
+The role of the governance board fades out when use cases utilise same or similiar technology as the risks and potential complications are already known and therefore the governance board does not have to spend a lot of time evaluating the risks. Great example for this is the usage of Github Copilot for code generation and assistance. The risks and potential complications are already known and therefore the governance board does not have to spend a lot of time evaluating the risks.
 
-## 7.4 Challenges and Limitations  
-- Conceptual boundaries.  
-- Risks of overgeneralization.  
-- Directions for empirical follow-up.  
 
----
 
-# 8. Conclusion & Future Work
-## 8.1 Summary of Findings  
-- Restate research question and main outcomes.  
+## 7.2 Contributions to Theory and Practice
+The SAIL framework is contributing to both theory and practice in several ways. From the perspective of theoretical contribution the SAIL framework is linking to Dynamic Capabilities Theory as it operationalizes the sensing, seizing and transforming capabilities of an organization. Its direct transformation of not only physical resources but also digital assets is a great contribution to the theory as it showcases a new and innovative way on how to leverage digital assets in order to create value. SAIL framework as a new and revolutionary framework is also linked to Innovation Diffusion theory and it extends its scope by adding concrete metrics and iterative pilots which help to increase the probability of success of AI adoption initiatives. Innovation diffusion theory is often criticised for being too abstract and not providing concrete steps on how to implement it. SAIL framework solves just that. It provides concrete steps on how to guide and implement a new innovative branch of the company.
 
-## 8.2 Contributions to Theory and Practice  
-- Academic relevance.  
-- Practical usability for organizations.  
+The practical intrinsic value of SAIL is that it helps CTOs and engineering leaders to guide company through the complex world of AI adoption and yield feasible sustainable advantage from internal AI initiatives. By clearly prioritizing high-impact AI projects and utilizing structured approach of the SAIL framework the risk of failure is significantly reduced. By utilizing the opportunity scouting and multi-pilot design even during the roughest times and uncertainty the company is able to navigate as it is a replicable roadmap.
+From the practival and value driven aspect the potential money and time savings are only as impactful as are the creative and impactful the use cases are. SAIL framework does not guarantee return on investment, SAIL framework guarantees a structured approach and stability. It opens the door for value creation as clearly described metrics in previous chapter. The most significant metrics in terms of ROI outlined was the investment in the AI Guru which is able to cut down 4.8 million EUR per month in debugging costs down by 70% and thus saving the company around 3.36 million EUR per month. 
 
-## 8.3 Future Research Directions  
-- Empirical testing of SAIL.  
-- Expansion to other industries beyond software.  
 
-## 8.4 Final Reflection  
-- Broader perspective on AI adoption journey.  
-- Closing thought on the role of frameworks in Digital Transformation.  
+## 7.3 Limitations
+The number 1 limitation of this thesis is the fact that the validation of the framework was only prospective and not through a full live deployment. By having a full live deployment the framework would be tested in real life scenarios and therefore the probability of success would be even higher. 
 
----
+
+Me as an expert guiding company through AI adoption have utilised exactly the same framework in order to guide the company through the process of scouting opportunities with brainstorming sessions, strategic alignment with concrete analysis and OKRs, technical feasibility and data assessment with deep dive into the technical infrastructure and data quality, pilot design with precise roadmap allowing for smooth implementation, to pilot execution with agile approach and rapid review cycles, evaluation and scaling decision with clear quality gates, scale deployment with structured onboarding and change management and finally finishing with a full AI-native optimisation. Unfortunately, due to governance further ellaboration on outcomes and results is not possible. However, the prospective validation of the framework through 4 different use cases showcases the versatility and applicability of the framework in different scenarios. 
+
+
+## 7.4 Implications and Next Steps
+The next steps of this research would be the full real-world deployment of SAIL in a live software organization. This is an action which is alread in plan and will be executed in the upcoming period of time. The feedback with multiple usecases of SAIL will be collected and the framework will be validated even more. In terms of readjustment of the framework the next steps would be to include more AI trends such as generative agents and autonomous testing which are emerging trends in the AI world. The 8 steps are broad enough to encompass any new AI trend, however the devil is in the details and usage of the framework in real life scenarios will showcase potential gaps and areas of improvement. 
+
+The next potential steps would be usage of the SAIL framework in other industries beyond software. The framework is broad enough to be adapted to other industries such as financial services, manufacturing and others. This type of cross-industry adoption might shake the grounds of the SAIL framework and it might not be the perfect fit for not so dynamic and slower industries. However, the core principles of SAIL are universal and therefore the framework might be adapted to other industries with slight modifications.
+
+## 7.5 Reflections on the framework and its application
+The SAIL framework represents a significant advancement in the structured adoption of AI within software organizations. The major AI based use cases which SAIL is pefect at employing and solving are use cases which are focused on internal process optimization and enhancement of productivity. The oultined 4 use cases of AI based code generation and assistance, AI based sprint planning and resource allocation, internal LLM based chatbot for knowledge sharing and AI based Guru for debugging and troubleshooting are only a starting point but all of them encompass the core principles of SAIL. The key pattern in them is either code base optimisation or workflow optimisation. On other hand these use cases are in fact the key processes which software companies are focusing on in order to increase their productivity and efficiency. Coding takes majority of the time of software engineers and therefore any optimisation in this area is a direct increase in productivity. From the managerial perspective the use cases for workflow optimisation and improvement are mainly focused on orchestrating the engineering workforce in the most efficient and sustainable manner. If managers are able to achieve this better and faster with AI use cases the productivity of the whole organisation increases.
+
+Use cases which do not make sense to be implemented with the SAIL framework are use cases which are not directly linked to internal process optimisation or are too simple to be implemented with SAIL. A perfect example for this is the usage already existing AI based tools and simply enabling them. SAIL as a framework requires complexity and therefore simple use cases such as turning on page summarisation in Confluence for all engineers or enabling Grammarly for all employees do not make sense to be implemented with SAIL. These 2 outlined use case can be implemented by simply turning on the feature and therefore the entire process of SAIL is not required as these processes do not need granularization and decomposition into smaller manageable pieces. 
+
+SAIL is a perfect fit for medium to complex use cases which require a structured progress for initiatives to be successful. Use cases which might come with a level of risk and uncertainty are also a perfect fit for SAIL as it has multiple quality gates, review stages and stakeholder involvement. The complexity of the use case is directly proportional to the value SAIL is able to deliver. The more complex the use case the more value SAIL is able to deliver as it breaks down the complexity into smaller manageable pieces and therefore increases the probability of success.
+
+
+# Chapter 8 – Conclusion & Future Research
+
+## 8.1 Recap of the Research
+- Re-state the central research question.  
+- Summarize the design-based research process leading to SAIL.  
+- Condense the empirical validation through the four use cases into 2–3 key takeaways.
+
+## 8.2 Managerial Recommendations
+- Step-by-step advice for companies implementing SAIL:
+  - Start with small pilots and measurable success criteria.
+  - Secure executive sponsorship early.
+  - Maintain continuous monitoring and feedback loops.
+- Stress importance of change management and internal education.
+
+## 8.3 Future Research Directions
+- Full **real-world deployment** of SAIL in a live software organization.  
+- Longitudinal studies to measure sustained productivity gains.  
+- Cross-industry comparison (e.g., financial services, manufacturing).  
+- Integration of SAIL with AI governance/ethics frameworks.
+
+## 8.4 Closing Remarks
+- Short, forward-looking statement on the role of structured AI adoption in shaping the future of software engineering.  
+- Reinforce SAIL as a practical roadmap for turning AI experimentation into scalable business value.
+
+
+
 
 # References
 [Use [REF] placeholders during drafting; insert proper citations later.]  
