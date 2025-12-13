@@ -2,8 +2,9 @@
 \usepackage[]{indentfirst}
 \usepackage{amsmath}
 \usepackage{array} % For table formatting with \arraybackslash
-\usepackage{natbib} % For APA-like citations
-\bibliographystyle{unsrtnat} % Citation order style (not alphabetical)
+\usepackage[round,authoryear]{natbib} % For APA-style citations with parentheses
+\setcitestyle{authoryear,round,citesep={;},aysep={,},yysep={,}} % APA 7 formatting
+\bibliographystyle{apalike} % APA-like style with (Author, Year) format
 \usepackage{booktabs}
 \usepackage{longtable}
 
@@ -45,9 +46,9 @@
 
 \chapter{Introduction}
 	
-	The rapid adoption of Artificial Intelligence (AI) technologies is transforming the way software organizations operate. While AI offers significant potential for innovation, efficiency, and competitive advantage \cite{McKinsey2024b}, many organizations struggle to integrate AI solutions effectively into their existing workflows \cite{Deloitte2025}. Challenges include aligning AI initiatives with strategic objectives, managing the AI lifecycle, ensuring governance, and fostering organizational readiness \cite{IBM2024}.
+	The rapid adoption of Artificial Intelligence (AI) technologies is transforming the way software organizations operate. While AI offers significant potential for innovation, efficiency, and competitive advantage \citep{McKinsey2024b}, many organizations struggle to integrate AI solutions effectively into their existing workflows \citep{Deloitte2025}. Challenges include aligning AI initiatives with strategic objectives, managing the AI lifecycle, ensuring governance, and fostering organizational readiness \citep{IBM2024}.
 	
-	This thesis introduces \textbf{SAIL}, the \textit{Strategic AI Lifecycle} framework, designed to guide software organizations in the coordinated adoption of AI. SAIL provides a structured approach to managing AI initiatives, from strategic planning to deployment and continuous monitoring \cite{Stone2025}, ensuring that AI adoption is both effective and sustainable. By leveraging this framework, organizations can systematically address technical, operational, and strategic challenges associated with AI, enabling better decision-making and innovation.
+	This thesis introduces \textbf{SAIL}, the \textit{Strategic AI Lifecycle} framework, designed to guide software organizations in the coordinated adoption of AI. SAIL provides a structured approach to managing AI initiatives, from strategic planning to deployment and continuous monitoring \citep{Stone2025}, ensuring that AI adoption is both effective and sustainable. By leveraging this framework, organizations can systematically address technical, operational, and strategic challenges associated with AI, enabling better decision-making and innovation.
 	
 	\section{Research Objectives}
 	
@@ -67,7 +68,7 @@ theoretical lenses relevant to AI adoption in software organizations.
 The concept of AI adoption is multifaceted, involving technological,
 organizational, and strategic dimensions. The main challange is the lack
 of an integrated framework which is addressing the concept of ``Full
-Lifecycle'' adoption of AI in a coordinated and scalable manner \cite{Nogare2025}. The
+Lifecycle'' adoption of AI in a coordinated and scalable manner \citep{Nogare2025}. The
 aspect of AI being a very new technology, hinders the existence of
 established frameworks and supportive literature. Therefore, this
 chapter will rather review individual theories and models that are going
@@ -84,16 +85,16 @@ not so well pointed out aspect is the type of company to which EA is
 applied. Different types of companies have different needs and
 requirements and technological readiness. Software organizations are
 typically more agile and introduction of major changes is easier to
-implement and does not create a lot of resistance \cite{Kaddoumi2022}. In contrast to this,
+implement and does not create a lot of resistance \citep{Kaddoumi2022}. In contrast to this,
 traditional industries such as manufacturing or banking are more rigid
 and changes are harder to implement, thus EA frameworks in these
-industries are more rigid and bureaucratic \cite{Canat2018}.
+industries are more rigid and bureaucratic \citep{Canat2018}.
 
 EA does not work as a silver bullet and it is not solving all problems
 by itself. There are several frameworks and methodologies which are used
 in practice. The most well known and implemented in companies are
-The Open Group Architecture Framework (TOGAF) \cite{TheOpenGroup2022} and the Zachman
-Framework \cite{Zachman1987}. The mentioned frameworks are the current state of the art in
+The Open Group Architecture Framework (TOGAF) \citep{TheOpenGroup2022} and the Zachman
+Framework \citep{Zachman1987}. The mentioned frameworks are the current state of the art in
 EA and are widely used in practice. Each of the frameworks has its
 strengths and weaknesses and the choice of the framework depends on the
 context of the organization. TOGAF being more dominant in the cases
@@ -103,11 +104,11 @@ Framework is more suitable for traditional and rigid organizations.
 In the current Digital Transformation era, TOGAF is more suitable as
 more and more organizations are becoming agile and dynamic and the usage
 of AI can be implemented in a way that is more aligned with TOGAF
-principles while still keeping the structure and rigor of EA \cite{Fitriani2023}. The usage
+principles while still keeping the structure and rigor of EA \citep{Fitriani2023}. The usage
 and value extraction of AI in organizations is not a trivial task and it
 requires a structured approach. EA can provide the necessary structure
 and rigor to ensure that AI initiatives are aligned with business
-strategy and goals \cite{Ern2025}.
+strategy and goals \citep{Ern2025}.
 
 EA is therefore crucial for AI integration and scaling :
 
@@ -115,7 +116,7 @@ EA is therefore crucial for AI integration and scaling :
 	\item
 	It alligns AI initiatives with business strategy, ensuring that
 	isolated pilots are connected to broader organizational goals and
-	prevents existance of ``siloed'' AI projects \cite{McKinsey2024b}.
+	prevents existance of ``siloed'' AI projects \citep{McKinsey2024b}.
 	\item
 	It provides a systemic view of the organization while having
 	established governance mechanisms, which is crucial for managing the
@@ -123,7 +124,7 @@ EA is therefore crucial for AI integration and scaling :
 	\item
 	It facilitates reuse of AI assets (models, data, knowledge) across
 	teams by establishing common standards and repositories, thus
-	preventing duplication of efforts and promoting efficiency \cite{Lakarasu2022}.
+	preventing duplication of efforts and promoting efficiency \citep{Lakarasu2022}.
 \end{itemize}
 
 On contrast the framework of Zachman is more rigid and bureaucratic and
@@ -155,7 +156,7 @@ in software organizations.
 The concept of Digital Transformation is closely related to the adoption
 of AI in organizations. Digital Transformation refers to the integration
 of digital technologies into all areas of a business, fundamentally
-changing how the organization operates and delivers value to customers \cite{Westerman2019}.
+changing how the organization operates and delivers value to customers \citep{Westerman2019}.
 Year by year, more and more organizations are undergoing Digital
 Transformation in order to stay competitive in the market and the
 prevalence of AI is only amplifying this successful digital revolution.
@@ -163,7 +164,7 @@ The proof of the fact that Digital Transformation is in fact a
 successful concept can be seen by comparing the performance of companies
 which have undergone Digital Transformation in the last decade. Digital leaders
 achieve earnings growth that is 1.8 times higher than digital laggards, and more than
-double the growth in total enterprise value \cite{BCG2020}. The companies which have undergone
+double the growth in total enterprise value \citep{BCG2020}. The companies which have undergone
 Digital Transformation have seen a significant increase in revenue and
 market share, while the companies which have not undergone Digital
 Transformation have seen a decline in revenue and market share.
@@ -171,12 +172,12 @@ Transformation have seen a decline in revenue and market share.
 The success of Digital Transformation can be observed in the performance
 of companies that have succesfully embraced it compared to those that
 have not. Firms that have implemented Digital Transformation strategies
-report significantly stronger revenue growth and improved market share \cite{DeloitteInsights2023}.
+report significantly stronger revenue growth and improved market share \citep{DeloitteInsights2023}.
 Research shows that digital leaders achieve substantially higher earnings growth
-and enterprise value compared to their less digitally mature peers \cite{BCG2020}.
+and enterprise value compared to their less digitally mature peers \citep{BCG2020}.
 However, the path to success is challenging: 70\% of digital transformations 
 fall short of their objectives, with only 30\% achieving their targets and
-creating sustainable change \cite{BCG2020}.
+creating sustainable change \citep{BCG2020}.
 
 These results show that Digital Transformation is not just a theory; it
 is a real way to gain a competitive edge. As AI technologies become more
@@ -189,27 +190,27 @@ Proof of Digital Transformation success:
 \begin{itemize}
 	\item Digital leaders achieve earnings growth that is 
 	1.8 times higher than digital laggards, and more than double the growth in 
-	total enterprise value \cite{BCG2020}.
+	total enterprise value \citep{BCG2020}.
 	
 	\item Successful digital transformations create, on average, 66\% more value 
 	and improve corporate capabilities by 82\% compared to failed transformations
-	\cite{BCG2020}.
+	\citep{BCG2020}.
 	
 	\item Only 30\% of digital transformations meet or exceed their target value 
 	and result in sustainable change, while 70\% fall short of their objectives
-	\cite{BCG2020}.
+	\citep{BCG2020}.
 	
 	\item Organizations that adopt AI as part of their digital transformation 
 	strategy gain significant competitive advantages in innovation, efficiency, 
-	and market positioning \cite{McKinsey2024a}.
+	and market positioning \citep{McKinsey2024a}.
 \end{itemize}
 
 
 Regarding AI adoption, Digital Transformation provides several lessons:
 - Organizational readiness is crucial. Successful Digital Transformation
 requires not just technology but also changes in culture, skills, and
-processes \cite{Jöhnk2021}. Similarly, AI adoption needs organizational readiness to
-manage change effectively \cite{Hradecky2022}. - Maturity models can guide progression.
+processes \citep{Jöhnk2021}. Similarly, AI adoption needs organizational readiness to
+manage change effectively \citep{Hradecky2022}. - Maturity models can guide progression.
 Digital Transformation maturity models outline stages from initial
 experimentation to full integration. AI adoption can benefit from
 similar staged approaches to manage complexity and scale effectively.
@@ -221,7 +222,7 @@ also in the current technological infrastructure of the company and its
 ability to integrate new technologies. Challanges such as lack of
 permissions, lack of skills, lack of understanding of the technology and
 its potential, lack of resources and budget are all common barriers to
-the adoption of AI in organizations \cite{Bain2024}. These barriers can be overcome by
+the adoption of AI in organizations \citep{Bain2024}. These barriers can be overcome by
 following a structured approach to AI adoption, which is the main
 purpose of the SAIL framework. This would allow companies to overcome
 the barriers and successfully implement AI in their organizations and
@@ -230,8 +231,8 @@ of success while outlining which fields of the organization need to be
 changed in order to successfully implement AI.
 
 The broad term of organizational readiness can be measured through
-different maturity models \cite{AlAli2022}. The most well known and widely used maturity
-model is the Digital Maturity Model (DMM) developed by Deloitte \cite{DeloitteInsights2023}. The DMM
+different maturity models \citep{AlAli2022}. The most well known and widely used maturity
+model is the Digital Maturity Model (DMM) developed by Deloitte \citep{DeloitteInsights2023}. The DMM
 outlines five stages of digital maturity: 1. Initial: Ad hoc and
 uncoordinated digital initiatives. 2. Developing: Some digital
 initiatives, but still siloed and uncoordinated. 3. Defined: Digital
@@ -251,7 +252,7 @@ context of AI adoption in software organizations.
 
 Innovation Diffusion Theory (IDT), developed by Everett Rogers, provides
 a valuable lens for understanding how new technologies, such as AI, are
-adopted within organizations \cite{Rogers2003}. This theory is particularly relevant in
+adopted within organizations \citep{Rogers2003}. This theory is particularly relevant in
 the context of AI adoption in software organizations, where the pace of
 rapid industry change and technological advancement creates both
 opportunities and challenges for adoption.
@@ -260,11 +261,11 @@ IDT become relevant in the context of technology adoption in
 organizations. The theory outlines how innovations are communicated over
 time among the members of a social system. The key elements of IDT
 include the innovation itself, communication channels, time, and the
-social system \cite{Dearing2009}. The rise of usage of IDT is closely related to the rise
+social system \citep{Dearing2009}. The rise of usage of IDT is closely related to the rise
 of technology adoption in organizations and the recognition that
 successful adoption of new technologies requires more than just the
 technology itself; it also requires effective communication and social
-dynamics within the organization \cite{Almaiah2022}.
+dynamics within the organization \citep{Almaiah2022}.
 
 Perfect example where IDT was successfully applied is in the Israeli
 tech sector, where early adopters in startups and tech companies drove
@@ -275,7 +276,7 @@ to build trust and demonstrate the value of AI. Thus creating a country
 which swiftly became the ``Startup Nation'' and a global leader in AI
 innovation while having an insignificant population of only 9 million
 people and the amount of AI startups per capita being the country with
-the highest number worldwide \cite{StartupGenome2024, StartupNationCentral2024}.
+the highest number worldwide \citep{StartupGenome2024, StartupNationCentral2024}.
 
 
 The key components of IDT include: - Innovation: The acceptance of AI
@@ -329,7 +330,7 @@ organisations can be implemented through the following steps:
 	of trust and transparency. The concerns of employees need to be
 	addressed and the benefits of AI adoption need to be highlighted. For
 	the successful adoption of AI the value proposition needs to be clear
-	and the benefits need to outweigh the risks \cite{Patnaik2024}.
+	and the benefits need to outweigh the risks \citep{Patnaik2024}.
 	\item
 	Build a supportive social system: Organizational culture and structure
 	play a crucial role in shaping how AI is perceived and adopted. This
@@ -367,7 +368,7 @@ DCT consists of three main components: 1. Sensing: The ability to
 identify and assess opportunities and threats in the external
 environment. 2. Seizing: The ability to mobilize disposable resources to
 capture value from opportunities. 3. Transforming: The ability to
-continuously renew and realign organizational processes and structures \cite{Liu2024}
+continuously renew and realign organizational processes and structures \citep{Liu2024}
 to adapt to changing environments while still maintaining operational
 efficiency.
 
@@ -404,7 +405,7 @@ attributed to their ability to sense the opportunity of real-time
 traffic information, seize the opportunity by developing a mobile app
 that leveraged user-generated data, and transform the organization by
 continuously updating and improving the app based on very crucial user
-feedback \cite{Teece1997}.
+feedback \citep{Teece1997}.
 
 
 \section{Resource-Based View (RBV) and AI Assets}
@@ -412,7 +413,7 @@ feedback \cite{Teece1997}.
 The Resource-Based View (RBV) framework, particularly the VRIN criteria 
 (Valuable, Rare, Inimitable, Non-substitutable), provides a lens for understanding 
 how organizations can build sustained competitive advantage through strategic resources 
-\cite{Barney1991}. In the context of AI adoption, this framework is particularly relevant 
+\citep{Barney1991}. In the context of AI adoption, this framework is particularly relevant 
 for evaluating AI assets like data, algorithms, and expertise as sources of competitive advantage.
 
 \section{Related AI Adoption Models}
@@ -433,13 +434,13 @@ Several AI maturity models have been developed by leading consulting firms and
 research organizations to help organizations assess their AI readiness and capabilities.
 The most prominent example is Deloitte's AI Maturity Model, which outlines five levels 
 of AI maturity, from ``Ad Hoc'' to ``Optimized'', focusing on areas such as strategy, 
-governance, data management, and talent \cite{DeloitteInsights2023}. Similar frameworks have been 
+governance, data management, and talent \citep{DeloitteInsights2023}. Similar frameworks have been 
 proposed by other major consulting firms, typically structured around progressive maturity 
 stages that organizations can use for self-assessment. However, a common limitation across 
 these models is that while they are useful for assessing the current state of AI adoption, 
 they generally do not provide a detailed, structured approach to the adoption process itself.
 Academic research on digital maturity in specific sectors, such as education, has also 
-contributed frameworks that can be adapted to AI adoption contexts \cite{AlAli2022}.
+contributed frameworks that can be adapted to AI adoption contexts \citep{AlAli2022}.
 
 These models are
 certainly useful for organizations in order to approach the topic of AI
@@ -459,6 +460,76 @@ convert the theoretical knowledge into practical implementation and
 provide a structured approach to the adoption process itself. While
 focusing on mostly internal aspects of the organization and efficiency,
 resulting in reduction of overhead costs and increase of productivity.
+
+\section{AI Implementation and Scaling Frameworks: A Comprehensive Review}\label{ai-implementation-scaling-frameworks}
+
+While the previous section examined general AI maturity models, this section focuses specifically on frameworks designed to guide the implementation and scaling of AI initiatives in organizations. Recent research has increasingly recognized that successful AI adoption requires more than maturity assessment---it demands structured approaches to navigate the complex journey from proof-of-concept to organization-wide deployment. This body of work directly informs the development of SAIL by highlighting critical success factors, common challenges, and proven strategies for AI implementation.
+
+\subsection{Phases of AI Implementation}
+
+
+
+The review conducted by \citep{Haefner2023} have came to to the conclusion that the successful implementation of AI requires a structured, phase-based approach that addresses both technical and organizational dimensions. Their conclusion of a three-phase model consists of firstly proving the concept, followed by productionizing, and finally platformizing AI capabilities. Their findings are highlighting the socio-technical nature of AI adoption and emphasizing on the fact that both technical and organizational factors must be addressed simultaneously for an AI adoption to be successful. Another very valuable insight from their research is the fact that competition in AI adoption is fierce and organizations that fail to implement structured frameworks risk being outcompeted by firms which are more innovative and focus on integrating AI into their operations with a holistc approach. This insight will be very valuable for the SAIL framework as the vision of it is to be based on the socio-technical approach as well as it not only involves technical capabilities of the engineers, but also the aspect of change management and the natural resistance to change, which every organization is and will be facing due to human nature.
+
+
+In terms of the proving phase, the research focuses on demonstrating the technical feasibility throughout and actual controlled experiments. This process suggests that organizations will need to validate any of their AI-based solutions before comitting to any of them majorly in order for them to not waste valuable resources which could potentially drain the company.
+
+
+
+
+
+\subsection{Healthcare and High-Stakes AI Implementation}
+
+
+Industry where AI is currently being used heavily and has a very positive impact on is healthcare. This industry involves strong regulatory requirements and very high stakes for patients lives. The study from \citep{Gama2022} focused on implementation of an AI framework into healthcare environment which very much differs from the software industry, but still provides valuable insights. The study outlines that trust with change adoption and major technological breakthrough tend to be mutually exclusive. Interesting insights from this study was the NASSS  (Non-adoption, Abandonment, Scale-up, Spread, and Sustainability) which emerged andd tries to dig deeper into failing of AI technologies in the medical industry. 
+
+As already mentioned that the software and healthcare very much differ the human capital stays the same. The responsible management of efficiently converting value to time stays the same. The study was mainly focusing on sustainability and scalability but not directly providing solutions. This will be the goal of the SAIL framework to show how framework can be still sustainable while scalable.
+
+
+
+\subsection{Organizational Adoption Barriers and Enablers}
+
+Several studies in the last few years have tried to examine the barriers which companies have to overcome in order to scale AI beyond the initial pilots. The lastest exhibit being the study of \citep{Praveen2024} which came to the conclusion that many companies fail to convert pilot to solutions to due issues of integration complexity, scalability issues and once again the resistance to change. This piece of work is very much emphasizing on the need to establish proper governance framework which fosters innovation and does not hurt motivation. The authors have found that successful AI transformation depends on creating an environment where experimentation is encouraged. This means that the failures are being treated as learning experiences rather than mistakes.
+
+A case study from a very high-tech firm \citep{Tamburri2022} published before the rise of AI shows us that having a structured roadmap helps them convert the resistance to curiousity. They are also very much advocating for active flexibility due to the sudden changes in the industry and clear guidance from the side of the framework need. This study also focuses on having a strong feedback mechanism. One of the key pillars of SAIL framework and its structure which will be outlined in future chapters.
+
+
+\subsection{Evidence-Based Approaches to Scalable Adoption}
+
+An evidence-based framework specifically focused on bridging the gap between AI ambition and scaled impact addresses a critical problem: many organizations successfully complete AI pilots but struggle to systematically embed AI into operations at scale \citep{Pandiri2024}. The author identifies three key gaps that prevent successful scaling: the strategy gap (misalignment between AI initiatives and business objectives), the execution gap (lack of operational capabilities to deploy AI at scale), and the culture gap (organizational resistance and insufficient change management). SAIL directly addresses these gaps through its Strategic Alignment stage, Scale Deployment processes, and emphasis on change management throughout the lifecycle.
+
+The evidence-based approach emphasizes the importance of clear success metrics, structured decision gates, and mechanisms for knowledge transfer across teams. Organizations that successfully scale AI typically establish centers of excellence, develop reusable components, and create communities of practice that facilitate learning and collaboration. These practices are incorporated into SAIL's governance structure and reuse mechanisms.
+
+\subsection{Finance Sector and Domain-Specific Implementation}
+
+The financial services sector presents unique challenges for AI adoption due to regulatory constraints, risk management requirements, and the need for explainable AI in high-stakes decision-making. A modeling framework specifically for scaling AI adoption in finance has been developed, utilizing multi-agent orchestration approaches \citep{Sepanosian2024}. Their implementation study demonstrated that domain-specific considerations must be integrated into AI frameworks rather than treated as afterthoughts. Financial institutions require robust audit trails, model validation processes, and mechanisms to ensure fairness and prevent bias---requirements that extend to other highly regulated industries.
+
+While SAIL is designed as a general framework for software organizations, the finance sector research underscores the importance of flexibility and adaptability. Organizations must be able to customize the framework to their specific regulatory context, risk tolerance, and business requirements while maintaining the core structure that ensures coordinated and scalable adoption.
+
+\subsection{Simplified Adoption Frameworks and Success Factors}
+
+Recognizing that overly complex frameworks can themselves become barriers to adoption, research has worked toward a simplified AI adoption framework that identifies essential success factors for implementing AI-based information systems \citep{Kucevic2024}. Their design science research identified critical elements including executive sponsorship, cross-functional teams, iterative development processes, and clear value propositions. The authors argue that frameworks should provide sufficient structure to guide decision-making without imposing unnecessary bureaucracy that slows innovation.
+
+This tension between structure and agility is central to SAIL's design philosophy. SAIL provides clear stages and decision gates while allowing organizations to iterate within stages, adjust timelines based on learning, and scale at a pace appropriate to their context. The framework is prescriptive enough to prevent common pitfalls but flexible enough to accommodate diverse organizational contexts and use cases.
+
+\subsection{Guiding Frameworks for AI Readiness and Piloting}
+
+A guiding framework focused on enabling successful AI adoption through careful assessment of organizational readiness has been developed \citep{Amling2024}. The framework emphasizes that readiness assessment is paramount before launching multiple AI initiatives simultaneously. Organizations must evaluate their data infrastructure, technical capabilities, talent availability, and cultural preparedness for AI adoption. The framework provides decision criteria for prioritizing AI use cases, determining optimal pilot scope, and establishing success metrics that balance technical performance with business impact.
+
+This readiness-focused approach complements SAIL's Opportunity Scouting and Technical Feasibility stages, where organizations assess both the potential value of AI initiatives and their capacity to execute them successfully. SAIL extends this by providing explicit guidance on how to proceed when readiness gaps are identified---whether through capability building, external partnerships, or pilot scope adjustment.
+
+\subsection{The Influence of AI on Firm Scaling}
+
+Research exploring the relationship between AI implementation and firm scaling investigated how AI adoption influences organizational growth and scaling processes \citep{Mecca2024}. This research found that AI can both enable and constrain scaling, depending on how it is implemented. Organizations that successfully integrate AI into core business processes experience accelerated growth, improved efficiency, and enhanced competitive positioning. However, poorly planned AI implementations can create technical debt, organizational friction, and resource drains that actually impede scaling efforts.
+
+This finding reinforces SAIL's emphasis on strategic alignment and architectural thinking from the outset. AI initiatives must be designed with scaling in mind from the beginning, rather than attempting to retrofit scalability after initial success. This requires considering factors like data architecture, model deployment infrastructure, and organizational change management as integral parts of the AI adoption process rather than secondary concerns.
+
+\subsection{Synthesis: Implications for SAIL}
+
+This review of AI implementation and scaling frameworks reveals several consistent themes that directly inform SAIL's design. First, successful AI adoption requires a phase-based approach that recognizes the distinct challenges of proving concepts, productionizing solutions, and platformizing capabilities. Second, socio-technical considerations are as important as technical ones---frameworks must address organizational culture, change management, and stakeholder engagement alongside technical architecture and data infrastructure. Third, governance mechanisms and clear decision gates are essential for managing risk and ensuring alignment with business objectives. Fourth, reuse and knowledge sharing across teams prevent duplication of effort and accelerate adoption. Finally, frameworks must balance structure with flexibility, providing clear guidance while allowing adaptation to organizational context.
+
+SAIL integrates these insights into a comprehensive lifecycle framework specifically designed for software organizations. By combining the phase-based structure identified by Haefner et al., the readiness assessment approach of Amling, the barrier-focused perspective of Praveen et al., and the scaling emphasis of Pandiri and Mecca, SAIL offers a holistic approach to AI adoption that addresses both the technical and organizational dimensions of this complex challenge. The framework's eight-stage lifecycle, quality gates, and governance mechanisms provide the structure needed to coordinate AI initiatives across teams while maintaining the agility required in the fast-moving AI landscape.
+
 
 
 \section{Synthesis and Identified
@@ -531,18 +602,18 @@ Adds mechanisms for scaling, coordination, and knowledge reuse across teams. \\
 Sensing, seizing, transforming; adaptability in volatile environments. &
 Provides an agility lens for adopting and scaling AI. &
 Does not provide a structured procedure for the AI lifecycle. &
-Integrates sensing–seizing–transforming into AI lifecycle stages with defined governance and processes. \\
+Integrates sensing--seizing--transforming into AI lifecycle stages with defined governance and processes. \\
 \addlinespace
 
 \textbf{Resource-Based View (RBV)} &
 
-VRIN assets (valuable, rare, inimitable, non-substitutable); data, algorithms, and expertise. &
+VRIN assets (valuable, rare, inimitable, non-substitutable); data, algorithms, and expertise. &
 
-Promotes data and AI models as strategic assets; enables value-creation logic. &
+Promotes data and AI models as strategic assets; enables value-creation logic. &
 
-Not process-oriented; the strategic resources are prioritized rather than instruments for adoption. &
+Not process-oriented; the strategic resources are prioritized rather than instruments for adoption. &
 
-Introduces managed lifecycle for recording, reusing and harvesting AI assets across an organization. \\
+Introduces managed lifecycle for recording, reusing and harvesting AI assets across an organization. \\
 
 \addlinespace
 
@@ -604,7 +675,7 @@ complex journey of AI adoption and integration, ensuring that AI
 initiatives are aligned with business objectives, coordinated across
 teams, and capable of delivering sustained value.
 
-SAIL framwework will not serve as a rigid prescription, but as a
+SAIL framework will not serve as a rigid prescription, but as a
 practical playbook which will provide actionable steps for enterprises
 to follow. It will not be a theoretical model. It will not be a true
 ``one-size-fits-all'' solution. It will not be an assesment model. It
@@ -1219,7 +1290,7 @@ to their specific contexts while adhering to the core principles of
 effective AI adoption and therefore the need to have edge cases and
 deviations from the outlined path is inevitable.
 
-SAIL frameowrk will be evaluated through the use of 10 realistic use
+SAIL framework will be evaluated through the use of 10 realistic use
 which are going to be outlined in the upcoming chapter. This will serve
 as the empirical part of the DSR methodology and will provide the
 necessary validation for the framework.

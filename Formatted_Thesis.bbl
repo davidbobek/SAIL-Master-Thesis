@@ -1,211 +1,233 @@
-\begin{thebibliography}{29}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\begin{thebibliography}{}
 
-\bibitem[{McKinsey \& Company}(2025)]{McKinsey2024b}
-{McKinsey \& Company}.
-\newblock The state of ai in 2025: Agents, innovation, and transformation.
-\newblock
-  \url{https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai},
-  2025.
-\newblock Accessed November 2025.
-
-\bibitem[{Deloitte}(2025)]{Deloitte2025}
-{Deloitte}.
-\newblock Ai trends 2025: Adoption barriers and updated predictions.
-\newblock Deloitte Insights, 2025.
-\newblock Retrieved from
-  https://www.deloitte.com/us/en/services/consulting/blogs/ai-adoption-challenges-ai-trends.html.
-
-\bibitem[{IBM}(2024)]{IBM2024}
-{IBM}.
-\newblock What is ai governance?
-\newblock \url{https://www.ibm.com/think/topics/ai-governance}, 2024.
-
-\bibitem[Stone et~al.(2025)Stone, Patel, Ghiasi, and Mittal]{Stone2025}
-J.~Stone, R.~Patel, F.~Ghiasi, and S.~Mittal.
-\newblock Navigating mlops: Insights into maturity, lifecycle, tools, and
-  careers.
-\newblock \emph{IEEE Transactions on Artificial Intelligence}, 2025.
-\newblock \doi{10.1109/TAI.2025.3456789}.
-
-\bibitem[Nogare and Silveira(2025)]{Nogare2025}
-D.~Nogare and I.~F. Silveira.
-\newblock Mlops for machine learning model lifecycle automation---a systematic
-  literature review.
-\newblock \emph{Authorea Preprints}, 2025.
-\newblock \doi{10.22541/au.175329541.19088779/v1}.
-
-\bibitem[{The Open Group}(2022)]{TheOpenGroup2022}
-{The Open Group}.
-\newblock The togaf standard, version 10 enterprise edition, 2022.
-\newblock URL \url{https://www.opengroup.org/togaf}.
-\newblock The Open Group.
-
-\bibitem[Kaddoumi and Watfa(2022)]{Kaddoumi2022}
-T.~Kaddoumi and M.~Watfa.
-\newblock A foundational framework for agile enterprise architecture.
-\newblock \emph{International Journal of Lean Six Sigma}, 13\penalty0
-  (2):\penalty0 313--333, 2022.
-\newblock \doi{10.1108/IJLSS-03-2021-0057}.
-
-\bibitem[Canat et~al.(2018)Canat, Català, and Jourkovski]{Canat2018}
-M.~Canat, N.~P. Català, and A.~Jourkovski.
-\newblock Enterprise architecture and agile development: Friends or foes?
-\newblock In \emph{2018 IEEE 22nd International Enterprise Distributed Object
-  Computing Conference (EDOC)}, pages 1--10, 2018.
-\newblock \doi{10.1109/EDOC.2018.00007}.
-
-\bibitem[Zachman(1987)]{Zachman1987}
-J.~A. Zachman.
-\newblock A framework for information systems architecture.
-\newblock \emph{IBM Systems Journal}, 26\penalty0 (3):\penalty0 276--292, 1987.
-\newblock \doi{10.1147/sj.263.0276}.
-
-\bibitem[Fitriani et~al.(2023)Fitriani, Khodra, and Surendro]{Fitriani2023}
-L.~Fitriani, M.~L. Khodra, and K.~Surendro.
-\newblock Togaf-based enterprise architecture framework for utilizing
-  artificial intelligence.
-\newblock In \emph{2023 International Conference on Computer Science,
-  Information Technology and Engineering (ICoSITE)}, pages 1--6, 2023.
-\newblock \doi{10.1109/ICoSITE59874.2023.10285801}.
-
-\bibitem[Ern et~al.(2025)Ern, Yang, Wu, Ambakkat, and Dilnutt]{Ern2025}
-S.~L.~W. Ern, H.~Yang, Y.~Wu, R.~S. Ambakkat, and R.~Dilnutt.
-\newblock Modifying togaf\textregistered\ to optimize artificial intelligence
-  and strategic value for organizations.
-\newblock \emph{Enterprise Architecture Professional Journal (EAPJ)}, 2025.
-
-\bibitem[Lakarasu(2022)]{Lakarasu2022}
-P.~Lakarasu.
-\newblock Mlops at scale: Bridging cloud infrastructure and ai lifecycle
-  management.
-\newblock \emph{Social Science Research Network}, 2022.
-\newblock SSRN: 5272259.
-
-\bibitem[Westerman et~al.(2019)Westerman, Bonnet, and McAfee]{Westerman2019}
-G.~Westerman, D.~Bonnet, and A.~McAfee.
-\newblock \emph{Leading digital: Turning technology into business
-  transformation}.
-\newblock Harvard Business Review Press, 2019.
-
-\bibitem[Forth et~al.(2020)Forth, Reichert, de~Laubier, and
-  Chakraborty]{BCG2020}
-Patrick Forth, Tom Reichert, Romain de~Laubier, and Saibal Chakraborty.
-\newblock Flipping the odds of digital transformation success.
-\newblock Boston Consulting Group, October 2020.
-\newblock Retrieved from
-  https://www.bcg.com/publications/2020/increasing-odds-of-success-in-digital-transformation.
-
-\bibitem[{Deloitte}(2023)]{DeloitteInsights2023}
-{Deloitte}.
-\newblock Digital maturity index.
-\newblock
-  \url{https://www.deloitte.com/global/en/Industries/industrial-construction/perspectives/digital-maturity-index.html},
-  2023.
-\newblock Accessed November 2025.
-
-\bibitem[{McKinsey \& Company}(2024)]{McKinsey2024a}
-{McKinsey \& Company}.
-\newblock Mlops so ai can scale.
-\newblock
-  \url{https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/mlops-so-ai-can-scale},
-  2024.
-
-\bibitem[Jöhnk et~al.(2021)Jöhnk, Weißert, and Wyrtki]{Jöhnk2021}
-J.~Jöhnk, M.~Weißert, and K.~Wyrtki.
-\newblock Ready or not, ai comes—an interview study of organizational ai
-  readiness factors.
-\newblock \emph{Business \& Information Systems Engineering}, 63\penalty0
-  (3):\penalty0 277--293, 2021.
-\newblock \doi{10.1007/s12599-020-00676-7}.
-
-\bibitem[Hradecky et~al.(2022)Hradecky, Kennell, Cai, and
-  Davidson]{Hradecky2022}
-D.~Hradecky, J.~Kennell, W.~Cai, and R.~Davidson.
-\newblock Organizational readiness to adopt artificial intelligence in the
-  exhibition sector in western europe.
-\newblock \emph{International Journal of Information Management}, 62:\penalty0
-  102431, 2022.
-\newblock \doi{10.1016/j.ijinfomgt.2021.102431}.
-
-\bibitem[{Bain \& Company}(2024)]{Bain2024}
-{Bain \& Company}.
-\newblock Ai: The ambitions are bold, but the talent is scarce.
-\newblock
-  \url{https://www.bain.com/insights/ai-the-ambitions-are-bold-but-the-talent-is-scarce-snap-chart/},
-  2024.
-
-\bibitem[Al-Ali and Marks(2022)]{AlAli2022}
-M.~Al-Ali and A.~Marks.
+\bibitem[Al-Ali and Marks, 2022]{AlAli2022}
+Al-Ali, M. and Marks, A. (2022).
 \newblock A digital maturity model for the education enterprise.
-\newblock \emph{Perspectives: Policy and Practice in Higher Education},
-  26\penalty0 (1):\penalty0 1--13, 2022.
-\newblock \doi{10.1080/13603108.2021.1978578}.
+\newblock {\em Perspectives: Policy and Practice in Higher Education},
+  26(1):1--13.
 
-\bibitem[Rogers(2003)]{Rogers2003}
-E.~M. Rogers.
-\newblock \emph{Diffusion of innovations}.
-\newblock Free Press, 5 edition, 2003.
-
-\bibitem[Dearing(2009)]{Dearing2009}
-J.~W. Dearing.
-\newblock Applying diffusion of innovation theory to intervention development.
-\newblock \emph{Research on Social Work Practice}, 19\penalty0 (5):\penalty0
-  503--518, 2009.
-\newblock \doi{10.1177/1049731509335566}.
-
-\bibitem[Almaiah(2022)]{Almaiah2022}
-M.~A. Almaiah.
+\bibitem[Almaiah, 2022]{Almaiah2022}
+Almaiah, M.~A. (2022).
 \newblock Measuring institutions' adoption of artificial intelligence
   applications in online learning environments: Integrating the innovation
   diffusion theory with technology adoption.
-\newblock \emph{Electronics}, 11\penalty0 (20):\penalty0 3291, 2022.
-\newblock \doi{10.3390/electronics11203291}.
+\newblock {\em Electronics}, 11(20):3291.
 
-\bibitem[{Startup Genome}(2024)]{StartupGenome2024}
-{Startup Genome}.
-\newblock Global startup ecosystem report 2024.
+\bibitem[Amling, 2024]{Amling2024}
+Amling, A. (2024).
+\newblock A guiding framework to enable successful ai adoption.
+\newblock OpenReview.
+
+\bibitem[{Bain \& Company}, 2024]{Bain2024}
+{Bain \& Company} (2024).
+\newblock Ai: The ambitions are bold, but the talent is scarce.
 \newblock
-  \url{https://startupgenome.com/report/the-global-startup-ecosystem-report-2024/introduction},
-  2024.
+  \url{https://www.bain.com/insights/ai-the-ambitions-are-bold-but-the-talent-is-scarce-snap-chart/}.
 
-\bibitem[{Start-Up Nation Central}(2024)]{StartupNationCentral2024}
-{Start-Up Nation Central}.
-\newblock Israeli tech ecosystem overview 2024.
+\bibitem[Barney, 1991]{Barney1991}
+Barney, J. (1991).
+\newblock Firm resources and sustained competitive advantage.
+\newblock {\em Journal of Management}, 17(1):99--120.
+
+\bibitem[Canat et~al., 2018]{Canat2018}
+Canat, M., Català, N.~P., and Jourkovski, A. (2018).
+\newblock Enterprise architecture and agile development: Friends or foes?
+\newblock In {\em 2018 IEEE 22nd International Enterprise Distributed Object
+  Computing Conference (EDOC)}, pages 1--10.
+
+\bibitem[Dearing, 2009]{Dearing2009}
+Dearing, J.~W. (2009).
+\newblock Applying diffusion of innovation theory to intervention development.
+\newblock {\em Research on Social Work Practice}, 19(5):503--518.
+
+\bibitem[{Deloitte}, 2023]{DeloitteInsights2023}
+{Deloitte} (2023).
+\newblock Digital maturity index.
 \newblock
-  \url{https://lifinder.startupnationcentral.org/reports/2024-annual-report?__cf_chl_tk=M75HdmQzHVy31UV6guei0jzCj.WnknBwjC9QEvBwYwE-1762609619-1.0.1.1-2rZ7SqeK6E4AIQ8HaqtIlzPq1h5kuy8crNZzINyqvFk},
-  2024.
+  \url{https://www.deloitte.com/global/en/Industries/industrial-construction/perspectives/digital-maturity-index.html}.
+\newblock Accessed November 2025.
 
-\bibitem[Patnaik(2024)]{Patnaik2024}
-P.~Patnaik.
+\bibitem[{Deloitte}, 2025]{Deloitte2025}
+{Deloitte} (2025).
+\newblock Ai trends 2025: Adoption barriers and updated predictions.
+\newblock Deloitte Insights.
+\newblock Retrieved from
+  https://www.deloitte.com/us/en/services/consulting/blogs/ai-adoption-challenges-ai-trends.html.
+
+\bibitem[Ern et~al., 2025]{Ern2025}
+Ern, S. L.~W., Yang, H., Wu, Y., Ambakkat, R.~S., and Dilnutt, R. (2025).
+\newblock Modifying togaf\textregistered\ to optimize artificial intelligence
+  and strategic value for organizations.
+\newblock {\em Enterprise Architecture Professional Journal (EAPJ)}.
+
+\bibitem[Fitriani et~al., 2023]{Fitriani2023}
+Fitriani, L., Khodra, M.~L., and Surendro, K. (2023).
+\newblock Togaf-based enterprise architecture framework for utilizing
+  artificial intelligence.
+\newblock In {\em 2023 International Conference on Computer Science,
+  Information Technology and Engineering (ICoSITE)}, pages 1--6.
+
+\bibitem[Forth et~al., 2020]{BCG2020}
+Forth, P., Reichert, T., de~Laubier, R., and Chakraborty, S. (2020).
+\newblock Flipping the odds of digital transformation success.
+\newblock Boston Consulting Group.
+\newblock Retrieved from
+  https://www.bcg.com/publications/2020/increasing-odds-of-success-in-digital-transformation.
+
+\bibitem[Gama et~al., 2022]{Gama2022}
+Gama, F., Tyskbo, D., Nygren, J., Barlow, J., Reed, J., Svedberg, P., and
+  Nygren, J.~M. (2022).
+\newblock Implementation frameworks for artificial intelligence translation
+  into health care practice: scoping review.
+\newblock {\em Journal of Medical Internet Research}, 24(1):e32215.
+
+\bibitem[Haefner et~al., 2023]{Haefner2023}
+Haefner, N., Parida, V., Gassmann, O., and Wincent, J. (2023).
+\newblock Implementing and scaling artificial intelligence: A review,
+  framework, and research agenda.
+\newblock {\em Technological Forecasting and Social Change}, 197:122878.
+
+\bibitem[Hradecky et~al., 2022]{Hradecky2022}
+Hradecky, D., Kennell, J., Cai, W., and Davidson, R. (2022).
+\newblock Organizational readiness to adopt artificial intelligence in the
+  exhibition sector in western europe.
+\newblock {\em International Journal of Information Management}, 62:102431.
+
+\bibitem[{IBM}, 2024]{IBM2024}
+{IBM} (2024).
+\newblock What is ai governance?
+\newblock \url{https://www.ibm.com/think/topics/ai-governance}.
+
+\bibitem[Jöhnk et~al., 2021]{Jöhnk2021}
+Jöhnk, J., Weißert, M., and Wyrtki, K. (2021).
+\newblock Ready or not, ai comes—an interview study of organizational ai
+  readiness factors.
+\newblock {\em Business \& Information Systems Engineering}, 63(3):277--293.
+
+\bibitem[Kaddoumi and Watfa, 2022]{Kaddoumi2022}
+Kaddoumi, T. and Watfa, M. (2022).
+\newblock A foundational framework for agile enterprise architecture.
+\newblock {\em International Journal of Lean Six Sigma}, 13(2):313--333.
+
+\bibitem[Kučević et~al., 2024]{Kucevic2024}
+Kučević, E., Grünewald, F., and Schanz, N. (2024).
+\newblock Towards a simplified ai adoption framework: Success factors for the
+  implementation of artificial intelligence information systems.
+\newblock In {\em International Conference on Human-Computer Interaction},
+  pages 69--85. Springer.
+
+\bibitem[Lakarasu, 2022]{Lakarasu2022}
+Lakarasu, P. (2022).
+\newblock Mlops at scale: Bridging cloud infrastructure and ai lifecycle
+  management.
+\newblock {\em Social Science Research Network}.
+\newblock SSRN: 5272259.
+
+\bibitem[Liu, 2024]{Liu2024}
+Liu, Y. (2024).
+\newblock How ai impacts companies' dynamic capabilities.
+\newblock {\em Journal of Management Studies}.
+
+\bibitem[{McKinsey \& Company}, 2024]{McKinsey2024a}
+{McKinsey \& Company} (2024).
+\newblock Mlops so ai can scale.
+\newblock
+  \url{https://www.mckinsey.com/capabilities/tech-and-ai/our-insights/mlops-so-ai-can-scale}.
+
+\bibitem[{McKinsey \& Company}, 2025]{McKinsey2024b}
+{McKinsey \& Company} (2025).
+\newblock The state of ai in 2025: Agents, innovation, and transformation.
+\newblock
+  \url{https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai}.
+\newblock Accessed November 2025.
+
+\bibitem[Mecca, 2024]{Mecca2024}
+Mecca, A. (2024).
+\newblock The influence of artificial intelligence implementation on firm
+  scaling: an exploratory approach.
+\newblock Master's thesis, Luleå University of Technology.
+
+\bibitem[Nogare and Silveira, 2025]{Nogare2025}
+Nogare, D. and Silveira, I.~F. (2025).
+\newblock Mlops for machine learning model lifecycle automation---a systematic
+  literature review.
+\newblock {\em Authorea Preprints}.
+
+\bibitem[Pandiri, 2024]{Pandiri2024}
+Pandiri, S. (2024).
+\newblock Bridging the gaps in ai transformation: An evidence-based framework
+  for scalable adoption.
+\newblock {\em California Management Review}.
+
+\bibitem[Patnaik, 2024]{Patnaik2024}
+Patnaik, P. (2024).
 \newblock Exploring determinants influencing artificial intelligence adoption,
   reference to diffusion of innovation theory.
-\newblock \emph{Technological Forecasting and Social Change}, 203:\penalty0
-  123345, 2024.
-\newblock \doi{10.1016/j.techfore.2024.123345}.
+\newblock {\em Technological Forecasting and Social Change}, 203:123345.
 
-\bibitem[Liu(2024)]{Liu2024}
-Y.~Liu.
-\newblock How ai impacts companies' dynamic capabilities.
-\newblock \emph{Journal of Management Studies}, 2024.
-\newblock \doi{10.1111/joms.13032}.
+\bibitem[Praveen et~al., 2024]{Praveen2024}
+Praveen, R., Shrivastava, A., Sharma, G., and Sreenivasu, M. (2024).
+\newblock Overcoming adoption barriers: Strategies for scalable ai
+  transformation in enterprises.
+\newblock In {\em 2024 International Conference on Intelligent Systems and
+  Emerging Technologies}. IEEE.
 
-\bibitem[Teece et~al.(1997)Teece, Pisano, and Shuen]{Teece1997}
-D.~J. Teece, G.~Pisano, and A.~Shuen.
+\bibitem[Rogers, 2003]{Rogers2003}
+Rogers, E.~M. (2003).
+\newblock {\em Diffusion of innovations}.
+\newblock Free Press, 5 edition.
+
+\bibitem[Sepanosian et~al., 2024]{Sepanosian2024}
+Sepanosian, T., Milosevic, Z., and Blair, A. (2024).
+\newblock Scaling ai adoption in finance: modelling framework and
+  implementation study.
+\newblock In {\em International Conference on Business Intelligence and Big
+  Data}, pages 195--208. Springer.
+
+\bibitem[{Start-Up Nation Central}, 2024]{StartupNationCentral2024}
+{Start-Up Nation Central} (2024).
+\newblock Israeli tech ecosystem overview 2024.
+\newblock
+  \url{https://lifinder.startupnationcentral.org/reports/2024-annual-report?__cf_chl_tk=M75HdmQzHVy31UV6guei0jzCj.WnknBwjC9QEvBwYwE-1762609619-1.0.1.1-2rZ7SqeK6E4AIQ8HaqtIlzPq1h5kuy8crNZzINyqvFk}.
+
+\bibitem[{Startup Genome}, 2024]{StartupGenome2024}
+{Startup Genome} (2024).
+\newblock Global startup ecosystem report 2024.
+\newblock
+  \url{https://startupgenome.com/report/the-global-startup-ecosystem-report-2024/introduction}.
+
+\bibitem[Stone et~al., 2025]{Stone2025}
+Stone, J., Patel, R., Ghiasi, F., and Mittal, S. (2025).
+\newblock Navigating mlops: Insights into maturity, lifecycle, tools, and
+  careers.
+\newblock {\em IEEE Transactions on Artificial Intelligence}.
+
+\bibitem[Tamburri and Tonnarelli, 2022]{Tamburri2022}
+Tamburri, D. and Tonnarelli, M. (2022).
+\newblock Challenges in adoption and scaling of ai: A case study at a high-tech
+  firm and research roadmap.
+\newblock In {\em International Workshop on Engineering Artificial Intelligence
+  Systems}, pages 53--68. Springer.
+
+\bibitem[Teece et~al., 1997]{Teece1997}
+Teece, D.~J., Pisano, G., and Shuen, A. (1997).
 \newblock Dynamic capabilities and strategic management.
-\newblock \emph{Strategic Management Journal}, 18\penalty0 (7):\penalty0
-  509--533, 1997.
-\newblock \doi{10.1002/(SICI)1097-0266(199708)18:7<509::AID-SMJ882>3.0.CO;2-Z}.
+\newblock {\em Strategic Management Journal}, 18(7):509--533.
 
-\bibitem[Barney(1991)]{Barney1991}
-J.~Barney.
-\newblock Firm resources and sustained competitive advantage.
-\newblock \emph{Journal of Management}, 17\penalty0 (1):\penalty0 99--120,
-  1991.
-\newblock \doi{10.1177/014920639101700108}.
+\bibitem[{The Open Group}, 2022]{TheOpenGroup2022}
+{The Open Group} (2022).
+\newblock The togaf standard, version 10 enterprise edition.
+\newblock The Open Group.
+
+\bibitem[Westerman et~al., 2019]{Westerman2019}
+Westerman, G., Bonnet, D., and McAfee, A. (2019).
+\newblock {\em Leading digital: Turning technology into business
+  transformation}.
+\newblock Harvard Business Review Press.
+
+\bibitem[Zachman, 1987]{Zachman1987}
+Zachman, J.~A. (1987).
+\newblock A framework for information systems architecture.
+\newblock {\em IBM Systems Journal}, 26(3):276--292.
 
 \end{thebibliography}
