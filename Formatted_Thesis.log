@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.17)  13 DEC 2025 12:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.17)  28 DEC 2025 21:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -650,13 +650,7 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 1.
  [2]
-[3]
-Overfull \hbox (15.96085pt too wide) in paragraph at lines 70--70
- [][] [][][]\T1/phv/m/n/10.95 AI-based Guru Help-ing with de-bug-ging & Trou-bl
-eshoot-ing lo-cally (Github 
- []
-
-)
+[3])
 \tf@toc=\write4
 \openout4 = `Formatted_Thesis.toc'.
 
@@ -693,52 +687,59 @@ Underfull \vbox (badness 7116) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
-[10]
-Overfull \hbox (1.06642pt too wide) in paragraph at lines 464--464
+Overfull \hbox (1.06642pt too wide) in paragraph at lines 455--455
 |[]\T1/phv/b/n/14.4 AI Im-ple-men-ta-tion and Scal-ing Frame-works: A Com-pre-h
 en-
  []
 
-[11] [12] [13] [14] [15]
-Overfull \hbox (21.98383pt too wide) in alignment at lines 556--564
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+[11] [12]
+Underfull \vbox (badness 4156) has occurred while \output is active []
+
+ [13]
+[14] [15]
+Overfull \hbox (21.98383pt too wide) in alignment at lines 558--566
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (21.98383pt too wide) in alignment at lines 564--566
+Overfull \hbox (21.98383pt too wide) in alignment at lines 566--568
  [] [] [] [] [] 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 584.
+(Font)              <9> on input line 586.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 584.
+(Font)              <5> on input line 586.
 
-Overfull \hbox (21.98383pt too wide) in alignment at lines 566--616
+Overfull \hbox (21.98383pt too wide) in alignment at lines 568--606
  [] [] [] [] [] 
  []
 
 [16]
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 627.
+            Default family used instead on input line 617.
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 6
-27.
+17.
  (C:\Users\dbobe\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Trying to load font information for TS1+cmss on input line 
-627.
+617.
 
 (C:\Users\dbobe\AppData\Local\Programs\MiKTeX\tex/latex/base\ts1cmss.fd
 File: ts1cmss.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 627.
+            Default family used instead on input line 617.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 628.
+            Default family used instead on input line 618.
 
 [17] [18
 
@@ -755,20 +756,17 @@ Underfull \vbox (badness 1048) has occurred while \output is active []
 [28]
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1170.
+            Default family used instead on input line 1139.
  [29]
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1177.
+            Default family used instead on input line 1146.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1184.
+            Default family used instead on input line 1153.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1189.
-LaTeX Info: Symbol \textrightarrow not provided by
-            font family phv in TS1 encoding.
-            Default family used instead on input line 1196.
+            Default family used instead on input line 1158.
  [30] [31] [32
 
 ]
@@ -784,72 +782,72 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 2913) has occurred while \output is active []
 
  [37]
-Overfull \hbox (1.12474pt too wide) in paragraph at lines 1509--1509
+Overfull \hbox (1.12474pt too wide) in paragraph at lines 1472--1472
 []|\T1/phv/b/n/10.95 Possible 
  []
 
 
-Overfull \hbox (48.00659pt too wide) in alignment at lines 1505--1513
+Overfull \hbox (48.00659pt too wide) in alignment at lines 1468--1476
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (48.00659pt too wide) in alignment at lines 1513--1515
+Overfull \hbox (48.00659pt too wide) in alignment at lines 1476--1478
  [] [] [] [] [] 
  []
 
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1521.
+            Default family used instead on input line 1484.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1521.
+            Default family used instead on input line 1484.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1527.
+            Default family used instead on input line 1490.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1533.
+            Default family used instead on input line 1496.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1533.
+            Default family used instead on input line 1496.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1539.
+            Default family used instead on input line 1502.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1539.
+            Default family used instead on input line 1502.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1545.
+            Default family used instead on input line 1508.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1545.
+            Default family used instead on input line 1508.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1551.
+            Default family used instead on input line 1514.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1551.
+            Default family used instead on input line 1514.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1557.
+            Default family used instead on input line 1520.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1557.
+            Default family used instead on input line 1520.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1563.
+            Default family used instead on input line 1526.
 LaTeX Info: Symbol \textrightarrow not provided by
             font family phv in TS1 encoding.
-            Default family used instead on input line 1563.
+            Default family used instead on input line 1526.
 
-Overfull \hbox (48.00659pt too wide) in alignment at lines 1515--1565
+Overfull \hbox (48.00659pt too wide) in alignment at lines 1478--1528
  [] [] [] [] [] 
  []
 
 [38] [39] [40] [41] [42]
-Overfull \hbox (1.92253pt too wide) in paragraph at lines 1784--1785
+Overfull \hbox (1.92253pt too wide) in paragraph at lines 1747--1748
 []\T1/phv/m/n/10.95 How does this help the busi-ness? What value
  []
 
@@ -858,75 +856,166 @@ Overfull \hbox (1.92253pt too wide) in paragraph at lines 1784--1785
 ]
 Chapter 6.
 
-Overfull \hbox (11.99998pt too wide) in alignment at lines 2525--2529
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2488--2492
  [] [] 
  []
 
 
-Overfull \hbox (11.99998pt too wide) in alignment at lines 2529--2531
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2492--2494
  [] [] 
  []
 
 
-Overfull \hbox (11.99998pt too wide) in alignment at lines 2531--2545
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2494--2508
  [] [] 
  []
 
-[57]
-Overfull \hbox (2.23985pt too wide) in paragraph at lines 2588--2598
-[]\T1/phv/b/n/10.95 Strategic Align-ment: \T1/phv/m/n/10.95 This ini-tia-tive w
-ill in-clude al-ligne-ment with the OKRs and strate-
+[57] [58]
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2553--2557
+ [] [] 
  []
 
-[58] [59] [60] [61] [62] [63] [64] [65] [66]
-Overfull \hbox (15.58424pt too wide) in paragraph at lines 3097--3097
+
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2557--2559
+ [] [] 
+ []
+
+
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2559--2570
+ [] [] 
+ []
+
+[59] [60] [61]
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2640--2644
+ [] [] 
+ []
+
+
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2644--2646
+ [] [] 
+ []
+
+
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2646--2657
+ [] [] 
+ []
+
+[62] [63]
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2710--2714
+ [] [] 
+ []
+
+
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2714--2716
+ [] [] 
+ []
+
+
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2716--2727
+ [] [] 
+ []
+
+[64]
+Underfull \vbox (badness 1721) has occurred while \output is active []
+
+ [65]
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2776--2780
+ [] [] 
+ []
+
+
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2780--2782
+ [] [] 
+ []
+
+
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2782--2792
+ [] [] 
+ []
+
+
+Underfull \vbox (badness 1946) has occurred while \output is active []
+
+ [66]
+[67]
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2816--2820
+ [] [] 
+ []
+
+
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2820--2822
+ [] [] 
+ []
+
+
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2822--2832
+ [] [] 
+ []
+
+[68] [69]
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2893--2897
+ [] [] 
+ []
+
+
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2897--2899
+ [] [] 
+ []
+
+
+Overfull \hbox (11.99998pt too wide) in alignment at lines 2899--2909
+ [] [] 
+ []
+
+[70] [71] [72] [73]
+Overfull \hbox (15.58424pt too wide) in paragraph at lines 3055--3055
 |[]\T1/phv/b/n/12 AI-based Guru Help-ing with de-bug-ging & Trou-bleshoot-ing l
 o-cally (Github
  []
 
-[67] [68] [69] [70]
+[74] [75] [76] [77] [78
+
+]
 Chapter 7.
 
 Underfull \vbox (badness 1831) has occurred while \output is active []
 
- [71
-
-]
-Overfull \hbox (9.00296pt too wide) in paragraph at lines 3319--3319
+ [79]
+Overfull \hbox (9.00296pt too wide) in paragraph at lines 3248--3248
 \T1/phv/b/n/10.95 (hours/month)|  
  []
 
 
-Overfull \hbox (6.19736pt too wide) in paragraph at lines 3319--3319
+Overfull \hbox (6.19736pt too wide) in paragraph at lines 3248--3248
 \T1/phv/b/n/10.95 (EUR/month)|  
  []
 
 
-Overfull \hbox (47.99997pt too wide) in alignment at lines 3317--3321
+Overfull \hbox (47.99997pt too wide) in alignment at lines 3246--3250
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (47.99997pt too wide) in alignment at lines 3321--3323
+Overfull \hbox (47.99997pt too wide) in alignment at lines 3250--3252
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (47.99997pt too wide) in alignment at lines 3323--3349
+Overfull \hbox (47.99997pt too wide) in alignment at lines 3252--3278
  [] [] [] [] [] 
  []
 
-[72] [73] [74] [75] [76
+[80] [81] [82] [83] [84
 
 ]
 Chapter 8.
-[77] [78]
-Overfull \hbox (13.22237pt too wide) in paragraph at lines 3659--3667
+[85] [86]
+Overfull \hbox (13.22237pt too wide) in paragraph at lines 3588--3596
 \T1/phv/m/n/10.95 throughs rather than a full live de-ploy-ment. While the pro-
 jec-tions oultined were grounded
  []
 
-[79] [80] (Formatted_Thesis.bbl
+[87] [88] (Formatted_Thesis.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 5.
 
@@ -967,7 +1056,7 @@ Underfull \hbox (badness 3525) in paragraph at lines 71--76
 n Con-sult-ing Group.
  []
 
-[81
+[89
 
 
 ]
@@ -976,7 +1065,7 @@ Underfull \hbox (badness 4378) in paragraph at lines 97--100
 .95 https : / / www . ibm . com / think / topics /
  []
 
-[82]
+[90]
 Underfull \hbox (badness 1210) in paragraph at lines 188--192
 []\T1/phv/m/n/10.95 Start-Up Na-tion Cen-tral (2024).  Is-raeli tech ecosys-tem
  overview 2024.  [][]$\T1/lmtt/m/n/10.95 https :
@@ -994,37 +1083,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--192
 762609619-[]1 . 0 . 1 .
  []
 
-) [83] (Formatted_Thesis.aux)
+) [91] (Formatted_Thesis.aux)
 Package rerunfilecheck Info: File `Formatted_Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: EE5F1BDAF0F832225CC9165412DFD0AC;18685.
+(rerunfilecheck)             Checksum: A1AA54C71D7B363B54B13C02F8DD3329;16702.
  ) 
 Here is how much of TeX's memory you used:
- 12699 strings out of 475385
- 200549 string characters out of 2776906
- 567169 words of memory out of 3000000
- 33619 multiletter control sequences out of 15000+600000
+ 12714 strings out of 475385
+ 200620 string characters out of 2776906
+ 562474 words of memory out of 3000000
+ 33625 multiletter control sequences out of 15000+600000
  539133 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,81p,2052b,619s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C
-:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C
-:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/Us
-ers/dbobe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc} <C:\U
-sers\dbobe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1095.pk>
-{C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/U
-sers/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/U
-sers/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Us
-ers/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy10.pfb><C:/Us
-ers/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C:/Use
-rs/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C:/Use
-rs/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/
-Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a.pfb>
-<C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.p
-fb><C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvro
-8a.pfb>
-Output written on Formatted_Thesis.pdf (93 pages, 465095 bytes).
+ 75i,8n,81p,1372b,619s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc} <
+C:\Users\dbobe\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcss1095
+.pk>{C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.
+enc}{C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<
+C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C
+:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmtt10.pfb><C
+:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb
+><C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhvbo8a
+.pfb><C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
+r8a.pfb><C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/
+uhvro8a.pfb>
+Output written on Formatted_Thesis.pdf (101 pages, 449522 bytes).
 PDF statistics:
- 1072 PDF objects out of 1200 (max. 8388607)
- 233 named destinations out of 1000 (max. 500000)
+ 1084 PDF objects out of 1200 (max. 8388607)
+ 242 named destinations out of 1000 (max. 500000)
  622 words of extra memory for PDF output out of 10000 (max. 10000000)
 
