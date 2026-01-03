@@ -2517,20 +2517,20 @@ walkthroughs for each use case.
 
 \subsection{AI-based Code Documentation Generation}\label{ai-based-code-documentation-generation}
 
-\textbf{Entry Point:} The first use case which we are going to explore the process of implementation in the AI testing framework is the AI-based code documentation generation.
+\textbf{Entry Point:} The first use case in which we are going to explore the implementation process in the AI testing framework is AI-based code documentation generation.
 
-This use case will be focused on the most tedious and boring task for any software engineer, being the creation and following maintanance of code documentation. The process of writing code documentation gets very often overlooked while being too focused on the actual code writing. Once any engineers gets the motivation to write the documentation the documentation is often not the the quality and understanding level which is required for the other engineers to understand the code. This insufficient documentation is then leading to a chain of problems such as misunderstanding of the code, lowered efficiency and sometimes even bugs in the code due to the fact that the engineers do not understand the code properly. The issue is clearly present in most of the software organizations and by having this problem solved the efficiency of the engineers will increase drastically.
+This use case will be focused on the most tedious and boring task for any software engineer: the creation and ongoing maintenance of code documentation. The process of writing code documentation is very often overlooked while being too focused on the actual code writing. Once any engineer gets the motivation to write the documentation, the documentation is often not at the quality and understanding level required for other engineers to understand the code. This insufficient documentation is then leading to a chain of problems such as misunderstanding of the code, lowered efficiency and sometimes even bugs in the code due to the fact that the engineers do not understand the code properly. The issue is clearly present in most of the software organizations and by having this problem solved the efficiency of the engineers will increase drastically.
 
 In order to verify the SAIL framework we will explore how this use case was implemented in a realistic software engineering context.
 
 \textbf{Opportunity Scouting:} 
 
-This use case was identified by the Software engineers in the round at the time and was initiated by the frustration of doing the task and not having the documentation properly up to date. The actual process of writing the documentation was not the hardest problem which the engineers have to tackle but the process of constantly changing it once the code changes.
+This use case was identified by software engineers at the time and was initiated by the frustration of doing the task and not having the documentation properly up to date. The actual process of writing the documentation was not the hardest problem which the engineers have to tackle but the process of constantly changing it once the code changes.
 
 
 \textbf{Strategic Alignment:} 
 
-The process of strategic allignment for this specific use case was done in the context of the overall strategic goals of the company. The first step was the consultation with the management team in order to understand the strategic goals of the company and how this use case is able to allign with them. The internal company goals were focused on the improvement of the company's efficiency and thus this use case was able to get the green light. The second step needed to be done was the chosing procedure of the appropriate engineers implementing this use case. A set of 3 engineers were selected to tackle it. For the simplicity of the entire process these engineers were from one single team and thus dealing with their line manager became easier and more streamlined. By solving both sides of the equation, the strategy as a company and strategy as a process this use case is now able to proceed to the next stage.
+The process of strategic alignment for this specific use case was done in the context of the overall strategic goals of the company. The first step was the consultation with the management team in order to understand the strategic goals of the company and how this use case is able to align with them. The internal company goals were focused on the improvement of the company's efficiency and thus this use case was able to get the green light. The second step that needed to be done was the selection procedure for the appropriate engineers to implement this use case. A set of 3 engineers were selected to tackle it. For the simplicity of the entire process these engineers were from one single team and thus dealing with their line manager became easier and more streamlined. By solving both sides of the equation, the strategy as a company and strategy as a process this use case is now able to proceed to the next stage.
 
 In terms of the expected metrics the team have outlined the following ones:
 \begin{itemize}
@@ -2543,7 +2543,7 @@ In terms of the expected metrics the team have outlined the following ones:
 	Increase developer satisfaction with documentation process by 50\%
 \end{itemize}
 
-Each of these metrics is directly tied to the painpoint which the engineers are facing and thus by solving them the engineers will be able to focus on more value adding activities.
+Each of these metrics is directly tied to the pain point which the engineers are facing, and thus by solving them, the engineers will be able to focus on more value-adding activities.
 
 The metrics will be measured at the end of the SAIL framework using the methods outlined in the table below.
 
@@ -2574,63 +2574,63 @@ The metrics will be measured at the end of the SAIL framework using the methods 
 
 The first initial step done by the engineers was the Technical Feasibility and Data Assessment check. The engineers have managed to identify that the best approach for this use case is to leverage an existing LLM model and fine-tune it on the internal codebase of the company. The process which they have chosen was utilising the Github Copilot technology which was already preapproved by the safety and security team of the company. The engineers have managed to identify that the codebase of the company is sufficient in order to fine-tune the model and thus the technical feasibility check was passed. 
 
-In terms of the data assessment the engineers have selected the most appropriate code base to start on and this being the python scripts which were among the most edited and worked upon and thus would have the highest return on effort once our pilot becomes the standard.
+In terms of the data assessment, the engineers have selected the most appropriate code base to start on, this being the Python scripts which were among the most edited and worked upon and thus would have the highest return on effort once our pilot becomes the standard.
 
-In terms of making the strategy for the deployment, the team have did a research on how to distribute this use case to the widest amount of engineers at once and this is done via a VSCode extension. The skill to create it was not currently in the team and this was identified as a gap which needed to be filled before proceeding to the next stage.
+In terms of creating the strategy for the deployment, the team did research on how to distribute this use case to the widest number of engineers at once, and this is done via a VSCode extension. The skill to create it was not currently in the team and this was identified as a gap which needed to be filled before proceeding to the next stage.
 
 \textbf{Pilot Design:}
 
-The pilot stage for this use case involved creation of the smallest deliverable product which other engineer is able to use and gain immediate value. This MVP was a VSCode extension which is able to generate code documentation for python scripts. The process of creating this MVP had many challenges such as the lack of experience in creating VSCode extensions which had to be tackled by the engineers as an immediate learning curve and the first process of trial and error. 
+The pilot stage for this use case involved creation of the smallest deliverable product which other engineers are able to use and gain immediate value. This MVP was a VSCode extension which is able to generate code documentation for python scripts. The process of creating this MVP had many challenges such as the lack of experience in creating VSCode extensions which had to be tackled by the engineers as an immediate learning curve and the first process of trial and error. 
 
-The architecture of this solution was designed as an integration of Github copilot in agentic model with an underlying Claude Sonnet 4.5 model. This combination will be then enhanced with the special usage of markdown files whose purpose is to be guiding the Agentic model to the best efficiency possible. 
+The architecture of this solution was designed as an integration of GitHub Copilot in an agentic model with an underlying Claude Sonnet 4.5 model. This combination will be then enhanced with the special usage of markdown files whose purpose is to be guiding the Agentic model to the best efficiency possible. 
 
-The sole purpose of the markdown files is to specify custom rules in terms of documentation, so that the model is then able to go retrieve these files and know what is the current standard of the internal rules and configurations. 
+The sole purpose of the markdown files is to specify custom rules in terms of documentation, so that the model is then able to retrieve these files and know what the current standard of the internal rules and configurations is. 
 
 This approach gives the model an actual leverage and a touch of customization over just simply using the out of the box Github Copilot functionality.
 
 
-By the end of the pilot design stage A clear road map was created serving as the backbone of the entire use case. This road map consisted of all the steps needed to be done from the onboarding, until the final deployment and release and rollout of this use case. This road map does not only serve the engineers, to be able to track the time inside of it. It also shows the management, the complexity of the use case and gives them the ability to plan this use case over a period of time in a more structured way.
+By the end of the pilot design stage, a clear roadmap was created serving as the backbone of the entire use case. This roadmap consisted of all the steps needed to be done from the onboarding until the final deployment, release, and rollout of this use case. This roadmap does not only serve the engineers to track the time inside of it, but also shows the management the complexity of the use case and gives them the ability to plan this use case over a period of time in a more structured way.
 
-All of this was created. We are then able to move into the next stage. 
+Once all of this was created, we were then able to move into the next stage. 
 
 \textbf{Pilot Execution:}
 
-The pilot execution stage for this use case started with the process of the actual onboarding and learning about how to successfully create and deploy VSCode extension. Online were gathered mostly from the actual Microsoft services to understand how engineers are able to achieve this goal. We have opted for the route of onboarding only one engineer instead of 3 because in the meantime the two engineers have already started with writing specific markdown files which are then guiding the AI model in the agentic mode. 
+The pilot execution stage for this use case started with the process of the actual onboarding and learning about how to successfully create and deploy a VSCode extension. Online resources were gathered mostly from the actual Microsoft services to understand how engineers are able to achieve this goal. We opted for the route of onboarding only one engineer instead of three because in the meantime the other two engineers had already started writing specific markdown files which would then guide the AI model in the agentic mode. 
 
 By having this distributed approach, we are able to not be slowed down by the learning curve of creating this VSCode extension and continue working on the use case. 
 
 The pilot execution stage lasted for around 3 weeks and by the end of it a working MVP was created which was able to generate code documentation for python scripts. The MVP was then tested by a small group of engineers and feedback was collected in order to improve the solution.
 
-After the succesful and improved MVP the team was then able to move into the next stage of evaluation and scaling decision.
+After the successful and improved MVP, the team was then able to move into the next stage of evaluation and scaling decision.
 
 \textbf{Evaluation \& Scaling Decision:}
 
-The process of evaluation and the scaling decision for this use case involved the actual analysis of the results and the interconnection in between various entities such as the sponsor, the management team and the security team.
+The process of evaluation and the scaling decision for this use case involved the actual analysis of the results and the interconnection between various entities such as the sponsor, the management team, and the security team.
 
-The analysis have looked at our success criteria which were outlined in the strategic alignment stage and have evaluated whether they were met or not.
+The analysis looked at our success criteria which were outlined in the strategic alignment stage and evaluated whether they were met or not.
 
-The numbers which we have gathered from the documentation creation process involved metrics of Reduction The time spent on creation of documentation, improvement documentation quality, and the overall satisfaction. 	
+The numbers which we gathered from the documentation creation process involved metrics of reduction in the time spent on creation of documentation, improvement in documentation quality, and the overall satisfaction. 	
 
-In the pilot stage we have managed to get the time spent on creation of the documentation reduced by 70\%.
+In the pilot stage, we managed to get the time spent on creation of the documentation reduced by 70\%.
 The documentation quality was improved by 15\% and the overall satisfaction of the engineers with the documentation process was increased by 40\%.
 
 Based on these metrics, we can clearly see that the MVP has a very strong potential and is already able to yield very promising results. 
 As these results are already on the track to be successful, we are going to proceed with the creation of the final product and scaling it. 
 
-If the metrics would not be on the track in terms of the promised and expected numbers, we have to either reevaluate whether the targets which we have set were too high or the observed metrics are objectively too low.
+If the metrics were not on track in terms of the promised and expected numbers, we would have to either reevaluate whether the targets which we set were too high or whether the observed metrics are objectively too low.
 
 \textbf{Scale Deployment:}
 The next step in the SAIL framework is the stage of scale deployment. This stage involves the actual rollout of the AI solution to a larger audience and collecting immediate feedback.
-During the scale deployment phase, the engineers have successfully managed to tweak the markdown files to be more appropriate towards the code documentation, while still collecting a very valuable feedback from the engineers. This has created a cycle of improvement, leading into a better and more rigid solution. 
+During the scale deployment phase, the engineers successfully managed to tweak the markdown files to be more appropriate for the code documentation while still collecting very valuable feedback from the engineers. This has created a cycle of improvement, leading into a better and more rigid solution. 
 
-The process of deployment has been successfully achieved by establishing a private VS code marketplace. which is self hosted and every single AI use case developed internally is able to be deployed there. This marketplace isolates the contact from outside world and therefore ensures security and safety of the internal tools. 
+The process of deployment has been successfully achieved by establishing a private VS Code marketplace which is self-hosted and where every single AI use case developed internally is able to be deployed. This marketplace isolates the contact from outside world and therefore ensures security and safety of the internal tools. 
 
-As every single engineer having the ability to simply download this VS code extension inside of their VS code editor. The friction in between installation and the usage is completely minimized and this improving the process of change management and reducing the resistance to change.
+As every single engineer has the ability to simply download this VS Code extension inside their VS Code editor, the friction between installation and usage is completely minimized, thus improving the process of change management and reducing the resistance to change.
 
 \textbf{AI Native Optimization:}
 The final stage in the SAIL framework is the stage of AI native optimization. This stage involves the continuous improvement and optimization of the AI solution.
 
-As the previous stage has been more focused on the distribution, the next stage needs to be focused on the actual improvement of the solution. Inside of the company we have positioned our team as a center point of AI and allowed engineers to comment on the repository of this use case. By collecting this valuable feedback, we were able to improve the solution and tweak it towards the developers preferences. By having a wider audience of users using the solution we are able to yield. A very promising results and succeed in the process of continuous improvement.
+As the previous stage has been more focused on the distribution, the next stage needs to be focused on the actual improvement of the solution. Inside the company, we positioned our team as a center point of AI and allowed engineers to comment on the repository of this use case. By collecting this valuable feedback, we were able to improve the solution and tweak it according to the developers' preferences. By having a wider audience of users using the solution, we were able to yield very promising results and succeed in the process of continuous improvement.
 
 After successfully implementing all the suggestions and comments, we were able to close the initiative as successful and move on to the next use case with the following results highlighted in the table below.
 
@@ -2657,41 +2657,41 @@ After successfully implementing all the suggestions and comments, we were able t
 \end{longtable}
 
 
-The process of optimization does not however, end at simply receiving the results of the survey. The process of continuous improvement is a never ending story unless the use case diminishes in terms of the usage of the engineers. For this use case, a set amount of questions and remarks were still added even after several months of usage. This means that the process of continuous improvement is still ongoing, however, we are getting a value from a product which is already implemented and requires close to minimal support and maintenance. This example clearly demonstrates us that it is possible to create an AI product which is delivering sustainable value. In order for the highest amount of engineers to properly use this tool, a set of workshops and training sessions were created in order to onboard the engineers and show them the value of this tool. By having this change management process in place, the adoption of the tool was significantly increased and thus the overall impact of the use case was maximized.
+The process of optimization does not, however, end at simply receiving the results of the survey. The process of continuous improvement is a never-ending story unless the use case diminishes in terms of the usage by the engineers. For this use case, a set amount of questions and remarks were still added even after several months of usage. This means that the process of continuous improvement is still ongoing, however, we are getting a value from a product which is already implemented and requires close to minimal support and maintenance. This example clearly demonstrates us that it is possible to create an AI product which is delivering sustainable value. In order for the highest amount of engineers to properly use this tool, a set of workshops and training sessions were created in order to onboard the engineers and show them the value of this tool. By having this change management process in place, the adoption of the tool was significantly increased and thus the overall impact of the use case was maximized.
 
 \subsection{AI-driven Refactoring}\label{ai-driven-refactoring}
 \textbf{Entry Point:}
 
-The use case to be explored and implemented is the process of developing an AI native agent pilot which will be responsible for refactoring any part of existing code base. This use case is going to be also based on Github Coilot with Claude Sonnet 4.5 and a set of markdown files guiding the agentic model on how to refactor the code. 
+The use case to be explored and implemented is the process of developing an AI-native agent pilot which will be responsible for refactoring any part of the existing code base. This use case is going to be also based on GitHub Copilot with Claude Sonnet 4.5 and a set of markdown files guiding the agentic model on how to refactor the code. 
 
-The process of refactoring is extremely important and needs to have a high level of quality and a concrete set of rules as each engineers views what is the best for the company and the code differently. This brings many ideas into the table, but does not determine what is the best approach for a factoring. Certain engineers prefer verbosity for the sake of readability and others prefer conciseness for the sake of efficiency. This conflict of interest. Does not have a concrete result and a concrete base. For a concrete decision point to be done, a set of rules needs to be evaluated, created and enforced. This is exactly where the melting point of Argentic AI model comes in play. 
+The process of refactoring is extremely important and needs to have a high level of quality and a concrete set of rules as each engineer views what is the best for the company and the code differently. This brings many ideas to the table, but does not determine what is the best approach for refactoring. Certain engineers prefer verbosity for the sake of readability and others prefer conciseness for the sake of efficiency. This conflict of interest does not have a concrete result and a concrete base. For a concrete decision point to be done, a set of rules needs to be evaluated, created, and enforced. This is exactly where the agentic AI model comes into play. 
 
-By having a set of markdown files and guiding the AI agentic model to enforce a strict refactoring, we are able to eliminate this problematic in between two engineers disagreeing on what is the best approach for refactoring. 
+By having a set of markdown files and guiding the AI agentic model to enforce a strict refactoring, we are able to eliminate this problem between two engineers disagreeing on what is the best approach for refactoring. 
 
 \textbf{Opportunity Scouting:}
-This opportunity of having an AI driven refactoring comes from the need to have a very high level of code which is being monitored by various assessments. Assessments such as: AST analysis, Cyclomatic complexity, Code duplication and other code quality metrics are extremely important for the overall health of the codebase and thus having a tool which is able to automatically refactor the code based on these metrics is extremely valuable.
+This opportunity of having an AI-driven refactoring comes from the need to have a very high level of code which is being monitored by various assessments. Assessments such as: AST analysis, Cyclomatic complexity, Code duplication and other code quality metrics are extremely important for the overall health of the codebase and thus having a tool which is able to automatically refactor the code based on these metrics is extremely valuable.
 
-Opportunity to develop internal AI driven tool, which is able to refactor any type of code base based on the set of well maintained markdown files used for configuration brings the company on the first glance an immediate return, not only from the perspective of having a clear, wellmaintained and readable code, but also having a long term clean code for the new engineers to be able to onboard themselves on it and bring value in a shortened amount of time.
+The opportunity to develop an internal AI-driven tool which is able to refactor any type of code base based on the set of well-maintained markdown files used for configuration brings the company, on the first glance, an immediate return, not only from the perspective of having a clear, well-maintained and readable code, but also having long-term clean code for the new engineers to be able to onboard themselves on it and bring value in a shortened amount of time.
 
 \textbf{Strategic Alignment:} 
-The process of aligning is used with the overall strategy was in fact very simple, because once the management was aware of the problem that many engineers have many different coding standards and having a unified approach to this problem was extremely valuable. 
+The process of strategic alignment for this use case was in fact very simple, because once the management was aware of the problem that many engineers have many different coding standards, having a unified approach to this problem was extremely valuable. 
 
-The main approach, when negotiating with the upper management came on the focus of the long term value of having a clean codebase rather than focusing on the fact that it's done by AI due the novelty. This approach only enforced our integrity and seriousness of the use case.
+The main approach when negotiating with the upper management focused on the long-term value of having a clean codebase rather than focusing on the fact that it's done by AI due to the novelty. This approach only enforced our integrity and seriousness of the use case.
 
 The vision of having a unified approach to declutter the current processes and help engineers have a more readable code while still preserving the efficiency of it was extremely valuable and thus the management was on board with this initiative from the very beginning.
 
-In order for the most efficiency, a team of two people were selected to tackle this use case. Due to the nature of the company and the trust which the AI community of practice had from the upper level management, conveying the message of selecting just two engineers from the given team was not a problem that needed to be tackled as upper management stood on our side and trusted our judgment.
+In order for maximum efficiency, a team of two people were selected to tackle this use case. Due to the nature of the company and the trust which the AI community of practice had from the upper-level management, conveying the message of selecting just two engineers from the given team was not a problem that needed to be tackled as upper management stood on our side and trusted our judgment.
 
 \textbf{Technical Feasibility \& Data Assessment:}
-From the perspective of technical feasibility and data assessment we had to decompose this problem. 
-The first step was to identify whether. There is already a set of rules which. The company is currently refactoring by. The second question came into. Whether the code base was already in a sub-par state and the use gate even had the need to be created. This would mean that if the code base was ordered in an amazing and perfect and clean state according to the latest coding standards, the need for this use case would be completely abolished. 
+From the perspective of technical feasibility and data assessment, we had to decompose this problem. 
+The first step was to identify whether there is already a set of rules which the company is currently refactoring by. The second question was whether the code base was already in a sub-par state and the use case even had the need to be created. This would mean that if the code base was ordered in an amazing and perfect and clean state according to the latest coding standards, the need for this use case would be completely abolished. 
 
-After further evaluating the current code base the conclusion came to it being in a sub-par state and the need for this use case became apparent. In terms of the rules and standards of refactoring throughout the entire company, the only existing rules were the ones enforced by the PEP8 standard developed under Python. This however, shall not be confused with refactoring, PEP 8 is a linting standard and the vision of our AI agent is concrete refactoring.
+After further evaluating the current code base, the conclusion came to it being in a sub-par state and the need for this use case became apparent. In terms of the rules and standards of refactoring throughout the entire company, the only existing rules were the ones enforced by the PEP8 standard developed under Python. This however, shall not be confused with refactoring, PEP 8 is a linting standard and the vision of our AI agent is concrete refactoring.
 
-As this use case will be once again developed under Github copilot with already existing LLM model Claude Sonnet 4.5 the technical feasibility was already passed as the safety and security team have already preapproved this technology for internal usage.
+As this use case will be once again developed under GitHub Copilot with the already existing LLM model Claude Sonnet 4.5, the technical feasibility was already passed as the safety and security team have already preapproved this technology for internal usage.
 
 
-When it comes to estimating the impact and expectations from this use case, the team have outlined the following metrics:
+When it comes to estimating the impact and expectations from this use case, the team outlined the following metrics:
 \begin{itemize}
 	\tightlist
 	\item
@@ -2702,7 +2702,7 @@ When it comes to estimating the impact and expectations from this use case, the 
 	Increase developer satisfaction with refactoring process by 40\%
 \end{itemize}
 
-The metrics outlined are closely describing what the engineers are struggling with and what is the main problem which they are facing. By solving these problems the process of refactoring will become extremely streamlined and the engineers can focus on other tasks which are more value adding. The metrics will be measured at the end of the SAIL framework using the methods outlined in the table below.
+The metrics outlined closely describe what the engineers are struggling with and what the main problem is which they are facing. By solving these problems, the process of refactoring will become extremely streamlined and the engineers can focus on other tasks which are more value-adding. The metrics will be measured at the end of the SAIL framework using the methods outlined in the table below.
 
 \begin{longtable}{@{}
 		>{\raggedright\arraybackslash}p{0.4\linewidth}
@@ -2728,9 +2728,9 @@ The metrics outlined are closely describing what the engineers are struggling wi
 
 \textbf{Pilot Design:}
 
-The Pilot Design stage started as a research from the team on the best practices when it comes to refactoring. The latest and greatest standards were gathered, documented, and their input was written inside of the markdown files. The focus of the team was purely Python, as it's the most dominant and impactful language inside of the company. By having clearly written rules which are enforced we are able to ensure that the code quality is. constantly improved and the engineers are able to focus on more value adding activities.
+The Pilot Design stage started with research from the team on the best practices when it comes to refactoring. The latest and greatest standards were gathered, documented, and their input was written in the markdown files. The focus of the team was purely Python, as it's the most dominant and impactful language in the company. By having clearly written rules which are enforced, we are able to ensure that the code quality is constantly improved and the engineers are able to focus on more value-adding activities.
 
-After thorough research, the team has decided to proceed with the way of implementing their own Github copilot agent based on Claude Sonnet 4.5 as the main driver. 
+After thorough research, the team decided to proceed to implement their own GitHub Copilot agent based on Claude Sonnet 4.5 as the main driver. 
 
 The designed process of how to use this tool was created and came to the following steps:
 
@@ -2743,30 +2743,30 @@ The designed process of how to use this tool was created and came to the followi
 
 
 By having a very straightforward process when it comes to usage of the tool, the friction for adoption is minimized. 
-The vision is to then package dysfunctionality inside of the VS code extension and simply launch it on other engineers computer. 
+The vision is to then package this functionality inside the VS Code extension and simply launch it on other engineers' computers. 
 This clearly defined architecture and process standard then led the team to the next stage of pilot execution.
 
 \textbf{Pilot Execution:}
 
-The pilot execution stage for this use case started with a rigorous process of following the road map outlined in the step before. From the beginning of the entire road map, the goal was to implement an MVP which fulfills the objective of refactoring Python code based on the input and standards from the markdown files.
-The two engineers have tackled this use case over the span of three months and successfully implemented all of the tickets outlined in the road map and developed the first version of the MVP.
-Once the MVP was done, a presentation to showcase the first value creation was done in the company round to start the internal process of marketing and awareness. By having the first MVP presented to the wider audience, the team was able to collect valuable feedback from the engineers and improve the solution even further.
+The pilot execution stage for this use case started with a rigorous process of following the roadmap outlined in the step before. From the beginning of the entire roadmap, the goal was to implement an MVP which fulfills the objective of refactoring Python code based on the input and standards from the markdown files.
+The two engineers tackled this use case over the span of three months and successfully implemented all of the tickets outlined in the roadmap and developed the first version of the MVP.
+Once the MVP was done, a presentation to showcase the first value creation was done in the company to start the internal process of marketing and awareness. By having the first MVP presented to the wider audience, the team was able to collect valuable feedback from the engineers and improve the solution even further.
 
-After the successful improvement based on the presentantion, the MVP was then forwarded to another team which conducted rigorous testing and gave a series of comments that helped the team improve the solution and refine it according to the engineers preferences.
+After the successful improvement based on the presentation, the MVP was then forwarded to another team which conducted rigorous testing and gave a series of comments that helped the team improve the solution and refine it according to the engineers' preferences.
 
-The most valuable feedback was to have a tiered approach when it comes to the refactoring levels. This means that the engineers wanted to have the ability to select whether they want a light refactoring, medium refactoring or a heavy refactoring. This feedback was extremely valuable as it allowed the team to improve the solution and make it more flexible towards the engineers preferences.
+The most valuable feedback was to have a tiered approach when it comes to the refactoring levels. This means that the engineers wanted to have the ability to select whether they want a light refactoring, medium refactoring, or a heavy refactoring. This feedback was extremely valuable as it allowed the team to improve the solution and make it more flexible to the engineers' preferences.
 
-Another very valuable feedback was to implement team specific markdown files. This means that each team is able to have their own set of rules and standards when it comes to refactoring. This on the first glance might seem  counterproductive, but on the other side a solution needed to be solved.
+Another very valuable feedback was to implement team-specific markdown files. This means that each team is able to have their own set of rules and standards when it comes to refactoring. This, on the first glance, might seem counterproductive, but on the other side a solution needed to be found.
 
-The new feedback came from the principle as the whole company cannot sustainably live of a single coding standard due to different customer programs being delivered to different customers, Each requiring completely different requirements and standards and therefore a more modular approach came into the discussion and further implementation. 
+The new feedback came from the principle that the whole company cannot sustainably live off a single coding standard due to different customer programs being delivered to different customers, each requiring completely different requirements and standards, and therefore a more modular approach came into the discussion and further implementation. 
 
 All the feedback gathered in their data collection stage was then implemented and the team was able to move into the next stage of evaluation and scaling decision.
 
 \textbf{Evaluation \& Scaling Decision:}
 
-Once the process of evaluation and scaling decision came to place, the team has already Gathered trust of management, the engineers and already received companywide recognition. This has outperformed the existing expectations from the beginning of simply keeping it as an MVP and thus the decision to proceed, reject or iterate was more than clear. The need for this use case was clearly in the company and it immediately solved another painpoint which the engineers were facing.
+Once the process of evaluation and scaling decision came to place, the team had already gathered trust of management, the engineers, and had already received company-wide recognition. This has outperformed the existing expectations from the beginning of simply keeping it as an MVP and thus the decision to proceed, reject or iterate was more than clear. The need for this use case was clearly in the company and it immediately solved another pain point which the engineers were facing.
 
-Now the correct question would be to ask whether this is not enough and if any extra effort. Put inside of. This use case would yield and a positive return. On one side the solution was good enough as it was already delivering value and engineer started using it, but on the other side the team have seen a potential for further improvement and thus the decision to proceed with scaling and deployment was made. This improvement came to place mostly in the aspect of having more languages supported rather than just Python. By having more languages supported the overall impact of the use case would be significantly increased and thus the decision to proceed with scaling and deployment was made.
+Now the correct question would be to ask whether this is not enough and if any extra effort put into this use case would yield a positive return. On one side, the solution was good enough as it was already delivering value and engineers started using it, but on the other side, the team saw a potential for further improvement and thus the decision to proceed with scaling and deployment was made. This improvement came to place mostly in the aspect of having more languages supported rather than just Python. By having more languages supported the overall impact of the use case would be significantly increased and thus the decision to proceed with scaling and deployment was made.
 
 
 From the perspective of metrics, the following numbers were achieved during the pilot stage. 
@@ -2792,24 +2792,24 @@ From the perspective of metrics, the following numbers were achieved during the 
 \end{longtable}
 
 \textbf{Scale Deployment:}
-As the decision to scale and deploy the solution was made, the team has started the process of preparing the solution for the wider audience. While entering into the stage, the solution was overly packaged as a VS code extension ready to be deployed. The main challenge which the team was facing is the lack of supported languages and therefore the same logic was implemented for further languages being: (Shell Script, C++ and C).
+As the decision to scale and deploy the solution was made, the team started the process of preparing the solution for the wider audience. While entering into the stage, the solution was overly packaged as a VS Code extension ready to be deployed. The main challenge which the team was facing is the lack of supported languages and therefore the same logic was implemented for further languages being: (Shell Script, C++ and C).
 
-The process of scaling the solution into more languages could unfortunately not be reused from the current status done in Python as a new research needed to be Conducted. The reason for it being that each language has its own set of standards and rules when it comes to refactoring and therefore the team needed to go through the same process of research, documentation and implementation for each language separately.
+The process of scaling the solution into more languages could unfortunately not be reused from the current status done in Python as new research needed to be conducted. The reason for this is that each language has its own set of standards and rules when it comes to refactoring, and therefore the team needed to go through the same process of research, documentation, and implementation for each language separately.
 
-After successfully implementing the additional languages, the team could then proceed with the deployment of the solution to larger audience being larger set of engineers. This was achieved by once again utilizing the private marketplace hosted inside of the company. The engineers could simply download the VS code extension from the marketplace and use it immediately inside of their editors. By simply having this option the friction for adoption was minimized and the team was one step closer to the final stage of AI native optimization.
+After successfully implementing the additional languages, the team could then proceed with the deployment of the solution to a larger audience of engineers. This was achieved by once again utilizing the private marketplace hosted inside the company. The engineers could simply download the VS Code extension from the marketplace and use it immediately inside their editors. By simply having this option the friction for adoption was minimized and the team was one step closer to the final stage of AI native optimization.
 
-This however does not paint the whole picture. Only having the use case available to the engineers does not change the behavior and the current mentality of them. Many of the software engineers didn't even know that the marketplace offered such a great tool. This had to be done via a rigorous training, workshops and internal company marketing to convey the message that there exists a tool and this tool shall be utilized in order to gain significant improvements in terms of time, code quality. And common vision for great code standards. 
+This however does not paint the whole picture. Only having the use case available to the engineers does not change the behavior and the current mentality of them. Many of the software engineers didn't even know that the marketplace offered such a great tool. This had to be done via rigorous training, workshops, and internal company marketing to convey the message that there exists a tool and this tool shall be utilized in order to gain significant improvements in terms of time, code quality, and a common vision for great code standards. 
 
 
 \textbf{AI Native Optimization:}
-The final stage of the SAIL framework is the stage of AI native optimization. Throughout the stage, the team has gathered many more comments regarding the code factoring monitor the latest changes, the standards, architecture and principles which the engineers would like to see implemented. The larger audience once again allowed for better final outcome. We have utilized the principle of having a public repository, where engineers could simply comment their requests and suggestions which they would like to see and thus giving people the power to control the direction of the use case.
+The final stage of the SAIL framework is the stage of AI native optimization. Throughout the stage, the team gathered many more comments regarding the code refactoring, the latest changes, the standards, architecture, and principles which the engineers would like to see implemented. The larger audience once again allowed for better final outcome. We have utilized the principle of having a public repository, where engineers could simply comment their requests and suggestions which they would like to see and thus giving people the power to control the direction of the use case.
 
 By having this continuous improvement process in place, the team was able to successfully implement the most requested features and suggestions and thus improve the solution even further.
 
 The ongoing iterative optimization process wasn't so active as expected. The external engineers were initially very proactive when it came to suggesting new standards, but once a common ground was achieved only very few people were commenting on changes. 
 This gives us a conclusion that  the solution has reached a point of maturity and the engineers are satisfied with the current state of it.
 
-This claim this claim can be backed by the final survey done among the engineers which yielded the following results:
+This claim can be backed by the final survey done among the engineers which yielded the following results:
 \begin{longtable}{@{}
 		>{\raggedright\arraybackslash}p{0.4\linewidth}
 		>{\raggedright\arraybackslash}p{0.6\linewidth}
@@ -2832,11 +2832,11 @@ This claim this claim can be backed by the final survey done among the engineers
 \end{longtable}
 
 
-The final survey clearly tells us that the solution was implemented in a fashion which tailored not only to the general engineers but also the juniors. The triggers are usually the engineers with the least amount of experience with code and by tailoring also to their understanding we are able to ensure that the solution is sustainable in the long term as the new hires will also be able to utilize it. 
+The final survey clearly tells us that the solution was implemented in a fashion which was tailored not only to the general engineers but also to the juniors. The juniors are usually the engineers with the least amount of experience with code, and by tailoring also to their understanding, we are able to ensure that the solution is sustainable in the long term as the new hires will also be able to utilize it. 
 
-If we only extrapolate the fact that Juniors preferred this tool. We might come to a conclusion this tool makes code very inefficient and very verbose. However, this is not the case as another global survey was sent to all engineers and the result of 45\% satisfaction increase clearly indicates that the solution is well balanced. If the verbosity would be increased and thus compromising on the efficiency, senior engineers would report this use case in the survey as underperforming and thus giving us a clear indication that the solution is not well balanced.
+If we only extrapolate the fact that juniors preferred this tool, we might come to a conclusion this tool makes code very inefficient and very verbose. However, this is not the case as another global survey was sent to all engineers and the result of 45\% satisfaction increase clearly indicates that the solution is well balanced. If the verbosity would be increased and thus compromising on the efficiency, senior engineers would report this use case in the survey as underperforming and thus giving us a clear indication that the solution is not well balanced.
 
-Therefore, we can strongly conclude that the use case is well balanced in between the verbosity so the juniors understand and the efficiency so the seniors are also satisfied.
+Therefore, we can strongly conclude that the use case is well balanced between the verbosity so the juniors understand and the efficiency so the seniors are also satisfied.
 
 
 \subsection{Pull Request Review
@@ -2844,7 +2844,7 @@ Therefore, we can strongly conclude that the use case is well balanced in betwee
 
 \textbf{Entry Point:} 
 
-The following use case of having an automated pull request review system is extremely valuable for any software organization. Every single line of code just added inside of the code based on an organization needs to go through a puller request review. This means that the human is usually reviewing a code coded by another human. No matter the size of the organization this process is extremely time consuming and tedious. Oftentimes junior engineers are creating pull requests which are sub-par to the quality of the code inside of a code base and senior engineers are usually tasked with reviewing of these pull requests. This creates a bottleneck as senior engineers are usually the most busy people inside of the organization and having them review code which is not up to the standards is a waste of their time. By having this process automated by an AA agent, senior engineers are able to save expensive precious time to work on more critical features and functionalities, rather than reviewing code which could be done by an AI agent.
+The following use case of having an automated pull request review system is extremely valuable for any software organization. Every single line of code just added inside of the code base of an organization needs to go through a pull request review. This means that a human is usually reviewing code coded by another human. No matter the size of the organization, this process is extremely time consuming and tedious. Oftentimes, junior engineers are creating pull requests which are sub-par to the quality of the code inside of the code base and senior engineers are usually tasked with reviewing these pull requests. This creates a bottleneck as senior engineers are usually the busiest people inside of the organization and having them review code which is not up to the standards is a waste of their time. By having this process automated by an AI agent, senior engineers are able to save expensive precious time to work on more critical features and functionalities, rather than reviewing code which could be done by an AI agent.
 
 An AI agent which is able to review pull requests based on a set of markdown files guiding it on what are the standards and principles of the company is extremely valuable. This agent will be able to review the code, give comments, suggest improvements and even approve or reject the pull request based on the quality of the code. This will create a significant time saving for senior engineers and thus allowing them to focus on more value adding activities.
 
@@ -2854,26 +2854,26 @@ This gives the AI agent a significant advantage over human reviewers as it is ab
 
 \textbf{Opportunity Scouting:}
 
-The face of opera discounting involves identification of the pain point. This being the pull request review process. This use case was pitched by a senior engineers as they are the ones responsible for reviewing the pull requests and keeping the quality of the code base high. Once the company has an AI driven pull request review automation, it can restructure the entire process of code review and allow senior engineers to focus on more value adding activities. The time saved from this process is extremely valuable as senior engineers are usually the most expensive resources inside of the organization and having them review code which could be done by an AI agent is a waste of their time.
+The phase of opportunity scouting involves identification of the pain point, this being the pull request review process. This use case was pitched by senior engineers as they are the ones responsible for reviewing the pull requests and keeping the quality of the code base high. Once the company has an AI-driven pull request review automation, it can restructure the entire process of code review and allow senior engineers to focus on more value-adding activities. The time saved from this process is extremely valuable as senior engineers are usually the most expensive resources in the organization and having them review code which could be done by an AI agent is a waste of their time.
 
 \textbf{Strategic Alignment:}
-The complexity of this used case is greater than the already existing ones.  This means that the strategic alignment process needs to be done with multiple entities. This use case is not focused on the alignment of the vision, mission and the goal of the company, this use case comes to life because it can revolutionize how the company operates. The key strategic entities which the team will have to align is the IT department, the Vice president of Engineering and the Safety and Security Department. 
+The complexity of this use case is greater than the already existing ones. This means that the strategic alignment process needs to be done with multiple entities. This use case is not focused on the alignment of the vision, mission, and the goal of the company; this use case comes to life because it can revolutionize how the company operates. The key strategic entities which the team will have to align with are the IT department, the Vice President of Engineering, and the Safety and Security Department. 
 
-As this use case requires more manpower, A team of four engineers was assembled. The team consisted of two senior engineers, one junior engineer and one regular professional. This gave the team the ability to tackle the complexity of the use case from multiple angles and ensure that the solution is well rounded and robust.
+As this use case requires more manpower, a team of four engineers was assembled. The team consisted of two senior engineers, one junior engineer, and one regular professional. This gave the team the ability to tackle the complexity of the use case from multiple angles and ensure that the solution is well rounded and robust.
 
-The strategy alignment on this use case was done via a series of meetings with the key stakeholders. The first step was to present the use case to the IT department and get their buy-in. The second step was to present the use case to the Vice president of Engineering and get his buy-in and initial tips while advancing on the roadmap. The third step was to present the use case to the Safety and security and verify what type of infrastructure is needed in order to ensure that the solution is compliant with the company's security standards.
+The strategy alignment on this use case was done via a series of meetings with the key stakeholders. The first step was to present the use case to the IT department and get their buy-in. The second step was to present the use case to the Vice President of Engineering and get his buy-in and initial tips while advancing on the roadmap. The third step was to present the use case to the Safety and Security team and verify what type of infrastructure is needed in order to ensure that the solution is compliant with the company's security standards.
 
-All of these steps Are very crucial to ensure that the use case is well researched. And aware of all the potential roadblocks down the line. If all the strategic points would'nt be properly aligned any factor could totally disintegrate the entire idea. This would mean that all the effort. put into the use case would be wasted and thus the strategic alignment is extremely crucial for the success of this use case.
+All of these steps are very crucial to ensure that the use case is well researched and aware of all the potential roadblocks down the line. If all the strategic points wouldn't be properly aligned, any factor could totally disintegrate the entire idea. This would mean that all the effort put into the use case would be wasted, and thus the strategic alignment is extremely crucial for the success of this use case.
 
 \textbf{Technical Feasibility \& Data Assessment:}
-From the perspective of the technical feasibility in the data assessment, the team had to first analyze if the already existing infrastructure is sufficient for an AI agent to be hosted on. The team had to also identify whether it is even possible to create an API calls in between the current infrastructure and the used services to fullfil the use case of reviewing pull requests with an AI agent.
+From the perspective of the technical feasibility and data assessment, the team had to first analyze if the already existing infrastructure is sufficient for an AI agent to be hosted on. The team had to also identify whether it is even possible to create API calls between the current infrastructure and the used services to fulfill the use case of reviewing pull requests with an AI agent.
 The technical feasibility check was conducted very closely with the IT department. 
 
 The final conclusion from the IT department was that all the services and our approach is safe and secure and the only need was to deploy a separate virtual machine acting as a server on which the AI agent will be hosted and run. This virtual machine will be connected via API calls to the existing code repository and thus will be able to review pull requests in close to real time.
 
-The data assessment part involved identification of the existing code base and the quality of it. The team had to ensure that the code base is sufficient in order to train and fine tune the AI agent to be able to review pull requests effectively. The team has identified that the code base is indeed sufficient and thus the technical feasibility and data assessment check was passed.
+The data assessment part involved identification of the existing code base and the quality of it. The team had to ensure that the code base is sufficient in order to train and fine-tune the AI agent to be able to review pull requests effectively. The team identified that the code base is indeed sufficient and thus the technical feasibility and data assessment check was passed.
 
-In order for The team to try to aim for certain benchmarks. The following metrics were established as our success criteria. 
+In order for the team to try to aim for certain benchmarks, the following metrics were established as our success criteria. 
 
 \begin{itemize}
 	\tightlist
@@ -2885,7 +2885,7 @@ In order for The team to try to aim for certain benchmarks. The following metric
 	Increase developer satisfaction with pull request review process by 50\%
 \end{itemize}
 
-This time one of the metrics does not have a clear number next to it, but it is rather a yes or no observation. The two other metrics are clearly defined in terms of the optimization. It is very important to point out the first metric to achieve an automated political review is a remarkable achievement already on its own and thus the other two metrics are more of a cherry on top. Even though on the first glance the first metric might not be useful for the observer, any type of automated polar cost review already brings value in terms of saving time for senior engineers. In order for us to understand whether the use case was successful or not, The team will conduct. Measurements at the end of the SAIL framework using the following methods. 
+This time one of the metrics does not have a clear number next to it, but it is rather a yes or no observation. The two other metrics are clearly defined in terms of the optimization. It is very important to point out that the first metric, to achieve an automated pull request review, is a remarkable achievement already on its own and thus the other two metrics are more of a cherry on top. Even though on the first glance the first metric might not be useful for the observer, any type of automated pull request review already brings value in terms of saving time for senior engineers. In order for us to understand whether the use case was successful or not, the team will conduct measurements at the end of the SAIL framework using the following methods. 
 
 \begin{longtable}{@{}
 		>{\raggedright\arraybackslash}p{0.4\linewidth}
@@ -2911,37 +2911,37 @@ This time one of the metrics does not have a clear number next to it, but it is 
 \textbf{Pilot Design:}
 
 
-The pilot design stage for this use case involved a series of investigations, research and planning. The first step was to identify that in order to have an AI Agent review pull requests, a virtual machine acting as a server is a precondition.
-This virtual machine will be hosting our AI agent which will be directly communicated via an API calls to fetch the latest changes and be able to execute them independently on the code base which it will have in its current workspace. 
+The pilot design stage for this use case involved a series of investigations, research, and planning. The first step was to identify that in order to have an AI agent review pull requests, a virtual machine acting as a server is a precondition.
+This virtual machine will be hosting our AI agent which will be directly communicated via API calls to fetch the latest changes and be able to execute them independently on the code base which it will have in its current workspace. 
 
-The backbone of our AI agent will be once again Github copilot with Claude Sonnet 4.5 as the main LLM model. This model has already successfully proven itself in the previous use cases even though their complexity was not up to the level of reviewing pull requests and executing code on human behalf.
+The backbone of our AI agent will be once again GitHub Copilot with Claude Sonnet 4.5 as the main LLM model. This model has already successfully proven itself in the previous use cases even though its complexity was not up to the level of reviewing pull requests and executing code on human behalf.
 
 The next step in the pilot design stage was to create a set of markdown files guiding the AI agent on what are the coding standards and principles of the company. This is extremely crucial as the AI agent needs to understand what is expected from it in order to review pull requests effectively. The markdown files will be constantly updated and improved based on feedback from senior engineers and changes in coding standards.
 
-The next step in terms of our pilot design stage was the creation of a set of markdown files which are going to be guiding the AI agent and helping it understand the dependencies between files, functions And logical principles. This is done not because AI is not able to detect patterns and act upon them. It is done so that for every single execution AI doesn't have to do this tedious process and it can already use the existing knowledge base. The reasoning for this is action is that it should significantly reduce the time required for the AI agent to review pull requests and thus improving the overall efficiency of the solution. 
+The next step in terms of our pilot design stage was the creation of a set of markdown files which are going to be guiding the AI agent and helping it understand the dependencies between files, functions, and logical principles. This is done not because AI is not able to detect patterns and act upon them, but because for every single execution, AI doesn't have to do this tedious process and it can already use the existing knowledge base. The reasoning for this action is that it should significantly reduce the time required for the AI agent to review pull requests and thus improve the overall efficiency of the solution. 
 
-The following step will require an establishment in between the virtual machine hosting the AI agent and the code repository via API calls. This will allow the AI agent to fetch the latest pull requests and review them in close to real time.
+The following step will require an establishment between the virtual machine hosting the AI agent and the code repository via API calls. This will allow the AI agent to fetch the latest pull requests and review them in close to real time.
 
-The step which will determine what is the success of the pilot design is the definition of the actions which the AI agent will be able to take. As already mentioned in the entry point, the AI agent will be able to review the code, give comments, suggest improvements and even approve or reject the pull request based on the quality of the code. This will create a significant time saving for senior engineers and thus allowing them to focus on more value adding activities. Will have to be marked down and will act as the core identity of the AI agent. 
+The step which will determine what the success of the pilot design is is the definition of the actions which the AI agent will be able to take. As already mentioned in the entry point, the AI agent will be able to review the code, give comments, suggest improvements, and even approve or reject the pull request based on the quality of the code. This will create a significant time saving for senior engineers and thus allow them to focus on more value-adding activities. This will have to be marked down and will act as the core identity of the AI agent. 
 
-In the final step. The pilot will be tested on a sample of pull requests and gather feedback from senior engineers. This feedback will be crucial in order to refine the AI agent and improve its performance. This use case will rely on the feedback loop from senior engineers more than any other use case as we are losing the sense of human review and thus the trust from senior engineers needs to be built up in order for the solution to be successful.  
+In the final step, the pilot will be tested on a sample of pull requests and gather feedback from senior engineers. This feedback will be crucial in order to refine the AI agent and improve its performance. This use case will rely on the feedback loop from senior engineers more than any other use case as we are losing the sense of human review and thus the trust from senior engineers needs to be built up in order for the solution to be successful.  
 
 
-After establishing all the requried components and architecture for succesful execution of the pilot, alligning the strategy with the key stakeholders, and passing the decision whether the use case is technically feasible or not, the team was ready to proceed with the pilot execution stage. 
+After establishing all the required components and architecture for successful execution of the pilot, aligning the strategy with the key stakeholders, and passing the decision whether the use case is technically feasible or not, the team was ready to proceed with the pilot execution stage. 
 
 \textbf{Pilot Execution:}
 	
-	The pilot execution stage started with an unexpected challenge. This challanged involed restriction of API access and configuration of the firewall requiring tedious proccess of approval from the IT department and the safety and security department. The reasoning for this restriction was the security concerns regarding the access of an external virtual machine to the internal code repository. 
+	The pilot execution stage started with an unexpected challenge. This challenge involved restriction of API access and configuration of the firewall requiring tedious process of approval from the IT department and the safety and security department. The reasoning for this restriction was the security concerns regarding the access of an external virtual machine to the internal code repository. 
 
 	After successful implementation of the agent, the procedure to implement the markdown files acting as a knowledge base for the AI agent began. This process involved thorough research and documentation of the coding standards and principles of the company. The team had to ensure that the markdown files were comprehensive and covered all the necessary aspects of code review.
 	
 
-	This however, did not end up being sufficient as during the initial testing phase, Several senior engineers were discovered that the AI agent was approving syntactically correct but architecturally flawed and insufficient code.
-	Due to this issue, The team was prompted to do further refinement, deeper analysis and alignment sessions with the VP of Engineering's to guide them towards a successful path. During these sessions, a proper strategy was developed for the AI to understand the architecture, not only on the principle of syntax but also under the principles of design and architecture. 
+	This, however, did not end up being sufficient as during the initial testing phase, several senior engineers discovered that the AI agent was approving syntactically correct but architecturally flawed and insufficient code.
+	Due to this issue, the team was prompted to do further refinement, deeper analysis, and alignment sessions with the VP of Engineering to guide them towards a successful path. During these sessions, a proper strategy was developed for the AI to understand the architecture, not only on the principle of syntax but also under the principles of design and architecture. 
 
-	Another flaw which the junior engineer identified was a very critical bug where an agent failed to detect circle dependency across multi file pull requests. This led to the implementation of a multi pass review architecture which analyzes the full repository context before approving changes. Having an approach such as this significantly improved the quality of the pull request reviews and thus increasing the trust from senior engineers.
+	Another flaw which the junior engineer identified was a very critical bug where an agent failed to detect circular dependency across multi-file pull requests. This led to the implementation of a multi-pass review architecture which analyzes the full repository context before approving changes. Having an approach such as this significantly improved the quality of the pull request reviews and thus increasing the trust from senior engineers.
 
-	During the execution phase, senior engineers discovered a harsh truth from the principle of change management. The trust.
+	During the execution phase, senior engineers discovered a harsh truth from the principle of change management: the trust.
 	This lack of trust came from the fact that the agent's review comments lacked contextual reasoning explanations and this prompted the team to implement a verbose logging mode where the AI justifies every rejection with specific markdown guideline references. 
 	This further justification improved the perceived trust and helped engineers understand the reasoning behind the rejections.
 	
@@ -2950,43 +2950,43 @@ After establishing all the requried components and architecture for succesful ex
 	The additional resources beyond the pilot phase were extremely crucial as they will serve us as a quality gate on whether to proceed with scaling and deployment or to iterate further. This however shall not be the same determining factor as metrics and impact will be guiding us in the next stage of evaluation and scaling decision.
 
 \textbf{Evaluation \& Scaling Decision:}
-	As already mentioned, the impact on the Truss gained from the VP of engineering gave not only the team but the engineers already testing this pilot the confidence that the solution is indeed valuable and thus the decision whether to proceed with scaling and deployment or to iterate further was not as complex as in other use cases.
+	As already mentioned, the impact and the trust gained from the VP of Engineering gave not only the team but the engineers already testing this pilot the confidence that the solution is indeed valuable and thus the decision whether to proceed with scaling and deployment or to iterate further was not as complex as in other use cases.
 
 	In order to follow the SAIL framework correctly, the team had to evaluate the impact of the pilot and measure the success criteria outlined in the technical feasibility and data assessment stage.
 	
-	The first metric which was outlined was the achievement of an automated pull request review. As this metrics was more of a yes or no observation and the source of truth was the system logs and monitoring. The team can confirm that a fully automated agent reviewing pull requests is indeed achieved.
+	The first metric which was outlined was the achievement of an automated pull request review. As this metric was more of a yes or no observation and the source of truth was the system logs and monitoring, the team can confirm that a fully automated agent reviewing pull requests is indeed achieved.
 
 	The second metric involves the reduction of time spent on reviewing and monitoring pull requests by 100\%.
 	The vision was that every single pull request opened in the company would be left to the AI agent and that humans would not be in touch with reviewing the code anymore. This, however, has not become the case. In order to set the reality straight, the engineers are still overseeing the pull request review process and thus the time spent on pull request reviews is not reduced by 100\%. This metric shall, however, be questioned, whether the reason is the incompetence of the AI agent or the lack of trust from senior engineers. It is very natural that humans do not trust an AI agent straight out of the box. The process of change management requires time, results and proven track record of success in order for humans to trust the AI agent. What, however, has to be mentioned is the significant decrease in terms of the actual time spent on pull request reviews by senior engineers. 
 
-	In the current state, the AI is able to review the pull request based on the markdown files and give comments and suggestions. The senior engineers are only overseeing the process and giving the final approval in terms of whether the code inside of the pull request truly fullfils the quality standards and its purpose matches the requirements oultined in the ticket. Based on the feedback from senior engineers, the time spent on pull request reviews has been reduced by 70\%, which is a significant achievement on its own. In this case the expection of reducing the time spent on pull request reviews by 100\% was not achieved, but it could be argued that the original expectation was too high and the achieved result is still extremely valuable.
+	In the current state, the AI is able to review the pull request based on the markdown files and give comments and suggestions. The senior engineers are only overseeing the process and giving the final approval in terms of whether the code in the pull request truly fulfills the quality standards and its purpose matches the requirements outlined in the ticket. Based on the feedback from senior engineers, the time spent on pull request reviews has been reduced by 70\%, which is a significant achievement on its own. In this case, the expectation of reducing the time spent on pull request reviews by 100\% was not achieved, but it could be argued that the original expectation was too high and the achieved result is still extremely valuable.
 
 
-	The last metric involved the increase of developer satisfaction with our new bore request review process by 50\%. His metric was measured by an actual developer survey. The results from the survey indicated An increase in developer satisfaction by 40\%. Once again, the final metric did not meet the original expectation and once again it would be appropriate to question whether the original expectation was too high.
+	The last metric involved the increase of developer satisfaction with our new pull request review process by 50\%. This metric was measured by an actual developer survey. The results from the survey indicated an increase in developer satisfaction by 40\%. Once again, the final metric did not meet the original expectation and once again it would be appropriate to question whether the original expectation was too high.
 
 	If we simply extrapolate the increase in developer satisfaction by 40\% and looked at the number from a birds eye view, we can clearly see that this is a significant achievement. What still has to be questioned is how can we improve this? 
 
 	As in the current stage the use case is still in its early times and is by far not perfect, there is a lot of room for improvement. 
 
-	The current potential improvements which the team has identified are mostly related to improvment of logging and dynamic tracking of the changes. By having a more dynamic tracking of the changes, the AI agent will be able to understand the context of the pull request better and thus give more accurate reviews.
+	The current potential improvements which the team has identified are mostly related to improvement of logging and dynamic tracking of the changes. By having a more dynamic tracking of the changes, the AI agent will be able to understand the context of the pull request better and thus give more accurate reviews.
 
-	After the final evaluation of all the metrics and an overall impact of the pilot, The team has come to a conclusion that that the use case is indeed valuable and it will be the right decision to proceed with the process of scaling and deployment rather than iterating further to improve the pilot. 
+	After the final evaluation of all the metrics and an overall impact of the pilot, the team has come to a conclusion that the use case is indeed valuable and it will be the right decision to proceed with the process of scaling and deployment rather than iterating further to improve the pilot. 
 
 \textbf{Scale Deployment:}
-The process of scaling this use case came down to two main divisions. The technical scaling and the organizational scaling. From the perspective of technical scaling, The the team had to simply ensure that the agent will be able to handle the load of the entire organization rather than just a small subset of engineers testing the pilot. This was achieved by scaling verticaly the virtual machine hosting the AI agent and thus ensuring that it has enough resources to handle the load. 
+The process of scaling this use case came down to two main divisions: the technical scaling and the organizational scaling. From the perspective of technical scaling, the team had to simply ensure that the agent will be able to handle the load of the entire organization rather than just a small subset of engineers testing the pilot. This was achieved by scaling vertically the virtual machine hosting the AI agent and thus ensuring that it has enough resources to handle the load. 
 
-The larger unknown variable came from the perspective of organizational scaling due to the change management process of having to abandon the process of review and having humans review the code. Management process involved a series of hekatons, workshops and solution demos during which the usage and its benefits were presented to the wider audience. By having this rigorous change management process the team were successfully onboarded and trust was gained. It is very important to mention that the whole organization did not digest the change at once. The process of scaling was going from team to group to department to divsion and finally to the entire organization.   
+The larger unknown variable came from the perspective of organizational scaling due to the change management process of having to abandon the process of review and having humans review the code. The management process involved a series of hackathons, workshops, and solution demos during which the usage and its benefits were presented to the wider audience. By having this rigorous change management process, the team were successfully onboarded and trust was gained. It is very important to mention that the whole organization did not digest the change at once. The process of scaling was going from team to group to department to division and finally to the entire organization.   
 
-The process of scale and deployment was heavily supported by the upper management, especially the VP of engineering. This support was extremely crucial to gain trust for the engineers as they were more likely to trust the solution if it was endorsed by the upper management. In terms of the timelines, the aspect of technical deployment was achieved almost instantly due to the already existing infrastructure. The organizational deployment however took around three months as the change management process is always a time consuming process.
+The process of scale and deployment was heavily supported by the upper management, especially the VP of Engineering. This support was extremely crucial to gain trust for the engineers as they were more likely to trust the solution if it was endorsed by the upper management. In terms of the timelines, the aspect of technical deployment was achieved almost instantly due to the already existing infrastructure. The organizational deployment, however, took around three months as the change management process is always a time-consuming process.
 
-Once the solution was successfully scaled, deployed and people were on boarded, it was time to decide whether we are done with the use case or if we want to give it further iterative optimization and continous improvement in the next stage.
+Once the solution was successfully scaled, deployed, and people were onboarded, it was time to decide whether we are done with the use case or if we want to give it further iterative optimization and continuous improvement in the next stage.
 
-The decision came to the reasoning that the use case is indeed valuable and the state of the pull request review automation is not perfect yet. New requirements and feedbacks are constantly coming in and this gives us a clear indication that the use case is not finished yet and will still require further iterative optimization and continous improvement in the next stage of AI native optimization.
+The decision came to the reasoning that the use case is indeed valuable and the state of the pull request review automation is not perfect yet. New requirements and feedback are constantly coming in, and this gives us a clear indication that the use case is not finished yet and will still require further iterative optimization and continuous improvement in the next stage of AI-native optimization.
 
 \textbf{AI Native Optimization:}
 The stage of the SAIL framework which concludes the entire process is the AI native optimization. After the use case being successfully designed, analyzed, refined, implemented, scaled, rolled out, it's time to maintain it, optimize it, improve it further, and yield continuous and sustainable value over time. The capital investment in terms of time and resources has already been made and therefore the best option for the team was to try to ensure that the use case meets the current requirements of the engineers and provides value in terms of the pull request review process. The question of what the engineers want and expect can only be measured by one way and it's talking to the customers, in this case the engineers, as this tool is only internal. 
 
-Based on the survey done several months after the deployment of the solution the team has gathered more metrics from the already outlined methods.
+Based on the survey done several months after the deployment of the solution, the team gathered more metrics from the already outlined methods.
 
 \begin{longtable}{@{}
 		>{\raggedright\arraybackslash}p{0.4\linewidth}
@@ -3009,10 +3009,10 @@ Based on the survey done several months after the deployment of the solution the
 	Developer satisfaction increased by 55\% \\
 \end{longtable}
 
-Based on the gathered numbers in the AI native optimization step, we can clearly see a difference in between the stage of pilot execution and the A native optimization. This being mainly in the last metric in terms of the developer satisfaction. 
-The reasoning behind increased developer satisfaction is the fact that the team was able to implement further improvements based on the feedback gathered from engineers and thus fullfilling their needs better. It can also be noticed that the final metrics has actually surpassed the original expectations which is a remarkable achievement on its own. 
-The final metrics tell us that two out of the three expected metrics have successfully passed our initial threshold.
-As already mentioned in pilot execution phase, The metric regarding the time spent on pull request reviews being reduced by 100\% was always a very ambitious goal and therefore the achieved result of 75\% is still extremely valuable.
+Based on the gathered numbers in the AI-native optimization step, we can clearly see a difference between the stage of pilot execution and the AI-native optimization. This being mainly in the last metric in terms of the developer satisfaction. 
+The reasoning behind increased developer satisfaction is the fact that the team was able to implement further improvements based on the feedback gathered from engineers and thus fulfilling their needs better. It can also be noticed that the final metric has actually surpassed the original expectations, which is a remarkable achievement on its own. 
+The final metric tells us that two out of the three expected metrics have successfully passed our initial threshold.
+As already mentioned in the pilot execution phase, the metric regarding the time spent on pull request reviews being reduced by 100\% was always a very ambitious goal and therefore the achieved result of 75\% is still extremely valuable.
 
 
 It is also very important to note that this use case will stay here, but hopefully the maintenance will not. The use case should reach its maturity, meaning the point during which engineers are satisfied with the functionality and performance of the solution and therefore the need for further improvements will be minimal. Important to mention, down the line there should be a team maintaining the solution and understand the codebase as well as the architecture behind it. 
