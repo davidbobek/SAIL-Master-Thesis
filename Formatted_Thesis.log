@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.17)  3 JAN 2026 22:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.17)  3 JAN 2026 22:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -937,7 +937,6 @@ Overfull \hbox (11.99998pt too wide) in alignment at lines 2782--2792
 Underfull \vbox (badness 1946) has occurred while \output is active []
 
  [66]
-[67]
 Overfull \hbox (11.99998pt too wide) in alignment at lines 2816--2820
  [] [] 
  []
@@ -952,7 +951,7 @@ Overfull \hbox (11.99998pt too wide) in alignment at lines 2822--2832
  [] [] 
  []
 
-[68] [69]
+[67] [68] [69]
 Overfull \hbox (11.99998pt too wide) in alignment at lines 2893--2897
  [] [] 
  []
@@ -967,10 +966,12 @@ Overfull \hbox (11.99998pt too wide) in alignment at lines 2899--2909
  [] [] 
  []
 
-[70] [71]
-Underfull \vbox (badness 3668) has occurred while \output is active []
+[70] [71] [72]
+Overfull \hbox (0.66838pt too wide) in paragraph at lines 2952--2954
+[]\T1/phv/b/n/10.95 Evaluation & Scal-ing De-ci-sion: \T1/phv/m/n/10.95 As al-r
+eady men-tioned, the im-pact and the trust gained
+ []
 
- [72]
 [73] [74]
 Overfull \hbox (11.99998pt too wide) in alignment at lines 2994--2998
  [] [] 
@@ -1103,7 +1104,7 @@ Package rerunfilecheck Info: File `Formatted_Thesis.out' has not changed.
 Here is how much of TeX's memory you used:
  12714 strings out of 475385
  200310 string characters out of 2776906
- 562394 words of memory out of 3000000
+ 562430 words of memory out of 3000000
  33623 multiletter control sequences out of 15000+600000
  539133 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1119,7 +1120,7 @@ C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C
 .pfb><C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
 r8a.pfb><C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/
 uhvro8a.pfb>
-Output written on Formatted_Thesis.pdf (103 pages, 455581 bytes).
+Output written on Formatted_Thesis.pdf (103 pages, 455272 bytes).
 PDF statistics:
  1089 PDF objects out of 1200 (max. 8388607)
  244 named destinations out of 1000 (max. 500000)
