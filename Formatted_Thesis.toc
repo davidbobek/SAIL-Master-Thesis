@@ -65,17 +65,16 @@
 \contentsline {subsection}{\numberline {6.3.1}AI-based Code Documentation Generation}{58}{subsection.6.3.1}%
 \contentsline {subsection}{\numberline {6.3.2}AI-driven Refactoring}{62}{subsection.6.3.2}%
 \contentsline {subsection}{\numberline {6.3.3}Pull Request Review Automation}{68}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Internal AI Chatbot for Employee Queries}{71}{subsection.6.3.4}%
-\contentsline {subsection}{\numberline {6.3.5}AI-based Guru for Debugging \& Troubleshooting}{74}{subsection.6.3.5}%
-\contentsline {section}{\numberline {6.4}Summary of Findings}{77}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Discussion}{79}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Key Insights}{79}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Contributions to Theory and Practice}{81}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Limitations}{82}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Implications and Next Steps}{82}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Reflections on the framework and its application}{83}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Conclusion and Final Thoughts}{85}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Summary of Research}{85}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Integrated Contributions of the SAIL Framework}{86}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Limitations and Caveats}{87}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Practical Implications}{87}{section.8.4}%
+\contentsline {subsection}{\numberline {6.3.4}Internal AI Chatbot for Employee Queries}{76}{subsection.6.3.4}%
+\contentsline {section}{\numberline {6.4}Summary of Findings}{79}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Discussion}{81}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Key Insights}{81}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Contributions to Theory and Practice}{83}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Limitations}{84}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Implications and Next Steps}{84}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Reflections on the framework and its application}{85}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Conclusion and Final Thoughts}{87}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Summary of Research}{87}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Integrated Contributions of the SAIL Framework}{88}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Limitations and Caveats}{89}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Practical Implications}{89}{section.8.4}%

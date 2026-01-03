@@ -2911,6 +2911,114 @@ This time one of the metrics does not have a clear number next to it, but it is 
 \textbf{Pilot Design:}
 
 
+The pilot design stage for this use case involved a series of investigations, research and planning. The first step was to identify that in order to have an AI Agent review pull requests, a virtual machine acting as a server is a precondition.
+This virtual machine will be hosting our AI agent which will be directly communicated via an API calls to fetch the latest changes and be able to execute them independently on the code base which it will have in its current workspace. 
+
+The backbone of our AI agent will be once again Github copilot with Claude Sonnet 4.5 as the main LLM model. This model has already successfully proven itself in the previous use cases even though their complexity was not up to the level of reviewing pull requests and executing code on human behalf.
+
+The next step in the pilot design stage was to create a set of markdown files guiding the AI agent on what are the coding standards and principles of the company. This is extremely crucial as the AI agent needs to understand what is expected from it in order to review pull requests effectively. The markdown files will be constantly updated and improved based on feedback from senior engineers and changes in coding standards.
+
+The next step in terms of our pilot design stage was the creation of a set of markdown files which are going to be guiding the AI agent and helping it understand the dependencies between files, functions And logical principles. This is done not because AI is not able to detect patterns and act upon them. It is done so that for every single execution AI doesn't have to do this tedious process and it can already use the existing knowledge base. The reasoning for this is action is that it should significantly reduce the time required for the AI agent to review pull requests and thus improving the overall efficiency of the solution. 
+
+The following step will require an establishment in between the virtual machine hosting the AI agent and the code repository via API calls. This will allow the AI agent to fetch the latest pull requests and review them in close to real time.
+
+The step which will determine what is the success of the pilot design is the definition of the actions which the AI agent will be able to take. As already mentioned in the entry point, the AI agent will be able to review the code, give comments, suggest improvements and even approve or reject the pull request based on the quality of the code. This will create a significant time saving for senior engineers and thus allowing them to focus on more value adding activities. Will have to be marked down and will act as the core identity of the AI agent. 
+
+In the final step. The pilot will be tested on a sample of pull requests and gather feedback from senior engineers. This feedback will be crucial in order to refine the AI agent and improve its performance. This use case will rely on the feedback loop from senior engineers more than any other use case as we are losing the sense of human review and thus the trust from senior engineers needs to be built up in order for the solution to be successful.  
+
+
+After establishing all the requried components and architecture for succesful execution of the pilot, alligning the strategy with the key stakeholders, and passing the decision whether the use case is technically feasible or not, the team was ready to proceed with the pilot execution stage. 
+
+\textbf{Pilot Execution:}
+	
+	The pilot execution stage started with an unexpected challenge. This challanged involed restriction of API access and configuration of the firewall requiring tedious proccess of approval from the IT department and the safety and security department. The reasoning for this restriction was the security concerns regarding the access of an external virtual machine to the internal code repository. 
+
+	After successful implementation of the agent, the procedure to implement the markdown files acting as a knowledge base for the AI agent began. This process involved thorough research and documentation of the coding standards and principles of the company. The team had to ensure that the markdown files were comprehensive and covered all the necessary aspects of code review.
+	
+
+	This however, did not end up being sufficient as during the initial testing phase, Several senior engineers were discovered that the AI agent was approving syntactically correct but architecturally flawed and insufficient code.
+	Due to this issue, The team was prompted to do further refinement, deeper analysis and alignment sessions with the VP of Engineering's to guide them towards a successful path. During these sessions, a proper strategy was developed for the AI to understand the architecture, not only on the principle of syntax but also under the principles of design and architecture. 
+
+	Another flaw which the junior engineer identified was a very critical bug where an agent failed to detect circle dependency across multi file pull requests. This led to the implementation of a multi pass review architecture which analyzes the full repository context before approving changes. Having an approach such as this significantly improved the quality of the pull request reviews and thus increasing the trust from senior engineers.
+
+	During the execution phase, senior engineers discovered a harsh truth from the principle of change management. The trust.
+	This lack of trust came from the fact that the agent's review comments lacked contextual reasoning explanations and this prompted the team to implement a verbose logging mode where the AI justifies every rejection with specific markdown guideline references. 
+	This further justification improved the perceived trust and helped engineers understand the reasoning behind the rejections.
+	
+	A very positive aspect of this execution phase, was the unexpected win which the team achieved. This win being the instance in which the agent discovered a legacy code pattern violation that human reviewers had been consistently missing for months. This discovery validated the use case to previously skeptical VP of Engineering and secured additional resources for scaling beyond pilot phase.
+
+	The additional resources beyond the pilot phase were extremely crucial as they will serve us as a quality gate on whether to proceed with scaling and deployment or to iterate further. This however shall not be the same determining factor as metrics and impact will be guiding us in the next stage of evaluation and scaling decision.
+
+\textbf{Evaluation \& Scaling Decision:}
+	As already mentioned, the impact on the Truss gained from the VP of engineering gave not only the team but the engineers already testing this pilot the confidence that the solution is indeed valuable and thus the decision whether to proceed with scaling and deployment or to iterate further was not as complex as in other use cases.
+
+	In order to follow the SAIL framework correctly, the team had to evaluate the impact of the pilot and measure the success criteria outlined in the technical feasibility and data assessment stage.
+	
+	The first metric which was outlined was the achievement of an automated pull request review. As this metrics was more of a yes or no observation and the source of truth was the system logs and monitoring. The team can confirm that a fully automated agent reviewing pull requests is indeed achieved.
+
+	The second metric involves the reduction of time spent on reviewing and monitoring pull requests by 100\%.
+	The vision was that every single pull request opened in the company would be left to the AI agent and that humans would not be in touch with reviewing the code anymore. This, however, has not become the case. In order to set the reality straight, the engineers are still overseeing the pull request review process and thus the time spent on pull request reviews is not reduced by 100\%. This metric shall, however, be questioned, whether the reason is the incompetence of the AI agent or the lack of trust from senior engineers. It is very natural that humans do not trust an AI agent straight out of the box. The process of change management requires time, results and proven track record of success in order for humans to trust the AI agent. What, however, has to be mentioned is the significant decrease in terms of the actual time spent on pull request reviews by senior engineers. 
+
+	In the current state, the AI is able to review the pull request based on the markdown files and give comments and suggestions. The senior engineers are only overseeing the process and giving the final approval in terms of whether the code inside of the pull request truly fullfils the quality standards and its purpose matches the requirements oultined in the ticket. Based on the feedback from senior engineers, the time spent on pull request reviews has been reduced by 70\%, which is a significant achievement on its own. In this case the expection of reducing the time spent on pull request reviews by 100\% was not achieved, but it could be argued that the original expectation was too high and the achieved result is still extremely valuable.
+
+
+	The last metric involved the increase of developer satisfaction with our new bore request review process by 50\%. His metric was measured by an actual developer survey. The results from the survey indicated An increase in developer satisfaction by 40\%. Once again, the final metric did not meet the original expectation and once again it would be appropriate to question whether the original expectation was too high.
+
+	If we simply extrapolate the increase in developer satisfaction by 40\% and looked at the number from a birds eye view, we can clearly see that this is a significant achievement. What still has to be questioned is how can we improve this? 
+
+	As in the current stage the use case is still in its early times and is by far not perfect, there is a lot of room for improvement. 
+
+	The current potential improvements which the team has identified are mostly related to improvment of logging and dynamic tracking of the changes. By having a more dynamic tracking of the changes, the AI agent will be able to understand the context of the pull request better and thus give more accurate reviews.
+
+	After the final evaluation of all the metrics and an overall impact of the pilot, The team has come to a conclusion that that the use case is indeed valuable and it will be the right decision to proceed with the process of scaling and deployment rather than iterating further to improve the pilot. 
+
+\textbf{Scale Deployment:}
+The process of scaling this use case came down to two main divisions. The technical scaling and the organizational scaling. From the perspective of technical scaling, The the team had to simply ensure that the agent will be able to handle the load of the entire organization rather than just a small subset of engineers testing the pilot. This was achieved by scaling verticaly the virtual machine hosting the AI agent and thus ensuring that it has enough resources to handle the load. 
+
+The larger unknown variable came from the perspective of organizational scaling due to the change management process of having to abandon the process of review and having humans review the code. Management process involved a series of hekatons, workshops and solution demos during which the usage and its benefits were presented to the wider audience. By having this rigorous change management process the team were successfully onboarded and trust was gained. It is very important to mention that the whole organization did not digest the change at once. The process of scaling was going from team to group to department to divsion and finally to the entire organization.   
+
+The process of scale and deployment was heavily supported by the upper management, especially the VP of engineering. This support was extremely crucial to gain trust for the engineers as they were more likely to trust the solution if it was endorsed by the upper management. In terms of the timelines, the aspect of technical deployment was achieved almost instantly due to the already existing infrastructure. The organizational deployment however took around three months as the change management process is always a time consuming process.
+
+Once the solution was successfully scaled, deployed and people were on boarded, it was time to decide whether we are done with the use case or if we want to give it further iterative optimization and continous improvement in the next stage.
+
+The decision came to the reasoning that the use case is indeed valuable and the state of the pull request review automation is not perfect yet. New requirements and feedbacks are constantly coming in and this gives us a clear indication that the use case is not finished yet and will still require further iterative optimization and continous improvement in the next stage of AI native optimization.
+
+\textbf{AI Native Optimization:}
+The stage of the SAIL framework which concludes the entire process is the AI native optimization. After the use case being successfully designed, analyzed, refined, implemented, scaled, rolled out, it's time to maintain it, optimize it, improve it further, and yield continuous and sustainable value over time. The capital investment in terms of time and resources has already been made and therefore the best option for the team was to try to ensure that the use case meets the current requirements of the engineers and provides value in terms of the pull request review process. The question of what the engineers want and expect can only be measured by one way and it's talking to the customers, in this case the engineers, as this tool is only internal. 
+
+Based on the survey done several months after the deployment of the solution the team has gathered more metrics from the already outlined methods.
+
+\begin{longtable}{@{}
+		>{\raggedright\arraybackslash}p{0.4\linewidth}
+		>{\raggedright\arraybackslash}p{0.6\linewidth}
+		@{}}
+	\toprule
+	\textbf{Metric} & \textbf{Result Achieved} \\
+	\midrule
+	\endhead
+	\bottomrule
+	\endlastfoot
+	
+	Achieve an automated pull request review &
+	System logs and monitoring confirm continuous operation \\
+	
+	Reduce the time spent on pull request reviews by 100\% &
+	Time spent on pull request reviews reduced by 75\% \\
+	
+	Increase developer satisfaction with pull request review process by 50\% &
+	Developer satisfaction increased by 55\% \\
+\end{longtable}
+
+Based on the gathered numbers in the AI native optimization step, we can clearly see a difference in between the stage of pilot execution and the A native optimization. This being mainly in the last metric in terms of the developer satisfaction. 
+The reasoning behind increased developer satisfaction is the fact that the team was able to implement further improvements based on the feedback gathered from engineers and thus fullfilling their needs better. It can also be noticed that the final metrics has actually surpassed the original expectations which is a remarkable achievement on its own. 
+The final metrics tell us that two out of the three expected metrics have successfully passed our initial threshold.
+As already mentioned in pilot execution phase, The metric regarding the time spent on pull request reviews being reduced by 100\% was always a very ambitious goal and therefore the achieved result of 75\% is still extremely valuable.
+
+
+It is also very important to note that this use case will stay here, but hopefully the maintenance will not. The use case should reach its maturity, meaning the point during which engineers are satisfied with the functionality and performance of the solution and therefore the need for further improvements will be minimal. Important to mention, down the line there should be a team maintaining the solution and understand the codebase as well as the architecture behind it. 
+
+The team is planned to stay in the stage of AI native optimization as long as the demand for changes and improvements is present. Once the team reaches the point of diminishing returns and the engineers are satisfied with the solution, the team will be disbanded and the maintenance will be handed over to a smaller team responsible for maintaining the solution.
+
 
 
 \subsection{Internal AI Chatbot for Employee
@@ -3046,148 +3154,10 @@ If the company has 1000 employees and the activity rate is 10\% (100 users at on
 	voice interaction.
 \end{itemize}
 
-\subsection[AI-based Guru for Debugging \& Troubleshooting]{AI-based Guru Helping with debugging \&
-	Troubleshooting locally (Github Copilot based) - Engineers will map
-	manually all the processes and the steps they do when debugging certain
-	issues, then AI will be trained on this data and will be able to help
-	with debugging and troubleshooting locally and guide them on how to
-	reproduce and fix certain
-	issues.}\label{ai-based-guru-helping-with-debugging-troubleshooting-locally-github-copilot-based---engineers-will-map-manually-all-the-processes-and-the-steps-they-do-when-debugging-certain-issues-then-ai-will-be-trained-on-this-data-and-will-be-able-to-help-with-debugging-and-troubleshooting-locally-and-guide-them-on-how-to-reproduce-and-fix-certain-issues.}
-
-Software engineers spend a significant portion of their workday debugging code and troubleshooting issues which draw their attention from feature development and innovation. The studies indicate that average Software developers spend 30--40\% of their productive time debugging and reproducing issues. This is particularly true when the engineers have to deal with legacy outdated code with barely any documentation and process outlining. The solution to this issue would be an AI-based Guru, which leverage Agentic Github Copilot technology which is trained on internal proccess mapping and historical debug workflows. This Agent would be able to guide engineers in real-time, execute faulty code and reproduce errors locally by simply following the steps outlined by the engineers. This would reduce the need for trial-and-error debugging and would allow engineers to focus on more value adding activities.
-
-This AI Guru would rely on a predefined map of processes and outcomes which the engineers would manually document. The outcome of this map would be a dataset on steps which the engineers execute on their daily basis in order to execute or generate certain objectives. An example of such a process could be: (Build a binary) and the steps to achieve this objective would be: 1. Pull the latest code from the repository 2. Install necessary dependencies using the package manager 3. Run Docker environment setup script 4. Execute the build command with appropriate flags 5. Verify the build output and check for errors
-
-This 5 step process map would be only 1 of the use cases which the engineers would document. The more use cases the engineers document the better the AI Guru would be able to assist them in their daily work.
-
-\textbf{Application of SAIL:} - \textbf{Opportunity Scouting:} The opportunity scouting phase comes from the pain point of the folling analysis
-
-Analysis in a mid-sized software company (1000 developers) shows:
-
-\begin{itemize}
-	\tightlist
-	\item
-	Average time spent per debugging task: 3 hours
-	\item
-	Number of debugging tasks per engineer per week: 5--7
-	\item
-	Total time lost on debugging: \textasciitilde{} 60,000 hours/month
-	\item
-	Estimated cost per developer hour: €80 fully loaded
-	\item
-	Potential monthly savings: €4.8 million/month
-\end{itemize}
-
-Such a large saving is an easy buy in for the management and governance board as the ROI is very high and the payback period is very short.
-
-\begin{itemize}
-	\tightlist
-	\item
-	\textbf{Strategic Alignment:} The phase of strategic alignment involes
-	outlining the strategic goals and OKRs which this initiative alligns
-	with. The key strategic goals and OKRs in this case could be
-	\item
-	Reduce time spent on debugging by 50\%
-	\item
-	Reduce time to reproduce issues by 70\%
-\end{itemize}
-
-The outlined numbers of the OKRs are on first glance extremely high, however the impact on reproducing and debugging issues is very high as it is the sole purpose of the AI Guru to reduce the time spent on debugging and reproducing.
-
-\begin{itemize}
-	\item
-	\textbf{Technical Feasibility \& Data Assessment:} From the
-	perspectivty of technical feasibility the team has to evaluate only
-	single framework and this being the Github Copilot. As already
-	previously outlined the Github Copilot is the most advanced code
-	generation and assistance tool on the market. The technical
-	feasibility of this tool is very high as it is a plug and play
-	solution which integrates directly into the IDEs and code editors.
-	\item
-	\textbf{Pilot Design:} The perspective of the roadmap implementation
-	for this use cases the team will start with firstly documenting the
-	steps in which the engineers work. The identification of daily use
-	cases which engineers face is crucial as the more use cases are
-	documented the better the AI Guru will be able to assist the
-	engineers. The map of all the usecases will serve as a knowledge base
-	for the AI Guru to learn from. The second part of the pilot design
-	will be the implementation of Github Copilot with an MCP server in
-	order to ensure that the data is not shared with any third parties.
-	This connection shall serve as the backbone of the AI Guru and will be
-	the internal knowledgebase of failures combined with the map of
-	doucumented use cases. By pattern recognition the AI Guru will be able
-	to connect failures with steps needed to reproduce the issue. The last
-	part of the roadmap would be tweaking and optimizing the AI Guru to
-	ensure that it is able to deliver relevant and high quality output.
-	\item
-	\textbf{Pilot Execution:} The implementation of the pilot will involve
-	the following steps:
-	\item
-	Week 1--2: Data collection and process mapping by engineers.
-	\item
-	Week 2--3: Setup of MCP server and integration with Github Copilot.
-	\item
-	Week 3--4: Pilot deployment with selected engineering teams, iterative
-	feedback collected via surveys and analytics dashboards.
-	\item
-	\textbf{Evaluation \& Scaling Decision:} The evaluation of the pilot
-	will be done based on the success metrics defined in the pilot design
-	phase. The evaluation of the pilot will involve collection of data on
-	time spent on debugging and reproducing issues. Decision to scale will
-	take into consideration whether the success metrics were met or not.
-	If the success metrics were met the team will proceed with the scaling
-	decision and will rollout the solution to all engineering teams and
-	start mapping more use cases in order to improve the quality of the
-	output.
-	\item
-	\textbf{Scale Deployment:} The process of scale deployment will
-	involve onboarding of all engineering teams and training sessions on
-	how to use the AI Guru. The engineers will have new use cases and
-	problems which will need to be addressed by mapping them out and
-	retraining the AI Guru to include these new use cases into the already
-	existing map. By growing the map the AI Guru is able to understand the
-	dependencies and intricacies of the internal processes and is able to
-	deliver better quality output.
-	\item
-	\textbf{AI-Native Optimization:} From the perspective of being
-	AI-native in terms of having AI Guru the steps are rather simple.
-	Simple and continuos improvement of maps will be done in order to
-	ensure that the AI Guru is able to deliver high quality output.
-	Important note on this use case is that fact that internal processes
-	change and in order for the AI Guru to stay relevant the maps have to
-	be udpated accordingly. Some tasks of continuous improvement could be:
-	\item
-	Refinement of process maps based on user feedback.
-	\item
-	Adding features such as integration with issue tracking systems for
-	automatic logging of reproduced issues.
-\end{itemize}
-
 \section{Summary of Findings}\label{summary-of-findings}
 
-The outlined use cases demonstrate clear application of the SAIL
-framework across diverse scenarios in order to solve pain points which
-software companies face on a daily basis. The structured approach of
-SAIL ensures that each use case is thoroughly evaluated, strategically
-aligned, technically feasible, and effectively implemented with
-governance oversight. The success metrics defined for each use case
-provide clear benchmarks for evaluating impact and guiding scaling
-decisions. Overall, the application of SAIL in these use cases
-highlights its versatility and effectiveness in driving successful AI
-adoption in software organizations.
+Summary
 
-This prospective empirical section was created in order to showcase the
-application of SAIL and how can it be leveraged in real life scenarios.
-The data and numbers outlined in this section are prospective and still
-do represent realistic scenarios based on expert insights and data
-collected from public sources. The actual empirical testing and its
-adoption in larger pilots and project will be a matter of future work.
-This chapter shall only serve as a demonstration of the application of
-SAIL from the theoretical to practical perspective. The practical
-walkthrough of SAIL can be considered a proof of concept for the
-framework as it is able to decomopose complex problems into smaller
-manageable pieces and therefore increase the probability of success of
-AI adoption initiatives.
 
 \chapter{Discussion}\label{chapter-7-discussion}
 
