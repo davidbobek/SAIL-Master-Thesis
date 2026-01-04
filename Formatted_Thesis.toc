@@ -69,10 +69,10 @@
 \contentsline {section}{\numberline {6.4}Summary of Findings}{79}{section.6.4}%
 \contentsline {chapter}{\numberline {7}Discussion}{83}{chapter.7}%
 \contentsline {section}{\numberline {7.1}Key Insights}{83}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Contributions to Theory and Practice}{85}{section.7.2}%
+\contentsline {section}{\numberline {7.2}Contributions to Theory and Practice}{84}{section.7.2}%
 \contentsline {section}{\numberline {7.3}Limitations}{85}{section.7.3}%
 \contentsline {section}{\numberline {7.4}Implications and Next Steps}{86}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Reflections on the framework and its application}{86}{section.7.5}%
+\contentsline {section}{\numberline {7.5}Reflections on the framework and its application}{87}{section.7.5}%
 \contentsline {chapter}{\numberline {8}Conclusion and Final Thoughts}{89}{chapter.8}%
 \contentsline {section}{\numberline {8.1}Summary of Research}{89}{section.8.1}%
 \contentsline {section}{\numberline {8.2}Integrated Contributions of the SAIL Framework}{90}{section.8.2}%

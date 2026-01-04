@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.17)  3 JAN 2026 23:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.17)  4 JAN 2026 22:26
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -992,23 +992,14 @@ Overfull \hbox (11.99998pt too wide) in alignment at lines 3135--3145
 ]
 Chapter 7.
 
-Underfull \vbox (badness 1831) has occurred while \output is active []
-
- [83]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84]
-[85] [86] [87] [88
+ [83]
+[84] [85] [86] [87] [88
 
 ]
 Chapter 8.
-[89] [90]
-Overfull \hbox (13.22237pt too wide) in paragraph at lines 3726--3734
-\T1/phv/m/n/10.95 throughs rather than a full live de-ploy-ment. While the pro-
-jec-tions oultined were grounded
- []
-
-[91] [92] (Formatted_Thesis.bbl
+[89] [90] [91] [92] (Formatted_Thesis.bbl
 LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 2
 5.
 
@@ -1082,7 +1073,7 @@ Package rerunfilecheck Info: File `Formatted_Thesis.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  12716 strings out of 475385
- 200324 string characters out of 2776906
+ 200310 string characters out of 2776906
  565398 words of memory out of 3000000
  33623 multiletter control sequences out of 15000+600000
  539133 words of font info for 79 fonts, out of 8000000 for 9000
@@ -1099,7 +1090,7 @@ C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmsy9.pfb><C
 .pfb><C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/uhv
 r8a.pfb><C:/Users/dbobe/AppData/Local/Programs/MiKTeX/fonts/type1/urw/helvetic/
 uhvro8a.pfb>
-Output written on Formatted_Thesis.pdf (105 pages, 457432 bytes).
+Output written on Formatted_Thesis.pdf (105 pages, 459319 bytes).
 PDF statistics:
  1097 PDF objects out of 1200 (max. 8388607)
  246 named destinations out of 1000 (max. 500000)
