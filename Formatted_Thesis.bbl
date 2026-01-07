@@ -1,10 +1,21 @@
 \begin{thebibliography}{}
 
+\bibitem[Agrawal et~al., 2022]{Agrawal2022}
+Agrawal, A., Gans, J.~S., and Goldfarb, A. (2022).
+\newblock The economics of artificial intelligence: Implications for the future
+  of work.
+\newblock {\em Journal of Economic Perspectives}, 33(2):3--30.
+
 \bibitem[Al-Ali and Marks, 2022]{AlAli2022}
 Al-Ali, M. and Marks, A. (2022).
 \newblock A digital maturity model for the education enterprise.
 \newblock {\em Perspectives: Policy and Practice in Higher Education},
   26(1):1--13.
+
+\bibitem[Ali and Nicola, 2018]{Ali2018}
+Ali, Z. and Nicola, H. (2018).
+\newblock Accelerating digital transformation: Leveraging enterprise
+  architecture and ai in cloud-driven devops and dataops frameworks.
 
 \bibitem[Almaiah, 2022]{Almaiah2022}
 Almaiah, M.~A. (2022).
@@ -17,6 +28,11 @@ Almaiah, M.~A. (2022).
 Amling, A. (2024).
 \newblock A guiding framework to enable successful ai adoption.
 \newblock OpenReview.
+
+\bibitem[Anny, 2024]{Anny2024}
+Anny, D. (2024).
+\newblock Integrating ai-driven decision-making into enterprise architecture
+  for scalable software development.
 
 \bibitem[Baier et~al., 2019]{Baier2019}
 Baier, L., Jöhren, F., and Seebacher, S. (2019).
@@ -45,11 +61,30 @@ Berente, N., Gu, B., Recker, J., and Santhanam, R. (2021).
 \newblock {\em MIS Quarterly}, 45(3):1433--1450.
 \newblock Special issue on managing AI in organizations.
 
+\bibitem[Bhatia and Sandiri, 2025]{Bhatia2025}
+Bhatia, R. and Sandiri, S. (2025).
+\newblock The evolution of digital financial architecture: Artificial
+  intelligence-driven agility and scalability in enterprise solutions \&
+  customer excellence.
+\newblock {\em Journal of Next-Generation Research 5.0}.
+
+\bibitem[Brynjolfsson et~al., 2023]{Brynjolfsson2023}
+Brynjolfsson, E., Li, D., and Raymond, L.~R. (2023).
+\newblock Generative ai at work.
+\newblock {\em National Bureau of Economic Research Working Paper}.
+
 \bibitem[Canat et~al., 2018]{Canat2018}
 Canat, M., Català, N.~P., and Jourkovski, A. (2018).
 \newblock Enterprise architecture and agile development: Friends or foes?
 \newblock In {\em 2018 IEEE 22nd International Enterprise Distributed Object
   Computing Conference (EDOC)}, pages 1--10.
+
+\bibitem[Chowdhury et~al., 2022]{Chowdhury2022}
+Chowdhury, S., Dey, P., Joel-Edgar, S., Bhattacharya, S., Rodriguez-Espindola,
+  O., Abadie, A., and Truong, L. (2022).
+\newblock Unlocking the value of artificial intelligence in human resource
+  management through ai capability framework.
+\newblock {\em Human Resource Management Review}, 32(4).
 
 \bibitem[Chui et~al., 2018]{Chui2018}
 Chui, M., Manyika, J., Miremadi, M., Henke, N., Chung, R., Nel, P., and
@@ -57,10 +92,26 @@ Chui, M., Manyika, J., Miremadi, M., Henke, N., Chung, R., Nel, P., and
 \newblock Notes from the ai frontier: Insights from hundreds of use cases.
 \newblock {\em McKinsey Global Institute Discussion Paper}.
 
+\bibitem[Coombs et~al., 2020]{Coombs2020}
+Coombs, C., Hislop, D., Taneva, S.~K., and Barnard, S. (2020).
+\newblock The strategic impacts of intelligent automation for knowledge and
+  service work: An interdisciplinary review.
+\newblock {\em The Journal of Strategic Information Systems}, 29(4).
+
+\bibitem[Dasgupta and Wendler, 2019]{Dasgupta2019}
+Dasgupta, A. and Wendler, S. (2019).
+\newblock Ai adoption strategies.
+\newblock Technical report, Oxford Internet Institute.
+
 \bibitem[Davenport et~al., 2020]{Davenport2020}
 Davenport, T.~H., Guha, A., Grewal, D., and Bressgott, T. (2020).
 \newblock How artificial intelligence will change the future of marketing.
 \newblock {\em Journal of the Academy of Marketing Science}, 48(1):24--42.
+
+\bibitem[Davenport and Ronanki, 2019]{Davenport2019}
+Davenport, T.~H. and Ronanki, R. (2019).
+\newblock Artificial intelligence for the real world.
+\newblock {\em Harvard Business Review}, 96(1):108--116.
 
 \bibitem[Dearing, 2009]{Dearing2009}
 Dearing, J.~W. (2009).
@@ -106,6 +157,13 @@ Felzmann, H., Villaronga, E.~F., Lutz, C., and Tamò-Larrieux, A. (2019).
   intelligence between legal norms and contextual concerns.
 \newblock {\em Big Data \& Society}, 6(1):2053951719860542.
 
+\bibitem[Fenwick et~al., 2024]{Fenwick2024}
+Fenwick, A., Molnar, G., and Frangos, P. (2024).
+\newblock The critical role of hrm in ai-driven digital transformation: a
+  paradigm shift to enable firms to move from ai implementation to
+  human-centric adoption.
+\newblock {\em Discover Artificial Intelligence}.
+
 \bibitem[Fitriani et~al., 2023]{Fitriani2023}
 Fitriani, L., Khodra, M.~L., and Surendro, K. (2023).
 \newblock Togaf-based enterprise architecture framework for utilizing
@@ -134,11 +192,22 @@ Gama, F., Tyskbo, D., Nygren, J., Barlow, J., Reed, J., Svedberg, P., and
   into health care practice: scoping review.
 \newblock {\em Journal of Medical Internet Research}, 24(1):e32215.
 
+\bibitem[Gupta et~al., 2018]{Gupta2018}
+Gupta, S., Meier-Hellstern, K., and Satterlee, M. (2018).
+\newblock Artificial intelligence for enterprise networks.
+\newblock In {\em Artificial Intelligence for Enterprises}. Taylor \& Francis.
+
 \bibitem[Haefner et~al., 2023]{Haefner2023}
 Haefner, N., Parida, V., Gassmann, O., and Wincent, J. (2023).
 \newblock Implementing and scaling artificial intelligence: A review,
   framework, and research agenda.
 \newblock {\em Technological Forecasting and Social Change}, 197:122878.
+
+\bibitem[Hechler et~al., 2020]{Hechler2020}
+Hechler, E., Oberhofer, M., and Schaeck, T. (2020).
+\newblock {\em Deploying AI in the Enterprise: IT Approaches for Design,
+  DevOps, and Governance}.
+\newblock Springer.
 
 \bibitem[Holmström, 2022]{Holmstrom2022}
 Holmström, J. (2022).
@@ -162,6 +231,12 @@ Iansiti, M. and Lakhani, K.~R. (2020).
 \newblock What is ai governance?
 \newblock \url{https://www.ibm.com/think/topics/ai-governance}.
 
+\bibitem[Jarrahi et~al., 2023]{Jarrahi2023}
+Jarrahi, M.~H., Memariani, A., and Guha, S. (2023).
+\newblock The principles of data-centric ai: Toward a human-centered ai
+  paradigm.
+\newblock {\em Communications of the ACM}, 66(7).
+
 \bibitem[Jöhnk et~al., 2021]{Jöhnk2021}
 Jöhnk, J., Weißert, M., and Wyrtki, K. (2021).
 \newblock Ready or not, ai comes—an interview study of organizational ai
@@ -179,6 +254,11 @@ Keding, C. (2021).
   management: four decades of research in review.
 \newblock {\em Management Review Quarterly}, 71:91--134.
 
+\bibitem[Kurup and Gupta, 2022]{Kurup2022}
+Kurup, S. and Gupta, V. (2022).
+\newblock Factors influencing the ai adoption in organizations.
+\newblock {\em Metamorphosis}.
+
 \bibitem[Kučević et~al., 2024]{Kucevic2024}
 Kučević, E., Grünewald, F., and Schanz, N. (2024).
 \newblock Towards a simplified ai adoption framework: Success factors for the
@@ -193,10 +273,22 @@ Lakarasu, P. (2022).
 \newblock {\em Social Science Research Network}.
 \newblock SSRN: 5272259.
 
+\bibitem[Lichtenthaler, 2020]{Lichtenthaler2020}
+Lichtenthaler, U. (2020).
+\newblock Five maturity levels in developing ai: From isolated ignorance to
+  systematic intelligence.
+\newblock {\em Journal of Innovation Management}, 8(4):39--50.
+
 \bibitem[Liu, 2024]{Liu2024}
 Liu, Y. (2024).
 \newblock How ai impacts companies' dynamic capabilities.
 \newblock {\em Journal of Management Studies}.
+
+\bibitem[Madanchian and Taherdoost, 2025]{Madanchian2025}
+Madanchian, M. and Taherdoost, H. (2025).
+\newblock Ethical theories, governance models, and strategic frameworks for
+  responsible ai adoption and organizational success.
+\newblock {\em Frontiers in Artificial Intelligence}.
 
 \bibitem[Makarius et~al., 2020]{Makarius2020}
 Makarius, E.~E., Mukherjee, D., Fox, J.~D., and Fox, A.~K. (2020).
@@ -255,12 +347,38 @@ Praveen, R., Shrivastava, A., Sharma, G., and Sreenivasu, M. (2024).
 \newblock In {\em 2024 International Conference on Intelligent Systems and
   Emerging Technologies}. IEEE.
 
+\bibitem[Pumplun et~al., 2019]{Pumplun2019}
+Pumplun, L., Tauchert, C., and Heidt, M. (2019).
+\newblock A new organizational chassis for artificial intelligence-exploring
+  organizational readiness factors.
+\newblock {\em Proceedings of the European Conference on Information Systems
+  (ECIS)}.
+
+\bibitem[Radhakrishnan et~al., 2022]{Radhakrishnan2022}
+Radhakrishnan, J., Gupta, S., and Prashar, S. (2022).
+\newblock Understanding organizations' artificial intelligence journey: A
+  qualitative approach.
+\newblock {\em Pacific Asia Journal of the Association for Information
+  Systems}.
+
+\bibitem[Raisch and Krakowski, 2021]{Raisch2021}
+Raisch, S. and Krakowski, S. (2021).
+\newblock Artificial intelligence and management: The automation-augmentation
+  paradox.
+\newblock {\em Academy of Management Review}, 46(1):192--210.
+
 \bibitem[Ransbotham et~al., 2020]{Ransbotham2020}
 Ransbotham, S., Khodabandeh, S., Kiron, D., Candelon, F., Chu, M., and
   LaFountain, B. (2020).
 \newblock Expanding ai's impact with organizational learning.
 \newblock {\em MIT Sloan Management Review}.
 \newblock Survey of 2,500+ companies on AI adoption challenges.
+
+\bibitem[Rinta-Kahila et~al., 2022]{Rinta-Kahila2022}
+Rinta-Kahila, T., Penttinen, E., Salovaara, A., and Soliman, W. (2022).
+\newblock From resistance to adoption: Exploring the organizational challenges
+  and opportunities of ai implementation.
+\newblock {\em Information Systems Frontiers}.
 
 \bibitem[Rogers, 2003]{Rogers2003}
 Rogers, E.~M. (2003).
@@ -279,6 +397,16 @@ Sepanosian, T., Milosevic, Z., and Blair, A. (2024).
   implementation study.
 \newblock In {\em International Conference on Business Intelligence and Big
   Data}, pages 195--208. Springer.
+
+\bibitem[Shaban and Zeebaree, 2025]{Shaban2025}
+Shaban, A.~A. and Zeebaree, S. R.~M. (2025).
+\newblock Building scalable enterprise systems: The intersection of web
+  technology, cloud computing, and ai marketing.
+
+\bibitem[Sharma, 2024]{Sharma2024}
+Sharma, R. (2024).
+\newblock Scaling ai operations: Designing effective enterprise infrastructure.
+\newblock In {\em AI and the Boardroom: Insights into Governance}. Springer.
 
 \bibitem[Shrestha et~al., 2019]{Shrestha2019}
 Shrestha, Y.~R., Ben-Menahem, S.~M., and von Krogh, G. (2019).
@@ -303,6 +431,12 @@ Stone, J., Patel, R., Ghiasi, F., and Mittal, S. (2025).
 \newblock Navigating mlops: Insights into maturity, lifecycle, tools, and
   careers.
 \newblock {\em IEEE Transactions on Artificial Intelligence}.
+
+\bibitem[Sundaramurthy and Ravichandran, 2022]{Sundaramurthy2022}
+Sundaramurthy, S.~K. and Ravichandran, N. (2022).
+\newblock Ai-powered operational resilience: Building secure, scalable, and
+  intelligent enterprises.
+\newblock {\em Artificial Intelligence and Machine Learning Research}.
 
 \bibitem[Tamburri and Tonnarelli, 2022]{Tamburri2022}
 Tamburri, D. and Tonnarelli, M. (2022).
@@ -340,6 +474,11 @@ Westerman, G., Bonnet, D., and McAfee, A. (2019).
 \newblock {\em Leading digital: Turning technology into business
   transformation}.
 \newblock Harvard Business Review Press.
+
+\bibitem[Wilson and Daugherty, 2023]{Wilson2023}
+Wilson, H.~J. and Daugherty, P.~R. (2023).
+\newblock Collaborative intelligence: Humans and ai are joining forces.
+\newblock {\em Harvard Business Review}.
 
 \bibitem[Zachman, 1987]{Zachman1987}
 Zachman, J.~A. (1987).

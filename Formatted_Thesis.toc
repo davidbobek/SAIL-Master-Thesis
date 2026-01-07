@@ -10,71 +10,76 @@
 \contentsline {section}{\numberline {2.3}Innovation Diffusion Theory}{7}{section.2.3}%
 \contentsline {section}{\numberline {2.4}Dynamic Capabilities Theory}{9}{section.2.4}%
 \contentsline {section}{\numberline {2.5}Related AI Adoption Models}{10}{section.2.5}%
-\contentsline {section}{\numberline {2.6}AI Implementation and Scaling Frameworks: A Comprehensive Review}{11}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Phases of AI Implementation}{11}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Healthcare and High-Stakes AI Implementation}{12}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Organizational Adoption Barriers and Enablers}{12}{subsection.2.6.3}%
-\contentsline {subsection}{\numberline {2.6.4}Evidence-Based Approaches to Scalable Adoption}{13}{subsection.2.6.4}%
-\contentsline {subsection}{\numberline {2.6.5}Finance Sector and Domain-Specific Implementation}{13}{subsection.2.6.5}%
-\contentsline {subsection}{\numberline {2.6.6}Simplified Adoption Frameworks and Success Factors}{13}{subsection.2.6.6}%
-\contentsline {subsection}{\numberline {2.6.7}Guiding Frameworks for AI Readiness and Piloting}{14}{subsection.2.6.7}%
-\contentsline {subsection}{\numberline {2.6.8}The Influence of AI on Firm Scaling}{14}{subsection.2.6.8}%
-\contentsline {subsection}{\numberline {2.6.9}Synthesis: Implications for SAIL}{15}{subsection.2.6.9}%
-\contentsline {section}{\numberline {2.7}Synthesis and Identified Gaps}{15}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Theoretical Framework}{19}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Conceptual Foundations of SAIL}{19}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Purpose of Scalabile Artificial Intelligence Lifecycle (SAIL)}{19}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Positioning Relative to Digital Transformation and Enterprise Architecture}{20}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Addressing Fragmentation through Coordination and Reuse}{20}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Integration of Theoretical Lenses}{21}{section.3.2}%
-\contentsline {paragraph}{3.2.1 EA and SAIL}{21}{paragraph*.8}%
-\contentsline {paragraph}{Digital Transformation and SAIL}{21}{paragraph*.9}%
-\contentsline {paragraph}{3.2.3 Innovation Diffusion Theory and SAIL}{22}{paragraph*.10}%
-\contentsline {paragraph}{Dynamic Capabilities Theory and SAIL}{22}{paragraph*.11}%
-\contentsline {section}{\numberline {3.3}Principles Derived for Framework Design}{23}{section.3.3}%
-\contentsline {chapter}{\numberline {4}Research Methodology}{25}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Research Design -- Design Science Research}{25}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Relevance Cycle}{26}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Rigor Cycle}{27}{subsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.1.3}Design Cycle}{27}{subsection.4.1.3}%
-\contentsline {section}{\numberline {4.2}Literature Review Approach}{28}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Search Strategy, Databases, Keywords}{28}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4.2.2}Inclusion/Exclusion Criteria}{29}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4.2.3}Process of Synthesizing Theory}{29}{subsection.4.2.3}%
-\contentsline {section}{\numberline {4.3}Framework Development Process}{29}{section.4.3}%
-\contentsline {section}{\numberline {4.4}Conceptual Evaluation via Use Cases}{30}{section.4.4}%
-\contentsline {chapter}{\numberline {5}Framework Development (SAIL)}{33}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Overview of SAIL Framework}{33}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Lifecycle at a Glance}{34}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Governance Layer Across Stages}{35}{section.5.3}%
-\contentsline {section}{\numberline {5.4}Key Decision Checkpoints}{37}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Detailed Adoption Stages}{40}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Step 1: Opportunity Scouting}{40}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}Step 2: Strategic Alignment Review}{43}{subsection.5.6.1}%
-\contentsline {subsection}{\numberline {5.6.2}Step 3: Feasibility \& Risk Assessment}{45}{subsection.5.6.2}%
-\contentsline {subsection}{\numberline {5.6.3}Step 4: Pilot Design}{47}{subsection.5.6.3}%
-\contentsline {subsection}{\numberline {5.6.4}Step 5: Pilot Execution}{49}{subsection.5.6.4}%
-\contentsline {subsection}{\numberline {5.6.5}Step 6: Evaluation \& Scaling Decision}{50}{subsection.5.6.5}%
-\contentsline {subsection}{\numberline {5.6.6}Step 7: Scale Deployment}{52}{subsection.5.6.6}%
-\contentsline {subsection}{\numberline {5.6.7}Step 8: AI Native Optimization}{53}{subsection.5.6.7}%
-\contentsline {section}{\numberline {5.7}Summary of the Framework}{55}{section.5.7}%
-\contentsline {chapter}{\numberline {6}Use Case Implementation \& Validation}{57}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Introduction}{57}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Selection of Use Cases}{57}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Application of SAIL to Use Cases}{58}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}AI-based Code Documentation Generation}{58}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}AI-driven Refactoring}{62}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Pull Request Review Automation}{68}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Internal AI Chatbot for Employee Queries}{76}{subsection.6.3.4}%
-\contentsline {section}{\numberline {6.4}Summary of Findings}{79}{section.6.4}%
-\contentsline {chapter}{\numberline {7}Discussion}{83}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Key Insights}{83}{section.7.1}%
-\contentsline {section}{\numberline {7.2}Contributions to Theory and Practice}{84}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Limitations}{85}{section.7.3}%
-\contentsline {section}{\numberline {7.4}Implications and Next Steps}{86}{section.7.4}%
-\contentsline {section}{\numberline {7.5}Reflections on the framework and its application}{87}{section.7.5}%
-\contentsline {chapter}{\numberline {8}Conclusion and Final Thoughts}{89}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Summary of Research}{89}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Integrated Contributions of the SAIL Framework}{90}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Limitations and Caveats}{91}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Practical Implications}{91}{section.8.4}%
+\contentsline {section}{\numberline {2.6}Already Existing Solutions}{11}{section.2.6}%
+\contentsline {subsection}{\numberline {2.6.1}Enterprise Infrastructure and Deployment Solutions}{11}{subsection.2.6.1}%
+\contentsline {subsection}{\numberline {2.6.2}Human-Centric Organizational Transformation}{12}{subsection.2.6.2}%
+\contentsline {subsection}{\numberline {2.6.3}Strategic Frameworks and Organizational Readiness}{13}{subsection.2.6.3}%
+\contentsline {subsection}{\numberline {2.6.4}Software Sector and Technology-Native Organizations}{13}{subsection.2.6.4}%
+\contentsline {section}{\numberline {2.7}AI Implementation and Scaling Frameworks: A Comprehensive Review}{14}{section.2.7}%
+\contentsline {subsection}{\numberline {2.7.1}Phases of AI Implementation}{14}{subsection.2.7.1}%
+\contentsline {subsection}{\numberline {2.7.2}Healthcare and High-Stakes AI Implementation}{15}{subsection.2.7.2}%
+\contentsline {subsection}{\numberline {2.7.3}Organizational Adoption Barriers and Enablers}{15}{subsection.2.7.3}%
+\contentsline {subsection}{\numberline {2.7.4}Evidence-Based Approaches to Scalable Adoption}{16}{subsection.2.7.4}%
+\contentsline {subsection}{\numberline {2.7.5}Finance Sector and Domain-Specific Implementation}{16}{subsection.2.7.5}%
+\contentsline {subsection}{\numberline {2.7.6}Simplified Adoption Frameworks and Success Factors}{17}{subsection.2.7.6}%
+\contentsline {subsection}{\numberline {2.7.7}Guiding Frameworks for AI Readiness and Piloting}{17}{subsection.2.7.7}%
+\contentsline {subsection}{\numberline {2.7.8}The Influence of AI on Firm Scaling}{18}{subsection.2.7.8}%
+\contentsline {subsection}{\numberline {2.7.9}Synthesis: Implications for SAIL}{18}{subsection.2.7.9}%
+\contentsline {section}{\numberline {2.8}Synthesis and Identified Gaps}{19}{section.2.8}%
+\contentsline {chapter}{\numberline {3}Theoretical Framework}{23}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Conceptual Foundations of SAIL}{23}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Purpose of Scalabile Artificial Intelligence Lifecycle (SAIL)}{23}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Positioning Relative to Digital Transformation and Enterprise Architecture}{24}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Addressing Fragmentation through Coordination and Reuse}{24}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Integration of Theoretical Lenses}{25}{section.3.2}%
+\contentsline {paragraph}{3.2.1 EA and SAIL}{25}{paragraph*.8}%
+\contentsline {paragraph}{Digital Transformation and SAIL}{25}{paragraph*.9}%
+\contentsline {paragraph}{3.2.3 Innovation Diffusion Theory and SAIL}{26}{paragraph*.10}%
+\contentsline {paragraph}{Dynamic Capabilities Theory and SAIL}{26}{paragraph*.11}%
+\contentsline {section}{\numberline {3.3}Principles Derived for Framework Design}{27}{section.3.3}%
+\contentsline {chapter}{\numberline {4}Research Methodology}{29}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Research Design -- Design Science Research}{29}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Relevance Cycle}{30}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Rigor Cycle}{31}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Design Cycle}{31}{subsection.4.1.3}%
+\contentsline {section}{\numberline {4.2}Literature Review Approach}{32}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Search Strategy, Databases, Keywords}{32}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Inclusion/Exclusion Criteria}{33}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Process of Synthesizing Theory}{33}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Framework Development Process}{33}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Conceptual Evaluation via Use Cases}{34}{section.4.4}%
+\contentsline {chapter}{\numberline {5}Framework Development (SAIL)}{37}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Overview of SAIL Framework}{37}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Lifecycle at a Glance}{38}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Governance Layer Across Stages}{39}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Key Decision Checkpoints}{41}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Detailed Adoption Stages}{44}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Step 1: Opportunity Scouting}{44}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Step 2: Strategic Alignment Review}{47}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.2}Step 3: Feasibility \& Risk Assessment}{49}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.3}Step 4: Pilot Design}{51}{subsection.5.6.3}%
+\contentsline {subsection}{\numberline {5.6.4}Step 5: Pilot Execution}{53}{subsection.5.6.4}%
+\contentsline {subsection}{\numberline {5.6.5}Step 6: Evaluation \& Scaling Decision}{54}{subsection.5.6.5}%
+\contentsline {subsection}{\numberline {5.6.6}Step 7: Scale Deployment}{56}{subsection.5.6.6}%
+\contentsline {subsection}{\numberline {5.6.7}Step 8: AI Native Optimization}{57}{subsection.5.6.7}%
+\contentsline {section}{\numberline {5.7}Summary of the Framework}{59}{section.5.7}%
+\contentsline {chapter}{\numberline {6}Use Case Implementation \& Validation}{61}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Introduction}{61}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Selection of Use Cases}{61}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Application of SAIL to Use Cases}{62}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}AI-based Code Documentation Generation}{62}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}AI-driven Refactoring}{66}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}Pull Request Review Automation}{72}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}Internal AI Chatbot for Employee Queries}{80}{subsection.6.3.4}%
+\contentsline {section}{\numberline {6.4}Summary of Findings}{83}{section.6.4}%
+\contentsline {chapter}{\numberline {7}Discussion}{87}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Key Insights}{87}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Contributions to Theory and Practice}{88}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Limitations}{89}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Implications and Next Steps}{90}{section.7.4}%
+\contentsline {section}{\numberline {7.5}Reflections on the framework and its application}{91}{section.7.5}%
+\contentsline {chapter}{\numberline {8}Conclusion and Final Thoughts}{93}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Summary of Research}{93}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Integrated Contributions of the SAIL Framework}{94}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Limitations and Caveats}{95}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Practical Implications}{95}{section.8.4}%
