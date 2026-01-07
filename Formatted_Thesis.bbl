@@ -18,22 +18,49 @@ Amling, A. (2024).
 \newblock A guiding framework to enable successful ai adoption.
 \newblock OpenReview.
 
+\bibitem[Baier et~al., 2019]{Baier2019}
+Baier, L., Jöhren, F., and Seebacher, S. (2019).
+\newblock Challenges in the deployment and operation of machine learning in
+  practice.
+\newblock {\em Proceedings of the European Conference on Information Systems
+  (ECIS)}.
+\newblock Study on MLOps challenges in production environments.
+
 \bibitem[{Bain \& Company}, 2024]{Bain2024}
 {Bain \& Company} (2024).
 \newblock Ai: The ambitions are bold, but the talent is scarce.
 \newblock
   \url{https://www.bain.com/insights/ai-the-ambitions-are-bold-but-the-talent-is-scarce-snap-chart/}.
 
-\bibitem[Barney, 1991]{Barney1991}
-Barney, J. (1991).
-\newblock Firm resources and sustained competitive advantage.
-\newblock {\em Journal of Management}, 17(1):99--120.
+\bibitem[Benbya et~al., 2020]{Benbya2021}
+Benbya, H., Davenport, T.~H., and Pachidi, S. (2020).
+\newblock Artificial intelligence in organizations: Current state and future
+  opportunities.
+\newblock {\em MIS Quarterly Executive}, 19(4):ix--xxi.
+\newblock Special issue on AI in organizations.
+
+\bibitem[Berente et~al., 2021]{Berente2021}
+Berente, N., Gu, B., Recker, J., and Santhanam, R. (2021).
+\newblock Managing artificial intelligence.
+\newblock {\em MIS Quarterly}, 45(3):1433--1450.
+\newblock Special issue on managing AI in organizations.
 
 \bibitem[Canat et~al., 2018]{Canat2018}
 Canat, M., Català, N.~P., and Jourkovski, A. (2018).
 \newblock Enterprise architecture and agile development: Friends or foes?
 \newblock In {\em 2018 IEEE 22nd International Enterprise Distributed Object
   Computing Conference (EDOC)}, pages 1--10.
+
+\bibitem[Chui et~al., 2018]{Chui2018}
+Chui, M., Manyika, J., Miremadi, M., Henke, N., Chung, R., Nel, P., and
+  Malhotra, S. (2018).
+\newblock Notes from the ai frontier: Insights from hundreds of use cases.
+\newblock {\em McKinsey Global Institute Discussion Paper}.
+
+\bibitem[Davenport et~al., 2020]{Davenport2020}
+Davenport, T.~H., Guha, A., Grewal, D., and Bressgott, T. (2020).
+\newblock How artificial intelligence will change the future of marketing.
+\newblock {\em Journal of the Academy of Marketing Science}, 48(1):24--42.
 
 \bibitem[Dearing, 2009]{Dearing2009}
 Dearing, J.~W. (2009).
@@ -54,11 +81,30 @@ Dearing, J.~W. (2009).
 \newblock Retrieved from
   https://www.deloitte.com/us/en/services/consulting/blogs/ai-adoption-challenges-ai-trends.html.
 
+\bibitem[Dwivedi et~al., 2021]{Dwivedi2021}
+Dwivedi, Y.~K., Hughes, L., Ismagilova, E., Aarts, G., Coombs, C., Crick, T.,
+  Duan, Y., Dwivedi, R., Edwards, J., Eirug, A., et~al. (2021).
+\newblock Artificial intelligence (ai): Multidisciplinary perspectives on
+  emerging challenges, opportunities, and agenda for research, practice and
+  policy.
+\newblock {\em International Journal of Information Management}, 57:101994.
+
+\bibitem[Enholm et~al., 2022]{Enholm2022}
+Enholm, I.~M., Papagiannidis, E., Mikalef, P., and Krogstie, J. (2022).
+\newblock Artificial intelligence and business value: a literature review.
+\newblock {\em Information Systems Frontiers}, 24:1709--1734.
+
 \bibitem[Ern et~al., 2025]{Ern2025}
 Ern, S. L.~W., Yang, H., Wu, Y., Ambakkat, R.~S., and Dilnutt, R. (2025).
 \newblock Modifying togaf\textregistered\ to optimize artificial intelligence
   and strategic value for organizations.
 \newblock {\em Enterprise Architecture Professional Journal (EAPJ)}.
+
+\bibitem[Felzmann et~al., 2019]{Felzmann2019}
+Felzmann, H., Villaronga, E.~F., Lutz, C., and Tamò-Larrieux, A. (2019).
+\newblock Transparency you can trust: Transparency requirements for artificial
+  intelligence between legal norms and contextual concerns.
+\newblock {\em Big Data \& Society}, 6(1):2053951719860542.
 
 \bibitem[Fitriani et~al., 2023]{Fitriani2023}
 Fitriani, L., Khodra, M.~L., and Surendro, K. (2023).
@@ -74,6 +120,13 @@ Forth, P., Reichert, T., de~Laubier, R., and Chakraborty, S. (2020).
 \newblock Retrieved from
   https://www.bcg.com/publications/2020/increasing-odds-of-success-in-digital-transformation.
 
+\bibitem[Fountaine et~al., 2019]{Fountaine2019}
+Fountaine, T., McCarthy, B., and Saleh, T. (2019).
+\newblock Building the ai-powered organization.
+\newblock {\em Harvard Business Review}, 97(4):62--73.
+\newblock Framework for AI transformation with leadership, technology, and data
+  dimensions.
+
 \bibitem[Gama et~al., 2022]{Gama2022}
 Gama, F., Tyskbo, D., Nygren, J., Barlow, J., Reed, J., Svedberg, P., and
   Nygren, J.~M. (2022).
@@ -87,11 +140,22 @@ Haefner, N., Parida, V., Gassmann, O., and Wincent, J. (2023).
   framework, and research agenda.
 \newblock {\em Technological Forecasting and Social Change}, 197:122878.
 
+\bibitem[Holmström, 2022]{Holmstrom2022}
+Holmström, J. (2022).
+\newblock From ai to digital transformation: The ai readiness framework.
+\newblock {\em Business Horizons}, 65(3):329--339.
+
 \bibitem[Hradecky et~al., 2022]{Hradecky2022}
 Hradecky, D., Kennell, J., Cai, W., and Davidson, R. (2022).
 \newblock Organizational readiness to adopt artificial intelligence in the
   exhibition sector in western europe.
 \newblock {\em International Journal of Information Management}, 62:102431.
+
+\bibitem[Iansiti and Lakhani, 2020]{Iansiti2020}
+Iansiti, M. and Lakhani, K.~R. (2020).
+\newblock Competing in the age of ai: Strategy and leadership when algorithms
+  and networks run the world.
+\newblock {\em Harvard Business Review}, 98(1):60--67.
 
 \bibitem[{IBM}, 2024]{IBM2024}
 {IBM} (2024).
@@ -108,6 +172,12 @@ Jöhnk, J., Weißert, M., and Wyrtki, K. (2021).
 Kaddoumi, T. and Watfa, M. (2022).
 \newblock A foundational framework for agile enterprise architecture.
 \newblock {\em International Journal of Lean Six Sigma}, 13(2):313--333.
+
+\bibitem[Keding, 2021]{Keding2021}
+Keding, C. (2021).
+\newblock Understanding the interplay of artificial intelligence and strategic
+  management: four decades of research in review.
+\newblock {\em Management Review Quarterly}, 71:91--134.
 
 \bibitem[Kučević et~al., 2024]{Kucevic2024}
 Kučević, E., Grünewald, F., and Schanz, N. (2024).
@@ -128,6 +198,12 @@ Liu, Y. (2024).
 \newblock How ai impacts companies' dynamic capabilities.
 \newblock {\em Journal of Management Studies}.
 
+\bibitem[Makarius et~al., 2020]{Makarius2020}
+Makarius, E.~E., Mukherjee, D., Fox, J.~D., and Fox, A.~K. (2020).
+\newblock Rising with the machines: A sociotechnical framework for bringing
+  artificial intelligence into the organization.
+\newblock {\em Journal of Business Research}, 120:262--273.
+
 \bibitem[{McKinsey \& Company}, 2024]{McKinsey2024a}
 {McKinsey \& Company} (2024).
 \newblock Mlops so ai can scale.
@@ -146,6 +222,13 @@ Mecca, A. (2024).
 \newblock The influence of artificial intelligence implementation on firm
   scaling: an exploratory approach.
 \newblock Master's thesis, Luleå University of Technology.
+
+\bibitem[Mikalef and Gupta, 2021]{Mikalef2021}
+Mikalef, P. and Gupta, M. (2021).
+\newblock Artificial intelligence capability: Conceptualization, measurement
+  calibration, and empirical study on its impact on organizational creativity
+  and firm performance.
+\newblock {\em Information \& Management}, 58(3):103434.
 
 \bibitem[Nogare and Silveira, 2025]{Nogare2025}
 Nogare, D. and Silveira, I.~F. (2025).
@@ -172,10 +255,23 @@ Praveen, R., Shrivastava, A., Sharma, G., and Sreenivasu, M. (2024).
 \newblock In {\em 2024 International Conference on Intelligent Systems and
   Emerging Technologies}. IEEE.
 
+\bibitem[Ransbotham et~al., 2020]{Ransbotham2020}
+Ransbotham, S., Khodabandeh, S., Kiron, D., Candelon, F., Chu, M., and
+  LaFountain, B. (2020).
+\newblock Expanding ai's impact with organizational learning.
+\newblock {\em MIT Sloan Management Review}.
+\newblock Survey of 2,500+ companies on AI adoption challenges.
+
 \bibitem[Rogers, 2003]{Rogers2003}
 Rogers, E.~M. (2003).
 \newblock {\em Diffusion of innovations}.
 \newblock Free Press, 5 edition.
+
+\bibitem[Schneider et~al., 2023]{Schneider2023}
+Schneider, J., Abraham, R., Meboldt, M., and Vom~Brocke, J. (2023).
+\newblock The anatomy of an ai-powered organization: Cognitive computing,
+  innovation diffusion, and dynamic capabilities.
+\newblock {\em Business \& Information Systems Engineering}, 65:369--385.
 
 \bibitem[Sepanosian et~al., 2024]{Sepanosian2024}
 Sepanosian, T., Milosevic, Z., and Blair, A. (2024).
@@ -183,6 +279,12 @@ Sepanosian, T., Milosevic, Z., and Blair, A. (2024).
   implementation study.
 \newblock In {\em International Conference on Business Intelligence and Big
   Data}, pages 195--208. Springer.
+
+\bibitem[Shrestha et~al., 2019]{Shrestha2019}
+Shrestha, Y.~R., Ben-Menahem, S.~M., and von Krogh, G. (2019).
+\newblock Organizational decision-making structures in the age of artificial
+  intelligence.
+\newblock {\em California Management Review}, 61(4):66--83.
 
 \bibitem[{Start-Up Nation Central}, 2024]{StartupNationCentral2024}
 {Start-Up Nation Central} (2024).
@@ -218,6 +320,20 @@ Teece, D.~J., Pisano, G., and Shuen, A. (1997).
 {The Open Group} (2022).
 \newblock The togaf standard, version 10 enterprise edition.
 \newblock The Open Group.
+
+\bibitem[Vidgen et~al., 2020]{Vidgen2021}
+Vidgen, R., Hindle, G., and Randolph, I. (2020).
+\newblock Exploring the ethical implications of business analytics with a
+  business ethics canvas.
+\newblock {\em European Journal of Operational Research}, 281(3):491--501.
+\newblock Framework for AI ethics and governance.
+
+\bibitem[Wamba-Taguimdje et~al., 2021]{Wamba2021}
+Wamba-Taguimdje, S.-L., Fosso~Wamba, S., Kala~Kamdjoug, J.~R., and
+  Tchatchouang~Wanko, C.~E. (2021).
+\newblock Influence of artificial intelligence (ai) on firm performance: the
+  business value of ai-based transformation projects.
+\newblock {\em Business Process Management Journal}, 27(7):1893--1924.
 
 \bibitem[Westerman et~al., 2019]{Westerman2019}
 Westerman, G., Bonnet, D., and McAfee, A. (2019).

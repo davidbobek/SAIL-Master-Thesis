@@ -5,44 +5,49 @@ Reallocating 'name_of_file' (item size: 1) to 8 items.
 The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 18 items.
 Database file #1: thesis_references.bib
-You've used 38 entries,
+Repeated entry---line 827 of file thesis_references.bib
+ : @article{Haefner2023
+ :                     ,
+I'm skipping whatever remains of this entry
+You've used 56 entries,
             1935 wiz_defined-function locations,
-            710 strings with 10800 characters,
-and the built_in function-call counts, 13358 in all, are:
-= -- 1335
-> -- 499
-< -- 29
-+ -- 176
-- -- 162
-* -- 1030
-:= -- 2399
-add.period$ -- 123
-call.type$ -- 38
-change.case$ -- 271
-chr.to.int$ -- 38
-cite$ -- 38
-duplicate$ -- 536
-empty$ -- 917
-format.name$ -- 208
-if$ -- 2589
+            829 strings with 15093 characters,
+and the built_in function-call counts, 21394 in all, are:
+= -- 2114
+> -- 912
+< -- 32
++ -- 322
+- -- 306
+* -- 1781
+:= -- 3822
+add.period$ -- 183
+call.type$ -- 56
+change.case$ -- 432
+chr.to.int$ -- 56
+cite$ -- 56
+duplicate$ -- 785
+empty$ -- 1426
+format.name$ -- 374
+if$ -- 4107
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 28
-newline$ -- 198
-num.names$ -- 114
-pop$ -- 222
+missing$ -- 46
+newline$ -- 294
+num.names$ -- 168
+pop$ -- 344
 preamble$ -- 1
-purify$ -- 271
+purify$ -- 432
 quote$ -- 0
-skip$ -- 414
+skip$ -- 598
 stack$ -- 0
-substring$ -- 832
-swap$ -- 59
+substring$ -- 1425
+swap$ -- 77
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 224
+type$ -- 332
 warning$ -- 0
-while$ -- 110
+while$ -- 173
 width$ -- 0
-write$ -- 491
+write$ -- 734
+(There was 1 error message)
