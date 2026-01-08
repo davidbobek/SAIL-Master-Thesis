@@ -46,7 +46,7 @@
 
 \chapter{Introduction}
 	
-	The rapid adoption of Artificial Intelligence (AI) technologies is transforming the way software organizations operate. While AI offers significant potential for innovation, efficiency, and competitive advantage \citep{McKinsey2024b}, many organizations struggle to integrate AI solutions effectively into their existing workflows \citep{Deloitte2025, Haefner2023}. Challenges include aligning AI initiatives with strategic objectives, managing the AI lifecycle, ensuring governance, and fostering organizational readiness \citep{IBM2024, Ransbotham2020}. Organizations face significant barriers in scaling AI beyond initial pilots, with issues ranging from technical complexity to organizational resistance \citep{Makarius2020}.
+	The rapid adoption of Artificial Intelligence (AI) technologies is transforming the way software organizations operate. While AI offers significant potential for innovation, efficiency, and competitive advantage \citep{McKinsey2024b, Dzreke2024}, many organizations struggle to integrate AI solutions effectively into their existing workflows \citep{Deloitte2025, Haefner2023}. Challenges include aligning AI initiatives with strategic objectives, managing the AI lifecycle, ensuring governance, and fostering organizational readiness \citep{IBM2024, Ransbotham2020}. Organizations face significant barriers in scaling AI beyond initial pilots, with issues ranging from technical complexity to organizational resistance \citep{Makarius2020}.
 	
 	This thesis introduces \textbf{SAIL}, the \textit{Strategic AI Lifecycle} framework, designed to guide software organizations in the coordinated adoption of AI. SAIL provides a structured approach to managing AI initiatives, from strategic planning to deployment and continuous monitoring \citep{Stone2025}, ensuring that AI adoption is both effective and sustainable. By leveraging this framework, organizations can systematically address technical, operational, and strategic challenges associated with AI, enabling better decision-making and innovation.
 	
@@ -133,7 +133,7 @@ points out that the architecture is a schema for organizing
 architectural artifacts (for example, design documents, specifications,
 and models) that takes into account both who the artifact targets (for
 example, business owner and builder) and what particular issue (for
-example, data and functionality) is being addressed. The Zachman
+example, data and functionality) is being addressed \citep{RobertsonDunn2012}. The Zachman
 framework is more suitable for traditional and rigid organizations where
 changes are harder to implement. The usage of AI in such organizations
 is more challenging as the adoption of AI requires a more agile and
@@ -190,7 +190,9 @@ Proof of Digital Transformation success:
 \begin{itemize}
 	\item Digital leaders achieve earnings growth that is 
 	1.8 times higher than digital laggards, and more than double the growth in 
-	total enterprise value \citep{BCG2020}.
+	total enterprise value \citep{BCG2020}. Organizations must carefully select appropriate 
+	metrics to measure digital transformation progress, as wrong KPIs can lead to 
+	misaligned efforts and failed outcomes \citep{Ahmad2021, Schrage2022}.
 	
 	\item Successful digital transformations create, on average, 66\% more value 
 	and improve corporate capabilities by 82\% compared to failed transformations
@@ -427,7 +429,10 @@ The most prominent example is Deloitte's AI Maturity Model, which outlines five 
 of AI maturity, from ``Ad Hoc'' to ``Optimized'', focusing on areas such as strategy, 
 governance, data management, and talent \citep{DeloitteInsights2023}. Similar frameworks have been 
 proposed by other major consulting firms, typically structured around progressive maturity 
-stages that organizations can use for self-assessment. However, a common limitation across 
+stages that organizations can use for self-assessment. Academic research has contributed 
+additional maturity models, including frameworks that progress from isolated ignorance to 
+systematic intelligence \citep{Lichtenthaler2020} and organizational readiness assessment 
+frameworks that examine the structural prerequisites for AI adoption \citep{Pumplun2019}. However, a common limitation across 
 these models is that while they are useful for assessing the current state of AI adoption, 
 they generally do not provide a detailed, structured approach to the adoption process itself.
 Academic research on digital maturity in specific sectors, such as education, has also 
@@ -471,7 +476,7 @@ The principles of resilience and security are often mentioned due to model attac
 
 In order to ensure successful architecture and lotng-term sustainability, it is important to tailor AI architecture to the system as a whole \citep{Anny2024, Ali2018, Gupta2018}. These studies often outline their own frameworks, all agreeing on the principle of deeply embedding AI into the core of their architecture. This is opposed to the bolt-on approach as it reduces technical debt over a longer period of time. 
 
-The need for a holistic orchestration framework has been outlined and thoroughly discussed in several studies \citep{Ali2018, Hechler2020, Shaban2025}. Studies often emphasize the importance of successful orchestration of various aspects, often noing DevOps principles, DataOps, and most importantly the cloud infrastructure. 
+The need for a holistic orchestration framework has been outlined and thoroughly discussed in several studies \citep{Ali2018, Hechler2020, Shaban2025}. Studies often emphasize the importance of successful orchestration of various aspects, often noting DevOps principles, DataOps, and most importantly the cloud infrastructure. The evolution toward MLOps practices represents a critical maturation of AI deployment capabilities, providing structured approaches to operationalize machine learning at scale \citep{AWS2024, John2025}. 
 
 
 
@@ -479,7 +484,7 @@ The need for a holistic orchestration framework has been outlined and thoroughly
 
 Another key part of the AI framework challenge is the human centric organizational transformation. There is a certain paradigm shift from technology centric to human centric approaches \citep{Fenwick2024, Wilson2023, Rinta-Kahila2022}. The recent publications are outlining that the human aspect has been heavily neglected due to the increased focus on technical aspects such as model accuracy, infrastructure, and data quality \citep{Fenwick2024, Wilson2023, Rinta-Kahila2022}. As majority of the research states, the largest reason for resistance in terms of AI, adoption are aspects of job security, the lack of skill and the cultural shift of the ever changing work environment. In order for a successful AI adoption the HR has to take step in place. The hour in the sense of Not only leading the entire change management process, but also creating a structured path for the engineers. This path has to not only focus on reskilling, but creating a culture of curiosity. and continuous learning 
 
-The term collaborative intelligence comes into play when humans interact with AI Systems to augment their capabilities \citep{Wilson2023}. This principle is emphasizing on the complementary nature and the easy to use AI tools to elevate and enhance human capabilities rather than replacing them.
+The term collaborative intelligence comes into play when humans interact with AI Systems to augment their capabilities \citep{Wilson2023}. This principle is emphasizing on the complementary nature and the easy to use AI tools to elevate and enhance human capabilities rather than replacing them. Understanding the dynamics and determinants of technology adoption, as demonstrated in studies of blockchain and other emerging technologies, provides valuable insights that can be applied to AI implementation strategies \citep{Fosso2021}.
 
 Several studies have tried to outline the basic principles of how to overcome the resistance to change when it comes to AI \citep{Rinta-Kahila2022, Chowdhury2022, Jarrahi2023}.
 These studies came to a joint common finding, which is mentioning the importance of involving employees in the early process by setting clear goals and expectations and starting the process together as a company instead of being mandated to use certain AI tools. The company is able to win early trust and buy-in from the employees. 
@@ -494,22 +499,37 @@ Another important aspect to mention is the dilemma in between automation and aug
 
 \subsection{Strategic Frameworks and Organizational Readiness}
 
-\begin{itemize}
-\item Organizational readiness requires assessing multiple dimensions (organizational, technological, environmental, data, technical, strategic) with change management being a stronger predictor of success than technical capabilities, yet organizations consistently overestimate their readiness especially regarding data quality \citep{Kurup2022, Pumplun2019, Dasgupta2019, Radhakrishnan2022}
-\item AI adoption journeys are non-linear requiring frameworks with flexibility rather than rigid plans, beginning with capability assessments, stakeholder workshops, POC validation, and early governance structures, with executive sponsorship critical throughout multi-year timelines \citep{Dasgupta2019, Radhakrishnan2022, Madanchian2025, Lichtenthaler2020}
-\item Ethics integration driven by regulatory and stakeholder pressure requires practices such as impact assessments, ethics boards, bias detection, and human oversight, while maturity frameworks provide progressive stages from ignorance to systematic intelligence \citep{Madanchian2025, Chowdhury2022, Jarrahi2023, Pumplun2019}
-\item AI reduces prediction costs enabling new business models and impacting knowledge work through automation, augmentation, and creation of new work types requiring workforce reskilling and process redesign \citep{Agrawal2022, Coombs2020, Berente2021, Makarius2020}
-\end{itemize}
+Another important section dedicated to research around AI adoption is the strategic frameworks and organizational readiness \citep{Kurup2022, Dasgupta2019, Radhakrishnan2022, Madanchian2025}.  The key findings from these studies can be summarized as an intersection of having a clear process of business model transformation with ethical AI adoption, while still focusing on long term sustainability through organizational readiness. 
+
+Certain studies are suggesting a nonlinear adoption Schlotzsky's and having a flexible framework on the principle of experimentation, validation, and scaling \citep{Dasgupta2019, Radhakrishnan2022, Madanchian2025}. This type of approach emphasizes on On the strong importance of proof of concept validation. With strong governance structure. These studies often cite that a strong executive sponsorship leads to a higher rate of AI adoption and decreased resistance to change.
+
+While the need to have a strong ethical integration and a holistic type of framework is often mentioned, a highlight such as bias detection and human oversight is crucial to ensure a maturity-based progression \citep{Madanchian2025, Chowdhury2022, Jarrahi2023, Pumplun2019}. Comprehensive risk management frameworks that align with emerging regulatory requirements, including the EU AI Act and ISO standards, are becoming essential for responsible AI deployment \citep{Parlov2025}. All of these studies are aligning on the core principles and none of them are deviating from the initial idea. 
+
+The most important aspect of an organization being the cost is a main driver of the AI adoption \citep{Agrawal2022, Coombs2020, Berente2021, Makarius2020}. These studies are focusing on the impact of enabling new business models which are transforming the entire work through automation, augmentation, and reskilling requirements. These studies. Are reporting on a high productivity boost and cost reduction when AI is successfully implemented.
+
 
 \subsection{Software Sector and Technology-Native Organizations}
 
-\begin{itemize}
-\item Software organizations possess unique opportunities through digital nature, technical workforce, and rapid innovation capacity, yet face MLOps challenges including model versioning, CI/CD pipelines, model drift monitoring, and frequently underestimated infrastructure requirements \citep{Baier2019, Hechler2020, Sharma2024}
-\item Architectural thinking from inception rather than retrofitting reduces technical debt, requiring cloud-native microservices architecture, domain expertise, and domain-specific constraints even in software contexts to avoid generic ML failures \citep{Anny2024, Ali2018, Gupta2018}
-\item Tension between innovation speed and responsible deployment necessitates ethics boards, impact assessments, transparency, multidisciplinary collaboration with shared vocabularies and integrated toolchains \citep{Vidgen2021, Felzmann2019, Madanchian2025, Dwivedi2021}
-\item Competitive pressure demands dynamic capabilities, phase-based progression from experiments to platformized capabilities, and best practices including centers of excellence, reusable components, internal platforms, and communities of practice \citep{Haefner2023, Schneider2023, Iansiti2020, Enholm2022}
-\item AI transforms product capabilities and business models enabling adaptive, personalized, intelligent experiences, requiring strategic alignment between AI initiatives and business strategy plus organizational learning beyond technical skills \citep{Mikalef2021, Wamba2021, Keding2021, Benbya2021}
-\end{itemize}
+The software sector is the most relevant for the SAIL framework as it targets software organizations. Therefore, this section reviews already existing relevant frameworks that focus on AI adoption in software organizations and technology-native companies. A maturity model by \citep{Garousi2025} is a revolutionary model based on the principle of assessing maturity for a cohesive effect between individual and organization. This model focuses solely on the principle of AI maturity rather than just assessing the technical capabilities. 
+
+The ability to combine both AI technical capabilities with organizational readiness showcases that it is possible to combine these two in order to create a cohesive system. It is very important to note that the model recognizes that software organizations require a tailored approach in terms of the assessment criteria as they often face unique challenges of integrating AI into their current processes. As each industry is different, it is harder to generalize throughout them. This framework specifically addresses software development companies from technical approaches such as machine learning models, automated testing, and pull requests. By highly focusing on the domain of technology, this model is very relevant.
+
+In terms of generative AI adoption in software companies, a multiple case study was conducted \citep{Kemell2025}. This study focused on the same principle of moving from individual developer efforts into large organization orchestration. Throughout their research, it has been revealed that while many generative AI tools are providing significant value, it is necessary to approach this problem with a holistic framework encompassing reusable AI components, platforms, and managing technical debt, which often arises in AI-native environments. The conclusion of this research is that technology capabilities developed by individuals are often not sufficient to meet the expectations of management and can only be addressed when a strong framework comes into place and solves the question of how to develop AI software efficiently and scale it throughout the whole company. One of the key findings in this research is that AI product managers are becoming more and more relevant as they oversee the coordination between the data science teams, other management, and engineers. 
+
+
+
+The question of scaling was also thoroughly examined \citep{Nwashili2025}. This research focused on developing a product management-focused framework which addressed the challenges related to scaling AI systems. As this study was conducted in a larger company, it is more relevant to companies with higher human capital. This framework provided actionable steps to ensure that multiple product teams have efficient collaboration. This research focused heavily on the principle of platform thinking and allowing reusable AI components and platforms. The core of this framework was an AI platform which allowed multiple teams to develop on top of it at a single time. This framework becomes very relevant especially due to its key findings, which once again highlighted the need to have efficient AI product managers. The most important result from this research is the need to deploy with a systematic approach while focusing on not duplicating efforts. 
+
+
+Another AI-driven Enterprise Maturity Model has been developed and focused on the principle of utilizing maturity with progression \citep{Ern2025}. This maturity framework, specifically the AI-Driven Platform Enterprise Maturity Model (AIMM), once again mentions the platform principle \citep{Yablonsky2021}. It outlines that businesses should leverage AI as a core competitive advantage which would guide them on coordination of AI processes in a structured manner. Their framework focused on developing several platforms and entering these platforms once the teams become ready based on the internal evaluation metrics. This framework, however, emphasized deployment of real-time solutions due to the nature of the solution they were implementing. Therefore, the need to have appropriate maturity levels is very much justified. The key components of this research focused on AI automated testing and monitoring to ensure that the DevOps pipelines remain stable and the product meets the highest standards. This framework also mentions the Governance Board, which is a very important key factor in order to ensure that AI meets the compliance standards and does not violate any regulations and ethical principles. 
+
+
+The last proposed framework, called the Multidimensional Hybrid Intelligence Framework, focuses on creating a comprehensive development environment which addresses the core problem of integration of humans and artificial intelligence \citep{Sherson2023}. 
+The unique aspect of this paper is that it applies this framework to several key standards in terms of the human-AI pattern. The purpose of this framework was to solve the question of creating hybrid intelligent systems which are structured in order to effectively combine the interaction between humans and AI to solve and automate software systems. Throughout this framework, they chose a multidimensional approach which encompassed both technical architecture for human-AI collaboration and an interface so that there is seamless interaction between the two entities. This model emphasizes quality assurance. These quality assurance mechanisms focus on improving the output generated by AI via continuous improvements and distributed tasks between humans and AI systems. 
+The key result from this framework is that it successfully recognizes that software organizations must move beyond the typical viewing of AI as a replacement of humans and rather create a multi-environment hybrid space allowing humans to interact with AI in a cohesive manner. The ability to complement and not compete is the core principle of this framework.
+
+
+
 
 
 \section{AI Implementation and Scaling Frameworks: A Comprehensive Review}\label{ai-implementation-scaling-frameworks}
@@ -531,7 +551,7 @@ In terms of the proving phase, the research focuses on demonstrating the technic
 \subsection{Healthcare and High-Stakes AI Implementation}
 
 
-Industry where AI is currently being used heavily and has a very positive impact on is healthcare. This industry involves strong regulatory requirements and very high stakes for patients lives. The study from \citep{Gama2022} focused on implementation of an AI framework into healthcare environment which very much differs from the software industry, but still provides valuable insights. The study outlines that trust with change adoption and major technological breakthrough tend to be mutually exclusive. Interesting insights from this study was the NASSS  (Non-adoption, Abandonment, Scale-up, Spread, and Sustainability) which emerged andd tries to dig deeper into failing of AI technologies in the medical industry. 
+Industry where AI is currently being used heavily and has a very positive impact on is healthcare. This industry involves strong regulatory requirements and very high stakes for patients lives. The study from \citep{Gama2022} focused on implementation of an AI framework into healthcare environment which very much differs from the software industry, but still provides valuable insights. Research has identified numerous barriers and facilitators specific to healthcare AI adoption, including technical infrastructure, clinical workflow integration, and regulatory compliance \citep{Hassan2024}. Additionally, marketplace dynamics and demand-side factors play crucial roles in healthcare AI adoption, requiring specialized frameworks that address the unique characteristics of healthcare ecosystems \citep{Singh2025}. The study outlines that trust with change adoption and major technological breakthrough tend to be mutually exclusive. Interesting insights from this study was the NASSS  (Non-adoption, Abandonment, Scale-up, Spread, and Sustainability) which emerged and tries to dig deeper into failing of AI technologies in the medical industry. 
 
 As already mentioned that the software and healthcare very much differ the human capital stays the same. The responsible management of efficiently converting value to time stays the same. The study was mainly focusing on sustainability and scalability but not directly providing solutions. This will be the goal of the SAIL framework to show how framework can be still sustainable while scalable.
 
@@ -539,7 +559,7 @@ As already mentioned that the software and healthcare very much differ the human
 
 \subsection{Organizational Adoption Barriers and Enablers}
 
-Several studies in the last few years have tried to examine the barriers which companies have to overcome in order to scale AI beyond the initial pilots. The lastest exhibit being the study of \citep{Praveen2024} which came to the conclusion that many companies fail to convert pilot to solutions to due issues of integration complexity, scalability issues and once again the resistance to change. This piece of work is very much emphasizing on the need to establish proper governance framework which fosters innovation and does not hurt motivation. The authors have found that successful AI transformation depends on creating an environment where experimentation is encouraged. This means that the failures are being treated as learning experiences rather than mistakes.
+Several studies in the last few years have tried to examine the barriers which companies have to overcome in order to scale AI beyond the initial pilots. The latest exhibit being the study of \citep{Praveen2024} which came to the conclusion that many companies fail to convert pilot to solutions due to issues of integration complexity, scalability issues and once again the resistance to change. Research on AI adoption in public sector organizations reveals similar challenges, with implementation success depending heavily on organizational culture, leadership support, and change management strategies \citep{Chen2024}. This piece of work is very much emphasizing on the need to establish proper governance framework which fosters innovation and does not hurt motivation. The authors have found that successful AI transformation depends on creating an environment where experimentation is encouraged. This means that the failures are being treated as learning experiences rather than mistakes.
 
 A case study from a very high-tech firm \citep{Tamburri2022} published before the rise of AI shows us that having a structured roadmap helps them convert the resistance to curiousity. They are also very much advocating for active flexibility due to the sudden changes in the industry and clear guidance from the side of the framework need. This study also focuses on having a strong feedback mechanism. One of the key pillars of SAIL framework and its structure which will be outlined in future chapters. The deployment and operation of machine learning systems present unique challenges that require careful planning and systematic approaches \citep{Baier2019}.
 
