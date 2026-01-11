@@ -1,5 +1,6 @@
 \documentclass[]{imc-inf}
 \usepackage[]{indentfirst}
+\usepackage{enumitem} % Required for custom labelingHey, Cortana. 
 \usepackage{amsmath}
 \usepackage{array} % For table formatting with \arraybackslash
 \usepackage[round,authoryear]{natbib} % For APA-style citations with parentheses
@@ -7,6 +8,7 @@
 \bibliographystyle{apalike} % APA-like style with (Author, Year) format
 \usepackage{booktabs}
 \usepackage{longtable}
+\usepackage{float}
 
 \def\tightlist{}
 
@@ -16,9 +18,9 @@
 	\subtitle{Coordinated AI Adoption in Software Organizations}
 	\thesistype{Master Thesis}
 	\author{David Bobek}
-	\supervisor{[Supervisor Name]}
-	\copyrightyear{2025}
-	\submissiondate{October 2025}
+	\supervisor{[Roger Hage]}
+	\copyrightyear{2026}
+	\submissiondate{March 2026}
 	\keywords{AI Adoption, Enterprise Architecture, Digital Transformation, Innovation Diffusion Theory, Dynamic Capabilities, MLOps, AI Governance}
 	
     \frontmatter
@@ -59,6 +61,20 @@
 		\item Evaluate the effectiveness of the SAIL framework through case studies or simulations.
 		\item Highlight best practices and lessons learned for coordinated AI implementation.
 	\end{itemize}
+
+	Despite the growing body of research done on air maturity models, digital transformation and enterprise architecture, the. Already existing approaches in the current state of the industry largely fail to provide an orchestrated, holistic approach on AI adoption and full lifecycle management. The current. Frameworks are not sufficient to guide software organizations from early AI experimentation to scalable organization wide. AI adoption. Most of the already existing models focus simply on analysis and assessment rather than a full execution. They often lack mechanisms for reflecting on processes and fail to encompass iterative approach.
+	
+	\section{Research Questions}
+	Will be guided by the following research questions:
+
+	\begin{enumerate}[label=\textbf{RQ\arabic*:}, leftmargin=1.5cm]
+    \item \label{rq:lifecycle} How can AI adoption in software organizations be structured across the full lifecycle from opportunity identification to scalable, AI-native integration?
+    
+    \item \label{rq:mechanisms} What organizational, architectural, and governance mechanisms are required to enable coordinated and scalable AI adoption?
+    
+    \item \label{rq:framework} How can a lifecycle-oriented framework support decision-making, reuse, and alignment across multiple AI initiatives?
+\end{enumerate}
+
 
 \chapter{Literature Review}\label{literature-review}
 
@@ -351,7 +367,7 @@ framework will build upon.
 
 \section{Dynamic Capabilities Theory}
 
-Dynamic Capabilities Theory (DCT), introduced by David Teece, provides a
+Dynamic Capabilities Theory (DCT), introduced by David Teece \citep{Teece1997}, provides a
 valuable framework for understanding how organizations can adapt and
 thrive in rapidly changing environments such as the current AI landscape
 which is mostly characterized by extremely fast technological
@@ -407,7 +423,7 @@ attributed to their ability to sense the opportunity of real-time
 traffic information, seize the opportunity by developing a mobile app
 that leveraged user-generated data, and transform the organization by
 continuously updating and improving the app based on very crucial user
-feedback \citep{Teece1997}. Organizations developing AI capabilities must similarly develop dynamic capabilities that enable them to sense opportunities, seize them through AI implementation, and transform their operations to maintain competitive advantage \citep{Mikalef2021, Wamba2021}.
+feedback. Organizations developing AI capabilities must similarly develop dynamic capabilities that enable them to sense opportunities, seize them through AI implementation, and transform their operations to maintain competitive advantage \citep{Mikalef2021, Wamba2021}.
 
 \section{Related AI Adoption Models}
 
@@ -780,11 +796,14 @@ orientation can be understood as a series of stages that an organization
 goes through in order to successfully adopt and integrate AI into its
 operations while approaching the topic from a comprehensive perspective.
 
-\subsection{Purpose of Scalabile Artificial Intelligence
-	Lifecycle
-	(SAIL)}\label{purpose-of-scalabile-artificial-intelligence-lifecycle-sail}
 
-The purpose of Scalabile Artificial Intelligence Lifecycle (SAIL) is to
+
+
+\subsection{Purpose of Scalable Artificial Intelligence
+	Lifecycle
+	(SAIL)}\label{purpose-of-Scalable-artificial-intelligence-lifecycle-sail}
+
+The purpose of Scalable Artificial Intelligence Lifecycle (SAIL) is to
 create a structured and systematic approach for software organizations
 to adopt, scale, and integrate AI technologies effectively. SAIL is
 aiming to serve as a roadmap that guides organizations through the
@@ -873,7 +892,7 @@ existing literature and a brief introduction of the concepts was
 conducted. The answer which needs to be provided is how these theories
 support the design of the framework.
 
-\paragraph{3.2.1 EA and SAIL}\label{ea-and-sail}
+\subsubsection{EA and SAIL}\label{ea-and-sail}
 
 Enterprise Architecture (EA) will be the backbone of the creation of the
 SAIL framework. EA can be understood as the practice of analyzing,
@@ -896,7 +915,7 @@ succesful EA will be the guiding principles for the design of SAIL and
 will need to truly ensure that AI will not act as a disruptive force,
 but rather as a true enabler of efficiency and innovation.
 
-\paragraph{Digital Transformation and
+\subsubsection{Digital Transformation and
 	SAIL}\label{digital-transformation-and-sail}
 
 Digital Transformation consists of the integration of digital
@@ -925,7 +944,7 @@ transformation framework, but rather as an AI transformation framework
 which is complementing the existing digital transformation efforts of
 the organization.
 
-\paragraph{3.2.3 Innovation Diffusion Theory and
+\subsubsection{Innovation Diffusion Theory and
 	SAIL}\label{innovation-diffusion-theory-and-sail}
 
 Innovation Diffusion Theory (IDT) is a theoretical framework which
@@ -948,7 +967,7 @@ driven by the actual use cases and their value proposition. This is a
 crucial aspect as it ensures that the adoption is not happening in a
 vacuum, but is driven by the actual needs of the organization.
 
-\paragraph{Dynamic Capabilities Theory and
+\subsubsection{Dynamic Capabilities Theory and
 	SAIL}\label{dynamic-capabilities-theory-and-sail}
 
 Dynamic Capabilities Theory (DCT) is a theoretical framework which is
@@ -969,6 +988,49 @@ principles of DCT in order to provide a structured approach to the
 adoption process. The ability to sense, seize, and transform will be
 crucial for the success of the adoption process and will be the guiding
 principles for the design of SAIL.
+
+
+
+
+In order to properly summarize the process of integration of theoretical lenses and their impact on the design of SAIL, the following table will outline each of the theories, their key concepts, design implications, and how they are being implemented in SAIL.
+
+
+\begin{table}[htbp]
+\centering
+\caption{Integration of Theoretical Lenses into the SAIL Framework}
+\label{tab:theoretical_integration_sail}
+\begin{tabular}{p{3.2cm} p{3.2cm} p{4.2cm} p{4.2cm}}
+\hline
+\textbf{Theory} & \textbf{Key Concept} & \textbf{Design Implication} & \textbf{Implementation in SAIL} \\
+\hline
+Enterprise Architecture (EA) &
+Business--IT alignment, governance, systemic integration &
+AI initiatives must align with organizational strategy and architectural principles &
+Strategic alignment checks at each SAIL stage; defined governance roles and architectural consistency across AI initiatives \\
+
+Digital Transformation (DT) &
+Organizational readiness, digital maturity, cultural change &
+AI adoption requires phased organizational enablement beyond technology alone &
+Lifecycle progression with readiness considerations embedded in early SAIL stages \\
+
+Innovation Diffusion Theory (IDT) &
+Adoption stages, role of innovators and early adopters &
+AI adoption progresses unevenly across teams and requires coordination mechanisms &
+Lifecycle stages supporting experimentation, validation, and structured scaling across organizational units \\
+
+Dynamic Capabilities Theory (DCT) &
+Sensing, seizing, transforming &
+AI adoption must remain adaptive in dynamic and uncertain environments &
+Iterative feedback loops and decision gates enabling reassessment and transformation across SAIL stages \\
+
+AI Maturity Models &
+Diagnostic assessment of AI readiness &
+Readiness assessments must translate into actionable implementation guidance &
+SAIL extends maturity diagnostics into an operational, end-to-end AI lifecycle \\
+\hline
+\end{tabular}
+\end{table}
+
 
 \section{Principles Derived for Framework
 	Design}\label{principles-derived-for-framework-design}
@@ -1808,7 +1870,7 @@ serve as a practical guide for organizations looking to implement the
 SAIL framework, providing clarity on what to expect and how to navigate
 each phase effectively.
 
-\section{Step 1: Opportunity
+\subsection{Step 1: Opportunity
 	Scouting}\label{step-1-opportunity-scouting}
 
 Opportunity scouting is the initial stage of the SAIL framework, where
@@ -2671,10 +2733,39 @@ future AI initiatives and the backbone for the AI adoption process.
 The SAIL framework provides a structured, lifecycle-based approach to AI
 adoption in software organizations. It integrates decision checkpoints,
 governance, and feedback loops to ensure scalable, coordinated, and
-reusable AI initiatives. The next chapter demonstrates these principles
-through detailed walkthroughs of selected use cases.
+reusable AI initiatives. This comprehensive table summarizes the key aspects of the SAIL framework and extracts them in one place for easier reference.
 
-\begin{center}\rule{0.5\linewidth}{0.5pt}\end{center}
+\begin{table}[H]
+\centering
+\footnotesize
+\begin{tabular}{|p{2.0cm}|p{2.3cm}|p{2.8cm}|p{2.3cm}|p{2.3cm}|}
+\hline
+\textbf{Step} & \textbf{Objective} & \textbf{Key Activities} & \textbf{Outputs} & \textbf{Governance Checks} \\
+\hline
+1. Opportunity Scouting & Identify and prioritize AI use cases. & Problem discovery, stakeholder engagement, feasibility analysis. & Prioritized use case backlog. & Is the use case strategically relevant? \\
+\hline
+2. Strategic Alignment Review & Align opportunities with strategy. & Dual analysis by teams and governance board. & Approved use cases. & Does it align with strategy? \\
+\hline
+3. Feasibility \& Risk Assessment & Assess technical and risk factors. & Feasibility study, risk analysis, resource check. & Go/no-go decision. & Are risks manageable and use case feasible? \\
+\hline
+4. Pilot Design & Define pilot implementation steps. & Roadmap creation, governance setup, success criteria. & Pilot implementation plan. & Is the plan feasible and scoped? \\
+\hline
+5. Pilot Execution & Build and test AI solution. & Development, testing, user feedback. & Pilot results and lessons learned. & Does pilot meet performance criteria? \\
+\hline
+6. Evaluation \& Scaling Decision & Evaluate pilot and decide on scaling. & Results analysis, stakeholder review, cost-benefit analysis. & Scale/no-scale decision. & Should initiative be scaled? \\
+\hline
+7. Scale Deployment & Roll out solution organization-wide. & Change management, system integration, MLOps setup. & Deployed AI solution at scale. & Is deployment feasible? \\
+\hline
+8. AI-Native Optimization & Continuously improve AI solution. & Performance monitoring, process reengineering, feedback loops. & AI-native business processes. & Is continuous improvement sustainable? \\
+\hline
+\end{tabular}
+\caption{SAIL Adoption Stages}
+\label{tab:sail_adoption_stages}
+\end{table}
+
+Table~\ref{tab:sail_adoption_stages} is clearly showcasing all of the eight steps which are required to successfully complete the SAIL framework. This table is consisting out 5 scopes. The first being of the name of the step in the SAIL framework, followed by the objective which the step is aiming to do. The next column is focusing on the key activities which are required to be done in order to successfully complete the step. The second to last column focuses on the outputs which should be expected by the end of the step and the last column is focusing on the internal governance check.  
+
+By having a clearly outlined table, it is easier to reference, analyze and view how the entire SAIL framework operates and what are the key components of each individual step. This structured pathway is ensuring that AI initiatives are going to be strategically aligned, technically validated and verified in terms of the organizational governance check. 
 
 \chapter{Use Case Implementation \&
 	Validation}\label{use-case-implementation-validation}
