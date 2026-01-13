@@ -28,6 +28,14 @@
     \addtoToC{Table of Contents}%
 	\tableofcontents%
 	\clearpage
+	
+	\addtoToC{List of Tables}%
+	\listoftables%
+	\clearpage
+	
+	\addtoToC{List of Figures}%
+	\listoffigures%
+	\clearpage
 
 	\begin{declarations} \end{declarations}
     	
@@ -647,22 +655,26 @@ By addressing these gaps a synthesis strategy will be applied to look at the key
 
 
 \begin{footnotesize}
-\begin{longtable}{@{}
-		>{\raggedright\arraybackslash}p{0.15\linewidth}
-		>{\raggedright\arraybackslash}p{0.19\linewidth}
-		>{\raggedright\arraybackslash}p{0.19\linewidth}
-		>{\raggedright\arraybackslash}p{0.19\linewidth}
-		>{\raggedright\arraybackslash}p{0.22\linewidth}
-		@{}}
-	\toprule
+\begin{longtable}{|p{0.15\linewidth}|p{0.19\linewidth}|p{0.19\linewidth}|p{0.19\linewidth}|p{0.22\linewidth}|}
+	\hline
 	\textbf{Theoretical Lens / Model} &
 	\textbf{Key Components} &
 	\textbf{Overlaps with SAIL} &
 	\textbf{Divergences from SAIL} &
 	\textbf{Identified Gaps Addressed by SAIL} \\
-	\midrule
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Theoretical Lens / Model} &
+	\textbf{Key Components} &
+	\textbf{Overlaps with SAIL} &
+	\textbf{Divergences from SAIL} &
+	\textbf{Identified Gaps Addressed by SAIL} \\
+	\hline
 	\endhead
-	\bottomrule
+	\hline
+	\caption{Theoretical Framework Synthesis}
+	\label{tab:theoretical_synthesis}
 	\endlastfoot
 
 
@@ -687,7 +699,7 @@ Lifecycle focus
 AI-specific governance
 
 Asset reuse across projects \\
-\midrule
+\hline
 
 \textbf{Digital Transformation (DT)} &
 Digital-first orientation
@@ -704,7 +716,7 @@ Not specifically focused on AI challenges &
 Aligns maturity thinking to AI lifecycle
 
 Granular adoption stages beyond general digital readiness \\
-\midrule
+\hline
 
 \textbf{Innovation Diffusion Theory (IDT)} &
 Adoption curve (innovators $\rightarrow$ laggards)
@@ -721,7 +733,7 @@ Mechanisms for scaling
 Coordination
 
 Knowledge reuse across teams \\
-\midrule
+\hline
 
 \textbf{Dynamic Capabilities Theory (DCT)} &
 Sensing, seizing, transforming
@@ -732,7 +744,7 @@ No structured procedure for AI lifecycle &
 Integrates sensing--seizing--transforming into AI lifecycle stages
 
 Defined governance and processes \\
-\midrule
+\hline
 
 \textbf{AI Maturity Models (Deloitte, PwC, Gartner, Forrester)} &
 Step-by-step assessment of AI readiness across:
@@ -755,6 +767,7 @@ No reuse strategies &
 Actionable lifecycle roadmap
 
 Supports adoption beyond maturity assessment into implementation \\
+\hline
 
 
 \end{longtable}
@@ -1520,7 +1533,12 @@ the framework in a more structured manner, a diagram will be presented
 to illustrate the stages, their interconnections, and the overarching
 governance structure.
 
-{[}Insert Diagram Here: 8-step lifecycle with feedback loop{]}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\textwidth]{SAIL Framework_ AI Lebenszyklusmodell.png}
+	\caption{SAIL Framework: Strategic AI Lifecycle Model - Eight-stage lifecycle with governance layer and feedback loops}
+	\label{fig:sail-framework}
+\end{figure}
 
 \section{Governance Layer Across
 	Stages}\label{governance-layer-across-stages}
@@ -1659,22 +1677,26 @@ In order to properly decide whether to move to the next stage, the
 correct questions need to be asked and answered. The following segment
 will outline the key decision points for each of the stages:
 
-\begin{longtable}{@{}
-		>{\raggedright\arraybackslash}p{0.17\linewidth}
-		>{\raggedright\arraybackslash}p{0.27\linewidth}
-		>{\raggedright\arraybackslash}p{0.10\linewidth}
-		>{\raggedright\arraybackslash}p{0.16\linewidth}
-		>{\raggedright\arraybackslash}p{0.30\linewidth}
-		@{}}
-	\toprule
+\begin{longtable}{|p{0.17\linewidth}|p{0.27\linewidth}|p{0.10\linewidth}|p{0.16\linewidth}|p{0.30\linewidth}|}
+	\hline
 	\textbf{Stage} &
 	\textbf{Key Decision Checkpoint} &
 	\textbf{Possible Outcomes} &
 	\textbf{Governance / Roles} &
 	\textbf{Notes / Edge Cases} \\
-	\midrule
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Stage} &
+	\textbf{Key Decision Checkpoint} &
+	\textbf{Possible Outcomes} &
+	\textbf{Governance / Roles} &
+	\textbf{Notes / Edge Cases} \\
+	\hline
 	\endhead
-	\bottomrule
+	\hline
+	\caption{SAIL Framework Decision Checkpoints}
+	\label{tab:decision_checkpoints}
 	\endlastfoot
 	
 	\textbf{1. Opportunity Scouting} &
@@ -1692,7 +1714,7 @@ will outline the key decision points for each of the stages:
 	Multiple overlapping opportunities → consolidate portfolio
 	
 	Unclear ROI → iterate \\
-	\midrule
+	\hline
 	
 	\textbf{2. Strategic Alignment} &
 	Does the initiative align with corporate strategy and transformation goals? &
@@ -2790,28 +2812,35 @@ complexity, data requirements, and stakeholder involvement, providing a
 comprehensive validation of the framework.
 
 \textbf{Selected use cases:}
-\begin{longtable}{@{}
-		>{\raggedright\arraybackslash}p{0.36\linewidth}
-		>{\raggedright\arraybackslash}p{0.64\linewidth}
-		@{}}
-	\toprule
+\begin{longtable}{|p{0.36\linewidth}|p{0.64\linewidth}|}
+	\hline
 	\textbf{Use Case} & \textbf{Description} \\
-	\midrule
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Use Case} & \textbf{Description} \\
+	\hline
 	\endhead
-	\bottomrule
+	\hline
+	\caption{Selected Use Cases for SAIL Validation}
+	\label{tab:selected_use_cases}
 	\endlastfoot
 	
 	AI-based Code Documentation Generation &
 	Automated the process of generating and maintaining code documentation using AI models to analyze codebases and produce up-to-date documentation. \\
+	\hline
 	
 	AI-driven refactoring & 
 	Introduced a new way how engineers tackle tasks which are related to optimising refactoring process by AI \\
+	\hline
 	
 	Internal LLM Chatbot for Knowledge Sharing &
 	Deploying an internal large language model (LLM) chatbot to facilitate knowledge sharing and quick information retrieval among employees. \\
+	\hline
 	
 	Pull Request Review Automation &
 	Automated the review process of pull requests using AI to identify potential issues, suggest improvements, and ensure code quality standards are met. \\
+	\hline
 	
 \end{longtable}
 
@@ -2855,25 +2884,31 @@ Each of these metrics is directly tied to the pain point which the engineers are
 
 The metrics will be measured at the end of the SAIL framework using the methods outlined in the table below.
 
-\begin{longtable}{@{}
-		>{\raggedright\arraybackslash}p{0.4\linewidth}
-		>{\raggedright\arraybackslash}p{0.6\linewidth}
-		@{}}
-	\toprule
+\begin{longtable}{|p{0.4\linewidth}|p{0.6\linewidth}|}
+	\hline
 	\textbf{Metric} & \textbf{Measurement Method} \\
-	\midrule
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Metric} & \textbf{Measurement Method} \\
+	\hline
 	\endhead
-	\bottomrule
+	\hline
+	\caption{Code Documentation: Measurement Methods}
+	\label{tab:doc_gen_metrics}
 	\endlastfoot
 	
 	Reduce time spent on documentation creation by 90\% &
 	Developer time tracking survey. \\
+	\hline
 	
 	Improve documentation quality by 20\% &
 	Documentation quality survey\\
+	\hline
 	
 	Increase developer satisfaction with documentation process by 50\% &
 	Developer experience survey \\
+	\hline
 
 \end{longtable}
 
@@ -2942,25 +2977,31 @@ As the previous stage has been more focused on the distribution, the next stage 
 
 After successfully implementing all the suggestions and comments, we were able to close the initiative as successful and move on to the next use case with the following results highlighted in the table below.
 
-\begin{longtable}{@{}
-		>{\raggedright\arraybackslash}p{0.4\linewidth}
-		>{\raggedright\arraybackslash}p{0.6\linewidth}
-		@{}}
-	\toprule
+\begin{longtable}{|p{0.4\linewidth}|p{0.6\linewidth}|}
+	\hline
 	\textbf{Metric} & \textbf{Result Achieved} \\
-	\midrule
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Metric} & \textbf{Result Achieved} \\
+	\hline
 	\endhead
-	\bottomrule
+	\hline
+	\caption{Code Documentation: Results Achieved}
+	\label{tab:doc_gen_results}
 	\endlastfoot
 	
 	Reduce time spent on documentation creation by 90\% &
 	Achieved a 90\% reduction in time spent on documentation creation. \\
+	\hline
 	
 	Improve documentation quality by 20\% &
 	Improved documentation quality by 22\% based on developer surveys.\\
+	\hline
 	
 	Increase developer satisfaction with documentation process by 50\% &
 	Increased developer satisfaction by 55\% according to feedback forms. \\
+	\hline
 
 \end{longtable}
 
@@ -3012,25 +3053,31 @@ When it comes to estimating the impact and expectations from this use case, the 
 
 The metrics outlined closely describe what the engineers are struggling with and what the main problem is which they are facing. By solving these problems, the process of refactoring will become extremely streamlined and the engineers can focus on other tasks which are more value-adding. The metrics will be measured at the end of the SAIL framework using the methods outlined in the table below.
 
-\begin{longtable}{@{}
-		>{\raggedright\arraybackslash}p{0.4\linewidth}
-		>{\raggedright\arraybackslash}p{0.6\linewidth}
-		@{}}
-	\toprule
+\begin{longtable}{|p{0.4\linewidth}|p{0.6\linewidth}|}
+	\hline
 	\textbf{Metric} & \textbf{Measurement Method} \\
-	\midrule
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Metric} & \textbf{Measurement Method} \\
+	\hline
 	\endhead
-	\bottomrule
+	\hline
+	\caption{AI-driven Refactoring: Measurement Methods}
+	\label{tab:refactor_metrics}
 	\endlastfoot
 	
 	Reduce code complexity by 25\% &
 	Junior Engineers Survey \\
+	\hline
 	
 	Improve code readability by 30\% &
 	Code review surveys and readability scoring tools.\\
+	\hline
 	
 	Increase developer satisfaction with refactoring process by 40\% &
 	Developer experience survey \\
+	\hline
 
 \end{longtable}
 
@@ -3078,25 +3125,31 @@ Now the correct question would be to ask whether this is not enough and if any e
 
 
 From the perspective of metrics, the following numbers were achieved during the pilot stage. 
-\begin{longtable}{@{}
-		>{\raggedright\arraybackslash}p{0.4\linewidth}
-		>{\raggedright\arraybackslash}p{0.6\linewidth}
-		@{}}
-	\toprule
+\begin{longtable}{|p{0.4\linewidth}|p{0.6\linewidth}|}
+	\hline
 	\textbf{Metric} & \textbf{Result Achieved} \\
-	\midrule
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Metric} & \textbf{Result Achieved} \\
+	\hline
 	\endhead
-	\bottomrule
+	\hline
+	\caption{AI-driven Refactoring: Pilot Stage Results}
+	\label{tab:refactor_pilot_results}
 	\endlastfoot
 	
 	Reduce code complexity by 25\% &
 	Junior Engineers Survey indicated a 30\% reduction in code complexity. \\
+	\hline
 	
 	Improve code readability by 30\% &
 	Improved code readability by 40\% based on developer surveys.\\
+	\hline
 	
 	Increase developer satisfaction with refactoring process by 40\% &
 	Increased developer satisfaction by 30\% according to feedback forms. \\
+	\hline
 \end{longtable}
 
 \textbf{Scale Deployment:}
@@ -3118,25 +3171,31 @@ The ongoing iterative optimization process wasn't so active as expected. The ext
 This gives us a conclusion that  the solution has reached a point of maturity and the engineers are satisfied with the current state of it.
 
 This claim can be backed by the final survey done among the engineers which yielded the following results:
-\begin{longtable}{@{}
-		>{\raggedright\arraybackslash}p{0.4\linewidth}
-		>{\raggedright\arraybackslash}p{0.6\linewidth}
-		@{}}
-	\toprule
+\begin{longtable}{|p{0.4\linewidth}|p{0.6\linewidth}|}
+	\hline
 	\textbf{Metric} & \textbf{Result Achieved} \\
-	\midrule
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Metric} & \textbf{Result Achieved} \\
+	\hline
 	\endhead
-	\bottomrule
+	\hline
+	\caption{AI-driven Refactoring: Final Results}
+	\label{tab:refactor_final_results}
 	\endlastfoot
 	
 	Reduce code complexity by 25\% &
 	Junior Engineers Survey indicated a 28\% reduction in code complexity. \\
+	\hline
 	
 	Improve code readability by 30\% &
 	Improved code readability by 35\% based on developer surveys.\\
+	\hline
 	
 	Increase developer satisfaction with refactoring process by 40\% &
 	Increased developer satisfaction by 45\% according to feedback forms. \\
+	\hline
 \end{longtable}
 
 
@@ -3195,22 +3254,27 @@ In order for the team to try to aim for certain benchmarks, the following metric
 
 This time one of the metrics does not have a clear number next to it, but it is rather a yes or no observation. The two other metrics are clearly defined in terms of the optimization. It is very important to point out that the first metric, to achieve an automated pull request review, is a remarkable achievement already on its own and thus the other two metrics are more of a cherry on top. Even though on the first glance the first metric might not be useful for the observer, any type of automated pull request review already brings value in terms of saving time for senior engineers. In order for us to understand whether the use case was successful or not, the team will conduct measurements at the end of the SAIL framework using the following methods. 
 
-\begin{longtable}{@{}
-		>{\raggedright\arraybackslash}p{0.4\linewidth}
-		>{\raggedright\arraybackslash}p{0.6\linewidth}
-		@{}}
-	\toprule
+\begin{longtable}{|p{0.4\linewidth}|p{0.6\linewidth}|}
+	\hline
 	\textbf{Metric} & \textbf{Measurement Method} \\
-	\midrule
+	\hline
+	\endfirsthead
+	\hline
+	\textbf{Metric} & \textbf{Measurement Method} \\
+	\hline
 	\endhead
-	\bottomrule
+	\hline
+	\caption{Pull Request Review: Measurement Methods}
+	\label{tab:pr_review_metrics}
 	\endlastfoot
 	
 	Achieve an automated pull request review &
 	System logs and monitoring \\
+	\hline
 	
 	Reduce the time spent on pull request reviews by 100\% &
 	No pull request reviews anymore \\
+	\hline
 	
 	Increase developer satisfaction with pull request review process by 50\% &
 	Developer experience survey \\
@@ -3296,25 +3360,33 @@ The stage of the SAIL framework which concludes the entire process is the AI nat
 
 Based on the survey done several months after the deployment of the solution, the team gathered more metrics from the already outlined methods.
 
-\begin{longtable}{@{}
-		>{\raggedright\arraybackslash}p{0.4\linewidth}
-		>{\raggedright\arraybackslash}p{0.6\linewidth}
-		@{}}
-	\toprule
+\begin{longtable}{|p{0.4\linewidth}|p{0.6\linewidth}|}
+	\hline
 	\textbf{Metric} & \textbf{Result Achieved} \\
-	\midrule
+	\hline
+	\endfirsthead
+	
+	\hline
+	\textbf{Metric} & \textbf{Result Achieved} \\
+	\hline
 	\endhead
-	\bottomrule
+	
+	\hline
+	\caption{Pull Request Review Automation: Final Results}
+	\label{tab:pr_review_final_results}
 	\endlastfoot
 	
 	Achieve an automated pull request review &
 	System logs and monitoring confirm continuous operation \\
+	\hline
 	
 	Reduce the time spent on pull request reviews by 100\% &
 	Time spent on pull request reviews reduced by 75\% \\
+	\hline
 	
 	Increase developer satisfaction with pull request review process by 50\% &
 	Developer satisfaction increased by 55\% \\
+	\hline
 \end{longtable}
 
 Based on the gathered numbers in the AI-native optimization step, we can clearly see a difference between the stage of pilot execution and the AI-native optimization. This being mainly in the last metric in terms of the developer satisfaction. 
@@ -3467,16 +3539,20 @@ The outlined use cases are a perfect showcase of the immense potential of AI ado
 
 In terms of the actual metrics, the following table lists the summary of the actual impact measured across all the outlined use cases:
 
-\begin{longtable}{@{}
-		>{\raggedright\arraybackslash}p{0.22\linewidth}
-		>{\raggedright\arraybackslash}p{0.30\linewidth}
-		>{\raggedright\arraybackslash}p{0.42\linewidth}
-		@{}}
-	\toprule
+\begin{longtable}{|p{0.22\linewidth}|p{0.30\linewidth}|p{0.42\linewidth}|}
+	\hline
 	\textbf{Use Case} & \textbf{Metrics Gathered} & \textbf{Impact Achieved} \\
-	\midrule
+	\hline
+	\endfirsthead
+	
+	\hline
+	\textbf{Use Case} & \textbf{Metrics Gathered} & \textbf{Impact Achieved} \\
+	\hline
 	\endhead
-	\bottomrule
+	
+	\hline
+	\caption{Summary of Impact Across All Use Cases}
+	\label{tab:summary_impact}
 	\endlastfoot
 	
 	AI-based Code Documentation Generation &
@@ -3490,8 +3566,7 @@ In terms of the actual metrics, the following table lists the summary of the act
 	22\% improvement in documentation quality
 	
 	55\% increase in developer satisfaction \\
-	
-	\midrule
+	\hline
 	
 	AI-driven Refactoring &
 	Code complexity
@@ -3504,8 +3579,7 @@ In terms of the actual metrics, the following table lists the summary of the act
 	35\% improvement in code readability
 	
 	45\% increase in developer satisfaction \\
-	
-	\midrule
+	\hline
 	
 	Pull Request Review Automation &
 	Automated pull request review achievement
@@ -3518,8 +3592,7 @@ In terms of the actual metrics, the following table lists the summary of the act
 	75\% reduction in time spent on reviews
 	
 	55\% increase in developer satisfaction \\
-	
-	\midrule
+	\hline
 	
 	Internal LLM Chatbot for Knowledge Sharing &
 	Time spent searching for information
@@ -3532,7 +3605,7 @@ In terms of the actual metrics, the following table lists the summary of the act
 	40\% reduction in time spent searching for information
 	
 	User satisfaction score of 4/5 or higher achieved \\
-	
+	\hline
 \end{longtable}
 
 The outlined use cases showcase the immense potential of AI adoption in software companies. The structured approach provided by the SAIL framework allows companies to tackle complex problems in a manageable way, breaking them down into smaller, iterative steps. Each use case demonstrates significant time and cost savings, as well as improvements in productivity and employee satisfaction.
